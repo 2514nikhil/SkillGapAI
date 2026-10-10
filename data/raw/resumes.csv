@@ -1,0 +1,888 @@
+category,resume_text
+Python Developer,"John Miller - Senior Python Developer
+
+Summary:
+Experienced backend software developer with 5+ years building distributed web applications and RESTful APIs using Python, FastAPI, and Django.
+
+Skills:
+Languages: Python, SQL, Bash
+Frameworks: FastAPI, Flask, Django
+Databases: PostgreSQL, Redis, MySQL
+Tools: Docker, Git, Linux, CI/CD
+
+Experience:
+Senior Backend Engineer at CloudSystems (2020 - Present)
+- Designed and implemented scalable microservices using FastAPI and PostgreSQL.
+- Integrated Redis caching layers to reduce database query latency by 45%.
+- Built automated CI/CD deployment pipelines using Docker and GitHub Actions.
+
+Education:
+B.S. in Computer Science, State University"
+Backend Developer,"Sarah Jenkins - Backend Software Engineer
+
+Summary:
+Backend engineer specializing in high-concurrency microservices architecture and relational database optimization.
+
+Skills:
+Python, FastAPI, PostgreSQL, Redis, Docker, RabbitMQ, REST APIs, Git, Linux, SQLAlchemy.
+
+Experience:
+Backend Developer at DataFlow Corp (2021 - Present)
+- Developed REST APIs with Python and FastAPI serving 2M daily requests.
+- Optimized PostgreSQL database schemas and complex analytical queries.
+- Managed containerized services with Docker.
+
+Education:
+B.Tech in Information Technology"
+Python Developer,"David Clark - Python Backend Engineer
+
+Summary:
+Software engineer with focus on Python server-side development, asynchronous programming, and cloud integrations.
+
+Skills:
+Python, Django, Flask, SQL, PostgreSQL, Docker, Git, REST API, Celery, Linux.
+
+Experience:
+Python Engineer at WebScale Inc (2019 - 2023)
+- Built core business logic in Django and Celery for background job processing.
+- Containerized applications using Docker and deployed on Linux cloud servers.
+- Collaborated with frontend teams to define RESTful API contracts.
+
+Education:
+B.S. Computer Engineering"
+Backend Developer,"Elena Rostova - Backend API Developer
+
+Summary:
+4 years experience building reliable web backends, integrating third-party APIs, and maintaining relational databases.
+
+Skills:
+Python, FastAPI, SQL, PostgreSQL, Redis, Docker, Git, CI/CD, Microservices.
+
+Experience:
+Software Developer at FinApp (2022 - Present)
+- Created financial transaction processing pipelines using Python and PostgreSQL.
+- Implemented caching with Redis and set up unit testing with pytest.
+
+Education:
+B.S. Software Engineering"
+Python Developer,"Alex Rivera - Python & Cloud Backend Developer
+
+Summary:
+Backend developer proficient in Python, SQL, and container technologies.
+
+Skills:
+Python, FastAPI, Docker, SQL, PostgreSQL, Linux, Git, REST API, CI/CD.
+
+Experience:
+Backend Engineer at LogiTech (2020 - Present)
+- Designed internal tooling and microservices using Python and Docker.
+- Wrote database migration scripts and optimized SQL indexes in PostgreSQL.
+
+Education:
+B.S. in Computer Science"
+Backend Developer,"Marcus Vance - Junior Backend Developer
+
+Summary:
+Passionate software engineer with solid fundamentals in Python, relational databases, and REST APIs.
+
+Skills:
+Python, Flask, SQL, PostgreSQL, Git, Linux, Docker, REST APIs.
+
+Experience:
+Junior Developer at StartupHub (2023 - Present)
+- Assisted in building Flask REST endpoints and writing PostgreSQL queries.
+- Automated test suites and participated in agile sprints.
+
+Education:
+B.S. Computer Science"
+Python Developer,"Rachel Adams - Backend Systems Engineer
+
+Summary:
+Specialist in scalable Python server architectures, microservices, and database tuning.
+
+Skills:
+Python, FastAPI, Redis, PostgreSQL, Docker, Kubernetes, CI/CD, Git.
+
+Experience:
+Senior Backend Developer at OmniCloud (2019 - Present)
+- Re-architected monolithic application into microservices using FastAPI and Docker.
+- Maintained zero-downtime database migrations in PostgreSQL.
+
+Education:
+M.S. in Computer Science"
+Backend Developer,"Kevin Brooks - Server-Side Software Engineer
+
+Summary:
+Backend developer focused on secure, high-performance API design with Python.
+
+Skills:
+Python, Django, PostgreSQL, Docker, Git, Linux, REST API, Redis.
+
+Experience:
+Software Engineer at SecureNet (2021 - Present)
+- Built authentication and user management services in Django.
+- Used Redis for session caching and rate-limiting.
+
+Education:
+B.S. Information Systems"
+Python Developer,"Liam Thorne - Python Developer & Architect
+
+Summary:
+Experienced engineer designing robust Python services and data processing pipelines.
+
+Skills:
+Python, FastAPI, SQL, PostgreSQL, Redis, Docker, Git, Linux, CI/CD.
+
+Experience:
+Staff Engineer at AlphaPlatform (2018 - Present)
+- Lead developer for payment microservices using FastAPI and PostgreSQL.
+
+Education:
+B.S. Computer Science"
+Backend Developer,"Zoe Martinez - Backend Developer
+
+Summary:
+3 years of hands-on experience building backend APIs and database management with Python.
+
+Skills:
+Python, Flask, FastAPI, PostgreSQL, SQL, Docker, Git, Linux.
+
+Experience:
+Backend Developer at MediaTech (2022 - Present)
+- Implemented content delivery REST APIs with Python and FastAPI.
+
+Education:
+B.S. Computing"
+Data Analyst,"Emily Watson - Senior Data Analyst
+
+Summary:
+Data Analyst with 5+ years of experience transforming complex datasets into actionable business insights using SQL, Tableau, and Excel.
+
+Skills:
+SQL, Tableau, Excel, Power BI, Python, Data Visualization, Statistical Analysis, A/B Testing, Data Analytics, Pandas.
+
+Experience:
+Lead Data Analyst at RetailMetrics (2020 - Present)
+- Designed executive dashboards in Tableau tracking KPI performance and retention.
+- Wrote advanced SQL queries involving window functions and multi-table joins.
+- Conducted A/B testing and statistical analysis to guide marketing strategy.
+
+Education:
+B.S. in Statistics, State University"
+Business Analyst,"Brian Taylor - Senior Business Analyst
+
+Summary:
+Business analyst bridging technical teams and executive stakeholders through data-driven reporting and financial modeling.
+
+Skills:
+SQL, Excel, Tableau, Data Visualization, Business Analysis, Stakeholder Management, Power BI, Requirements Gathering.
+
+Experience:
+Business Analyst at Corporate Finance Partners (2019 - Present)
+- Created quarterly KPI dashboards in Power BI and automated monthly Excel reports.
+- Collaborated with engineering teams using SQL to extract customer purchase data.
+
+Education:
+B.A. in Economics & Finance"
+Data Analyst,"Jessica Lee - Product Data Analyst
+
+Summary:
+Data analyst specializing in product analytics, funnel optimization, and user segmentation.
+
+Skills:
+SQL, Tableau, Excel, Python, A/B Testing, Google Analytics, Data Visualization, Statistical Analysis.
+
+Experience:
+Product Analyst at SaaS Growth (2021 - Present)
+- Analyzed user conversion funnels and designed A/B tests using Python and SQL.
+- Built interactive Tableau dashboards for product managers.
+
+Education:
+B.S. Mathematics"
+Business Analyst,"Daniel Evans - Business Intelligence Analyst
+
+Summary:
+Analytical professional with expertise in SQL reporting, Data Warehousing, and business intelligence reporting.
+
+Skills:
+SQL, Power BI, Tableau, Excel, Data Warehousing, Snowflake, Business Analysis, ETL.
+
+Experience:
+BI Analyst at OmniRetail (2020 - Present)
+- Built enterprise reporting models connecting Snowflake and Power BI.
+- Optimized SQL queries for automated daily executive dashboards.
+
+Education:
+B.S. Information Systems"
+Data Analyst,"Hannah Scott - Quantitative Data Analyst
+
+Summary:
+Quantitative analyst skilled in statistical modeling, SQL query extraction, and spreadsheet automation.
+
+Skills:
+SQL, Excel, Tableau, Statistical Analysis, Python, R, Data Analytics, Data Visualization.
+
+Experience:
+Data Analyst at MarketInsight (2021 - Present)
+- Performed regression analysis and statistical hypothesis testing on survey data.
+- Automated client reports using Excel macros and SQL scripts.
+
+Education:
+B.S. Applied Statistics"
+Business Analyst,"Christopher Hall - Operations & Data Analyst
+
+Summary:
+Operations analyst improving logistical efficiencies through SQL querying and Excel dashboarding.
+
+Skills:
+SQL, Excel, Power BI, Tableau, Process Optimization, Data Visualization, Business Analysis.
+
+Experience:
+Operations Analyst at Global Logistics (2022 - Present)
+- Monitored delivery metrics and shipment KPIs using Power BI.
+- Analyzed warehouse throughput data using SQL.
+
+Education:
+B.S. Industrial Engineering"
+Data Analyst,"Olivia Green - Marketing Data Analyst
+
+Summary:
+Marketing analyst measuring campaign ROI, user acquisition channels, and cohort retention.
+
+Skills:
+SQL, Tableau, Excel, Google Analytics, Python, Data Visualization, A/B Testing.
+
+Experience:
+Marketing Analyst at AdTech Agency (2021 - Present)
+- Built cross-channel marketing dashboards in Tableau.
+- Evaluated campaign effectiveness using SQL and A/B test methodologies.
+
+Education:
+B.A. Marketing Analytics"
+Business Analyst,"Andrew Young - Data & Reporting Analyst
+
+Summary:
+Specialist in financial reporting, SQL databases, and executive presentation preparation.
+
+Skills:
+SQL, Excel, Tableau, Power BI, Data Analytics, KPI Management, Business Analysis.
+
+Experience:
+Reporting Analyst at HealthFirst (2020 - Present)
+- Standardized hospital performance reporting across 12 facilities.
+- Maintained SQL views and automated reporting delivery schedules.
+
+Education:
+B.S. Health Informatics"
+Data Analyst,"Sophia King - Junior Data Analyst
+
+Summary:
+Junior analyst with solid SQL querying skills and hands-on dashboard design experience.
+
+Skills:
+SQL, Excel, Tableau, Power BI, Data Visualization, Python.
+
+Experience:
+Junior Analyst at DataSphere (2023 - Present)
+- Wrote SQL queries to extract raw data and built Tableau charts.
+
+Education:
+B.S. Data Science"
+Business Analyst,"Matthew Wright - Senior BI & Data Analyst
+
+Summary:
+Analytical leader delivering corporate intelligence systems using SQL, Snowflake, and Tableau.
+
+Skills:
+SQL, Tableau, Snowflake, Excel, Data Warehousing, Power BI, Business Analysis.
+
+Experience:
+Lead BI Developer at Apex Group (2019 - Present)
+- Implemented central analytics warehouse and customer reporting suites.
+
+Education:
+M.S. Business Analytics"
+Data Science,"Dr. Nathan Cole - Senior Machine Learning Engineer
+
+Summary:
+Ph.D. in Computer Science with 6+ years building production deep learning, natural language processing, and computer vision systems.
+
+Skills:
+Machine Learning, Deep Learning, PyTorch, TensorFlow, Python, scikit-learn, Pandas, NumPy, NLP, Docker, MLOps, MLflow.
+
+Experience:
+Staff ML Engineer at DeepVision Labs (2020 - Present)
+- Architected Transformer-based NLP models and deployed inference microservices using FastAPI and Docker.
+- Trained convolutional vision backbones using PyTorch across multi-GPU clusters.
+- Established MLOps experiment tracking and model registry using MLflow.
+
+Education:
+Ph.D. in Computer Science, Stanford University"
+ML Engineer,"Priya Patel - Machine Learning Engineer
+
+Summary:
+ML engineer specializing in predictive modeling, feature engineering, and scalable model serving.
+
+Skills:
+Python, PyTorch, scikit-learn, Deep Learning, Machine Learning, Docker, FastAPI, XGBoost, Pandas, NumPy, MLflow.
+
+Experience:
+Machine Learning Engineer at PredictiveAI (2021 - Present)
+- Built tabular fraud detection models with scikit-learn and XGBoost.
+- Containerized inference services using Docker and tracked experiments with MLflow.
+
+Education:
+M.S. in Machine Learning"
+Data Science,"Lucas Bennett - Data Scientist & ML Practitioner
+
+Summary:
+Applied Data Scientist experienced in predictive machine learning, statistical inference, and deep neural nets.
+
+Skills:
+Machine Learning, Python, PyTorch, scikit-learn, TensorFlow, Deep Learning, NLP, Pandas, Docker.
+
+Experience:
+Data Scientist at NeuroTech (2020 - Present)
+- Developed classification and clustering algorithms using scikit-learn and PyTorch.
+- Fine-tuned language models with Hugging Face transformers for document summarization.
+
+Education:
+M.S. Data Science"
+ML Engineer,"Elena Morozova - Computer Vision & ML Engineer
+
+Summary:
+Specialist in deep learning, image segmentation, object detection, and edge deployment.
+
+Skills:
+Computer Vision, PyTorch, Deep Learning, OpenCV, Python, Docker, Machine Learning, TensorFlow.
+
+Experience:
+Computer Vision Engineer at AutoDrive Systems (2021 - Present)
+- Trained real-time object detection models with PyTorch and OpenCV.
+- Containerized models for deployment on edge devices with Docker.
+
+Education:
+B.S. Electrical & Computer Engineering"
+Data Science,"Gabriel Santos - Applied Machine Learning Engineer
+
+Summary:
+ML engineer building production recommendation engines and tabular prediction pipelines.
+
+Skills:
+Python, Machine Learning, scikit-learn, PyTorch, XGBoost, Pandas, SQL, Docker, FastAPI.
+
+Experience:
+Applied ML Engineer at StreamMedia (2022 - Present)
+- Engineered collaborative filtering models serving personalized recommendations.
+- Deployed low-latency inference endpoints with FastAPI.
+
+Education:
+B.S. Computer Science"
+ML Engineer,"Aiden Hughes - NLP & LLM Engineer
+
+Summary:
+Machine learning engineer focused on natural language processing, transformers, and large language models.
+
+Skills:
+Natural Language Processing, PyTorch, Python, Deep Learning, Hugging Face, Transformers, Docker, MLOps.
+
+Experience:
+NLP Engineer at Conversational AI Corp (2022 - Present)
+- Fine-tuned LLMs on domain-specific datasets and evaluated hallucination rates.
+- Implemented vector retrieval augmentation using PyTorch.
+
+Education:
+M.S. Artificial Intelligence"
+Data Science,"Chloe Ward - Data Scientist
+
+Summary:
+Data scientist with proven background in statistical machine learning, exploratory analysis, and deep neural networks.
+
+Skills:
+Machine Learning, Python, scikit-learn, PyTorch, Pandas, NumPy, Deep Learning, SQL, Git.
+
+Experience:
+Data Scientist at BioAnalytics (2021 - Present)
+- Trained predictive biomarker models with scikit-learn and PyTorch.
+
+Education:
+B.S. Bioinformatics"
+ML Engineer,"Victor Ramos - MLOps & Machine Learning Engineer
+
+Summary:
+Engineer bridging the gap between ML research code and automated production deployment pipelines.
+
+Skills:
+MLOps, Machine Learning, Python, Docker, Kubernetes, PyTorch, MLflow, CI/CD, Linux.
+
+Experience:
+MLOps Engineer at CloudAI (2020 - Present)
+- Automated training and continuous evaluation pipelines using MLflow and Docker.
+- Managed Kubernetes clusters for distributed model inference.
+
+Education:
+B.S. Software Engineering"
+Data Science,"Isabella Rossi - AI Research & ML Engineer
+
+Summary:
+Research engineer experienced in deep learning architectures, PyTorch, and generative modeling.
+
+Skills:
+Deep Learning, PyTorch, Python, Machine Learning, TensorFlow, Pandas, NumPy, OpenCV.
+
+Experience:
+AI Researcher at NextGen Labs (2021 - Present)
+- Developed generative diffusion models for image synthesis in PyTorch.
+
+Education:
+M.S. Computer Science"
+ML Engineer,"Samuel Price - Junior Machine Learning Engineer
+
+Summary:
+Junior ML practitioner with strong Python, mathematical foundations, and model development skills.
+
+Skills:
+Python, PyTorch, scikit-learn, Machine Learning, Pandas, NumPy, Git, Docker.
+
+Experience:
+Junior ML Engineer at SmartData (2023 - Present)
+- Built baseline classification models and feature extraction pipelines with scikit-learn.
+
+Education:
+B.S. Data Science"
+Web Designing,"Samantha Bell - Senior Frontend React Developer
+
+Summary:
+Frontend developer with 6+ years creating intuitive, responsive web applications using React, TypeScript, and Next.js.
+
+Skills:
+React, TypeScript, JavaScript, Next.js, HTML5, CSS3, Tailwind CSS, Redux, Figma, Webpack, Git.
+
+Experience:
+Senior Frontend Engineer at CreativeWeb Studio (2020 - Present)
+- Built high-performance single page web applications using React and Next.js.
+- Styled components using Tailwind CSS and translated Figma designs into accessible code.
+- Implemented complex application state with Redux Toolkit.
+
+Education:
+B.A. in Interactive Media & Web Design"
+Frontend Developer,"Tyler Reed - Frontend Engineer
+
+Summary:
+UI engineer focused on React component architecture, TypeScript typing, and frontend performance optimization.
+
+Skills:
+React, TypeScript, Next.js, JavaScript, HTML5, CSS3, Tailwind CSS, Redux, REST API, Git.
+
+Experience:
+Frontend Developer at CloudInterface (2021 - Present)
+- Built responsive customer dashboards with React and TypeScript.
+- Utilized Next.js for server-side rendering to enhance SEO and initial page loads.
+
+Education:
+B.S. in Computer Science"
+Web Designing,"Emma Watson - UI / Frontend Developer
+
+Summary:
+Front-end specialist with a passion for clean UI design systems, micro-interactions, and modern CSS.
+
+Skills:
+HTML5, CSS3, JavaScript, React, Figma, Tailwind CSS, Sass, UI Design, Responsive Web Design, Git.
+
+Experience:
+UI Developer at DesignCraft (2019 - Present)
+- Created modular component libraries in React following design systems in Figma.
+- Implemented responsive layouts with HTML5 and CSS3.
+
+Education:
+B.F.A. in Digital Arts"
+Frontend Developer,"Jordan Bailey - React / Next.js Engineer
+
+Summary:
+Software engineer specializing in modern React ecosystem, Next.js App Router, and TypeScript.
+
+Skills:
+React, Next.js, TypeScript, JavaScript, Redux, Tailwind CSS, HTML5, CSS3, Webpack.
+
+Experience:
+Frontend Engineer at ScaleApp (2022 - Present)
+- Led migration from legacy SPA to Next.js App Router with React and TypeScript.
+- Integrated REST APIs and optimized web vital metrics.
+
+Education:
+B.S. Software Engineering"
+Web Designing,"Morgan Diaz - Web Developer & Designer
+
+Summary:
+Web designer and developer delivering accessible, cross-browser web interfaces.
+
+Skills:
+JavaScript, React, HTML5, CSS3, Figma, Tailwind CSS, Git, Sass, UI/UX Design.
+
+Experience:
+Web Developer at Studio7 (2021 - Present)
+- Designed mockups in Figma and coded frontend interfaces using React and Tailwind.
+
+Education:
+B.S. Web Development"
+Frontend Developer,"Caleb Foster - Client-Side Software Engineer
+
+Summary:
+Frontend developer with strong expertise in TypeScript, React, and state management.
+
+Skills:
+React, TypeScript, Redux, JavaScript, HTML5, CSS3, Webpack, Git, REST API.
+
+Experience:
+Frontend Developer at FintechPortal (2020 - Present)
+- Developed trading dashboards using React, Redux, and TypeScript.
+
+Education:
+B.S. Computer Science"
+Web Designing,"Kayla Ortiz - Frontend UI Specialist
+
+Summary:
+Frontend engineer building clean web applications with React, Next.js, and CSS modules.
+
+Skills:
+React, Next.js, TypeScript, HTML5, CSS3, Tailwind CSS, Figma, Git.
+
+Experience:
+UI Engineer at AppWorks (2021 - Present)
+- Built interactive marketing websites and customer dashboards.
+
+Education:
+B.A. Graphic & Web Design"
+Frontend Developer,"Justin Cooper - Junior Frontend Developer
+
+Summary:
+Junior developer with solid grounding in React, JavaScript, HTML5, and CSS3.
+
+Skills:
+JavaScript, React, HTML5, CSS3, Tailwind CSS, Git, TypeScript.
+
+Experience:
+Junior Web Developer at Launchpad Labs (2023 - Present)
+- Assisted in building responsive web components with React.
+
+Education:
+B.S. Information Technology"
+Web Designing,"Brooke Campbell - Design Systems & React Developer
+
+Summary:
+Specialist in scalable web design systems, Tailwind CSS, and React component libraries.
+
+Skills:
+React, Tailwind CSS, Figma, TypeScript, HTML5, CSS3, Design Systems, Git.
+
+Experience:
+Frontend Developer at DesignScale (2020 - Present)
+- Maintained unified design system across 4 enterprise applications in React.
+
+Education:
+B.S. Digital Media"
+Frontend Developer,"Trevor Walsh - React & TypeScript Developer
+
+Summary:
+4 years building customer-facing web applications with React and Next.js.
+
+Skills:
+React, TypeScript, Next.js, JavaScript, Redux, HTML5, CSS3, Git.
+
+Experience:
+Frontend Software Engineer at MediaPortal (2021 - Present)
+- Implemented interactive video playback UI with React and TypeScript.
+
+Education:
+B.S. Computer Science"
+DevOps,"Robert Garcia - Senior DevOps Engineer
+
+Summary:
+DevOps and Infrastructure Engineer with 7+ years automating CI/CD pipelines, orchestrating Kubernetes clusters, and managing AWS cloud infrastructure.
+
+Skills:
+Kubernetes, Docker, CI/CD, Linux, AWS, Amazon Web Services, Terraform, Ansible, Prometheus, Git, Bash.
+
+Experience:
+Lead DevOps Engineer at CloudSphere (2019 - Present)
+- Managed production Kubernetes clusters running 200+ microservices on AWS.
+- Automated infrastructure deployment using Terraform and Ansible.
+- Built CI/CD automated deployment pipelines reducing build times by 60%.
+
+Education:
+B.S. in Computer Engineering"
+DevOps Engineer,"Amber Lewis - Site Reliability & DevOps Engineer
+
+Summary:
+SRE / DevOps engineer ensuring 99.99% system availability through automated monitoring, containerization, and IaC.
+
+Skills:
+Kubernetes, Docker, Linux, CI/CD, Terraform, Amazon Web Services, Prometheus, Grafana, Git, Python.
+
+Experience:
+DevOps Engineer at InfraScale (2021 - Present)
+- Provisioned cloud resources on AWS using Terraform.
+- Configured Prometheus and Grafana alerts for Kubernetes microservices.
+
+Education:
+B.S. Information Systems"
+DevOps,"Sean Murphy - Cloud & DevOps Specialist
+
+Summary:
+Cloud infrastructure engineer experienced with Docker containerization, Kubernetes orchestration, and continuous integration.
+
+Skills:
+Docker, Kubernetes, CI/CD, Amazon Web Services, Linux, Bash, Terraform, Git, Jenkins.
+
+Experience:
+Cloud Engineer at EnterpriseNet (2020 - Present)
+- Maintained Jenkins and GitHub Actions pipelines for automated testing.
+- Deployed scalable container clusters on AWS with Kubernetes.
+
+Education:
+B.S. Computer Science"
+DevOps Engineer,"Danielle Jenkins - DevOps Automation Engineer
+
+Summary:
+Automation engineer focused on infrastructure-as-code, Linux server hardening, and container management.
+
+Skills:
+Kubernetes, Docker, Linux, CI/CD, Ansible, Terraform, Git, Bash, AWS.
+
+Experience:
+DevOps Engineer at SaaSPlatform (2021 - Present)
+- Wrote Ansible playbooks for automated server provisioning and patching.
+- Maintained Kubernetes staging and production environments.
+
+Education:
+B.S. Software Engineering"
+DevOps,"Kyle Simmons - Platform & Infrastructure Engineer
+
+Summary:
+Infrastructure specialist experienced in multi-region cloud deployments on AWS and container security.
+
+Skills:
+Kubernetes, Docker, AWS, Linux, CI/CD, Prometheus, Terraform, Git, Cloud Security.
+
+Experience:
+Platform Engineer at DataCloud (2020 - Present)
+- Architected multi-region Kubernetes deployments on AWS using Terraform.
+
+Education:
+B.S. Computer Systems"
+DevOps Engineer,"Melissa Cox - DevOps & Release Engineer
+
+Summary:
+Release engineer automating deployment workflows and managing containerized services.
+
+Skills:
+Docker, CI/CD, Kubernetes, Linux, Git, Jenkins, AWS, Bash.
+
+Experience:
+Release Engineer at AppCorp (2022 - Present)
+- Maintained automated CI/CD release pipelines and container builds.
+
+Education:
+B.S. Information Technology"
+DevOps,"Brandon Howard - Kubernetes & Cloud Engineer
+
+Summary:
+Kubernetes administrator with deep expertise in cloud networking, Linux administration, and Helm packaging.
+
+Skills:
+Kubernetes, Docker, Linux, Helm, Amazon Web Services, CI/CD, Terraform, Prometheus.
+
+Experience:
+DevOps Engineer at ScaleOps (2019 - Present)
+- Managed 50+ Kubernetes namespaces and automated Helm deployments.
+
+Education:
+B.S. Network Engineering"
+DevOps Engineer,"Angela Ross - Cloud Infrastructure Engineer
+
+Summary:
+Specialist in automated cloud provisioning, Linux systems, and Docker orchestration.
+
+Skills:
+Kubernetes, Docker, Linux, AWS, CI/CD, Terraform, Git, Bash.
+
+Experience:
+Infrastructure Engineer at FinOps (2021 - Present)
+- Provisioned cloud resources using Terraform and maintained Docker workloads.
+
+Education:
+B.S. Computer Science"
+DevOps,"Eric Griffin - Junior DevOps Engineer
+
+Summary:
+Junior DevOps engineer with solid skills in Linux, Docker containerization, and Git version control.
+
+Skills:
+Docker, Linux, Git, CI/CD, Bash, Kubernetes, Python.
+
+Experience:
+Junior DevOps Engineer at StartupOps (2023 - Present)
+- Maintained GitHub Actions runners and wrote Bash automation scripts.
+
+Education:
+B.S. Information Systems"
+DevOps Engineer,"Heather Ward - Senior Systems & DevOps Engineer
+
+Summary:
+Senior engineer with 8 years managing mission-critical Linux servers and Kubernetes clusters.
+
+Skills:
+Kubernetes, Docker, Linux, CI/CD, Terraform, Amazon Web Services, Ansible, Prometheus.
+
+Experience:
+Senior DevOps Engineer at GlobalTech (2018 - Present)
+- Led migration of legacy on-prem infrastructure to containerized Kubernetes on AWS.
+
+Education:
+B.S. Computer Engineering"
+Operations Manager,"Gregory King - Technical Product Manager
+
+Summary:
+Product leader with 6+ years driving software roadmap strategy, agile execution, and cross-functional team delivery.
+
+Skills:
+Product Management, Agile Methodology, Scrum, Stakeholder Management, Product Strategy, User Research, KPI Management, Communication, Business Analysis.
+
+Experience:
+Senior Product Manager at SoftwareVentures (2019 - Present)
+- Led cross-functional team of 12 engineers and designers using Agile and Scrum.
+- Defined product vision, roadmap, and quarterly KPI milestones.
+- Conducted customer user research interviews and market opportunity analysis.
+
+Education:
+MBA, Business School; B.S. Engineering"
+Product Manager,"Victoria Gray - Product Manager
+
+Summary:
+Product manager focused on B2B SaaS growth, sprint backlog prioritization, and feature discovery.
+
+Skills:
+Product Management, Agile Methodology, Scrum, Stakeholder Management, User Research, Roadmapping, Product Strategy, KPI Management.
+
+Experience:
+Product Manager at SaaSWorks (2021 - Present)
+- Managed end-to-end product lifecycle from discovery through release.
+- Partnered with UX researchers and data analysts to evaluate feature adoption.
+
+Education:
+B.A. in Management Information Systems"
+Operations Manager,"Craig Peterson - Agile Product Owner & Operations Manager
+
+Summary:
+Certified Scrum Product Owner aligning business priorities with technical execution.
+
+Skills:
+Agile Methodology, Scrum, Product Management, Stakeholder Management, Business Analysis, Process Optimization, Communication.
+
+Experience:
+Product Owner at EnterpriseSolutions (2020 - Present)
+- Maintained sprint backlogs, wrote user stories, and led sprint planning sessions.
+- Facilitated communication between executive stakeholders and engineering teams.
+
+Education:
+B.S. Business Administration"
+Product Manager,"Diana Price - Senior Digital Product Manager
+
+Summary:
+Product strategist launching consumer mobile and web applications with data-informed iteration.
+
+Skills:
+Product Management, Product Strategy, Agile Methodology, Scrum, Stakeholder Management, KPI Management, User Research.
+
+Experience:
+Senior PM at ConsumerApps (2019 - Present)
+- Defined feature specifications and KPIs for consumer product releases.
+- Collaborated with engineering leads to ensure agile delivery.
+
+Education:
+B.S. Human-Computer Interaction"
+Operations Manager,"Bradley Watson - Operations & Technical Project Manager
+
+Summary:
+Operations manager skilled in agile delivery frameworks, operational workflows, and stakeholder communication.
+
+Skills:
+Agile Methodology, Scrum, Project Management, Stakeholder Management, KPI Management, Communication, Business Analysis.
+
+Experience:
+Operations Project Manager at OmniCorp (2020 - Present)
+- Managed project delivery timelines across multi-disciplinary teams.
+
+Education:
+B.S. Industrial Management"
+Product Manager,"Kelly Sanders - Associate Product Manager
+
+Summary:
+Product manager with strong user research, analytical, and agile sprint coordination abilities.
+
+Skills:
+Product Management, Agile Methodology, Scrum, User Research, Communication, Stakeholder Management, SQL.
+
+Experience:
+Associate PM at TechStart (2022 - Present)
+- Conducted customer feedback surveys and user interview sessions.
+- Created user stories and tracked sprint progress in Jira.
+
+Education:
+B.A. Economics"
+Operations Manager,"Douglas Barnes - Technical Program & Product Manager
+
+Summary:
+Program manager aligning product roadmaps with corporate strategic objectives.
+
+Skills:
+Product Management, Agile Methodology, Scrum, Stakeholder Management, Product Strategy, KPI Management, Communication.
+
+Experience:
+Technical Program Manager at ScaleTech (2018 - Present)
+- Coordinated engineering delivery schedules for 3 major product lines.
+
+Education:
+M.S. Technology Management"
+Product Manager,"Natalie Brooks - Growth Product Manager
+
+Summary:
+Growth-focused product manager optimizing conversion funnels and user onboarding flows.
+
+Skills:
+Product Management, Agile Methodology, Scrum, KPI Management, A/B Testing, User Research, Stakeholder Management.
+
+Experience:
+Growth PM at WebMedia (2021 - Present)
+- Led experimental growth initiatives that improved activation rates by 22%.
+
+Education:
+B.S. Business & Computer Science"
+Operations Manager,"Russell Henderson - Operations & Delivery Manager
+
+Summary:
+Operations lead optimizing organizational workflows, cross-departmental delivery, and operational KPIs.
+
+Skills:
+Agile Methodology, Scrum, Stakeholder Management, Communication, KPI Management, Business Analysis.
+
+Experience:
+Operations Lead at HealthOps (2020 - Present)
+- Streamlined cross-departmental workflows and project tracking.
+
+Education:
+B.S. Operations Management"
+Product Manager,"Courtney James - Product Manager
+
+Summary:
+Product professional with proven track record translating market needs into software roadmaps.
+
+Skills:
+Product Management, Agile Methodology, Scrum, Stakeholder Management, Product Strategy, Communication, User Research.
+
+Experience:
+Product Manager at AppSphere (2021 - Present)
+- Authored product requirement documents and managed sprint priorities.
+
+Education:
+B.A. Business Administration"

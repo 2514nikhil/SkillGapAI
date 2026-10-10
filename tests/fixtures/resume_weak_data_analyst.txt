@@ -1,0 +1,18 @@
+Sam Taylor
+Email: sam.taylor@example.com | Phone: (555) 345-6789
+
+PROFESSIONAL SUMMARY
+Junior administrative assistant seeking an entry-level data analysis role. Familiar with basic spreadsheets and general office workflows.
+
+TECHNICAL SKILLS
+Tools: Microsoft Excel, Microsoft Word, Google Docs
+Programming: Python (beginner)
+
+EXPERIENCE
+Office Assistant | Greenfield Services (2022 - 2024)
+- Maintained office supplies and entered records into Microsoft Excel spreadsheets.
+- Drafted routine correspondence and letters using Microsoft Word.
+- Completed an online introductory Python tutorial to learn basic syntax and loops.
+
+EDUCATION
+B.A. in Communications (2022)

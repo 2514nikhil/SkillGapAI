@@ -1,0 +1,15 @@
+venv/
+.env
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+cache/
+*.npy
+*.parquet
+*.log
+.DS_Store
+node_modules/
+.next/
+dist/
+build/

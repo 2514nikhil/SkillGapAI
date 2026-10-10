@@ -1,0 +1,4 @@
+Mode,Precision (%),Recall (%),F1 (%),TP,FP,FN,Avg Latency (s)
+baseline,91.03,97.26,94.04,71,7,2,0.150
+hybrid,91.14,98.63,94.74,72,7,1,1.476
+hybrid+slm,91.14,98.63,94.74,72,7,1,0.051

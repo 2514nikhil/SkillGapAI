@@ -1,0 +1,4 @@
+Sanity / Invariant Test,Observed Value,Threshold / Expectation,Status
+Format Invariance (PDF vs DOCX),Jaccard: 1.0000 (8/8 skills),Jaccard >= 0.85,PASS
+Section Order Invariance,Max Delta: 0.0000,Delta < 1e-4,PASS
+Score Monotonicity (Non-Degradation),0 violations across test skills,0 violations,PASS

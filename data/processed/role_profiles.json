@@ -1,0 +1,4122 @@
+{
+  "Backend Developer": {
+    "n_postings": 7,
+    "skills": {
+      "python": {
+        "weight": 1.0,
+        "count": 7,
+        "tier": "core"
+      },
+      "docker": {
+        "weight": 0.857,
+        "count": 6,
+        "tier": "core"
+      },
+      "fastapi": {
+        "weight": 0.571,
+        "count": 4,
+        "tier": "core"
+      },
+      "postgresql": {
+        "weight": 0.571,
+        "count": 4,
+        "tier": "core"
+      },
+      "redis": {
+        "weight": 0.571,
+        "count": 4,
+        "tier": "core"
+      },
+      "sql": {
+        "weight": 0.429,
+        "count": 3,
+        "tier": "common"
+      },
+      "ci_cd": {
+        "weight": 0.286,
+        "count": 2,
+        "tier": "common"
+      },
+      "microservices": {
+        "weight": 0.286,
+        "count": 2,
+        "tier": "common"
+      },
+      "rest_api": {
+        "weight": 0.286,
+        "count": 2,
+        "tier": "common"
+      },
+      "linux": {
+        "weight": 0.286,
+        "count": 2,
+        "tier": "common"
+      },
+      "django": {
+        "weight": 0.143,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "amazon_web_services": {
+        "weight": 0.143,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "kubernetes": {
+        "weight": 0.143,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "flask": {
+        "weight": 0.143,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "collaboration": {
+        "weight": 0.143,
+        "count": 1,
+        "tier": "bonus"
+      }
+    },
+    "embedding_path": "C:\\Users\\Nikhil\\Desktop\\AICTE\\skillgap\\data\\processed\\role_embeddings.npy"
+  },
+  "Data Analyst": {
+    "n_postings": 10,
+    "skills": {
+      "sql": {
+        "weight": 1.0,
+        "count": 10,
+        "tier": "core"
+      },
+      "tableau": {
+        "weight": 0.7,
+        "count": 7,
+        "tier": "core"
+      },
+      "python": {
+        "weight": 0.4,
+        "count": 4,
+        "tier": "common"
+      },
+      "a_b_testing": {
+        "weight": 0.3,
+        "count": 3,
+        "tier": "common"
+      },
+      "data_visualization": {
+        "weight": 0.3,
+        "count": 3,
+        "tier": "common"
+      },
+      "power_bi": {
+        "weight": 0.3,
+        "count": 3,
+        "tier": "common"
+      },
+      "statistical_analysis": {
+        "weight": 0.3,
+        "count": 3,
+        "tier": "common"
+      },
+      "business_intelligence": {
+        "weight": 0.2,
+        "count": 2,
+        "tier": "common"
+      },
+      "data_warehousing": {
+        "weight": 0.2,
+        "count": 2,
+        "tier": "common"
+      },
+      "snowflake": {
+        "weight": 0.2,
+        "count": 2,
+        "tier": "common"
+      },
+      "google_analytics": {
+        "weight": 0.2,
+        "count": 2,
+        "tier": "common"
+      },
+      "data_analytics": {
+        "weight": 0.1,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "excel": {
+        "weight": 0.1,
+        "count": 1,
+        "tier": "bonus"
+      }
+    },
+    "embedding_path": "C:\\Users\\Nikhil\\Desktop\\AICTE\\skillgap\\data\\processed\\role_embeddings.npy"
+  },
+  "DevOps Engineer": {
+    "n_postings": 9,
+    "skills": {
+      "docker": {
+        "weight": 1.0,
+        "count": 9,
+        "tier": "core"
+      },
+      "kubernetes": {
+        "weight": 0.889,
+        "count": 8,
+        "tier": "core"
+      },
+      "ci_cd": {
+        "weight": 0.667,
+        "count": 6,
+        "tier": "core"
+      },
+      "amazon_web_services": {
+        "weight": 0.556,
+        "count": 5,
+        "tier": "core"
+      },
+      "linux": {
+        "weight": 0.444,
+        "count": 4,
+        "tier": "common"
+      },
+      "terraform": {
+        "weight": 0.444,
+        "count": 4,
+        "tier": "common"
+      },
+      "prometheus": {
+        "weight": 0.333,
+        "count": 3,
+        "tier": "common"
+      },
+      "grafana": {
+        "weight": 0.222,
+        "count": 2,
+        "tier": "common"
+      },
+      "jenkins": {
+        "weight": 0.222,
+        "count": 2,
+        "tier": "common"
+      },
+      "ansible": {
+        "weight": 0.111,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "bash": {
+        "weight": 0.111,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "python": {
+        "weight": 0.111,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "site_reliability_engineering": {
+        "weight": 0.111,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "helm": {
+        "weight": 0.111,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "incident_management": {
+        "weight": 0.111,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "argocd": {
+        "weight": 0.111,
+        "count": 1,
+        "tier": "bonus"
+      }
+    },
+    "embedding_path": "C:\\Users\\Nikhil\\Desktop\\AICTE\\skillgap\\data\\processed\\role_embeddings.npy"
+  },
+  "Frontend Developer": {
+    "n_postings": 6,
+    "skills": {
+      "react": {
+        "weight": 1.0,
+        "count": 6,
+        "tier": "core"
+      },
+      "typescript": {
+        "weight": 0.833,
+        "count": 5,
+        "tier": "core"
+      },
+      "css3": {
+        "weight": 0.667,
+        "count": 4,
+        "tier": "core"
+      },
+      "html5": {
+        "weight": 0.667,
+        "count": 4,
+        "tier": "core"
+      },
+      "javascript": {
+        "weight": 0.667,
+        "count": 4,
+        "tier": "core"
+      },
+      "next.js": {
+        "weight": 0.5,
+        "count": 3,
+        "tier": "core"
+      },
+      "tailwind_css": {
+        "weight": 0.333,
+        "count": 2,
+        "tier": "common"
+      },
+      "collaboration": {
+        "weight": 0.167,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "redux": {
+        "weight": 0.167,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "ui_design": {
+        "weight": 0.167,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "webpack": {
+        "weight": 0.167,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "git": {
+        "weight": 0.167,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "responsive_design": {
+        "weight": 0.167,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "rest_api": {
+        "weight": 0.167,
+        "count": 1,
+        "tier": "bonus"
+      }
+    },
+    "embedding_path": "C:\\Users\\Nikhil\\Desktop\\AICTE\\skillgap\\data\\processed\\role_embeddings.npy"
+  },
+  "ML Engineer": {
+    "n_postings": 9,
+    "skills": {
+      "python": {
+        "weight": 1.0,
+        "count": 9,
+        "tier": "core"
+      },
+      "pytorch": {
+        "weight": 1.0,
+        "count": 9,
+        "tier": "core"
+      },
+      "docker": {
+        "weight": 0.778,
+        "count": 7,
+        "tier": "core"
+      },
+      "machine_learning": {
+        "weight": 0.667,
+        "count": 6,
+        "tier": "core"
+      },
+      "mlops": {
+        "weight": 0.444,
+        "count": 4,
+        "tier": "common"
+      },
+      "deep_learning": {
+        "weight": 0.333,
+        "count": 3,
+        "tier": "common"
+      },
+      "scikit_learn": {
+        "weight": 0.333,
+        "count": 3,
+        "tier": "common"
+      },
+      "fastapi": {
+        "weight": 0.222,
+        "count": 2,
+        "tier": "common"
+      },
+      "natural_language_processing": {
+        "weight": 0.222,
+        "count": 2,
+        "tier": "common"
+      },
+      "tensorflow": {
+        "weight": 0.222,
+        "count": 2,
+        "tier": "common"
+      },
+      "mlflow": {
+        "weight": 0.222,
+        "count": 2,
+        "tier": "common"
+      },
+      "transformers": {
+        "weight": 0.222,
+        "count": 2,
+        "tier": "common"
+      },
+      "model_deployment": {
+        "weight": 0.111,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "mentoring": {
+        "weight": 0.111,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "linux": {
+        "weight": 0.111,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "numpy": {
+        "weight": 0.111,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "pandas": {
+        "weight": 0.111,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "hugging_face": {
+        "weight": 0.111,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "large_language_models": {
+        "weight": 0.111,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "computer_vision": {
+        "weight": 0.111,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "opencv": {
+        "weight": 0.111,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "sql": {
+        "weight": 0.111,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "xgboost": {
+        "weight": 0.111,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "ci_cd": {
+        "weight": 0.111,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "kubernetes": {
+        "weight": 0.111,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "artificial_intelligence": {
+        "weight": 0.111,
+        "count": 1,
+        "tier": "bonus"
+      }
+    },
+    "embedding_path": "C:\\Users\\Nikhil\\Desktop\\AICTE\\skillgap\\data\\processed\\role_embeddings.npy"
+  },
+  "Product Manager": {
+    "n_postings": 6,
+    "skills": {
+      "agile_methodology": {
+        "weight": 1.0,
+        "count": 6,
+        "tier": "core"
+      },
+      "product_management": {
+        "weight": 0.833,
+        "count": 5,
+        "tier": "core"
+      },
+      "scrum": {
+        "weight": 0.833,
+        "count": 5,
+        "tier": "core"
+      },
+      "stakeholder_management": {
+        "weight": 0.333,
+        "count": 2,
+        "tier": "common"
+      },
+      "kpi_management": {
+        "weight": 0.167,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "user_research": {
+        "weight": 0.167,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "sql": {
+        "weight": 0.167,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "communication": {
+        "weight": 0.167,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "product_strategy": {
+        "weight": 0.167,
+        "count": 1,
+        "tier": "bonus"
+      },
+      "business_analysis": {
+        "weight": 0.167,
+        "count": 1,
+        "tier": "bonus"
+      }
+    },
+    "embedding_path": "C:\\Users\\Nikhil\\Desktop\\AICTE\\skillgap\\data\\processed\\role_embeddings.npy"
+  },
+  "Accountant": {
+    "n_postings": 35,
+    "skills": {
+      "accounting": {
+        "weight": 1.0,
+        "count": 35,
+        "tier": "core"
+      },
+      "financial_reporting": {
+        "weight": 0.771,
+        "count": 27,
+        "tier": "core"
+      },
+      "general_ledger": {
+        "weight": 0.714,
+        "count": 25,
+        "tier": "core"
+      },
+      "payroll": {
+        "weight": 0.657,
+        "count": 23,
+        "tier": "core"
+      },
+      "gaap": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "quickbooks": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "accounts_payable": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "tax_preparation": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "reconciliation": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "accounts_receivable": {
+        "weight": 0.486,
+        "count": 17,
+        "tier": "core"
+      },
+      "powerpoint": {
+        "weight": 0.4,
+        "count": 14,
+        "tier": "core"
+      },
+      "financial_analysis": {
+        "weight": 0.314,
+        "count": 11,
+        "tier": "common"
+      },
+      "auditing": {
+        "weight": 0.286,
+        "count": 10,
+        "tier": "common"
+      },
+      "budgeting": {
+        "weight": 0.286,
+        "count": 10,
+        "tier": "common"
+      },
+      "mentoring": {
+        "weight": 0.251,
+        "count": 22,
+        "tier": "common"
+      },
+      "communication": {
+        "weight": 0.126,
+        "count": 11,
+        "tier": "bonus"
+      },
+      "process_improvement": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "vendor_management": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "excel": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "statistical_analysis": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "team_leadership": {
+        "weight": 0.103,
+        "count": 9,
+        "tier": "bonus"
+      },
+      "customer_service": {
+        "weight": 0.103,
+        "count": 9,
+        "tier": "bonus"
+      },
+      "supervised_learning": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "business_intelligence": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "data_analytics": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "problem_solving": {
+        "weight": 0.08,
+        "count": 7,
+        "tier": "bonus"
+      }
+    },
+    "text": "Role: Accountant. Certified Public Accountant / Staff Accountant.          ACCOUNTANT       Professional Summary     Current Accountant with the City of Alexandria with over 15 years experience in the accounting industry. Knowledge in governmental accounting procedures, financial statement preparation, general ledger activity, budget preparation & analysis, bank reconciliations, accounts payables & receivables, payroll, fixed assets, tax preparation & audit procedures.       Skills          15+ years of experience in Accounting & Bookkeeping Services  Financial statements, Bank reconciliations and General Ledger expertise  Flexible team player      Responsib          ACCOUNTANT       Summary      Innovative and energetic Accountant proficient in extracting financial data from various reporting systems and suggesting key operational changes to establish budgetary stability. Has a strong background in school fund accounting with an emphasis on general ledger reconciliation and budget analysis.        Core Strengths          School fund accounting  Account reconciliation  Cash flow projections  Budget analysis/forecasting      General ledger accounting  Accounts payable/receivable  Governmental reporting  School bond experience            Accomplishm          ACCOUNTANT         Highlights        Microsoft Office :\tIntermediate in all the Microsoft Office components( Excel, Word, PowerPoint, Outlook and Access); Very familiar with ( Macros, V-look ups, SQL, calculating formulas and manipulating reports as well as smart view) Running query reports and creating reports.  SAP PeopleSoft:          Navigate within Resource one to retrieve financial reports and run queries              Experience     08/2014   to   Current     Accountant    Company Name   \uff0d   City  ,   State      An accountant within the Experimental Therapeutics Research departm          ACCOUNTANT           Professional Summary     Inpatient and outpatient records coding specialist with ICD-9, ICD-10 and ASC coding expertise. Familiar with commercial and private insurance carriers. Seeks a position of increased responsibility and authority.  Administrative Assistant experienced at registering patients, scheduling appointments and recording and filing patient medical records. Enters orders and information quickly and accurately.  Administrative Assistant experienced at registering patients, scheduling appointments and recording and filing patient medical records. Ente          ACCOUNTANT       Summary    To pursue excellence in the dynamic business world by obtaining a placement allowing me to perform in an environment where honesty, sincerity & a positive attitude would be valued. I would like to take up a challenging job to nourish my  qualification , expertise & experience within a reputed organization & further enhance  my performance. Flexible  [Job Title]  who adapts seamlessly to constantly evolving accounting processes and technologies.   Flexible  [Job Title]  who adapts seamless"
+  },
+  "Financial Analyst": {
+    "n_postings": 35,
+    "skills": {
+      "accounting": {
+        "weight": 0.8,
+        "count": 28,
+        "tier": "core"
+      },
+      "budgeting": {
+        "weight": 0.686,
+        "count": 24,
+        "tier": "core"
+      },
+      "risk_management": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "financial_analysis": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "financial_reporting": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "financial_modeling": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "wealth_management": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "general_ledger": {
+        "weight": 0.486,
+        "count": 17,
+        "tier": "core"
+      },
+      "payroll": {
+        "weight": 0.429,
+        "count": 15,
+        "tier": "core"
+      },
+      "auditing": {
+        "weight": 0.371,
+        "count": 13,
+        "tier": "core"
+      },
+      "gaap": {
+        "weight": 0.343,
+        "count": 12,
+        "tier": "common"
+      },
+      "accounts_receivable": {
+        "weight": 0.343,
+        "count": 12,
+        "tier": "common"
+      },
+      "reconciliation": {
+        "weight": 0.343,
+        "count": 12,
+        "tier": "common"
+      },
+      "accounts_payable": {
+        "weight": 0.314,
+        "count": 11,
+        "tier": "common"
+      },
+      "vendor_management": {
+        "weight": 0.286,
+        "count": 10,
+        "tier": "common"
+      },
+      "mentoring": {
+        "weight": 0.263,
+        "count": 23,
+        "tier": "common"
+      },
+      "tax_preparation": {
+        "weight": 0.229,
+        "count": 8,
+        "tier": "common"
+      },
+      "team_leadership": {
+        "weight": 0.206,
+        "count": 18,
+        "tier": "common"
+      },
+      "project_management": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "quickbooks": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "communication": {
+        "weight": 0.194,
+        "count": 17,
+        "tier": "common"
+      },
+      "excel": {
+        "weight": 0.171,
+        "count": 6,
+        "tier": "bonus"
+      },
+      "talent_acquisition": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "business_intelligence": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "powerpoint": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "organizational_skills": {
+        "weight": 0.103,
+        "count": 9,
+        "tier": "bonus"
+      },
+      "time_management": {
+        "weight": 0.091,
+        "count": 8,
+        "tier": "bonus"
+      },
+      "data_analytics": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "competitive_analysis": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "product_management": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "statistical_analysis": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "strategic_planning": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      }
+    },
+    "text": "Role: Financial Analyst. Senior Financial Analyst.          FINANCE           Professional Summary    A versatile, highly motivated, adaptable, and responsible accounting graduate. Possessing highly analytical skill and ability to manage and complete projects to the highest standards. Now wish to transition solid background in accounting and finance towards business and property consultancy, which is a challenging position that will enable me to capitalise my own knowledge and work experience.      Skills          Superior time management  Customer relations  Self-motivated professional  Excellent communication skills  Strong interpersonal ski          FINANCE           Summary     Finance focal driven to improve morale, decrease turnover and improve productivity. Background in leadership development, training, and strategic thinking.       Highlights          Exceptional interpersonal skills  Employee relations  Training and development  Data analysis      Predictive planning  Public speaking  Budget planning            Experience      Finance    July 2008   to   October 2015     Company Name   \uff0d   City  ,   State     Held various Finance and Project Management related roles including:    Integrated Scheduling  Contracts  Business           FINANCE MANAGER\n FINANCE MANAGER       Executive Profile    Financial Manager focused on fostering trust and cultivating partnerships based on accountability and transparency.\u00a0 Analytical CPA skilled in financial and managerial accounting practices and procedures.        Skill Highlights          Public and private accounting  Income statement certified audits  Knowledge of GAAP guidelines      Contract negotiation  Forward-thinking mindset  Strong initiative  Resourcefulness            Core Accomplishments     Formally recognized for excellence achieved in financial analysis, budgeti          FINANCE ANALYST       Summary     Strategic and analytical finance professional with 4+ years of success in financial reporting, analysis and project management.        Skills          Analytical skills\u00a0  Variance analysis  Complex problem solving  Financial modeling      Self-motivated professional  MS Office Suite  Interpersonal skills  Leadership skills            Accomplishments      PHI SIGMA SIGMA SORORITY \nCALIFORNIA STATE UNIVERSITY\nOctober 2006 - June 2010.  Monitor event activities to ensure compliance with applicable rules and satisfaction of participants, and resolution of          FINANCE     CONSULTANT         Summary    Strategic and analytical finance professional with 10+ years of success in reporting and analytics, financial planning & analysis, project management, technology, payments, vendor management, and treasury.      Highlights          Financial modeling                   Experience      Company Name     February 2016   to   Current     Finance     Consultant   City  ,   State      Prepares monthly payment reporting and analytics dashboard for senior management.  Ad hoc reporting from data ware"
+  },
+  "HR Specialist": {
+    "n_postings": 35,
+    "skills": {
+      "talent_acquisition": {
+        "weight": 0.743,
+        "count": 26,
+        "tier": "core"
+      },
+      "employee_relations": {
+        "weight": 0.714,
+        "count": 25,
+        "tier": "core"
+      },
+      "payroll": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "benefits_administration": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "performance_management": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "hris": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "labor_law": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "onboarding": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "powerpoint": {
+        "weight": 0.4,
+        "count": 14,
+        "tier": "core"
+      },
+      "mentoring": {
+        "weight": 0.366,
+        "count": 32,
+        "tier": "core"
+      },
+      "project_management": {
+        "weight": 0.314,
+        "count": 11,
+        "tier": "common"
+      },
+      "communication": {
+        "weight": 0.206,
+        "count": 18,
+        "tier": "common"
+      },
+      "customer_service": {
+        "weight": 0.194,
+        "count": 17,
+        "tier": "common"
+      },
+      "team_leadership": {
+        "weight": 0.183,
+        "count": 16,
+        "tier": "common"
+      },
+      "accounting": {
+        "weight": 0.171,
+        "count": 6,
+        "tier": "bonus"
+      },
+      "excel": {
+        "weight": 0.171,
+        "count": 6,
+        "tier": "bonus"
+      },
+      "regulatory_compliance": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "conflict_resolution": {
+        "weight": 0.126,
+        "count": 11,
+        "tier": "bonus"
+      },
+      "strategic_planning": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "safety_compliance": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "vendor_management": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "supervised_learning": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "quickbooks": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "workforce_planning": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      }
+    },
+    "text": "Role: HR Specialist. Human Resources Specialist.          HR ADMINISTRATOR/MARKETING ASSOCIATE\n\nHR ADMINISTRATOR       Summary     Dedicated Customer Service Manager with 15+ years of experience in Hospitality and Customer Service Management.   Respected builder and leader of customer-focused teams; strives to instill a shared, enthusiastic commitment to customer service.         Highlights         Focused on customer satisfaction  Team management  Marketing savvy  Conflict resolution techniques     Training and development  Skilled multi-tasker  Client relations specialist           Accomplishments      Missouri DOT Supervisor Training Cert          HR SPECIALIST, US HR OPERATIONS       Summary     Versatile  media professional with background in Communications, Marketing, Human Resources and Technology.\u00a0        Experience     09/2015   to   Current     HR Specialist, US HR Operations    Company Name   \uff0d   City  ,   State       Managed communication regarding launch of Operations group, policy changes and system outages      Designed standard work and job aids to create comprehensive training program for new employees and contractors         Audited job postings for old, pending, on-hold and draft positions.           Audited uni          HR DIRECTOR       Summary      Over 20 years experience in recruiting,   15 plus years in Human Resources Executive Management,   5 years of HRIS development and maintenance  4 years working in a Healthcare Enviroment        Skills          Recruiting  FMLA/EEO/FLSA\u00a0  HRIS Development      Benefit Administration  Policy Development  Web Page Development\u00a0            Accomplishments      Kansas Health Institute -Health Outcomes for the State of Kansas -1999 \nMemberships and Accolades: Project Management Institute Member, SHRM, Chamber of Commerce, 1999 Friends University President's Hon          HR SPECIALIST       Summary    Dedicated, Driven, and Dynamic with over 20 years of customer service expertise. Motivated to maintain customer satisfaction and contribute to company success with an emphasis in personnel and process management. Solid team player with proven ability to establish rapport with clients.\u00a0      Skills          Type 50 wpm and 10-Key by touch  Microsoft programs Word, Excel, Access, Outlook, PowerPoint  Personnel management  and Telephone inquiries specialist      Excellent customer service skills with call quality and customer satisfaction as primary focus.           HR MANAGER         Skill Highlights           HR SKILLS  HR Department Startup  Three New Organization Startups  Employment Law  FMLA/ADA/EEO/WC  Mediation & Advocacy  HR Policies & Procedures\t*Staff Recruitment & Retention  Salary Negotiations  Employee Relations  Benefits Administration  Unemployment Administration  Worker's Compensation Administration  Orientation & On-Boarding  HRIS Technologies  Training & Development  Performance Management  Organizational Development  HR Program/Project Management  HRIS applications (Lawson, "
+  },
+  "Sales Representative": {
+    "n_postings": 35,
+    "skills": {
+      "cold_calling": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "lead_generation": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "customer_relationship_management": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "negotiation": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "b2b_sales": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "salesforce": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "pipeline_management": {
+        "weight": 0.55,
+        "count": 19,
+        "tier": "core"
+      },
+      "mentoring": {
+        "weight": 0.297,
+        "count": 26,
+        "tier": "common"
+      },
+      "customer_service": {
+        "weight": 0.274,
+        "count": 24,
+        "tier": "common"
+      },
+      "communication": {
+        "weight": 0.251,
+        "count": 22,
+        "tier": "common"
+      },
+      "accounting": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "powerpoint": {
+        "weight": 0.171,
+        "count": 6,
+        "tier": "bonus"
+      },
+      "project_management": {
+        "weight": 0.171,
+        "count": 6,
+        "tier": "bonus"
+      },
+      "team_leadership": {
+        "weight": 0.16,
+        "count": 14,
+        "tier": "bonus"
+      },
+      "accounts_receivable": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "quality_control": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "accounts_payable": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "payroll": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "excel": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "problem_solving": {
+        "weight": 0.103,
+        "count": 9,
+        "tier": "bonus"
+      },
+      "time_management": {
+        "weight": 0.103,
+        "count": 9,
+        "tier": "bonus"
+      },
+      "organizational_skills": {
+        "weight": 0.091,
+        "count": 8,
+        "tier": "bonus"
+      },
+      "talent_acquisition": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "business_intelligence": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "assembly": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "account_management": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "process_improvement": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      }
+    },
+    "text": "Role: Sales Representative. Account Executive / B2B Sales Representative.          SALES           Summary     Account Manager focused on maximizing sales by managing all accounts systematically and logically. Believes consistency and dedication build the most successful business partnerships.\u00a0  \u00a0Excel\u00a0 at building a loyal customer base to achieve both short and long-term organization sales goals.        Highlights          Superior communication skills  Cheerful and energetic  Effective team player       Staff training and development  Resolution-oriented  Dependable and reliable            Accomplishments     Responsible for training new employees in all aspects o          SALES       Summary    I am looking for a career position with a company that I can be rewarded by my desire to succeed. \u00a0I am a self starter and motivated to do my best. \u00a0I am comfortable doing what it takes to create new business and have an excellent history of retaining current business.      Skills      Self Starter  Motivated   Client Relations    Success Driven         Experience      Sales   12/2015   to   Current     Company Name   City  ,   State       Sales of phones, plans, home security and satellite in a retail environment  Meet quotos monthly for add-on orders and upsel          SALES       Summary    Self-motivated individual offering a strong work ethic and determination to complete tasks in a timely manner. Accurate and detail-oriented with extensive bookkeeping and clerical knowledge.      Highlights        Accounts receivable professional          Effective time management\n          Knowledge of Sap          Excellent managerial techniques\n          Expert in customer relations\n ADP, SAP, MICROSOFT WORD, EXCEL, OUTLOOK, QUICKBOOKS            Accomplishments      Reduced the open invoice cycle time from 90 days to 10 days by developing\n          new dispu          SALES       Summary     General Sales Manager offering 17-year background in sales and customer service, as well   as leading a cohesive team in consistently achieving aggressive sales goals.       Highlights          Excellent communication skills  Established track record of exceptional sales results  Effective Retail Sales Manager  Exceptional multi-tasker      Compelling leadership skills  Resolution-oriented  Energetic  Excellent time management            Experience     April 2014   to   Current     Company Name   City  ,   State     Sales        Successfully assisted clients in          SALES       Professional Summary     graduated from earle high school in may of 1975 and the enlisted in the united states air force from june 1975 to may 1976 honorable discharge started working in a small lumber co where I became a\u00a0volunteer firefighter and then EMT on an ambulance for 20 years changed careers in 1994 where I went to work for Methodist hospital as an emt started college in 1995 to get in to nursing school graduated in 2001 with associates of applied science in nursing still working with Me"
+  },
+  "Business Development Manager": {
+    "n_postings": 35,
+    "skills": {
+      "lead_generation": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "strategic_planning": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "negotiation": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "b2b_sales": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "pipeline_management": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "stakeholder_management": {
+        "weight": 0.55,
+        "count": 19,
+        "tier": "core"
+      },
+      "account_management": {
+        "weight": 0.343,
+        "count": 12,
+        "tier": "common"
+      },
+      "mentoring": {
+        "weight": 0.32,
+        "count": 28,
+        "tier": "common"
+      },
+      "project_management": {
+        "weight": 0.314,
+        "count": 11,
+        "tier": "common"
+      },
+      "customer_relationship_management": {
+        "weight": 0.286,
+        "count": 10,
+        "tier": "common"
+      },
+      "cold_calling": {
+        "weight": 0.229,
+        "count": 8,
+        "tier": "common"
+      },
+      "accounting": {
+        "weight": 0.229,
+        "count": 8,
+        "tier": "common"
+      },
+      "talent_acquisition": {
+        "weight": 0.229,
+        "count": 8,
+        "tier": "common"
+      },
+      "customer_service": {
+        "weight": 0.206,
+        "count": 18,
+        "tier": "common"
+      },
+      "communication": {
+        "weight": 0.206,
+        "count": 18,
+        "tier": "common"
+      },
+      "budgeting": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "process_improvement": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "team_leadership": {
+        "weight": 0.194,
+        "count": 17,
+        "tier": "common"
+      },
+      "risk_management": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "competitive_analysis": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "payroll": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "kpi_management": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "content_strategy": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "powerpoint": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "statistical_analysis": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "adobe_photoshop": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "excel": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "quality_control": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "organizational_skills": {
+        "weight": 0.103,
+        "count": 9,
+        "tier": "bonus"
+      },
+      "problem_solving": {
+        "weight": 0.091,
+        "count": 8,
+        "tier": "bonus"
+      },
+      "critical_thinking": {
+        "weight": 0.091,
+        "count": 8,
+        "tier": "bonus"
+      },
+      "data_analytics": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "vendor_management": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "change_management": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "business_analysis": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "word": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "benefits_administration": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "financial_analysis": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "marketing_strategy": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "email_marketing": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      }
+    },
+    "text": "Role: Business Development Manager. Business Development Manager.          BUSINESS DEVELOPMENT           Summary     Results-driven and highly skilled (business development)account manager and marketing professional with over 10 years of experience developing and executing customized account plans to increase sales volume, market share, and relevance in the marketplace. Provide strategic value to customers including leveraging trends in customer industries/marketplaces to shape solutions and approaches driving overall business development. Open and clear communicator with demonstrated strategic vision and disciplined execution.       Highlights          Rel          BUSINESS DEVELOPMENT           Executive Profile    Over 17 years of demonstrated operational, consulting and architecture experience in IT development, implementations and architectures with a proven background in capturing new business ranging from $1 Million to over $1.5 Billion Total Contract Value.  Experienced leader with strong business and technical skills.  Successful track record of supporting bid analysis and decomposition of requirements to provide strategic IT architectures that meet demanding functional, financial and technical needs while meeting security requirements.           BUSINESS DEVELOPMENT       Professional Summary    Seeking meaningful, part to full-time employment with an organization that could benefit from my professional experience with business development, management, and training business support.      Core Qualifications          Years of advertising and marketing  Years of experience developing and maintaining a marketing plan and budget  Years of experience of staff training and on site coaching  Maintain great working relationships  Use out of the box thinking to find solutions to very complex issues  Years of experience on product deve          BUSINESS DEVELOPMENT       Career Overview     Detail-oriented professional with a business mindset and an extensive operational background obtained through diverse industry experience in banking, loss prevention, health and wellness, and retail offering innovative methods of efficiency meant to benefit individuals at all levels of business.       Technical Skills        Skills    Experience    Total Years    Last Used    Microsoft Office (Excel, Word, PP)    Expert    10+    2016    Google - Analytics    Intermediate    2    2016    SQL    Intermediate    1    2014    Outlook    Inte          BUSINESS DEVELOPMENT           Career Overview     Committed and motivated professional with exceptional customer service and decision making skills. Extensive experience working with a diverse client base and delivering results. High-achieving professional possessing excellent communication, organizational and analytical capabilities. Background in business development, customer service and project management.       Skill Highlights          Problem resolution  Results-oriented  Meticulous attention to detail  Mana"
+  },
+  "Digital Marketer": {
+    "n_postings": 35,
+    "skills": {
+      "content_strategy": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "ppc_advertising": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "copywriting": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "google_analytics": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "social_media_marketing": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "email_marketing": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "seo": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "adobe_photoshop": {
+        "weight": 0.371,
+        "count": 13,
+        "tier": "core"
+      },
+      "adobe_illustrator": {
+        "weight": 0.286,
+        "count": 10,
+        "tier": "common"
+      },
+      "marketing_strategy": {
+        "weight": 0.286,
+        "count": 10,
+        "tier": "common"
+      },
+      "mentoring": {
+        "weight": 0.24,
+        "count": 21,
+        "tier": "common"
+      },
+      "communication": {
+        "weight": 0.229,
+        "count": 20,
+        "tier": "common"
+      },
+      "project_management": {
+        "weight": 0.229,
+        "count": 8,
+        "tier": "common"
+      },
+      "account_management": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "lead_generation": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "html5": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "adobe_premiere_pro": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "vendor_management": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "data_analytics": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "talent_acquisition": {
+        "weight": 0.171,
+        "count": 6,
+        "tier": "bonus"
+      },
+      "adobe_indesign": {
+        "weight": 0.171,
+        "count": 6,
+        "tier": "bonus"
+      },
+      "powerpoint": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "accounting": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "press_releases": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "budgeting": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "salesforce": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "agile_methodology": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "team_leadership": {
+        "weight": 0.137,
+        "count": 12,
+        "tier": "bonus"
+      },
+      "wordpress": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "kpi_management": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "competitive_analysis": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "customer_relationship_management": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "business_intelligence": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "wealth_management": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "visual_arts": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "problem_solving": {
+        "weight": 0.103,
+        "count": 9,
+        "tier": "bonus"
+      },
+      "customer_service": {
+        "weight": 0.091,
+        "count": 8,
+        "tier": "bonus"
+      },
+      "a_b_testing": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "sql": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "quality_control": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "css3": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "scrum": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "product_management": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      }
+    },
+    "text": "Role: Digital Marketer. Digital Media & Marketing Specialist.          DIGITAL MEDIA BUYER         Professional Summary     Versatile digital marketer\u00a0bringing        Highlights          Pay Per Click (PPC)  Google Adwords   Google Analytics  Content Marketing  Social Media Marketing - Facebook, LinkedIn, Instagram    ROI Reports   MS Office - Excel, Word, Powerpoint, Outlook  PPC Bid Management  Lead Generation   Mobile Marketing  Video Marketing      SproutSocial  Hootsuite  Marin Software  Drupal  WordPress  HTML  Optimizely  Landing Page Management  A/B Testing  Multivariate Testing  Content Writing  Blogging            Experience      Company Name            DIGITAL MEDIA INTERN       Summary    Competent and reliable professional seeking an internship or co-op position that will allow me to apply my education\nand enthusiasm in a professional, mutually beneficial, growth-oriented business environment.      Experience     01/2017   to   Current     Digital Media Intern    Company Name   \uff0d   City  ,   State      Researched and implemented the use of immersive technology like Oculus Rift, HTC Vive and Samsumg VR in Florida International University's Virtual Reality Lab  Collaborated in the production and post-production of 360 video content           DIGITAL MEDIA PRODUCER       Summary    Experienced and innovative Digital Media Producer with expertise in video production, as videographer, sound recordist, editor and post-production artist. Able work autonomously or collaborate with a team to produce highest quality production standards. Passion for\u00a0constantly learning, developing and sharing new video skills with colleagues.      Highlights          Advanced Shooting Skills  Experienced with Video Cameras and DSLRs  Advanced Editing Skills using Adobe Premiere Pro  Expertise in Sound Recording and Sound Mixing  Ability to Bring           DIGITAL MEDIA MANAGER       Professional Overview     Talented media planner offering exceptional strengths in executing paid digital media campaigns and ensuring content is delivered to the right audience segments. Detail-oriented and highly organized with track record of exceeding clients expected key performance metrics by constantly analyzing results and implementing digital media best practices.\u00a0       Skills      Google Search, Display, Mobile, Video Campaigns.\u00a0  Google Analytics measurement, Report & Tracking.\u00a0  Facebook Business Manager, Ads Manager & Power Editor.\u00a0  Creative           DIGITAL MEDIA SALES CONSULTANT       Summary     Dedicated and highly seasoned advertising employee with over 19 years of inside and outside newspaper sales experience in both the print and digital realms. My goal is to be an asset to The Augusta Chronicle and to utilize my abilities and experience to further my personal growth.       Highlights          Excellent communication skills  Detail oriented  Excellent organizational skills  Great follow through  Relationship building  Solution focused      New Business Develo"
+  },
+  "UI/UX & Graphic Designer": {
+    "n_postings": 35,
+    "skills": {
+      "adobe_photoshop": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "adobe_illustrator": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "visual_design": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "ui_design": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "prototyping": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "figma": {
+        "weight": 0.55,
+        "count": 19,
+        "tier": "core"
+      },
+      "ux_design": {
+        "weight": 0.55,
+        "count": 19,
+        "tier": "core"
+      },
+      "wireframing": {
+        "weight": 0.55,
+        "count": 19,
+        "tier": "core"
+      },
+      "autocad": {
+        "weight": 0.229,
+        "count": 8,
+        "tier": "common"
+      },
+      "html5": {
+        "weight": 0.229,
+        "count": 8,
+        "tier": "common"
+      },
+      "mentoring": {
+        "weight": 0.206,
+        "count": 18,
+        "tier": "common"
+      },
+      "powerpoint": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "visual_arts": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "project_management": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "communication": {
+        "weight": 0.183,
+        "count": 16,
+        "tier": "common"
+      },
+      "adobe_indesign": {
+        "weight": 0.171,
+        "count": 6,
+        "tier": "bonus"
+      },
+      "css3": {
+        "weight": 0.171,
+        "count": 6,
+        "tier": "bonus"
+      },
+      "quality_control": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "sql": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "team_leadership": {
+        "weight": 0.137,
+        "count": 12,
+        "tier": "bonus"
+      },
+      "assembly": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "curriculum_development": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "linux": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "customer_service": {
+        "weight": 0.091,
+        "count": 8,
+        "tier": "bonus"
+      },
+      "vendor_management": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "payroll": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "data_analytics": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "agile_methodology": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "mysql": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "process_improvement": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "pl_sql": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "problem_solving": {
+        "weight": 0.08,
+        "count": 7,
+        "tier": "bonus"
+      }
+    },
+    "text": "Role: UI/UX & Graphic Designer. UI/UX & Graphic Designer.          DESIGNER       Summary     Designer with more than 15 years in product design, manufacturing, exhibit design and visual merchandising,  with comprehensive management and logistics experience who thrives in dynamically changing environments. \u00a0           Highlights          Design processing expertise  Proficient in AutoCAD  Adobe Photoshop  Concept development  Product specifications  Color and material application  Strong leader  Proficient with furniture systems  Vendor sourcing      Knowledgeable of quality control standards  Procurement specialist  Dedication to product quality  Co          DESIGNER       Summary      Established well-rounded Designer with a reputation for exquisitely designed collections,  who consistently maximizes company profits and surpasses margin goals. Seeking   potential growth that will utilize creative skills and aims towards commitment of team and consumer/brand loyalty.       Skills      Critical Thinker - Using logic and reasoning to identify the strengths and weaknesses of alternative solutions, conclusions or approaches to problems  Time Management & Communication - Managing one's time, as well as team's, to adhere to Drop Dead Dates  Ada          DESIGNER       Summary     To get a strong foothold on the career ladder by doing the best I can and more, with a company that supports teamwork and utilizes the abilities of its employees.       Highlights         Excellent team working skills \u00b7    Planning and organizing events. \u00b7    Creativity in working.   Time management skills. \u00b7    Ability to work under pressure \u00b7    Experienced in communicating, interacting, and building relationships with people of varying ethnic, religious, and cultural backgrounds. Computer literate and excellent typing skills. Fluency in MS Office (Word, E          DESIGNER / TECHNICAL DESIGNER           Summary     Creative fashion designer with background in the catagories of swim, intimate apparel, loungewear, and sportswear.  Experience designing wovens and cut and sew knits, creating technical drawings and packages.  Excellent time management, organizational skills, and work ethic.       Highlights          Detailed technical sketches  Technical packages  Line sheets      Garment Fittings  Garment specing  Correspondence with overseas vendors            Accomplishments     Co-founded Ulihu, a men's and women's underwear and loungewear compa          MULTIMEDIA DESIGNER AND GRAPHIC DESIGNER       Portfolio     www.Artisterymedia.wix.com/creativeflow       Summary    A hardworking, focused and determined artist looking to obtain a full-time position as a Graphic Designer.      Technical Skills          Adobe Photoshop  Adobe After Effects\u00a0  Adobe Illustrator  Adobe InDesign  Adobe Premiere  Adobe Dream Weaver  Sketchbook Pro      Intermediate Html Coding  Microsoft Word  Windows  \u00a0Troubleshooting  Calculator, printer, fax machine, etc  Microsoft Word  Microsoft PowerPoin"
+  },
+  "Healthcare Specialist": {
+    "n_postings": 35,
+    "skills": {
+      "patient_care": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "clinical_documentation": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "medical_terminology": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "hipaa_compliance": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "electronic_health_records": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "cpr": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "vital_signs": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "mentoring": {
+        "weight": 0.354,
+        "count": 31,
+        "tier": "core"
+      },
+      "communication": {
+        "weight": 0.286,
+        "count": 25,
+        "tier": "common"
+      },
+      "accounting": {
+        "weight": 0.286,
+        "count": 10,
+        "tier": "common"
+      },
+      "powerpoint": {
+        "weight": 0.257,
+        "count": 9,
+        "tier": "common"
+      },
+      "payroll": {
+        "weight": 0.229,
+        "count": 8,
+        "tier": "common"
+      },
+      "team_leadership": {
+        "weight": 0.206,
+        "count": 18,
+        "tier": "common"
+      },
+      "strategic_planning": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "talent_acquisition": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "project_management": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "account_management": {
+        "weight": 0.171,
+        "count": 6,
+        "tier": "bonus"
+      },
+      "statistical_analysis": {
+        "weight": 0.171,
+        "count": 6,
+        "tier": "bonus"
+      },
+      "customer_service": {
+        "weight": 0.16,
+        "count": 14,
+        "tier": "bonus"
+      },
+      "budgeting": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "time_management": {
+        "weight": 0.114,
+        "count": 10,
+        "tier": "bonus"
+      },
+      "adobe_photoshop": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "data_analytics": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "accounts_receivable": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "problem_solving": {
+        "weight": 0.103,
+        "count": 9,
+        "tier": "bonus"
+      },
+      "vendor_management": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "regulatory_compliance": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "process_improvement": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "business_intelligence": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "quickbooks": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "html5": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "lead_generation": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "collaboration": {
+        "weight": 0.08,
+        "count": 7,
+        "tier": "bonus"
+      }
+    },
+    "text": "Role: Healthcare Specialist. Clinical Healthcare Specialist.          HEALTHCARE           Executive Profile    Cynthia was also an instructor for the Cap Gemini Ernst & Young Global Regulatory Compliance Boot Camp where members of the CGE&Y Regulatory Compliance Team are immersed in global regulatory compliance, Good Manufacturing Practices, Good Clinical Practices, Good Laboratory Practices, CGE&Y validation tools and methodology.  Working with the international workforce of CGE&Y, Cynthia was required to be flexible, sensitive and creative in her methods of teaching   \nCynthia's nursing career focus was in Pain Management, Emergency Nursing, Legal Nu          HEALTHCARE ADMINISTRATOR       Professional Summary    Talented and professional Healthcare\nAdministrator offering exceptional and outcomes-based services, combined with\nknowledge and experience of a variety of clinical best practices. \u00a0A leader with\nstrong organizational and communication skills, with the ability to\nconcurrently direct multiple healthcare administrative affairs. \u00a0A valuable\nasset with a proven record of facilitating support services and managing\nfast-paced business operations.      Skill Highlights          \n Healthcare\n     Informatics\n     Leadership\n     Communica          HEALTHCARE RECRUITER         Highlights        Microsoft Office Suite (Word, Excel PowerPoint, Outlook, Access); Google Documents; WinTeam.              Experience      Healthcare Recruiter  ,   08/2015   \uff0d   03/2016    Company Name   \uff0d   City  ,   State      Created announcements for open job positions; posted announcements online on company website and major job posting websites such as CareerBuilder, Monster, and Indeed to attract interested candidates.  Addressed questions from public, employees, and outside agencies regarding current employment opportunities and application statu       G        HEALTHCARE RECRUITER           Skills    ads, autism, benefits, billing, Coach, Coaching, client, clients, data processing, delivery, drivers, Filing, Financial statements, hiring, inventory, managing, meetings, access, office, network, networking, payroll, Personal Coaching, presentations, Pricing, Psychology, recruiting, researching, Research, sales, seminars, staffing, Phone, Workshops      Experience      Healthcare Recruiter   City  ,   State    Company Name  /   Jul 2016   to   Mar 2017       Managed full cycle recruiting process to meet staffing goals.  Developed strong r          HEALTHCARE CONSULTANT       Executive Profile    Proven leader with solid performance seeking new challenges to bring a\ncomprehensive set of skills to your company. Former military leader, certified\ninstructor, designated a Subject Matter Expert in 2 fields of medicine, experienced\npublic speaker.      Skill Highlights          Skills Used  Microsoft Office, Smarttech SMART Board, Public Speaking, Public Relations, Marketing, Sales  Instructor/Writer - Combat Medic Advanced Individual Training  1st Detachment, 108th Trai"
+  },
+  "Management Consultant": {
+    "n_postings": 35,
+    "skills": {
+      "process_improvement": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "risk_management": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "strategic_planning": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "change_management": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "business_analysis": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "stakeholder_management": {
+        "weight": 0.55,
+        "count": 19,
+        "tier": "core"
+      },
+      "project_management": {
+        "weight": 0.429,
+        "count": 15,
+        "tier": "core"
+      },
+      "sql": {
+        "weight": 0.343,
+        "count": 12,
+        "tier": "common"
+      },
+      "accounting": {
+        "weight": 0.314,
+        "count": 11,
+        "tier": "common"
+      },
+      "mentoring": {
+        "weight": 0.286,
+        "count": 25,
+        "tier": "common"
+      },
+      "powerpoint": {
+        "weight": 0.257,
+        "count": 9,
+        "tier": "common"
+      },
+      "html5": {
+        "weight": 0.229,
+        "count": 8,
+        "tier": "common"
+      },
+      "communication": {
+        "weight": 0.206,
+        "count": 18,
+        "tier": "common"
+      },
+      "excel": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "linux": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "microsoft_sql_server": {
+        "weight": 0.171,
+        "count": 6,
+        "tier": "bonus"
+      },
+      "team_leadership": {
+        "weight": 0.16,
+        "count": 14,
+        "tier": "bonus"
+      },
+      "general_ledger": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "javascript": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "data_analytics": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "visual_basic": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "vendor_management": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "payroll": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "java": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "agile_methodology": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "financial_analysis": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "competitive_analysis": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "network_security": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "account_management": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "accounts_receivable": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "talent_acquisition": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "business_intelligence": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "budgeting": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "c#": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "wealth_management": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "assembly": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "mysql": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "c++": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "customer_relationship_management": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "customer_service": {
+        "weight": 0.08,
+        "count": 7,
+        "tier": "bonus"
+      },
+      "problem_solving": {
+        "weight": 0.08,
+        "count": 7,
+        "tier": "bonus"
+      }
+    },
+    "text": "Role: Management Consultant. Management Consultant / Strategy Analyst.          CONSULTANT       Summary      Human Resource Professional \u00a0highly effective at incorporating creative leadership skills to achieve business objectives. Directs projects that improve efficiency while meeting deadlines and budget requirements. Human Resource Professional\u00a0  highly effective at incorporating creative leadership skills to achieve business objectives. Directs projects that improve efficiency while meeting deadlines and budget requirements.        Highlights            Budgeting and forecasting     Employee relations  Compensation administration    Affirmative Action complia          IT CONSULTANT           Summary      Over Seven years of Software Application Development, Application Support, Testing and Implementation experience with Web based and N-tier Architectures involving all stages of Software Development Life Cycle (SDLC).   Experience in developing Web applications in . SDLC) including requirements, logical and physical architecture modeling, design, development, implementation, and support.   Ability to work in a fast paced, collaborative environment and handle multiple concurrent projects.   Collaborate with partners to understand high-level conceptua            CONSULTANT         Professional Summary    Accomplished seller with marketing and entrepreneurial chops. Proven record of exceeding service standards\nand outpacing performance goals. Solid technical background with a focus on B2B SAAS and programmatic\nadvertising. Motivated, team-oriented and enthusiastic about helping companies grow.      Skills          B2B sales  Network development  Lead prospecting  Interpersonal communication skills  Brand marketing  Business development  Product development  Content creation  Accounting, VC  Advertising, Website  Agency  B2B  Billing  Book  B          CONSULTANT       Professional Summary     High-achieving management professional and effective consultant possessing excellent communication, organizational and analytical capabilities with about 4 years of experience in devising innovative strategies and solutions to resolve complex business challenges. Adept at managing projects, vendors, analyzing organizational operations, and performing customer journey, competitor and gap analysis.      High-achieving management professional and effective consultant with excellent communication, organizational and analytical capabilities and abo          CONSULTANT         Summary     \nPC Technician, Security Analyst, and Security Services - Identity Management\n \n\n\n  Solutions-oriented\n with notable success in a broad range of corporate IT initiatives, \nwhile participating in planning and the implementation of policy\n and procedures, set standards for reference and training.\u00a0  \n\n\n  Create\n and maintain procedures for end users and support staff to increase \nproductivity and support for the end user.\u00a0   A track record of increasing\n responsibility\n in network se"
+  },
+  "Mechanical/Civil Engineer": {
+    "n_postings": 35,
+    "skills": {
+      "safety_compliance": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "project_management": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "autocad": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "solidworks": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "quality_control": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "matlab": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "assembly": {
+        "weight": 0.371,
+        "count": 13,
+        "tier": "core"
+      },
+      "process_improvement": {
+        "weight": 0.371,
+        "count": 13,
+        "tier": "core"
+      },
+      "mentoring": {
+        "weight": 0.309,
+        "count": 27,
+        "tier": "common"
+      },
+      "c++": {
+        "weight": 0.286,
+        "count": 10,
+        "tier": "common"
+      },
+      "linux": {
+        "weight": 0.171,
+        "count": 6,
+        "tier": "bonus"
+      },
+      "problem_solving": {
+        "weight": 0.16,
+        "count": 14,
+        "tier": "bonus"
+      },
+      "communication": {
+        "weight": 0.149,
+        "count": 13,
+        "tier": "bonus"
+      },
+      "java": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "team_leadership": {
+        "weight": 0.126,
+        "count": 11,
+        "tier": "bonus"
+      },
+      "powerpoint": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "supervised_learning": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "c": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "excel": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "visual_basic": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "python": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "html5": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "kanban": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "vendor_management": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "statistical_analysis": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "ray": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "verilog": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      }
+    },
+    "text": "Role: Mechanical/Civil Engineer. Mechanical & Civil Engineer.          ENGINEERING TECHNICIAN           Highlights        PC Operating Systems, Microsoft Office, Outlook, Internet              Experience      Company Name    City  ,   State    Engineering Technician   01/2014   to   Current       Analyze documentation to ensure production accuracy.  Use MS Excel and PowerPoint to create presentations and spreadsheets.  Engage engineering to resolve production issues.  Create and maintain production training certifications.  Generate training matrix to determine and eliminate training gaps.  Conduct weekly safety audits to reduce accidents and ensure safe          ENGINEERING ASSISTANT       Summary     Knowledgeable Engineering Superintendent well-versed in supporting projects and managing related documentation. First-rate multitasker, problem-solver and organizer with methodical and thorough approach. Proficient in power Points and Word Documents.       Skills          Administrative support  AP  Critical thinking  Doors  Engineer  Senior Management  Forms  Functional  Leadership  Machinery  Navy  Oil  Organizational  Pearl  Personnel  Personnel management  Pick  Problem solving      Progress  Project management  Proposals  Quality assurance           ENGINEERING MANAGER       Profile     Dedicated Engineering Manager with excellent technical, analytical and communication skills demonstrated by over 25 years of experience.       Skills          Windows XP Professional (Word Excel and Outlook) and Internet.       Project management  Process improvement            Accomplishments      Testing, Evaluation and Analysis: \u00a0   Tested equipment to ensure compliance.  Analyzed data and provided recommendations which resulted in adoption of new cost-saving equipment.    Project Management \u00a0   Supervised project production efforts to ensure p          ENGINEERING INTERN         Professional Summary     A Computer Science junior at Lynchburg College with the understanding and problem solving to work my way through any situation.  Using the life skills I learned while I attained my Eagle Scout rank, the highest in boy scouts and only given to a very small percentage of scouts.           Experience      Company Name     June 2015   to   August 2015     Engineering Intern           Designed and worked with building information modeling (BIM) in AutoCAD MEP throughout the entire work-cycle under extreme time crunches.  Creating function          ENGINEERING TECHNICIAN         Summary     To obtain a position in the field of civil engineering technician where I can apply and impart the knowledge I have gained through experience and college, as well as to acquire new insight through experience and application.         Accomplishments      Home Improvement Projects.  Outdoor Sports such as golfing, hunting, and fishing.        Experience      Company Name     August 2007   to   Current     Engineering Technician   City  ,   State      Design/Drafting - Design of v"
+  },
+  "Teacher & Educator": {
+    "n_postings": 35,
+    "skills": {
+      "curriculum_development": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "communication": {
+        "weight": 0.6,
+        "count": 27,
+        "tier": "core"
+      },
+      "lesson_planning": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "classroom_management": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "student_assessment": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "mentoring": {
+        "weight": 0.32,
+        "count": 28,
+        "tier": "common"
+      },
+      "team_leadership": {
+        "weight": 0.171,
+        "count": 15,
+        "tier": "bonus"
+      },
+      "powerpoint": {
+        "weight": 0.171,
+        "count": 6,
+        "tier": "bonus"
+      },
+      "problem_solving": {
+        "weight": 0.149,
+        "count": 13,
+        "tier": "bonus"
+      },
+      "visual_arts": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "organizational_skills": {
+        "weight": 0.126,
+        "count": 11,
+        "tier": "bonus"
+      },
+      "adobe_photoshop": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "customer_service": {
+        "weight": 0.091,
+        "count": 8,
+        "tier": "bonus"
+      },
+      "data_analytics": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "talent_acquisition": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "accounts_receivable": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "collaboration": {
+        "weight": 0.08,
+        "count": 7,
+        "tier": "bonus"
+      },
+      "conflict_resolution": {
+        "weight": 0.08,
+        "count": 7,
+        "tier": "bonus"
+      },
+      "time_management": {
+        "weight": 0.08,
+        "count": 7,
+        "tier": "bonus"
+      }
+    },
+    "text": "Role: Teacher & Educator. Academic Educator / Teacher.          TEACHER         Professional Summary     Master teacher looking for new role and Industry. I'm looking to leverage the valuable skills, knowledge, and experiences as a teacher to advance a new client or organization in an executive or leadership position.       Skills          Instructional Design, Teaching, Progress Monitoring, Course Development  Evernote, Slack, Social Media, Excel, Outlook, Adobe Photoshop  Management: Staff, Projects, Daily Scheduling      Financial Analysis, Security Trading, Portfolio Managament, Liability Structuring  Research, Analysis, and Planning                    TEACHER       Summary    I taught 5th, 2nd, and 3rd grade for the last fifteen years.\u00a0 I typically worked with general education students, collaboratively teaching with special educations teachers as well.\u00a0\u00a0 Enthusiastic  teacher  effective at providing high quality instruction and fostering a positive learning environment for all students.   Superb leadership, organization, and communication skills. Easily cultivates trusting and productive relationships with students, parents, teachers and administration.   Mature and professional\u00a0who adapts to new situations and technologies with e          TEACHER               Skills    charts, Excellent communication, conferences, Conflict resolution, Critical thinking, focus, instruction, instructional design, Lesson planning, Managing, meetings, office, problem solving, processes, progress, Teacher, Teaching, time management, written      Experience      Teacher    August 2004   to   March 2014     Company Name   \uff0d   City  ,   State      Teacher who develops curriculum with a child's biological, cognitive and socio-emotional\nprocesses in mind.  Committed to the healthy maturation of every child involved.          Teacher    August 2          TEACHER       Summary    Obtain a position working in customer service where I can utilize my friendly and outgoing attitude. I'm very\u00a0a nalytical\u00a0and adept at resolving complex network issues. Critical thinker who addresses customer support issues quickly and who consistently exceeds performance standards.        Skills           Excellent analytical skills     Strong verbal communication      Computer proficient    Microsoft PowerPoint,  Microsoft Word,   Issue resolution     Attention to detail        Excellent written and verbal communication skillsExperience in a high volume, hig          TEACHER           Skills     E ducator: People skills , enthusiasti c, problem-solve r, great organizational skills , encouraging, technology savvy, eager to learn, communicates great with colleagues and parents, sets high and clear expectations for students, eager to teach, loves to teach students how to \"love to learn\", always looking for ways to grow as a person and educator              Education      University of Redlands     2008       Elementary Credentials  :   Education    City  ,   State  ,   United States          "
+  },
+  "Legal Associate": {
+    "n_postings": 35,
+    "skills": {
+      "negotiation": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "legal_research": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "contract_drafting": {
+        "weight": 0.55,
+        "count": 19,
+        "tier": "core"
+      },
+      "litigation": {
+        "weight": 0.55,
+        "count": 19,
+        "tier": "core"
+      },
+      "regulatory_compliance": {
+        "weight": 0.55,
+        "count": 19,
+        "tier": "core"
+      },
+      "due_diligence": {
+        "weight": 0.55,
+        "count": 19,
+        "tier": "core"
+      },
+      "mentoring": {
+        "weight": 0.286,
+        "count": 25,
+        "tier": "common"
+      },
+      "communication": {
+        "weight": 0.286,
+        "count": 25,
+        "tier": "common"
+      },
+      "powerpoint": {
+        "weight": 0.257,
+        "count": 9,
+        "tier": "common"
+      },
+      "customer_service": {
+        "weight": 0.251,
+        "count": 22,
+        "tier": "common"
+      },
+      "patient_care": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "statistical_analysis": {
+        "weight": 0.171,
+        "count": 6,
+        "tier": "bonus"
+      },
+      "team_leadership": {
+        "weight": 0.16,
+        "count": 14,
+        "tier": "bonus"
+      },
+      "organizational_skills": {
+        "weight": 0.149,
+        "count": 13,
+        "tier": "bonus"
+      },
+      "payroll": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "accounting": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "medical_terminology": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "problem_solving": {
+        "weight": 0.137,
+        "count": 12,
+        "tier": "bonus"
+      },
+      "injury_prevention": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "risk_management": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "critical_thinking": {
+        "weight": 0.091,
+        "count": 8,
+        "tier": "bonus"
+      },
+      "conflict_resolution": {
+        "weight": 0.091,
+        "count": 8,
+        "tier": "bonus"
+      },
+      "time_management": {
+        "weight": 0.091,
+        "count": 8,
+        "tier": "bonus"
+      },
+      "process_improvement": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "accounts_payable": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "project_management": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "vital_signs": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "hipaa_compliance": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "auditing": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "talent_acquisition": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "data_analytics": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      }
+    },
+    "text": "Role: Legal Associate. Legal Associate / Advocate Corporate Counsel.          ADVOCATE         Professional Summary     Conscientious attorney with experience in government relations, educational law and advocacy for families with special needs children, two years practice in health law and public policy for military families, two years federal government experience in human rights and foreign affairs with the U.S. Department of State       Core Qualifications         KEY QUALIFICATIONS     Member of Maryland Bar   Statutory Public Policy  Foreign Affairs  Human Rights Law Diplomacy      Government Relations  Special Education Law   Health Law  Statutory Proced          ADVOCATE       Summary    In-depth knowledge of taking orders, compute charges, and administer billing or payments.\n* Hands-on experience in reviewing, updating or making changes to customer accounts.\n* Track record of listening and responding to customers' needs and concerns.\n* Able to handle returns and complaints effectively.\n* Demonstrated ability to record details of client contacts and service history.\n* Proven ability to determine answers and solutions quickly.\n* Special talent for handling irate and angry customers.\n* Proven written and oral communication skills\n* Proficient i          ADVOCATE       Summary    Seeking a part time or prn generalist position in Human Resource. Conflict Resolution Team Building Mentoring and Coaching New-Hire Orientation Disc Personality Assessments Training and Development Leadership Development Performance Appraisals Technical Skills           Experience      Advocate   01/2012   to   Current     Company Name   City  ,   State       NF/SG Healthcare for Homeless Veterans Program Coach, mentor, and develop 100 clients, with resume assistance, career counseling, complaints, and problems.  Develop, manage and evaluate training and orga            DONOR ADVOCATE         Professional Summary     Organized professional with a passion to help others. Backed by four years of classroom teaching experience, one year leading an international children's choir and over two years in Donor Relations, I enjoy working with others in an effort to help them feel valued and successful. I am a creative thinker, eager to learn and discover new ways to implement strategies in order to successfully reach others.       Skills          Detail-oriented  Effective time management  Strong written and oral communication skills  Strategic thinker                HEALTH ADVOCATE         Professional Summary     I am an empowered health advocate with excellent communication and active listening skills with a strong motivation to succeed. I am seen as reliable and approachable employee who quickly learns and masters new concepts and skills. I am motivated and enthusiastic about helping patients and the community navigate rights and responsibilities during treatment. Personable demeanor with priority on care and service. Seen as a friendly team player with talent for operati"
+  },
+  "Agricultural Specialist": {
+    "n_postings": 35,
+    "skills": {
+      "project_management": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "sustainable_agriculture": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "safety_compliance": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "agronomy": {
+        "weight": 0.55,
+        "count": 19,
+        "tier": "core"
+      },
+      "farm_management": {
+        "weight": 0.55,
+        "count": 19,
+        "tier": "core"
+      },
+      "mentoring": {
+        "weight": 0.32,
+        "count": 28,
+        "tier": "common"
+      },
+      "communication": {
+        "weight": 0.251,
+        "count": 22,
+        "tier": "common"
+      },
+      "accounting": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "team_leadership": {
+        "weight": 0.194,
+        "count": 17,
+        "tier": "common"
+      },
+      "powerpoint": {
+        "weight": 0.171,
+        "count": 6,
+        "tier": "bonus"
+      },
+      "data_analytics": {
+        "weight": 0.171,
+        "count": 6,
+        "tier": "bonus"
+      },
+      "lesson_planning": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "talent_acquisition": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "organizational_skills": {
+        "weight": 0.114,
+        "count": 10,
+        "tier": "bonus"
+      },
+      "statistical_analysis": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "strategic_planning": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "budgeting": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "financial_reporting": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "risk_management": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "sql": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "accounts_receivable": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "business_intelligence": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "collaboration": {
+        "weight": 0.08,
+        "count": 7,
+        "tier": "bonus"
+      }
+    },
+    "text": "Role: Agricultural Specialist. Agricultural Specialist / Agronomist.          AGRICULTURE ADVISOR AND LANGUAGE OFFICER       Professional Summary    I successfully completed the 4-years course in Agriculture from Nangarhar Agriculture Faculty in 2002 and have studied English and computer software program for 15 months, at Oxford English and Computer Center Jalalabad City. I worked as Agriculture Advisor - Language officer with provincial Reconstruction Team U.S.A for Afghanistan/ Agriculture development team U.S.A For Afghanistan (PRT/ADT) office and as part of work mandate have gained: Familiarity and good relationship with local authorities, Members, of provi          UT-TSU AGRICULTURE / 4-H EXTENSION AGENT TRAINEE         Summary      Strong 4-H / agriculture education and extension background in areas of youth development and adult agriculture advocacy  Expertise in outreach programs towards youth and adults  Energetic, prospective extension agent who is a self-starter and team oriented with excellent analytical, organizational, and project management skills.  Successful at building strong professional relationships as a skilled mentor and educator, who excels at bringing out the best in 4-H members, parents, and volunteers  Knowledgeable about           FELLOW: CREATING LIVELIHOODS VIA AGRICULTURE PROJECT, VOLUNTEERING FOR INTERNATIONAL PROFESSIONALS       Summary     More than nine years of professional experience in a multidisciplinary/international environment, working on programs and projects with emphasis in strategic communications, environmental issues, and community building.       Highlights         MS Word, Power Point, Excel, Concur-Travel, PeopleSoft-Human Resources, Bud-E-Budgeting, Macromedia Dream Weaver, Adobe Illustrator, Word Perfect, Quattro Pro, Google Applications, Social Media             Accomplishments     *Ex          PROGRAM SUPPORT ASSISTANT           Experience     June 2012   to   January 2015     Company Name   City  ,   State     Program Support Assistant      Accounting Tech- responsible for claims matching, adjustments, refunds and complete account audits of veteran's accounts. Produced voucher refunds, processed returned First Party checks. Prepared public vouchers for processing, refund reviews, pre-payments, claims- matching reports, and audit requests from Veterans or other VA entities. Provided assistance with Debt Management, Internal Revenue and Treasury Offset Programs. Collected, a          E-COMMERCE SUPERVISOR         Summary    I am seeking a challenging position in management, where I can apply my experience to a company's objective and profits.  I have a discipline approach to the task at hand and the ability to anticipate potential obstacles, which is contributed to a strong record of excellence for getting the job done safely. I am an optimistic & quick learner,  I am safety conscious and have excellent organizational and multitasking aptitude. I currently plan and lead individuals in order t"
+  },
+  "Apparel Specialist": {
+    "n_postings": 35,
+    "skills": {
+      "visual_design": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "garment_construction": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "negotiation": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "apparel_merchandising": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "trend_forecasting": {
+        "weight": 0.55,
+        "count": 19,
+        "tier": "core"
+      },
+      "mentoring": {
+        "weight": 0.24,
+        "count": 21,
+        "tier": "common"
+      },
+      "communication": {
+        "weight": 0.217,
+        "count": 19,
+        "tier": "common"
+      },
+      "customer_service": {
+        "weight": 0.206,
+        "count": 18,
+        "tier": "common"
+      },
+      "powerpoint": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "quality_control": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "talent_acquisition": {
+        "weight": 0.171,
+        "count": 6,
+        "tier": "bonus"
+      },
+      "payroll": {
+        "weight": 0.171,
+        "count": 6,
+        "tier": "bonus"
+      },
+      "team_leadership": {
+        "weight": 0.126,
+        "count": 11,
+        "tier": "bonus"
+      },
+      "time_management": {
+        "weight": 0.114,
+        "count": 10,
+        "tier": "bonus"
+      },
+      "accounts_payable": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "statistical_analysis": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "process_improvement": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "budgeting": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "problem_solving": {
+        "weight": 0.103,
+        "count": 9,
+        "tier": "bonus"
+      },
+      "excel": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "assembly": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "adobe_illustrator": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "adobe_photoshop": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "visual_arts": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "vendor_management": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "accounts_receivable": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      }
+    },
+    "text": "Role: Apparel Specialist. Fashion Merchandiser / Apparel Specialist.          APPAREL ASSOCIATE       Summary    An organized, detail-oriented, and conscientious self starter, able to learn and adapt quickly to new skills, also able to strategized and prioritize effectively to accomplish multiple tasks and stay calm under pressure,      Skills          Adaptability  Strong work ethic  Time management  Self-confidence  Handling pressure  Creativity  Communication  Team work  Motivation      Cash register  Typing  Basic computer skills  Customer Assistance            Skills    Cashier, Customer Assistance, Sales, Stock      Experience      Apparel Associate     A          APPAREL SALES ASSOCIATE/CASHIER       Summary    Administrative professional offering excellent communication and computer skills. Meets deadlines and works with a high level of multicultural awareness and adaptability. Enthusiastic and well-organized Administrative Assistant with solid background in data entry, schedule management and event planning. Disciplined warehouse professional knowledgeable about material load capabilities, site analysis and general logistics. Friendly and reliable customer service professional skilled in achieving sales targets in high-end merchandise enviro          APPAREL DEVELOPER SPECIALIZED       Professional Summary    Innovate apparel development and create new ideas that improve performance, quality and lead apparel\ndevelopment industry standards. Collaborate with business counterparts to drive operation\nprocess improvements to maximize development efficiencies and optimize growth potential\nand profitability.      Skills           Organized     Detailed     Problem Solver     Creative    Proficient in Adobe CS5  Flex PLM  Excel       Collaborative     Innovative     Driven     Efficient     Powerpoint   MS Office            Work History            APPAREL PRODUCTION MANAGER       Executive Profile    Creative Apparel Production Manager adept at product development design change and cost tracking to adhere to\nbudgetary guidelines. Proficient in the use of design software to further expedite project completions. Specialize in\napplying creative approaches to design while managing daily production staff activities.          Professional Experience     August 2013   to   Current     Company Name   City  ,   State     Apparel Production Manager        Set production schedules and established production specifications.  Checked finish          APPAREL ZONE SUPERVISOR           Summary    Expert retail sales professional offering 4+ years experience in multiple retail settings. Focused on exceeding sales\ngoals. Punctual retail sales professional focused on exceeding expectations and building customer loyalty. Flexible\nschedule and strong communication skills.      Highlights          Cash handling accuracy  Inventory control procedures  Excellent multi-tasker  Strong communication skills      Employee scheduling  Loss prevention  Organized  Detail-orien"
+  },
+  "Creative Visual Artist": {
+    "n_postings": 35,
+    "skills": {
+      "visual_arts": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "adobe_photoshop": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "visual_design": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "adobe_illustrator": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "art_direction": {
+        "weight": 0.55,
+        "count": 19,
+        "tier": "core"
+      },
+      "lesson_planning": {
+        "weight": 0.486,
+        "count": 17,
+        "tier": "core"
+      },
+      "mentoring": {
+        "weight": 0.286,
+        "count": 25,
+        "tier": "common"
+      },
+      "communication": {
+        "weight": 0.183,
+        "count": 16,
+        "tier": "common"
+      },
+      "team_leadership": {
+        "weight": 0.183,
+        "count": 16,
+        "tier": "common"
+      },
+      "curriculum_development": {
+        "weight": 0.171,
+        "count": 6,
+        "tier": "bonus"
+      },
+      "powerpoint": {
+        "weight": 0.171,
+        "count": 6,
+        "tier": "bonus"
+      },
+      "customer_service": {
+        "weight": 0.126,
+        "count": 11,
+        "tier": "bonus"
+      },
+      "project_management": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "organizational_skills": {
+        "weight": 0.103,
+        "count": 9,
+        "tier": "bonus"
+      },
+      "classroom_management": {
+        "weight": 0.091,
+        "count": 8,
+        "tier": "bonus"
+      },
+      "data_analytics": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "adobe_indesign": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "performance_management": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "talent_acquisition": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "auditing": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "risk_management": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "problem_solving": {
+        "weight": 0.08,
+        "count": 7,
+        "tier": "bonus"
+      }
+    },
+    "text": "Role: Creative Visual Artist. Visual Artist / Creative Director.          ARTS EDUCATOR       Summary     Creative and innovative  Art  teacher passionate about making the\u00a0 middle and high school experience a positive one for all students. Works to improve school climate so that all students can learn course materials, as well as the social skills they need to thrive in all aspects of their lives.\u00a0  Excellent communication, interpersonal and effective leadership skills create easy interaction with students, parents and other staff.      Accomplishments        Served as the advisor for the  [Student Club Name]  Club for  [number]  years in a row.          Sk          ARTS INSTRUCTOR       Summary    Motivated teaching professional with over 22 years' experience addressing student needs and ensuring proper student development through formative assessments and student-centered innovations in curriculum implementation of art across multiple content fields.      Highlights          Creative lesson planning  Adept classroom manager  Differentiating instruction specialist  Data-driven curriculum expertise      Learning disabilities expertise  Assessment techniques for documented growth  Kind and empathetic  Urban public schools background            Exp          ENGLISH LANGUAGE ARTS TEACHER       Summary     Experienced educator\u00a0who over the past\u00a013 years\u00a0employed a broad range of techniques and\nteaching strategies to retain student interest, differentiate instruction, and maximize individual\nlearning by gaining immediate feedback through data analysis with use of instructional management systems and best practices.\u00a0         Accomplishments      Rated as \"highly effective\" in the category of Collegiality and Professionalism in 2013-2014\n  Recognized by the Florida Department of Education as a High Impact Teacher in 2014-15 / 2015-16\n  Receiv          ARTS EDUCATION INTERN       Objective    To obtain an administrative internship with the Performing Arts Project for the 5-week intensive program.      Education        Bachelors of Music in Vocal Performance   2018     California State University, Northridge   \uff0d   City  ,   State  ,   USA     3.99  GPA       Coursework in Music Theory        Coursework in Vocal Techniques and Musical Theater          Experience      Arts Education Intern     Sep 2016   to   Current      Company Name   \uff0d   City  ,   State    Taught workshops about opera to local schools\u00a0  Researched and compiled study          DIRECTOR OF PROGRAMMING ARTS       Professional Profile     Tech-savvy Performing Arts Director well-versed in all aspects of event management from inception to completion. Excels in marketing and talent programming, as well as process rethinking and improvement.        Qualifications          Productivity improvement  Detail-oriented  Superb time management skills  Process improvement      Multi-unit operations management  Natural leader  Unsurpassed work ethic  Results-oriented            Relevant Experience    In "
+  },
+  "Automotive Specialist": {
+    "n_postings": 35,
+    "skills": {
+      "quality_control": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "automotive_repair": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "engine_maintenance": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "vehicle_diagnostics": {
+        "weight": 0.55,
+        "count": 19,
+        "tier": "core"
+      },
+      "safety_compliance": {
+        "weight": 0.55,
+        "count": 19,
+        "tier": "core"
+      },
+      "mentoring": {
+        "weight": 0.251,
+        "count": 22,
+        "tier": "common"
+      },
+      "customer_service": {
+        "weight": 0.251,
+        "count": 22,
+        "tier": "common"
+      },
+      "data_analytics": {
+        "weight": 0.229,
+        "count": 8,
+        "tier": "common"
+      },
+      "communication": {
+        "weight": 0.194,
+        "count": 17,
+        "tier": "common"
+      },
+      "accounting": {
+        "weight": 0.171,
+        "count": 6,
+        "tier": "bonus"
+      },
+      "project_management": {
+        "weight": 0.171,
+        "count": 6,
+        "tier": "bonus"
+      },
+      "excel": {
+        "weight": 0.171,
+        "count": 6,
+        "tier": "bonus"
+      },
+      "accounts_payable": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "powerpoint": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "process_improvement": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "account_management": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "team_leadership": {
+        "weight": 0.137,
+        "count": 12,
+        "tier": "bonus"
+      },
+      "organizational_skills": {
+        "weight": 0.126,
+        "count": 11,
+        "tier": "bonus"
+      },
+      "problem_solving": {
+        "weight": 0.126,
+        "count": 11,
+        "tier": "bonus"
+      },
+      "risk_management": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "accounts_receivable": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "sql": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "time_management": {
+        "weight": 0.114,
+        "count": 10,
+        "tier": "bonus"
+      },
+      "clinical_documentation": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "talent_acquisition": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "statistical_analysis": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "budgeting": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "microsoft_sql_server": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "assembly": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "payroll": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      }
+    },
+    "text": "Role: Automotive Specialist. Automotive Technician / Mechanical Specialist.          AUTOMOBILE TRANSPORTER       Professional Summary     Dedicated, responsible Class A driver  with a clean driver's license. Self-motivated and customer-focused.Exceptional leader talented at leadership, communication, and management skills. Excellent team player with over 20 years of experience in the military and trucking industry.Talented Mechanist Tech with more than 8 years of experience developing and executing maintenance programs. Excellent troubleshooting skills. Areas of expertise include mechanics, technology, and management.          Key Skills          Quality control  OSH          AUTOMOBILE SERVICE MANAGER       Summary    Attentive Automobile Service Manager with comprehensive knowledge of the automobile industry. Adept at providing an\noptimal level of customer support that includes speedy resolutions to customer service issues. Specialize in managing an\nable staff to meet customer expectations.          Experience     05/2013   to   Current     Automobile Service Manager    Company Name   \uff0d   City  ,   State      Ensured that warranty specifications were upheld when work was performed Managed vehicle repair requests and regular service appointments Maintaine          DATASTAGE ETL DEVELOPER       Summary     I have 6 years of ETL experience and extensive experience in business and system analysis across multiple platforms using the full software development life cycle. I have worked in the role of Data Warehouse Specialist,ETL Datastage developer and Production Support Analyst requiring subject matter expertise when dealing with mainframe sources with COBOL/ASCII File structure ,Distributed sources (RDBMS) and handling business intelligence data with DB2, Netezza, Oracle, SQL Server and Hadoop Hive Data Warehouses . \u00a0I have worked on developing an              POLICY SERVICE SPECIALIST III       Professional Summary    Seeking the position of Claims Representative I, where my skills, experience, and assistance can be utilized for the success of the Enterprise and MRM strategy. Summary of Qualifications\tProven effectiveness to negotiate and resolve complaints on an escalated level Knowledge of call center management applications, industry standards/requirements, workforce management software, service quality assurance programs, and industry best practices. Professional verbal and written communication skills Able to motivate a group of e          CLAIMS SERVICE MANGER       Professional Summary    Service-oriented  manager \u00a0who delivers high quality customer service by accurately assessing client needs and recommending the most useful policies and products. \u00a0Excellent investigation and attention to detail skills.\u00a0      Skills          Property insurance  Report development  Critical thinking  Project planning  Types  [Number]  WPM              Work History     05/2014   to   Current     Claims Service Manger      Company Name   \u2013   City  ,   State "
+  },
+  "Aviation Specialist": {
+    "n_postings": 35,
+    "skills": {
+      "communication": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "safety_compliance": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "aircraft_maintenance": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "flight_operations": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "aviation_safety": {
+        "weight": 0.55,
+        "count": 19,
+        "tier": "core"
+      },
+      "mentoring": {
+        "weight": 0.32,
+        "count": 28,
+        "tier": "common"
+      },
+      "process_improvement": {
+        "weight": 0.257,
+        "count": 9,
+        "tier": "common"
+      },
+      "team_leadership": {
+        "weight": 0.229,
+        "count": 20,
+        "tier": "common"
+      },
+      "powerpoint": {
+        "weight": 0.229,
+        "count": 8,
+        "tier": "common"
+      },
+      "quality_control": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "budgeting": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "accounting": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "problem_solving": {
+        "weight": 0.171,
+        "count": 15,
+        "tier": "bonus"
+      },
+      "project_management": {
+        "weight": 0.171,
+        "count": 6,
+        "tier": "bonus"
+      },
+      "vendor_management": {
+        "weight": 0.171,
+        "count": 6,
+        "tier": "bonus"
+      },
+      "word": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "customer_service": {
+        "weight": 0.137,
+        "count": 12,
+        "tier": "bonus"
+      },
+      "risk_management": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "employee_relations": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "matlab": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "assembly": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "html5": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "excel": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "supervised_learning": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "strategic_planning": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "payroll": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "organizational_skills": {
+        "weight": 0.08,
+        "count": 7,
+        "tier": "bonus"
+      }
+    },
+    "text": "Role: Aviation Specialist. Aviation Operations / Flight Specialist.          AVIATION ENGINEER         Profile     Innovative Electrical Engineer specialized in operations management.Team-oriented Electrical Engineer with over four years experience designing, developing and testing electronic products.Skilled Electrical Engineer with over 2 years experience refining workflow processes and improving organizational efficiency.Experienced CAD Drafter with solid knowledge of the practical application of engineering science and technology. Proven ability to manage multiple projects and meet critical deadlines.Dedicated [job title] with excellent technical, analytic          AVIATION MECHANIC           Skills          Licensed FAA rated Airframe and Powerplant (A&P) Technician  Yellow Belt Lean 6 Sigma Certified  Five years of experience in key aircraft systems and quality assurance processes  Trusted, highly reliable aviation professional responsible for maintaining state of the art aircraft  Performs scheduled and unscheduled maintenance, trouble shooting, major and minor repairs, post flight inspections, and record keeping  Management of large maintenance crews  Navigation of FAA regulated publications  Troubleshooting  Proficiency with mechanical and           AVIATION MAINTAINER       Professional Summary       6 years' experience as a Fast Food Cook/Assistant Manager.\u00a0    2 years' experience as a Customer Service Representative in a Call Center.\u00a0    1 year and 3 months experience as a Security Guard.    \u00a0Multi-tasking Manager well-known for creating positive environments where employees can thrive and succeed. Detailed and well-aware of direct competitors and their strategies. Pursuing a new management role where hard work and dedication will be highly valued.    \u00a0\u00a0Results-oriented Store Manager focused on increasing profits, reducing cos          AVIATION MECHANIC         Highlights          Technical Proficiencies  MS Office (Excel, Outlook, PowerPoint, Word)              Accomplishments    Quality-focused manager with of experience driving maintenance programs, projects, and operations to keep fleets of fixed and rotor-wing aircraft at top performance. Recognized for technical, administrative, leadership, and communication skills; highly adept at motivating and directing teams to meet production schedules and goals in fast-tempo environments with shifting priorities and requirements. Current SECRET security clearance      Ex       P        AVIATION SUPPLY SPECIALIST         Summary     Ambitious student pursuing Computer Science degree eager to contribute developed knowledge in Delivery/supervisory role. Skilled in technical and teamwork. Adaptable and driven with strong work ethic and ability to thrive in team-based or individually motivated settings.       Skills          Report creation  Freight operations  Adaptive team player  Dependable and reliable  Materials transport  Skilled forklift operator  Cargo handling  Defensive driver trainin"
+  },
+  "Commercial Banker": {
+    "n_postings": 35,
+    "skills": {
+      "accounting": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "financial_analysis": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "aml_compliance": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "risk_management": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "retail_banking": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "credit_analysis": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "powerpoint": {
+        "weight": 0.286,
+        "count": 10,
+        "tier": "common"
+      },
+      "mentoring": {
+        "weight": 0.286,
+        "count": 25,
+        "tier": "common"
+      },
+      "project_management": {
+        "weight": 0.286,
+        "count": 10,
+        "tier": "common"
+      },
+      "team_leadership": {
+        "weight": 0.229,
+        "count": 20,
+        "tier": "common"
+      },
+      "financial_reporting": {
+        "weight": 0.229,
+        "count": 8,
+        "tier": "common"
+      },
+      "talent_acquisition": {
+        "weight": 0.229,
+        "count": 8,
+        "tier": "common"
+      },
+      "customer_service": {
+        "weight": 0.217,
+        "count": 19,
+        "tier": "common"
+      },
+      "customer_satisfaction": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "communication": {
+        "weight": 0.194,
+        "count": 17,
+        "tier": "common"
+      },
+      "process_improvement": {
+        "weight": 0.171,
+        "count": 6,
+        "tier": "bonus"
+      },
+      "quality_control": {
+        "weight": 0.171,
+        "count": 6,
+        "tier": "bonus"
+      },
+      "performance_management": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "strategic_planning": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "problem_solving": {
+        "weight": 0.114,
+        "count": 10,
+        "tier": "bonus"
+      },
+      "payroll": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "excel": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "data_analytics": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "organizational_skills": {
+        "weight": 0.091,
+        "count": 8,
+        "tier": "bonus"
+      },
+      "statistical_analysis": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "accounts_receivable": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "auditing": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "lead_generation": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "account_management": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "employee_relations": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "change_management": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      }
+    },
+    "text": "Role: Commercial Banker. Commercial & Retail Banker.          BANKING         Summary     Hands-on, client-oriented banking professional who implements creative investment strategies and is dedicated to continuous improvement.   Entry level banking focused on applying excellent research skills and writing ability to a position in business management.Enthusiastic business major with excellent communication skills and strong motivation to succeed.       Highlights          Cash handling  Financial analysis  MS Excel expert  Analytical  Financial reporting  Loan operations  Managing multiple priorities  Identifying risks      Spanish speaking  MS O          BANKING           Summary    High-energy Manager successful in building and motivating dynamic teams. Cultivates a company culture in which staff members feel comfortable voicing questions and concerns, as well as contributing new ideas that drive company growth. Supervision and training\tClient relations specialist Computer-savvy\tMulti tasking savvy Sound judgment\tTeam management Calm under pressure\tMeticulous attention to detail           Experience      Banking     August 2013   to   Current     Company Name                Store Manager    August 2012   to   November 2012     Compan          BANKING OFFICER         Professional Summary    l An adaptable and responsible IT Savvy seeking an mid-level position in the Finance, Technology or Fintech market.\nl BA in Economics with a master's degree in Management and my current job as a Banking Officer has provided me with a\n well-rounded background and enabled me to develop an analytical/logical approach to tasks, software skills, and the ability\n to work under pressure.\nl Talented Director of Finance with one-year background in sponsorship, fundraising and private event planning. Skilled in\n devising marketing plans to promote          ASSOCIATE, INVESTMENT BANKING OPERATIONS         Highlights          Proficient\nin Microsoft Office (Excel, PowerPoint, Word, Access), Minitab, Maple, Lingo,\nand HTML Applications  Experience\nin SAP programs as well as Six Sigma      Detail-oriented  Analytical\u200b  Troubleshooting and problem solving  Superior\ncommunication, group dynamic, time management, organizational and leadership\nskills            Experience      Associate, Investment Banking Operations   07/2013       Company Name     City  ,   State             Intern, Syndicated Loan Operations   06/2012   \uff0d   12/2012     Compa          CORPORATE BANKING ASSISTANT, INTERN           Objective     Dynamic and self-motivated Financial Data Analyst with diverse expertise\u00a0in programming, mathematics and finance.\u00a0Has extensive experience of assisting in the development and upgrading of database systems and analytical techniques.\u00a0A quick learner who can absorb new ideas and can communicate clearly and effectively.       Skills      Programming Language: C/C++, Python, MATLAB, SQL, R, LUA, VBA  Machine Learning: Supervised Learning, Unsupervised Learning, Deep Neural N"
+  },
+  "BPO Operations Specialist": {
+    "n_postings": 22,
+    "skills": {
+      "customer_service": {
+        "weight": 0.6,
+        "count": 13,
+        "tier": "core"
+      },
+      "communication": {
+        "weight": 0.6,
+        "count": 13,
+        "tier": "core"
+      },
+      "ticket_management": {
+        "weight": 0.6,
+        "count": 13,
+        "tier": "core"
+      },
+      "customer_satisfaction": {
+        "weight": 0.6,
+        "count": 13,
+        "tier": "core"
+      },
+      "call_center_operations": {
+        "weight": 0.6,
+        "count": 13,
+        "tier": "core"
+      },
+      "mentoring": {
+        "weight": 0.327,
+        "count": 18,
+        "tier": "common"
+      },
+      "talent_acquisition": {
+        "weight": 0.318,
+        "count": 7,
+        "tier": "common"
+      },
+      "vendor_management": {
+        "weight": 0.273,
+        "count": 6,
+        "tier": "common"
+      },
+      "powerpoint": {
+        "weight": 0.227,
+        "count": 5,
+        "tier": "common"
+      },
+      "process_improvement": {
+        "weight": 0.227,
+        "count": 5,
+        "tier": "common"
+      },
+      "team_leadership": {
+        "weight": 0.218,
+        "count": 12,
+        "tier": "common"
+      },
+      "problem_solving": {
+        "weight": 0.218,
+        "count": 12,
+        "tier": "common"
+      },
+      "change_management": {
+        "weight": 0.182,
+        "count": 4,
+        "tier": "common"
+      },
+      "account_management": {
+        "weight": 0.182,
+        "count": 4,
+        "tier": "common"
+      },
+      "accounts_payable": {
+        "weight": 0.182,
+        "count": 4,
+        "tier": "common"
+      },
+      "risk_management": {
+        "weight": 0.182,
+        "count": 4,
+        "tier": "common"
+      },
+      "data_analytics": {
+        "weight": 0.182,
+        "count": 4,
+        "tier": "common"
+      },
+      "project_management": {
+        "weight": 0.182,
+        "count": 4,
+        "tier": "common"
+      },
+      "incident_management": {
+        "weight": 0.182,
+        "count": 4,
+        "tier": "common"
+      },
+      "performance_management": {
+        "weight": 0.136,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "strategic_planning": {
+        "weight": 0.136,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "business_intelligence": {
+        "weight": 0.136,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "accounting": {
+        "weight": 0.136,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "network_security": {
+        "weight": 0.136,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "organizational_skills": {
+        "weight": 0.127,
+        "count": 7,
+        "tier": "bonus"
+      },
+      "employee_relations": {
+        "weight": 0.091,
+        "count": 2,
+        "tier": "bonus"
+      },
+      "kpi_management": {
+        "weight": 0.091,
+        "count": 2,
+        "tier": "bonus"
+      },
+      "auditing": {
+        "weight": 0.091,
+        "count": 2,
+        "tier": "bonus"
+      },
+      "java": {
+        "weight": 0.091,
+        "count": 2,
+        "tier": "bonus"
+      },
+      "sql": {
+        "weight": 0.091,
+        "count": 2,
+        "tier": "bonus"
+      },
+      "word": {
+        "weight": 0.091,
+        "count": 2,
+        "tier": "bonus"
+      },
+      "active_directory": {
+        "weight": 0.091,
+        "count": 2,
+        "tier": "bonus"
+      },
+      "linux": {
+        "weight": 0.091,
+        "count": 2,
+        "tier": "bonus"
+      },
+      "customer_relationship_management": {
+        "weight": 0.091,
+        "count": 2,
+        "tier": "bonus"
+      },
+      "microsoft_sql_server": {
+        "weight": 0.091,
+        "count": 2,
+        "tier": "bonus"
+      },
+      "statistical_analysis": {
+        "weight": 0.091,
+        "count": 2,
+        "tier": "bonus"
+      },
+      "supervised_learning": {
+        "weight": 0.091,
+        "count": 2,
+        "tier": "bonus"
+      },
+      "accounts_receivable": {
+        "weight": 0.091,
+        "count": 2,
+        "tier": "bonus"
+      }
+    },
+    "text": "Role: BPO Operations Specialist. BPO & Customer Operations Specialist.          DIRECTOR OF OPERATIONS, BPO       Executive Summary     Results-Focused management professional offering 15 years of progressive leadership experience. Transforms high-potential staff into outstanding leaders who demonstrate the creativity and savvy that is critical to financial and operational success.\u00a0   High-energy Manager successful in building and motivating dynamic teams. Cultivates a company culture in which staff members feel comfortable voicing questions and concerns, as well as contributing new ideas that drive company growth.         Core Competencies          Operations Ma          BPO TEAM LEADER       Summary    Seeking to provide top-quality support to ensure a competitive advantage in the global marketplace.      Accomplishments    Recognized for playing an instrumental role in exceeding company expectations for turn around time during 4th quarter at 95% in 4 days.\u00a0\u00a0 Achieved a strong relationship with agents/sales of company partners in exceeding groups expectation of service, and increased sales relations.      Experience      BPO Team Leader   02/2015   to   02/2017     Company Name   City  ,   State       Managed and motivate BPO Onboarding Team to meet           CUSTOMER SERVICES       Summary     Professional in Economics with 7+ years of experience in the financial sector, as administrative assistant, manager, analyst and customer services. Optimizing work methods through the planning and execution of daily activities that correspond to my position. \u00a0I have the ability to work in a fast paced environment, successful in maintaining multiple tasks, able to work well individually or with a team, dedicated and focused to achieve the objectives.       Highlights          Leadership  Strategic Planner  Customer relationship      Management Suppor          SR. WORKFORCE MANAGER       Summary    Results-oriented Workforce & Relationship Manager with diverse background in management & customer service. Dedicated to providing excellent customer service and making operational and procedural improvements that drive savings.          Experience     12/2014   to   05/2015     Sr. Workforce Manager    Company Name   \uff0d     State      33% reduction of non-productive agent time (+/-600 workforce) Forecasted 14 million yearly contacts within +/- 5% of projection FY16 Q1 savings of $250,000 thru allocating volume on/offshore Reduced hours onshore by          TEAM LEAD SENIOR ANALYST         Professional Summary     MBA in Business Management, Finance & M.S in Information technology Professional Summary: Overall 7+ years of experience in implementing and supporting Information technology operations and multiple business projects for Google Maps, Wipro for client Hewlett Packard. Over 4 years of experience in project management / operations management in leading multiple small scale and large projects by staffing and resource planning, managing metrics, people manage"
+  },
+  "Executive Chef": {
+    "n_postings": 35,
+    "skills": {
+      "chef": {
+        "weight": 1.0,
+        "count": 35,
+        "tier": "core"
+      },
+      "culinary_arts": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "time_management": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "food_safety": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "kitchen_management": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "menu_planning": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "mentoring": {
+        "weight": 0.286,
+        "count": 25,
+        "tier": "common"
+      },
+      "budgeting": {
+        "weight": 0.229,
+        "count": 8,
+        "tier": "common"
+      },
+      "talent_acquisition": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "customer_service": {
+        "weight": 0.194,
+        "count": 17,
+        "tier": "common"
+      },
+      "payroll": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "powerpoint": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "communication": {
+        "weight": 0.137,
+        "count": 12,
+        "tier": "bonus"
+      },
+      "team_leadership": {
+        "weight": 0.126,
+        "count": 11,
+        "tier": "bonus"
+      },
+      "project_management": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "accounting": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "organizational_skills": {
+        "weight": 0.091,
+        "count": 8,
+        "tier": "bonus"
+      },
+      "vendor_management": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "quality_control": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "employee_relations": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "problem_solving": {
+        "weight": 0.08,
+        "count": 7,
+        "tier": "bonus"
+      }
+    },
+    "text": "Role: Executive Chef. Executive Chef / Culinary Specialist.          CHEF       Career Focus     I am a nursing student who has recently obtained my CNA license in this state.  I worked as a GNA in the UK and it has been a passion ever since.  I am confident that I would make a wonderful candidate for this position.  From  he beginning of taking my prerequisite classes for Nursing School.  I have ebb driven yet still personable.  My record shows me to muti-task oriented.   I have the experience of always having with and caring deeply for people.  While my grades have always been exceptional, my clinical experience was accomplished.  I do not want to so          CHEF           Summary     Customer-oriented fast food worker with deep experience with POS systems, food preparation and safety regulations. I am highly efficient at preparing food orders quickly while greeting all customers and managing the cash register accurately.Adaptable warehouse picker with extensive experience in material handling, inspections and shipping and receiving. Focused on continual process improvement and cost reduction. I am also familiar with all aspects of logistics, shipping and receiving and general warehouse operations.       Highlights                Fast lea          CHEF           Career Overview     Dedicated Customer Service Representative motivated to maintain customer satisfaction and contribute to company success.       Core Strengths          Strong organizational skills  Active listening skills  Sharp problem solver  Energetic work attitude  Inventory control familiarity  Customer service expert              Accomplishments      Customer Interface \u00a0   Greeted customers upon entrance and handled all cash and credit transactions.  Assisted customers over the phone regarding store operations, product, promotions and orders.          Work Expe          CHEF       Summary     Experienced catering chef skilled in preparing large volumes of food quickly and efficiently. Knowledge of international cuisine. Seeking a position at a restaurant where I can call it 'home'       Highlights                      Experience     05/2009   to   Current     Chef    Company Name   \uff0d   City  ,   State      Manage daily kitchen operations including inventory, purchasing, and scheduling Ensure proper food handling methods are observed Assist kitchen staff in producing food for catering Systematically control food quality and costs Develop new menu item         RM     Roxanne    Mejia       Summary     Motivating Chef competent in keeping kitchen staff on task and handling high-volume work. Knowledgeable about sourcing ingredients, maintaining budgets and maximizing customer satisfaction. Works with General Manager to analyze food costs and forecast business trends to make menu recommendations to meet company goals.       Skills          Portion and cost control  Waste control  Budgeting and cost control  Food preparation techniques  Purchasing      Kitchen equipment and tools  V"
+  },
+  "Construction Project Manager": {
+    "n_postings": 35,
+    "skills": {
+      "project_management": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "construction_management": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "cost_estimation": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "safety_compliance": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "blueprint_reading": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "autocad": {
+        "weight": 0.257,
+        "count": 9,
+        "tier": "common"
+      },
+      "budgeting": {
+        "weight": 0.257,
+        "count": 9,
+        "tier": "common"
+      },
+      "communication": {
+        "weight": 0.229,
+        "count": 20,
+        "tier": "common"
+      },
+      "vendor_management": {
+        "weight": 0.229,
+        "count": 8,
+        "tier": "common"
+      },
+      "powerpoint": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "visual_arts": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "mentoring": {
+        "weight": 0.194,
+        "count": 17,
+        "tier": "common"
+      },
+      "quality_control": {
+        "weight": 0.171,
+        "count": 6,
+        "tier": "bonus"
+      },
+      "problem_solving": {
+        "weight": 0.16,
+        "count": 14,
+        "tier": "bonus"
+      },
+      "team_leadership": {
+        "weight": 0.149,
+        "count": 13,
+        "tier": "bonus"
+      },
+      "adobe_photoshop": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "payroll": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "customer_service": {
+        "weight": 0.126,
+        "count": 11,
+        "tier": "bonus"
+      },
+      "accounts_payable": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "assembly": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "regulatory_compliance": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "process_improvement": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "time_management": {
+        "weight": 0.08,
+        "count": 7,
+        "tier": "bonus"
+      },
+      "critical_thinking": {
+        "weight": 0.08,
+        "count": 7,
+        "tier": "bonus"
+      }
+    },
+    "text": "Role: Construction Project Manager. Construction Project Manager.          CONSTRUCTION       Executive Summary    To find an internship in the profession where I can gain experience in and exposure to the practice of product design.      Core Qualifications        Adobe Photoshop and Illustrator\n          AutoCAD and Revit\nMicrosoft Word, Excel and PowerPoint            Professional Experience         Aug 2006   to   Current       Castle Inspection Service          Oregon and California\nHigh Value Residential Insurance Appraiser\nAppraise high value homes in Oregon and California for a replacement cost.         Construction     Jul 2005   to   Jan 2006                CONSTRUCTION       Summary    The purpose of submitting my resume to your company is to obtain a position with the opportunity to utilize my training and skills in the technician industry. I am experienced in warehouse and technician field -wiring 508 A UL soft starters, hard starters while assuring a high level of excellent customer service and satisfaction with maximum productivity; and maintaining a clean and safe warehouse. Also with security experience with skills in Microsoft Office Applications including Word, Excel, CCTV and PowerPoint; I am also competent in customer service           CONSTRUCTION             Experience     04/2015   to   Current     Company Name          Repair a/c units Repair and replace water heaters, stoves, and refrigerators.  Change out faulty valves and faucets.  Unclog drains, toilets, snake clean-outs.  Change out windows and locks.  Make repairs to sheetrock if damaged, roof repairs and painting inside and outside.  Controls inventory, creates orders with vendors.  Train, coached and mentored staff to ensure smooth adoption of new rules.         07/2010   to   02/2015     Company Name   \uff0d   City  ,   State      Maintain 320 units in Jasm          CONCRETE CONSTRUCTION         Summary    A highly experienced professional who possess the required level of retail management know how needed to inspire, lead, develop and motivate staff. There by helping them to achieve outstanding results through passion, innovation and support. Key qualities include innovation in product range and responsiveness to market trends, as well as being able to give superb product knowledge and training to junior staff so they can deliver industry leading advice and service to customers. \nAlso having a real passion for retailing, with a strong desire to           CONSTRUCTION WORK         Career Overview     Highly skilled in working with people. Main course of work has been in the Construction area but computers were also a big asset to my knowledge as running a business requires the use of a computer and skills as many other things.       Qualifications          Strong analytical skills  Project management  Strong collaborative skills  Document management      Testing  Excellent problem solving skills  Customer needs assessment            Accomplishments      Leadership \u00a0 "
+  },
+  "Fitness & Wellness Coach": {
+    "n_postings": 35,
+    "skills": {
+      "strength_training": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "customer_service": {
+        "weight": 0.6,
+        "count": 22,
+        "tier": "core"
+      },
+      "personal_training": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "fitness_assessment": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "injury_prevention": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "nutrition_planning": {
+        "weight": 0.55,
+        "count": 19,
+        "tier": "core"
+      },
+      "mentoring": {
+        "weight": 0.366,
+        "count": 32,
+        "tier": "core"
+      },
+      "talent_acquisition": {
+        "weight": 0.314,
+        "count": 11,
+        "tier": "common"
+      },
+      "team_leadership": {
+        "weight": 0.229,
+        "count": 20,
+        "tier": "common"
+      },
+      "payroll": {
+        "weight": 0.229,
+        "count": 8,
+        "tier": "common"
+      },
+      "accounting": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "communication": {
+        "weight": 0.171,
+        "count": 15,
+        "tier": "bonus"
+      },
+      "powerpoint": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "project_management": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "account_management": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "statistical_analysis": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "process_improvement": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      }
+    },
+    "text": "Role: Fitness & Wellness Coach. Fitness Trainer & Wellness Coach.          FITNESS CONSULTANT             Experience     09/2013   to   03/2014     Fitness Consultant    Company Name   \uff0d   City  ,   State      Conducted tours, and gave wellness advice to help every person change their lives.  Also, did outside marketing to help drive in business and\nconducted calls to prospective members.         08/2012   to   05/2013     DAEP/Special Education/Coach    Company Name   \uff0d   City  ,   State      Taught in the DAEP (Disciplinary Alternative Educational Program) Also worked in the Special Education wings in the Middle and Elementary\nschools with Autism and Down           FITNESS SPECIALIST       Summary     Energetic Personal Trainer with educational background in Physical Education,\u00a0Sport Training\u00a0and exercise Swimming.  Experienced Personal Trainer with\u00a0 10  years conducting one-on-one training sessions in an upscale fitness studio. Advanced training in metabolic testing, nutrition and weight management consulting.         Highlights          Fitness assessments  Body Mass Index (BMI) knowledge  Understanding of body fat tables and BMI  Fitness equipment operation  Weight management expert  CPR and First Aid certified  Understanding of human anatomy          FITNESS ATTENDANT           Summary    Highly-motivated Nutritionist with a masters degree seeking a career position in the healthcare field. Goal-oriented and high-achieving professional with advanced knowledge and skills in nutrition. Hi ghly effective at evaluating the nutritional needs of both adults and children with various diseases.\u00a0Self-starter, energetic, enthusiastic and dependable individual with outstanding leadership and management skills. A creative and organized key team player with strong interpersonal and communication skills.\u00a0       Highlights           Genetic nutri          FITNESS COORDINATOR       Objective     Seeking a challenging environment, which allows me to contribute to the continued success and growth of the organization.  To obtain a position that will provide me with the opportunity to apply my education, administrative, & fitness experience, and grow as a professional.       Education     May 2012     Master of Science  :   Recreation Administration - Concentration: Facilities Management    WESTERN KENTUCKY UNIVERSITY   \uff0d   City  ,   State             May 2010     Bachelor of Science  :   Exercise Science    WESTERN KENTUCKY UNIVERSITY   \uff0d           FITNESS STAFF           Career Focus    I carry a positive attitude while interacting with people. Hard-working, friendly and energetic with five years of experience in customer/patient care. Motivated to\nhelp and care for others needs. I am always interested in expanding my knowledge in new working environments.      Core Qualifications           Detail oriented    CPR and First Aid certified  Personable and friendly  Responsible  Dedicated      Nutrition supplement familiarity  Great Communication Skills  Fast Lea"
+  },
+  "IT Support Specialist": {
+    "n_postings": 35,
+    "skills": {
+      "active_directory": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "network_administration": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "customer_service": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "technical_support": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "system_administration": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "troubleshooting": {
+        "weight": 0.55,
+        "count": 19,
+        "tier": "core"
+      },
+      "project_management": {
+        "weight": 0.486,
+        "count": 17,
+        "tier": "core"
+      },
+      "sql": {
+        "weight": 0.4,
+        "count": 14,
+        "tier": "core"
+      },
+      "network_security": {
+        "weight": 0.343,
+        "count": 12,
+        "tier": "common"
+      },
+      "mentoring": {
+        "weight": 0.331,
+        "count": 29,
+        "tier": "common"
+      },
+      "linux": {
+        "weight": 0.286,
+        "count": 10,
+        "tier": "common"
+      },
+      "strategic_planning": {
+        "weight": 0.257,
+        "count": 9,
+        "tier": "common"
+      },
+      "communication": {
+        "weight": 0.251,
+        "count": 22,
+        "tier": "common"
+      },
+      "problem_solving": {
+        "weight": 0.24,
+        "count": 21,
+        "tier": "common"
+      },
+      "cybersecurity": {
+        "weight": 0.229,
+        "count": 8,
+        "tier": "common"
+      },
+      "team_leadership": {
+        "weight": 0.206,
+        "count": 18,
+        "tier": "common"
+      },
+      "data_analytics": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "vendor_management": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "change_management": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "budgeting": {
+        "weight": 0.2,
+        "count": 7,
+        "tier": "common"
+      },
+      "vmware": {
+        "weight": 0.171,
+        "count": 6,
+        "tier": "bonus"
+      },
+      "process_improvement": {
+        "weight": 0.171,
+        "count": 6,
+        "tier": "bonus"
+      },
+      "business_analysis": {
+        "weight": 0.171,
+        "count": 6,
+        "tier": "bonus"
+      },
+      "microsoft_sql_server": {
+        "weight": 0.171,
+        "count": 6,
+        "tier": "bonus"
+      },
+      "customer_relationship_management": {
+        "weight": 0.171,
+        "count": 6,
+        "tier": "bonus"
+      },
+      "risk_management": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "visual_basic": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "adobe_photoshop": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "powerpoint": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "business_intelligence": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "html5": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "customer_satisfaction": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "account_management": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "asp.net_core": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "accounting": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      }
+    },
+    "text": "Role: IT Support Specialist. IT Systems & Support Specialist.          INFORMATION TECHNOLOGY         Summary     Dedicated  Information Assurance Professional \u00a0well-versed in analyzing and mitigating risk and finding cost-effective solutions. Excels at boosting performance and productivity by establishing realistic goals and enforcing deadlines.\u00a0 Versatile IT professional with 37 years of Enterprise design and engineering methodology.       Skills          Enterprise platforms  Knowledge of Product Lifecycle Management (PLM)  Project tracking  Hardware and software upgrade planning  Product requirements documentation  Self-directed  MS Visio  Decisive            INFORMATION TECHNOLOGY SPECIALIST\tGS11             Experience     07/2004   to   Current     Information Technology Specialist\tGS11    Company Name   \uff0d   City  ,   State      Information Technology Specialist; Supervison; Project Management; Circuit Management; Licensed Electrician; Alarm management; Alarm Technician; Training; Supply; Quality Assurance Kevin L.  Trostle, DSN 266-4800, COMM.  865) 336-4800\nManage the assigned IT/communications environment with privileged access at the network level for the Wing, Geographically Separated Units (GSU), and Tenants.  Plan, coordinate, ins          INFORMATION TECHNOLOGY SUPERVISOR       Summary    Seeking a position as an Information Technology Specialist. Over 5 years of information technology experience in the U.S. Army, including over 1 year of supervisory experience. Trained personnel in the set-up of IT equipment, ensuring all equipment is properly connected and functioning. Regularly troubleshoot and install various IT equipment and systems. Accountable for the maintenance and inventory of over $1 million worth of IT and other communications equipment with zero losses or damages. Possess a Security   and Microsoft Certifi          INFORMATION TECHNOLOGY INSTRUCTOR       Summary    Seventeen years experience in the information technology field. Seven years experience in curriculum design and computer based training development. Group and project management experience for over twelve years. Advanced problem solving skills and expertise. Advanced customer service training and experience Curriculum          Data Analysis          Other \u00b7 Curriculum design          \u00b7 Advanced Data Analysis          \u00b7 Student counseling \u00b7 Learning analysis          \u00b7 Market analysis          \u00b7 Customer service training \u00b7 Advanced pla          INFORMATION TECHNOLOGY MANAGER/ANALYST         Professional Summary    Innovative and solution focused web development manager/analyst with extensive experience in Program and Project Management. Detail-oriented and skilled in identifying technology needs, creating a plan for solving them, and leading multiple teams to implement the solutions. Self motivated, strong leader, and team player that works hard developing staff.\u00a0 Experienced in working in industry and academia.      Skills        Project management Program ma"
+  },
+  "Public Relations Specialist": {
+    "n_postings": 35,
+    "skills": {
+      "press_releases": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "communication": {
+        "weight": 0.6,
+        "count": 22,
+        "tier": "core"
+      },
+      "media_relations": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "copywriting": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "crisis_communication": {
+        "weight": 0.6,
+        "count": 21,
+        "tier": "core"
+      },
+      "stakeholder_management": {
+        "weight": 0.55,
+        "count": 19,
+        "tier": "core"
+      },
+      "project_management": {
+        "weight": 0.286,
+        "count": 10,
+        "tier": "common"
+      },
+      "mentoring": {
+        "weight": 0.263,
+        "count": 23,
+        "tier": "common"
+      },
+      "powerpoint": {
+        "weight": 0.257,
+        "count": 9,
+        "tier": "common"
+      },
+      "team_leadership": {
+        "weight": 0.251,
+        "count": 22,
+        "tier": "common"
+      },
+      "adobe_photoshop": {
+        "weight": 0.229,
+        "count": 8,
+        "tier": "common"
+      },
+      "visual_design": {
+        "weight": 0.229,
+        "count": 8,
+        "tier": "common"
+      },
+      "talent_acquisition": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "email_marketing": {
+        "weight": 0.143,
+        "count": 5,
+        "tier": "bonus"
+      },
+      "customer_service": {
+        "weight": 0.126,
+        "count": 11,
+        "tier": "bonus"
+      },
+      "account_management": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "business_intelligence": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "social_media_marketing": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "wordpress": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "competitive_analysis": {
+        "weight": 0.114,
+        "count": 4,
+        "tier": "bonus"
+      },
+      "data_analytics": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "accounting": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "seo": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "adobe_illustrator": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      },
+      "html5": {
+        "weight": 0.086,
+        "count": 3,
+        "tier": "bonus"
+      }
+    },
+    "text": "Role: Public Relations Specialist. Public Relations Specialist.          PUBLIC RELATIONS LIAISON/SALES REPRESENTATIVE       Professional Summary     Driven and compassionate healthcare professional with 15 years hands-on experience in fast-paced corporate, medical facilities and hospital environments. Versed in Employee Management and Leadership, Public Relations, Event Coordination and Management, Sales and Marketing, Account Management, Business Relations, Office Management, Database Management, Public Speaking, Human Resources Professional and Customer Service.       Skill Highlights          Staffing management ability  Proven patience and self-discip          PUBLIC RELATIONS DIRECTOR               Experience      Public Relations Director     Company Name   \uff0d   City  ,   State      Developed a media plan for 4 company divisions Developed and fostered relationships between the media and division heads Created and distributed press releases for 4 company divisions Significantly increased visibility for 3 of 4 divisions Promoted company in 3 leading publications that had not previously published articles about CadmusCom.          Polo Specialist     Company Name   \uff0d   City  ,   State      Received outstanding response letters from clients fo          PUBLIC RELATIONS INTERN           Summary     Ambitious, service-driven  student , looking to apply my education and experience to a job in Sports Management. Areas of proficiency include  communication skills, people skills  and a        Skills          Strong work ethic  Self-motivated  Data analysis       Empathetic listener  Communication skills  Foreign Language             Experience      Public Relations Intern    May 2017   to   August 2017     Company Name   \uff0d   City  ,   State         Established and maintained cooperative relationships with representatives of community, con          PUBLIC RELATIONS EXECUTIVE       Professional Summary    A highly skilled public relations, communications and special events executive with 15 +years of public relations, business development and operations experience. She has strong strategic thinking and planning skills; able to achieve goals with high efficiency and within tight parameters. Outstanding interpersonal management skills; establishes rapport and credibility quickly. Ms. Alexander has excellent team and project leadership qualities. Highly articulate with written and spoken word, quick thinking, and possesses sound jud          PUBLIC RELATIONS ASSISTANT           Professional Summary    My past experiences in academic and employment settings have developed the traits necessary for me to become an important team member in your organization. I am seeking a position that affords skill development and career advancement. I consider myself to be an excellent communicator, while being a creative thinker and a strong problem solver.      Core Qualifications        Public Relations, Marketing, Event Planning and Social Media (Facebook, Twitter, Ins"
+  }
+}

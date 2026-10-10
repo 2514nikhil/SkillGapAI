@@ -1,0 +1,9 @@
+Category,Ground Truth Count,Detected Count,Recall (%)
+cloud,2,2,100.00
+data,11,10,90.91
+design,1,1,100.00
+devops,16,16,100.00
+ml,9,9,100.00
+programming,15,15,100.00
+tools,7,7,100.00
+web,12,12,100.00

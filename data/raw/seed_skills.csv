@@ -1,0 +1,353 @@
+preferred_label,alt_labels,category
+Python,python3; py,programming
+JavaScript,js; ecmascript,programming
+TypeScript,ts,programming
+Java,java8; java11; java17; java21,programming
+C++,cpp; c plus plus,programming
+C#,csharp; c sharp; dotnet c#,programming
+C,c language; ansi c,programming
+Go,golang,programming
+Rust,rustlang,programming
+Ruby,ruby on rails language,programming
+PHP,php7; php8,programming
+Swift,swiftlang,programming
+Kotlin,kotlinlang,programming
+Scala,,programming
+R,r programming; r language,programming
+Dart,dartlang,programming
+Bash,bash script; shell scripting; sh,programming
+PowerShell,posh; pwsh,programming
+Perl,,programming
+Lua,,programming
+Julia,julialang,programming
+Haskell,,programming
+Elixir,,programming
+Erlang,,programming
+Clojure,,programming
+Groovy,,programming
+MATLAB,matrix laboratory,programming
+Solidity,smart contracts language,programming
+Objective-C,objc,programming
+Visual Basic,vb.net; vba,programming
+Assembly,asm; x86; arm assembly,programming
+Fortran,,programming
+COBOL,,programming
+F#,fsharp,programming
+VHDL,,programming
+Verilog,,programming
+Rust,rust language,programming
+Apex,salesforce apex,programming
+SQL,structured query language; ansi sql,programming
+PL/SQL,plsql,programming
+T-SQL,tsql; transact-sql,programming
+PostgreSQL,postgres; pgsql,data
+MySQL,my-sql,data
+SQLite,sqlite3,data
+Microsoft SQL Server,mssql; sql server,data
+Oracle Database,oracle db,data
+MongoDB,mongo,data
+Redis,redis cache,data
+Cassandra,apache cassandra,data
+DynamoDB,amazon dynamodb,data
+Elasticsearch,elastic search; es,data
+Neo4j,neo4j graph,data
+Couchbase,,data
+Firebase Realtime Database,firebase db,data
+Firestore,cloud firestore,data
+Snowflake,snowflake data cloud; snowflake dw,data
+Google BigQuery,bigquery; gbq,data
+Amazon Redshift,redshift,data
+Databricks,databricks lakehouse,data
+Apache Spark,spark; spark core,data
+PySpark,python spark,data
+Spark SQL,,data
+Apache Kafka,kafka,data
+Apache Flink,flink,data
+Apache Hadoop,hadoop; hdfs,data
+Apache Hive,hive,data
+Apache Cassandra,,data
+Apache Airflow,airflow,data
+Prefect,,data
+Dagster,,data
+dbt,data build tool,data
+Pandas,python pandas,data
+NumPy,numpy library,data
+Polars,python polars,data
+DuckDB,,data
+Dask,dask distributed,data
+Ray,ray data; ray core,data
+Apache Arrow,arrow; pyarrow,data
+Presto,prestodb,data
+Trino,,data
+ClickHouse,,data
+Supabase,,data
+Data Modeling,dimensional modeling; star schema; data model,data
+Data Warehousing,dwh; enterprise data warehouse,data
+Data Lake,lakehouse; delta lake,data
+ETL,extract transform load; elt,data
+Data Pipeline,data pipelines; pipeline engineering,data
+Data Governance,data quality; data catalog,data
+Data Engineering,big data engineering,data
+Data Analytics,data analysis; analytics,data
+Business Intelligence,bi; enterprise bi,data
+Data Visualization,dataviz; data viz,data
+Statistical Analysis,statistics; inferential statistics,data
+Time Series Analysis,time series forecasting; time-series,data
+A/B Testing,ab testing; split testing; hypothesis testing,data
+Web Scraping,data scraping; beautifulsoup; scrapy,data
+Machine Learning,ml,ml
+Deep Learning,dl; neural networks; ann,ml
+Artificial Intelligence,ai,ml
+Natural Language Processing,nlp; computational linguistics,ml
+Computer Vision,cv; image processing,ml
+Large Language Models,llm; llms; foundation models,ml
+Generative AI,genai; generative artificial intelligence,ml
+PyTorch,torch,ml
+TensorFlow,tf; tensorflow2,ml
+Keras,tf.keras,ml
+scikit-learn,sklearn,ml
+XGBoost,xgboost library,ml
+LightGBM,lgb,ml
+CatBoost,,ml
+Hugging Face,huggingface; transformers library,ml
+LangChain,langchain framework,ml
+LlamaIndex,llamaindex; gpt index,ml
+spaCy,spacy nlp,ml
+NLTK,natural language toolkit,ml
+OpenCV,cv2,ml
+Transformers,transformer architecture; attention mechanism,ml
+BERT,roberta; distilbert,ml
+GPT,gpt-3; gpt-4; chatgpt,ml
+Reinforcement Learning,rl,ml
+Supervised Learning,classification; regression,ml
+Unsupervised Learning,clustering; kmeans; pca,ml
+Feature Engineering,feature selection; feature extraction,ml
+Model Evaluation,cross-validation; auc roc; f1 score,ml
+Hyperparameter Tuning,grid search; optuna; hyperopt,ml
+Transfer Learning,fine-tuning; model adaptation,ml
+Prompt Engineering,prompt design; in-context learning,ml
+Retrieval-Augmented Generation,rag; rag pipelines,ml
+Vector Databases,vector search; similarity search,ml
+FAISS,facebook ai similarity search,ml
+Pinecone,pinecone db,ml
+ChromaDB,chroma vector store,ml
+Weaviate,weaviate vector db,ml
+Qdrant,qdrant vector search,ml
+Milvus,,ml
+MLflow,mlflow tracking,ml
+Weights & Biases,wandb,ml
+DVC,data version control,ml
+Model Deployment,model serving; ml inference,ml
+Triton Inference Server,triton,ml
+TorchServe,,ml
+TF Serving,tensorflow serving,ml
+ONNX,open neural network exchange; onnx runtime,ml
+MLOps,machine learning operations,ml
+Explainable AI,xai; shap; lime; interpretability,ml
+Speech Recognition,asr; whisper; speech to text,ml
+Object Detection,yolo; faster r-cnn,ml
+Semantic Segmentation,image segmentation,ml
+Recommendation Systems,recsys; collaborative filtering,ml
+GNN,graph neural networks; pytorch geometric,ml
+React,reactjs; react.js,web
+Angular,angularjs; angular 2+,web
+Vue.js,vue; vuejs,web
+Next.js,nextjs,web
+Nuxt.js,nuxtjs,web
+Svelte,sveltekit,web
+Node.js,nodejs; node,web
+Express.js,express; expressjs,web
+FastAPI,fastapi framework,web
+Flask,python flask,web
+Django,django framework; django rest framework; drf,web
+Spring Boot,springboot; spring framework,web
+ASP.NET Core,asp.net; dotnet core,web
+Ruby on Rails,rails; ror,web
+Laravel,php laravel,web
+Symfony,,web
+GraphQL,graphql api; apollo graphql,web
+REST API,restful api; restful web services; rest apis,web
+gRPC,grpc services; protocol buffers; protobuf,web
+HTML5,html,web
+CSS3,css,web
+Sass,scss,web
+Tailwind CSS,tailwindcss; tailwind,web
+Bootstrap,twitter bootstrap,web
+Material-UI,mui,web
+Chakra UI,,web
+Ant Design,antd,web
+Redux,redux toolkit; rtk,web
+MobX,,web
+Zustand,,web
+RxJS,,web
+Webpack,webpack bundler,web
+Vite,vitejs,web
+Rollup,,web
+Babel,,web
+WebSockets,socket.io; websocket,web
+OAuth,oauth2; oauth 2.0; openid connect,web
+JSON Web Tokens,jwt,web
+Microservices,microservice architecture,web
+Monorepo,turborepo; nx,web
+Progressive Web Apps,pwa,web
+WebAssembly,wasm,web
+NestJS,nestjs framework,web
+Fastify,,web
+Koa,,web
+Gatsby,,web
+Remix,remix run,web
+Astro,astro framework,web
+jQuery,,web
+WordPress,wp development,web
+Shopify,liquid templating,web
+Amazon Web Services,aws,cloud
+Microsoft Azure,azure,cloud
+Google Cloud Platform,gcp; google cloud,cloud
+AWS Lambda,serverless lambda,cloud
+Amazon S3,aws s3,cloud
+Amazon EC2,aws ec2,cloud
+Amazon ECS,aws ecs,cloud
+Amazon EKS,aws eks,cloud
+Amazon RDS,aws rds,cloud
+Amazon CloudFront,cloudfront,cloud
+AWS IAM,iam policies,cloud
+Azure Functions,serverless azure,cloud
+Azure Blob Storage,,cloud
+Azure App Service,,cloud
+Google Cloud Functions,,cloud
+Google Cloud Storage,gcs,cloud
+Google Compute Engine,gce,cloud
+Google Kubernetes Engine,gke,cloud
+Cloud Architecture,cloud native; well-architected framework,cloud
+Cloud Security,iam; cloud compliance,cloud
+Cloudflare,cloudflare workers,cloud
+Heroku,,cloud
+Vercel,,cloud
+Netlify,,cloud
+DigitalOcean,,cloud
+Serverless,serverless framework,cloud
+OpenStack,,cloud
+VMware,vsphere; esxi,cloud
+Content Delivery Network,cdn,cloud
+Docker,docker containers; dockerfile; containerization,devops
+Kubernetes,k8s; k8s cluster,devops
+Helm,helm charts,devops
+CI/CD,continuous integration; continuous deployment,devops
+Jenkins,jenkins pipeline,devops
+GitHub Actions,gha; github workflows,devops
+GitLab CI,gitlab pipelines,devops
+CircleCI,,devops
+Travis CI,,devops
+Terraform,hashicorp terraform; iac,devops
+Ansible,ansible playbooks,devops
+Puppet,,devops
+Chef,,devops
+Pulumi,,devops
+Infrastructure as Code,iac,devops
+Linux,linux administration; unix; ubuntu; centos; debian,devops
+Nginx,nginx web server; reverse proxy,devops
+Apache HTTP Server,httpd; apache web server,devops
+Prometheus,prometheus monitoring,devops
+Grafana,grafana dashboards,devops
+ELK Stack,elasticsearch logstash kibana; elastic stack,devops
+Datadog,datadog monitoring,devops
+Splunk,splunk enterprise,devops
+New Relic,,devops
+Sentry,error tracking,devops
+ArgoCD,gitops,devops
+Istio,service mesh,devops
+Site Reliability Engineering,sre; reliability engineering,devops
+System Administration,sysadmin,devops
+Network Security,firewalls; vpn; tcp/ip,devops
+Cybersecurity,information security; infosec,devops
+Penetration Testing,pen testing; ethical hacking,devops
+Vulnerability Assessment,security scanning,devops
+Incident Management,incident response; post-mortem,devops
+Figma,figma design,design
+Adobe XD,xd,design
+Sketch,sketch app,design
+UI Design,user interface design; ui,design
+UX Design,user experience design; ux,design
+User Research,ux research; usability testing,design
+Wireframing,wireframes; low-fidelity mockups,design
+Prototyping,interactive prototypes; click-through prototypes,design
+Design Systems,component library; style guides,design
+Information Architecture,site map; card sorting,design
+Interaction Design,ixd,design
+Visual Design,graphic design,design
+Adobe Photoshop,photoshop; ps,design
+Adobe Illustrator,illustrator; ai design,design
+Adobe InDesign,indesign,design
+Adobe Premiere Pro,premiere; video editing,design
+Adobe After Effects,after effects; motion graphics,design
+Canva,,design
+Blender,3d modeling,design
+Responsive Design,mobile-friendly design,design
+Accessibility,a11y; wcag,design
+Design Thinking,user-centered design,design
+Agile Methodology,agile; agile development,business
+Scrum,scrum framework; sprint planning; daily standup,business
+Kanban,kanban boards,business
+Product Management,product roadmap; product discovery,business
+Project Management,pmp; project delivery,business
+Business Analysis,requirements gathering; user stories,business
+Stakeholder Management,client communication; partner alignment,business
+Strategic Planning,business strategy; corporate strategy,business
+Financial Modeling,financial analysis; budgeting,business
+Risk Management,risk assessment; risk mitigation,business
+Change Management,organizational change,business
+Vendor Management,procurement; contract negotiation,business
+Process Improvement,six sigma; lean manufacturing; kaizen,business
+Competitive Analysis,market research; benchmarking,business
+Product Strategy,go-to-market; gtm,business
+KPI Management,kpi; okr; metrics tracking,business
+Customer Relationship Management,crm; account management,business
+Salesforce,sfdc; salesforce crm,business
+HubSpot,inbound marketing,business
+Marketing Strategy,digital marketing; growth marketing,business
+SEO,search engine optimization,business
+Content Strategy,content marketing,business
+Communication,verbal communication; written communication; interpersonal communication,soft skills
+Team Leadership,leadership; leading teams; team management,soft skills
+Problem Solving,analytical thinking; troubleshooting; creative problem solving,soft skills
+Critical Thinking,logical reasoning; decision making,soft skills
+Time Management,prioritization; multitasking,soft skills
+Collaboration,cross-functional collaboration; teamwork,soft skills
+Mentoring,coaching; training; peer mentoring,soft skills
+Adaptability,flexibility; resilience,soft skills
+Conflict Resolution,mediation; dispute resolution,soft skills
+Presentation Skills,public speaking; slide decks; pitching,soft skills
+Negotiation,persuasion; deal closing,soft skills
+Active Listening,empathetic listening,soft skills
+Emotional Intelligence,eq; empathy,soft skills
+Organizational Skills,attention to detail; structured planning,soft skills
+Customer Service,client relations; support mindset,soft skills
+Git,git vcs; version control,tools
+GitHub,github enterprise,tools
+GitLab,,tools
+Bitbucket,,tools
+Jira,atlassian jira; jira software,tools
+Confluence,atlassian confluence,tools
+Trello,,tools
+Asana,,tools
+Notion,notion workspace,tools
+Slack,slack messaging,tools
+Microsoft Teams,ms teams,tools
+Postman,postman api client,tools
+Swagger,openapi; swagger ui,tools
+Visual Studio Code,vs code; vscode,tools
+IntelliJ IDEA,intellij,tools
+PyCharm,,tools
+Eclipse,,tools
+Vim,neovim,tools
+Jupyter Notebook,jupyter; jupyter lab; ipython,tools
+Google Colab,colab,tools
+Tableau,tableau desktop; tableau server,tools
+Power BI,microsoft power bi; powerbi,tools
+Looker,looker studio; google data studio,tools
+Metabase,,tools
+Excel,microsoft excel; spreadsheets; advanced excel; vlookup; pivot tables,tools
+Word,microsoft word,tools
+PowerPoint,microsoft powerpoint; slide presentations,tools
+Google Docs,google sheets; google slides; gsuite; google workspace,tools
+Google Analytics,ga4,tools

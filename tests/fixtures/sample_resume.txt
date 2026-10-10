@@ -1,0 +1,25 @@
+John Doe
+Software Engineer
+Email: john.doe@example.com | Phone: (555) 123-4567
+
+EXPERIENCE
+Senior Backend Developer | Tech Solutions Inc. | 2021 - Present
+- Architected and built RESTful microservices using Python, FastAPI, and Docker.
+- Optimized PostgreSQL database queries, reducing response times by 35%.
+- Implemented asynchronous background workers using Celery and Redis.
+- Built automated CI/CD pipelines with GitHub Actions for automated testing.
+
+Software Engineer | Startup Labs | 2018 - 2021
+- Developed responsive web interfaces using JavaScript and React.
+- Collaborated with product teams to design scalable APIs in Python.
+- Maintained code quality and test coverage with pytest and unittest.
+
+EDUCATION
+Bachelor of Science in Computer Science
+State University, 2014 - 2018
+
+SKILLS
+Programming: Python, JavaScript, SQL, HTML, CSS
+Frameworks: FastAPI, Flask, React, Node.js
+Databases: PostgreSQL, MySQL, Redis
+Tools: Docker, Git, Linux, GitHub Actions, AWS

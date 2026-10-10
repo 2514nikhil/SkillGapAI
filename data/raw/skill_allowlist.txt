@@ -1,0 +1,823 @@
+# Manual skill allowlist for SkillGap taxonomy
+# Lines starting with # are comments. Each line is an allowed skill term.
+Python
+python3
+JavaScript
+ecmascript
+TypeScript
+Java
+java8
+java11
+java17
+java21
+C++
+cpp
+c plus plus
+C#
+csharp
+c sharp
+dotnet c#
+C
+c language
+ansi c
+Go
+golang
+Rust
+rustlang
+Ruby
+ruby on rails language
+PHP
+php7
+php8
+Swift
+swiftlang
+Kotlin
+kotlinlang
+Scala
+R
+r programming
+r language
+Dart
+dartlang
+Bash
+bash script
+shell scripting
+PowerShell
+posh
+pwsh
+Perl
+Lua
+Julia
+julialang
+Haskell
+Elixir
+Erlang
+Clojure
+Groovy
+MATLAB
+matrix laboratory
+Solidity
+smart contracts language
+Objective-C
+objc
+Visual Basic
+vb.net
+vba
+Assembly
+asm
+x86
+arm assembly
+Fortran
+COBOL
+F#
+fsharp
+VHDL
+Verilog
+Rust
+rust language
+Apex
+salesforce apex
+SQL
+structured query language
+ansi sql
+PL/SQL
+plsql
+T-SQL
+tsql
+transact-sql
+PostgreSQL
+postgres
+pgsql
+MySQL
+my-sql
+SQLite
+sqlite3
+Microsoft SQL Server
+mssql
+sql server
+Oracle Database
+oracle db
+MongoDB
+mongo
+Redis
+redis cache
+Cassandra
+apache cassandra
+DynamoDB
+amazon dynamodb
+Elasticsearch
+elastic search
+Neo4j
+neo4j graph
+Couchbase
+Firebase Realtime Database
+firebase db
+Firestore
+cloud firestore
+Snowflake
+snowflake data cloud
+snowflake dw
+Google BigQuery
+bigquery
+gbq
+Amazon Redshift
+redshift
+Databricks
+databricks lakehouse
+Apache Spark
+spark
+spark core
+PySpark
+python spark
+Spark SQL
+Apache Kafka
+kafka
+Apache Flink
+flink
+Apache Hadoop
+hadoop
+hdfs
+Apache Hive
+hive
+Apache Cassandra
+Apache Airflow
+airflow
+Prefect
+Dagster
+dbt
+data build tool
+Pandas
+python pandas
+NumPy
+numpy library
+Polars
+python polars
+DuckDB
+Dask
+dask distributed
+Ray
+ray data
+ray core
+Apache Arrow
+arrow
+pyarrow
+Presto
+prestodb
+Trino
+ClickHouse
+Supabase
+Data Modeling
+dimensional modeling
+star schema
+data model
+Data Warehousing
+dwh
+enterprise data warehouse
+Data Lake
+lakehouse
+delta lake
+ETL
+extract transform load
+elt
+Data Pipeline
+data pipelines
+pipeline engineering
+Data Governance
+data quality
+data catalog
+Data Engineering
+big data engineering
+Data Analytics
+data analysis
+analytics
+Business Intelligence
+enterprise bi
+Data Visualization
+dataviz
+data viz
+Statistical Analysis
+statistics
+inferential statistics
+Time Series Analysis
+time series forecasting
+time-series
+A/B Testing
+ab testing
+split testing
+hypothesis testing
+Web Scraping
+data scraping
+beautifulsoup
+scrapy
+Machine Learning
+Deep Learning
+neural networks
+ann
+Artificial Intelligence
+Natural Language Processing
+nlp
+computational linguistics
+Computer Vision
+image processing
+Large Language Models
+llm
+llms
+foundation models
+Generative AI
+genai
+generative artificial intelligence
+PyTorch
+torch
+TensorFlow
+tensorflow2
+Keras
+tf.keras
+scikit-learn
+sklearn
+XGBoost
+xgboost library
+LightGBM
+lgb
+CatBoost
+Hugging Face
+huggingface
+transformers library
+LangChain
+langchain framework
+LlamaIndex
+llamaindex
+gpt index
+spaCy
+spacy nlp
+NLTK
+natural language toolkit
+OpenCV
+cv2
+Transformers
+transformer architecture
+attention mechanism
+BERT
+roberta
+distilbert
+GPT
+gpt-3
+gpt-4
+chatgpt
+Reinforcement Learning
+Supervised Learning
+classification
+regression
+Unsupervised Learning
+clustering
+kmeans
+pca
+Feature Engineering
+feature selection
+feature extraction
+Model Evaluation
+cross-validation
+auc roc
+f1 score
+Hyperparameter Tuning
+grid search
+optuna
+hyperopt
+Transfer Learning
+fine-tuning
+model adaptation
+Prompt Engineering
+prompt design
+in-context learning
+Retrieval-Augmented Generation
+rag
+rag pipelines
+Vector Databases
+vector search
+similarity search
+FAISS
+facebook ai similarity search
+Pinecone
+pinecone db
+ChromaDB
+chroma vector store
+Weaviate
+weaviate vector db
+Qdrant
+qdrant vector search
+Milvus
+MLflow
+mlflow tracking
+Weights & Biases
+wandb
+DVC
+data version control
+Model Deployment
+model serving
+ml inference
+Triton Inference Server
+triton
+TorchServe
+TF Serving
+tensorflow serving
+ONNX
+open neural network exchange
+onnx runtime
+MLOps
+machine learning operations
+Explainable AI
+xai
+shap
+lime
+interpretability
+Speech Recognition
+asr
+whisper
+speech to text
+Object Detection
+yolo
+faster r-cnn
+Semantic Segmentation
+image segmentation
+Recommendation Systems
+recsys
+collaborative filtering
+GNN
+graph neural networks
+pytorch geometric
+React
+reactjs
+react.js
+Angular
+angularjs
+angular 2+
+Vue.js
+vue
+vuejs
+Next.js
+nextjs
+Nuxt.js
+nuxtjs
+Svelte
+sveltekit
+Node.js
+nodejs
+node
+Express.js
+express
+expressjs
+FastAPI
+fastapi framework
+Flask
+python flask
+Django
+django framework
+django rest framework
+drf
+Spring Boot
+springboot
+spring framework
+ASP.NET Core
+asp.net
+dotnet core
+Ruby on Rails
+rails
+ror
+Laravel
+php laravel
+Symfony
+GraphQL
+graphql api
+apollo graphql
+REST API
+restful api
+restful web services
+rest apis
+gRPC
+grpc services
+protocol buffers
+protobuf
+HTML5
+html
+CSS3
+css
+Sass
+scss
+Tailwind CSS
+tailwindcss
+tailwind
+Bootstrap
+twitter bootstrap
+Material-UI
+mui
+Chakra UI
+Ant Design
+antd
+Redux
+redux toolkit
+rtk
+MobX
+Zustand
+RxJS
+Webpack
+webpack bundler
+Vite
+vitejs
+Rollup
+Babel
+WebSockets
+socket.io
+websocket
+OAuth
+oauth2
+oauth 2.0
+openid connect
+JSON Web Tokens
+jwt
+Microservices
+microservice architecture
+Monorepo
+turborepo
+Progressive Web Apps
+pwa
+WebAssembly
+wasm
+NestJS
+nestjs framework
+Fastify
+Koa
+Gatsby
+Remix
+remix run
+Astro
+astro framework
+jQuery
+WordPress
+wp development
+Shopify
+liquid templating
+Amazon Web Services
+aws
+Microsoft Azure
+azure
+Google Cloud Platform
+gcp
+google cloud
+AWS Lambda
+serverless lambda
+Amazon S3
+aws s3
+Amazon EC2
+aws ec2
+Amazon ECS
+aws ecs
+Amazon EKS
+aws eks
+Amazon RDS
+aws rds
+Amazon CloudFront
+cloudfront
+AWS IAM
+iam policies
+Azure Functions
+serverless azure
+Azure Blob Storage
+Azure App Service
+Google Cloud Functions
+Google Cloud Storage
+gcs
+Google Compute Engine
+gce
+Google Kubernetes Engine
+gke
+Cloud Architecture
+cloud native
+well-architected framework
+Cloud Security
+iam
+cloud compliance
+Cloudflare
+cloudflare workers
+Heroku
+Vercel
+Netlify
+DigitalOcean
+Serverless
+serverless framework
+OpenStack
+VMware
+vsphere
+esxi
+Content Delivery Network
+cdn
+Docker
+docker containers
+dockerfile
+containerization
+Kubernetes
+k8s
+k8s cluster
+Helm
+helm charts
+CI/CD
+continuous integration
+continuous deployment
+Jenkins
+jenkins pipeline
+GitHub Actions
+gha
+github workflows
+GitLab CI
+gitlab pipelines
+CircleCI
+Travis CI
+Terraform
+hashicorp terraform
+iac
+Ansible
+ansible playbooks
+Puppet
+Chef
+Pulumi
+Infrastructure as Code
+iac
+Linux
+linux administration
+unix
+ubuntu
+centos
+debian
+Nginx
+nginx web server
+reverse proxy
+Apache HTTP Server
+httpd
+apache web server
+Prometheus
+prometheus monitoring
+Grafana
+grafana dashboards
+ELK Stack
+elasticsearch logstash kibana
+elastic stack
+Datadog
+datadog monitoring
+Splunk
+splunk enterprise
+New Relic
+Sentry
+error tracking
+ArgoCD
+gitops
+Istio
+service mesh
+Site Reliability Engineering
+sre
+reliability engineering
+System Administration
+sysadmin
+Network Security
+firewalls
+vpn
+tcp/ip
+Cybersecurity
+information security
+infosec
+Penetration Testing
+pen testing
+ethical hacking
+Vulnerability Assessment
+security scanning
+Incident Management
+incident response
+post-mortem
+Figma
+figma design
+Adobe XD
+Sketch
+sketch app
+UI Design
+user interface design
+UX Design
+user experience design
+User Research
+ux research
+usability testing
+Wireframing
+wireframes
+low-fidelity mockups
+Prototyping
+interactive prototypes
+click-through prototypes
+Design Systems
+component library
+style guides
+Information Architecture
+site map
+card sorting
+Interaction Design
+ixd
+Visual Design
+graphic design
+Adobe Photoshop
+photoshop
+Adobe Illustrator
+illustrator
+ai design
+Adobe InDesign
+indesign
+Adobe Premiere Pro
+premiere
+video editing
+Adobe After Effects
+after effects
+motion graphics
+Canva
+Blender
+3d modeling
+Responsive Design
+mobile-friendly design
+Accessibility
+a11y
+wcag
+Design Thinking
+user-centered design
+Agile Methodology
+agile
+agile development
+Scrum
+scrum framework
+sprint planning
+daily standup
+Kanban
+kanban boards
+Product Management
+product roadmap
+product discovery
+Project Management
+pmp
+project delivery
+Business Analysis
+requirements gathering
+user stories
+Stakeholder Management
+client communication
+partner alignment
+Strategic Planning
+business strategy
+corporate strategy
+Financial Modeling
+financial analysis
+budgeting
+Risk Management
+risk assessment
+risk mitigation
+Change Management
+organizational change
+Vendor Management
+procurement
+contract negotiation
+Process Improvement
+six sigma
+lean manufacturing
+kaizen
+Competitive Analysis
+market research
+benchmarking
+Product Strategy
+go-to-market
+gtm
+KPI Management
+kpi
+okr
+metrics tracking
+Customer Relationship Management
+crm
+account management
+Salesforce
+sfdc
+salesforce crm
+HubSpot
+inbound marketing
+Marketing Strategy
+digital marketing
+growth marketing
+SEO
+search engine optimization
+Content Strategy
+content marketing
+Communication
+verbal communication
+written communication
+interpersonal communication
+Team Leadership
+leadership
+leading teams
+team management
+Problem Solving
+analytical thinking
+troubleshooting
+creative problem solving
+Critical Thinking
+logical reasoning
+decision making
+Time Management
+prioritization
+multitasking
+Collaboration
+cross-functional collaboration
+teamwork
+Mentoring
+coaching
+training
+peer mentoring
+Adaptability
+flexibility
+resilience
+Conflict Resolution
+mediation
+dispute resolution
+Presentation Skills
+public speaking
+slide decks
+pitching
+Negotiation
+persuasion
+deal closing
+Active Listening
+empathetic listening
+Emotional Intelligence
+empathy
+Organizational Skills
+attention to detail
+structured planning
+Customer Service
+client relations
+support mindset
+Git
+git vcs
+version control
+GitHub
+github enterprise
+GitLab
+Bitbucket
+Jira
+atlassian jira
+jira software
+Confluence
+atlassian confluence
+Trello
+Asana
+Notion
+notion workspace
+Slack
+slack messaging
+Microsoft Teams
+ms teams
+Postman
+postman api client
+Swagger
+openapi
+swagger ui
+Visual Studio Code
+vs code
+vscode
+IntelliJ IDEA
+intellij
+PyCharm
+Eclipse
+Vim
+neovim
+Jupyter Notebook
+jupyter
+jupyter lab
+ipython
+Google Colab
+colab
+Tableau
+tableau desktop
+tableau server
+Power BI
+microsoft power bi
+powerbi
+Looker
+looker studio
+google data studio
+Metabase
+Excel
+microsoft excel
+spreadsheets
+advanced excel
+vlookup
+pivot tables
+Word
+microsoft word
+PowerPoint
+microsoft powerpoint
+slide presentations
+Google Docs
+google sheets
+google slides
+gsuite
+google workspace
+Google Analytics
+ga4

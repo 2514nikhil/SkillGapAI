@@ -1,0 +1,7 @@
+Recommendation Metric,Score
+Precision@1,90.00%
+Precision@3,44.44%
+Precision@5,28.00%
+MAP@5,0.9000
+Sampled Missing Skills,30
+Total Recommendations Evaluated,150

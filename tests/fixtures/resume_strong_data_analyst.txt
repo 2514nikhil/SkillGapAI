@@ -1,0 +1,28 @@
+Alex Rivera
+Email: alex.rivera@example.com | Phone: (555) 234-5678
+LinkedIn: linkedin.com/in/alexrivera-data
+
+PROFESSIONAL SUMMARY
+Senior Data Analyst with 5+ years of experience conducting quantitative business analysis, building executive dashboards, and optimizing database pipelines.
+
+TECHNICAL SKILLS
+Languages & Querying: SQL, Python, R
+BI & Visualization: Tableau, Power BI, Data Visualization
+Analytics & Statistics: Statistical Analysis, A/B Testing, Business Intelligence, Predictive Modeling
+Data Infrastructure: Data Warehousing, Snowflake, BigQuery
+
+EXPERIENCE
+Lead Data Analyst | RetailInsights Inc. (2021 - Present)
+- Designed and maintained complex SQL analytical queries processing 10M+ daily transactions.
+- Developed interactive Tableau executive dashboards and Power BI reports adopted by 200+ business stakeholders.
+- Spearheaded A/B testing framework across web and mobile platforms to evaluate customer checkout funnels.
+- Engineered automated data transformation workflows in Snowflake and maintained data warehousing pipelines.
+- Conducted advanced statistical analysis and hypothesis testing to uncover revenue churn drivers.
+
+Data Analyst | MetricsCorp (2018 - 2021)
+- Built Python scripts for automated data extraction, cleaning, and reporting.
+- Formulated business intelligence dashboards providing real-time visibility into customer acquisition costs.
+- Collaborated with engineering teams to optimize relational data warehousing schemas.
+
+EDUCATION
+B.S. in Statistics and Data Science, University of California (2018)

@@ -1,0 +1,24 @@
+Jordan Chen
+Email: jordan.chen@example.com | GitHub: github.com/jordanchen-ui
+
+PROFESSIONAL SUMMARY
+Senior Frontend Engineer with 6 years of experience building scalable, responsive web applications and design systems with modern TypeScript and React.
+
+TECHNICAL SKILLS
+Languages: TypeScript, JavaScript, HTML5, CSS3
+Frameworks & Libraries: React, Next.js, Redux, Tailwind CSS, Sass
+Tools: Webpack, Vite, Git, Jest, Cypress, Figma, UI Design
+
+EXPERIENCE
+Lead Frontend Developer | WebCraft Studio (2021 - Present)
+- Architected high-performance web applications using React, Next.js, and TypeScript.
+- Implemented accessible UI components adhering to WCAG standards with Tailwind CSS and CSS3.
+- Managed client-side state using Redux Toolkit and integrated backend REST APIs.
+- Collaborated with UI designers using Figma to deliver intuitive interactive user experiences.
+
+Frontend Developer | PixelTech (2018 - 2021)
+- Developed responsive Single Page Applications in JavaScript, React, and CSS3.
+- Improved frontend load times by 40% through code splitting and tree shaking.
+
+EDUCATION
+B.S. in Computer Science (2018)

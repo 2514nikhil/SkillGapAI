@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SkillGapLabeledDocument",
+  "type": "object",
+  "required": ["doc_id", "doc_type", "text", "ground_truth_skills"],
+  "properties": {
+    "doc_id": {
+      "type": "string",
+      "description": "Unique identifier for the labeled document"
+    },
+    "doc_type": {
+      "type": "string",
+      "enum": ["resume", "job_description"],
+      "description": "Document type"
+    },
+    "title": {
+      "type": "string",
+      "description": "Role or profile title"
+    },
+    "text": {
+      "type": "string",
+      "description": "Raw text content of the document"
+    },
+    "ground_truth_skills": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "List of canonical skill_ids present in the text"
+    }
+  }
+}

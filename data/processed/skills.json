@@ -1,0 +1,3768 @@
+{
+  "python": {
+    "name": "Python",
+    "aliases": [
+      "python3",
+      "py"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "javascript": {
+    "name": "JavaScript",
+    "aliases": [
+      "js",
+      "ecmascript"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "typescript": {
+    "name": "TypeScript",
+    "aliases": [
+      "ts"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "java": {
+    "name": "Java",
+    "aliases": [
+      "java8",
+      "java11",
+      "java17",
+      "java21"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "c++": {
+    "name": "C++",
+    "aliases": [
+      "cpp",
+      "c plus plus"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "c#": {
+    "name": "C#",
+    "aliases": [
+      "csharp",
+      "c sharp",
+      "dotnet c#"
+    ],
+    "category": "programming",
+    "ambiguous": true
+  },
+  "c": {
+    "name": "C",
+    "aliases": [
+      "c language",
+      "ansi c"
+    ],
+    "category": "programming",
+    "ambiguous": true
+  },
+  "go": {
+    "name": "Go",
+    "aliases": [
+      "golang"
+    ],
+    "category": "programming",
+    "ambiguous": true
+  },
+  "rust": {
+    "name": "Rust",
+    "aliases": [
+      "rustlang",
+      "rust language"
+    ],
+    "category": "programming",
+    "ambiguous": true
+  },
+  "ruby": {
+    "name": "Ruby",
+    "aliases": [
+      "ruby on rails language"
+    ],
+    "category": "programming",
+    "ambiguous": true
+  },
+  "php": {
+    "name": "PHP",
+    "aliases": [
+      "php7",
+      "php8"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "swift": {
+    "name": "Swift",
+    "aliases": [
+      "swiftlang"
+    ],
+    "category": "programming",
+    "ambiguous": true
+  },
+  "kotlin": {
+    "name": "Kotlin",
+    "aliases": [
+      "kotlinlang"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "scala": {
+    "name": "Scala",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": true
+  },
+  "r": {
+    "name": "R",
+    "aliases": [
+      "r programming",
+      "r language"
+    ],
+    "category": "programming",
+    "ambiguous": true
+  },
+  "dart": {
+    "name": "Dart",
+    "aliases": [
+      "dartlang"
+    ],
+    "category": "programming",
+    "ambiguous": true
+  },
+  "bash": {
+    "name": "Bash",
+    "aliases": [
+      "bash script",
+      "shell scripting",
+      "sh"
+    ],
+    "category": "programming",
+    "ambiguous": true
+  },
+  "powershell": {
+    "name": "PowerShell",
+    "aliases": [
+      "posh",
+      "pwsh"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "perl": {
+    "name": "Perl",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": true
+  },
+  "lua": {
+    "name": "Lua",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "julia": {
+    "name": "Julia",
+    "aliases": [
+      "julialang"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "haskell": {
+    "name": "Haskell",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "elixir": {
+    "name": "Elixir",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "erlang": {
+    "name": "Erlang",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "clojure": {
+    "name": "Clojure",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "groovy": {
+    "name": "Groovy",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "matlab": {
+    "name": "MATLAB",
+    "aliases": [
+      "matrix laboratory"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "solidity": {
+    "name": "Solidity",
+    "aliases": [
+      "smart contracts language"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "objective_c": {
+    "name": "Objective-C",
+    "aliases": [
+      "objc"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "visual_basic": {
+    "name": "Visual Basic",
+    "aliases": [
+      "vb.net",
+      "vba"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "assembly": {
+    "name": "Assembly",
+    "aliases": [
+      "asm",
+      "x86",
+      "arm assembly"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "fortran": {
+    "name": "Fortran",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "cobol": {
+    "name": "COBOL",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "f#": {
+    "name": "F#",
+    "aliases": [
+      "fsharp"
+    ],
+    "category": "programming",
+    "ambiguous": true
+  },
+  "vhdl": {
+    "name": "VHDL",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "verilog": {
+    "name": "Verilog",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "apex": {
+    "name": "Apex",
+    "aliases": [
+      "salesforce apex"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "sql": {
+    "name": "SQL",
+    "aliases": [
+      "structured query language",
+      "ansi sql"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "pl_sql": {
+    "name": "PL/SQL",
+    "aliases": [
+      "plsql"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "t_sql": {
+    "name": "T-SQL",
+    "aliases": [
+      "tsql",
+      "transact-sql"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "postgresql": {
+    "name": "PostgreSQL",
+    "aliases": [
+      "postgres",
+      "pgsql"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "mysql": {
+    "name": "MySQL",
+    "aliases": [
+      "my-sql"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "sqlite": {
+    "name": "SQLite",
+    "aliases": [
+      "sqlite3"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "microsoft_sql_server": {
+    "name": "Microsoft SQL Server",
+    "aliases": [
+      "mssql",
+      "sql server"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "oracle_database": {
+    "name": "Oracle Database",
+    "aliases": [
+      "oracle db"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "mongodb": {
+    "name": "MongoDB",
+    "aliases": [
+      "mongo"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "redis": {
+    "name": "Redis",
+    "aliases": [
+      "redis cache"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "cassandra": {
+    "name": "Cassandra",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "dynamodb": {
+    "name": "DynamoDB",
+    "aliases": [
+      "amazon dynamodb"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "elasticsearch": {
+    "name": "Elasticsearch",
+    "aliases": [
+      "elastic search",
+      "es"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "neo4j": {
+    "name": "Neo4j",
+    "aliases": [
+      "neo4j graph"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "couchbase": {
+    "name": "Couchbase",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "firebase_realtime_database": {
+    "name": "Firebase Realtime Database",
+    "aliases": [
+      "firebase db"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "firestore": {
+    "name": "Firestore",
+    "aliases": [
+      "cloud firestore"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "snowflake": {
+    "name": "Snowflake",
+    "aliases": [
+      "snowflake data cloud",
+      "snowflake dw"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "google_bigquery": {
+    "name": "Google BigQuery",
+    "aliases": [
+      "bigquery",
+      "gbq"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "amazon_redshift": {
+    "name": "Amazon Redshift",
+    "aliases": [
+      "redshift"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "databricks": {
+    "name": "Databricks",
+    "aliases": [
+      "databricks lakehouse"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "apache_spark": {
+    "name": "Apache Spark",
+    "aliases": [
+      "spark",
+      "spark core"
+    ],
+    "category": "data",
+    "ambiguous": true
+  },
+  "pyspark": {
+    "name": "PySpark",
+    "aliases": [
+      "python spark"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "spark_sql": {
+    "name": "Spark SQL",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "apache_kafka": {
+    "name": "Apache Kafka",
+    "aliases": [
+      "kafka"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "apache_flink": {
+    "name": "Apache Flink",
+    "aliases": [
+      "flink"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "apache_hadoop": {
+    "name": "Apache Hadoop",
+    "aliases": [
+      "hadoop",
+      "hdfs"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "apache_hive": {
+    "name": "Apache Hive",
+    "aliases": [
+      "hive"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "apache_cassandra": {
+    "name": "Apache Cassandra",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "apache_airflow": {
+    "name": "Apache Airflow",
+    "aliases": [
+      "airflow"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "prefect": {
+    "name": "Prefect",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "dagster": {
+    "name": "Dagster",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "dbt": {
+    "name": "dbt",
+    "aliases": [
+      "data build tool"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "pandas": {
+    "name": "Pandas",
+    "aliases": [
+      "python pandas"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "numpy": {
+    "name": "NumPy",
+    "aliases": [
+      "numpy library"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "polars": {
+    "name": "Polars",
+    "aliases": [
+      "python polars"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "duckdb": {
+    "name": "DuckDB",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "dask": {
+    "name": "Dask",
+    "aliases": [
+      "dask distributed"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "ray": {
+    "name": "Ray",
+    "aliases": [
+      "ray data",
+      "ray core"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "apache_arrow": {
+    "name": "Apache Arrow",
+    "aliases": [
+      "arrow",
+      "pyarrow"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "presto": {
+    "name": "Presto",
+    "aliases": [
+      "prestodb"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "trino": {
+    "name": "Trino",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "clickhouse": {
+    "name": "ClickHouse",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "supabase": {
+    "name": "Supabase",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "data_modeling": {
+    "name": "Data Modeling",
+    "aliases": [
+      "dimensional modeling",
+      "star schema",
+      "data model"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "data_warehousing": {
+    "name": "Data Warehousing",
+    "aliases": [
+      "dwh",
+      "enterprise data warehouse"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "data_lake": {
+    "name": "Data Lake",
+    "aliases": [
+      "lakehouse",
+      "delta lake"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "etl": {
+    "name": "ETL",
+    "aliases": [
+      "extract transform load",
+      "elt"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "data_pipeline": {
+    "name": "Data Pipeline",
+    "aliases": [
+      "data pipelines",
+      "pipeline engineering"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "data_governance": {
+    "name": "Data Governance",
+    "aliases": [
+      "data quality",
+      "data catalog"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "data_engineering": {
+    "name": "Data Engineering",
+    "aliases": [
+      "big data engineering"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "data_analytics": {
+    "name": "Data Analytics",
+    "aliases": [
+      "data analysis",
+      "analytics"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "business_intelligence": {
+    "name": "Business Intelligence",
+    "aliases": [
+      "bi",
+      "enterprise bi"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "data_visualization": {
+    "name": "Data Visualization",
+    "aliases": [
+      "dataviz",
+      "data viz"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "statistical_analysis": {
+    "name": "Statistical Analysis",
+    "aliases": [
+      "statistics",
+      "inferential statistics"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "time_series_analysis": {
+    "name": "Time Series Analysis",
+    "aliases": [
+      "time series forecasting",
+      "time-series"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "a_b_testing": {
+    "name": "A/B Testing",
+    "aliases": [
+      "ab testing",
+      "split testing",
+      "hypothesis testing"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "web_scraping": {
+    "name": "Web Scraping",
+    "aliases": [
+      "data scraping",
+      "beautifulsoup",
+      "scrapy"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "machine_learning": {
+    "name": "Machine Learning",
+    "aliases": [
+      "ml"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "deep_learning": {
+    "name": "Deep Learning",
+    "aliases": [
+      "dl",
+      "neural networks",
+      "ann"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "artificial_intelligence": {
+    "name": "Artificial Intelligence",
+    "aliases": [
+      "ai"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "natural_language_processing": {
+    "name": "Natural Language Processing",
+    "aliases": [
+      "nlp",
+      "computational linguistics"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "computer_vision": {
+    "name": "Computer Vision",
+    "aliases": [
+      "cv",
+      "image processing"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "large_language_models": {
+    "name": "Large Language Models",
+    "aliases": [
+      "llm",
+      "llms",
+      "foundation models"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "generative_ai": {
+    "name": "Generative AI",
+    "aliases": [
+      "genai",
+      "generative artificial intelligence"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "pytorch": {
+    "name": "PyTorch",
+    "aliases": [
+      "torch"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "tensorflow": {
+    "name": "TensorFlow",
+    "aliases": [
+      "tf",
+      "tensorflow2"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "keras": {
+    "name": "Keras",
+    "aliases": [
+      "tf.keras"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "scikit_learn": {
+    "name": "scikit-learn",
+    "aliases": [
+      "sklearn"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "xgboost": {
+    "name": "XGBoost",
+    "aliases": [
+      "xgboost library"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "lightgbm": {
+    "name": "LightGBM",
+    "aliases": [
+      "lgb"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "catboost": {
+    "name": "CatBoost",
+    "aliases": [],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "hugging_face": {
+    "name": "Hugging Face",
+    "aliases": [
+      "huggingface",
+      "transformers library"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "langchain": {
+    "name": "LangChain",
+    "aliases": [
+      "langchain framework"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "llamaindex": {
+    "name": "LlamaIndex",
+    "aliases": [
+      "gpt index"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "spacy": {
+    "name": "spaCy",
+    "aliases": [
+      "spacy nlp"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "nltk": {
+    "name": "NLTK",
+    "aliases": [
+      "natural language toolkit"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "opencv": {
+    "name": "OpenCV",
+    "aliases": [
+      "cv2"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "transformers": {
+    "name": "Transformers",
+    "aliases": [
+      "transformer architecture",
+      "attention mechanism"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "bert": {
+    "name": "BERT",
+    "aliases": [
+      "roberta",
+      "distilbert"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "gpt": {
+    "name": "GPT",
+    "aliases": [
+      "gpt-3",
+      "gpt-4",
+      "chatgpt"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "reinforcement_learning": {
+    "name": "Reinforcement Learning",
+    "aliases": [
+      "rl"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "supervised_learning": {
+    "name": "Supervised Learning",
+    "aliases": [
+      "classification",
+      "regression"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "unsupervised_learning": {
+    "name": "Unsupervised Learning",
+    "aliases": [
+      "clustering",
+      "kmeans",
+      "pca"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "feature_engineering": {
+    "name": "Feature Engineering",
+    "aliases": [
+      "feature selection",
+      "feature extraction"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "model_evaluation": {
+    "name": "Model Evaluation",
+    "aliases": [
+      "cross-validation",
+      "auc roc",
+      "f1 score"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "hyperparameter_tuning": {
+    "name": "Hyperparameter Tuning",
+    "aliases": [
+      "grid search",
+      "optuna",
+      "hyperopt"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "transfer_learning": {
+    "name": "Transfer Learning",
+    "aliases": [
+      "fine-tuning",
+      "model adaptation"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "prompt_engineering": {
+    "name": "Prompt Engineering",
+    "aliases": [
+      "prompt design",
+      "in-context learning"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "retrieval_augmented_generation": {
+    "name": "Retrieval-Augmented Generation",
+    "aliases": [
+      "rag",
+      "rag pipelines"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "vector_databases": {
+    "name": "Vector Databases",
+    "aliases": [
+      "vector search",
+      "similarity search"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "faiss": {
+    "name": "FAISS",
+    "aliases": [
+      "facebook ai similarity search"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "pinecone": {
+    "name": "Pinecone",
+    "aliases": [
+      "pinecone db"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "chromadb": {
+    "name": "ChromaDB",
+    "aliases": [
+      "chroma vector store"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "weaviate": {
+    "name": "Weaviate",
+    "aliases": [
+      "weaviate vector db"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "qdrant": {
+    "name": "Qdrant",
+    "aliases": [
+      "qdrant vector search"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "milvus": {
+    "name": "Milvus",
+    "aliases": [],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "mlflow": {
+    "name": "MLflow",
+    "aliases": [
+      "mlflow tracking"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "weights_biases": {
+    "name": "Weights & Biases",
+    "aliases": [
+      "wandb"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "dvc": {
+    "name": "DVC",
+    "aliases": [
+      "data version control"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "model_deployment": {
+    "name": "Model Deployment",
+    "aliases": [
+      "model serving",
+      "ml inference"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "triton_inference_server": {
+    "name": "Triton Inference Server",
+    "aliases": [
+      "triton"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "torchserve": {
+    "name": "TorchServe",
+    "aliases": [],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "tf_serving": {
+    "name": "TF Serving",
+    "aliases": [
+      "tensorflow serving"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "onnx": {
+    "name": "ONNX",
+    "aliases": [
+      "open neural network exchange",
+      "onnx runtime"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "mlops": {
+    "name": "MLOps",
+    "aliases": [
+      "machine learning operations"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "explainable_ai": {
+    "name": "Explainable AI",
+    "aliases": [
+      "xai",
+      "shap",
+      "lime",
+      "interpretability"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "speech_recognition": {
+    "name": "Speech Recognition",
+    "aliases": [
+      "asr",
+      "whisper",
+      "speech to text"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "object_detection": {
+    "name": "Object Detection",
+    "aliases": [
+      "yolo",
+      "faster r-cnn"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "semantic_segmentation": {
+    "name": "Semantic Segmentation",
+    "aliases": [
+      "image segmentation"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "recommendation_systems": {
+    "name": "Recommendation Systems",
+    "aliases": [
+      "recsys",
+      "collaborative filtering"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "gnn": {
+    "name": "GNN",
+    "aliases": [
+      "graph neural networks",
+      "pytorch geometric"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "react": {
+    "name": "React",
+    "aliases": [
+      "reactjs",
+      "react.js"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "angular": {
+    "name": "Angular",
+    "aliases": [
+      "angularjs",
+      "angular 2+"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "vue.js": {
+    "name": "Vue.js",
+    "aliases": [
+      "vue",
+      "vuejs"
+    ],
+    "category": "web",
+    "ambiguous": true
+  },
+  "next.js": {
+    "name": "Next.js",
+    "aliases": [
+      "nextjs"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "nuxt.js": {
+    "name": "Nuxt.js",
+    "aliases": [
+      "nuxtjs"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "svelte": {
+    "name": "Svelte",
+    "aliases": [
+      "sveltekit"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "node.js": {
+    "name": "Node.js",
+    "aliases": [
+      "nodejs",
+      "node"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "express.js": {
+    "name": "Express.js",
+    "aliases": [
+      "express",
+      "expressjs"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "fastapi": {
+    "name": "FastAPI",
+    "aliases": [
+      "fastapi framework"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "flask": {
+    "name": "Flask",
+    "aliases": [
+      "python flask"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "django": {
+    "name": "Django",
+    "aliases": [
+      "django framework",
+      "django rest framework",
+      "drf"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "spring_boot": {
+    "name": "Spring Boot",
+    "aliases": [
+      "springboot",
+      "spring framework"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "asp.net_core": {
+    "name": "ASP.NET Core",
+    "aliases": [
+      "asp.net",
+      "dotnet core"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "ruby_on_rails": {
+    "name": "Ruby on Rails",
+    "aliases": [
+      "rails",
+      "ror"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "laravel": {
+    "name": "Laravel",
+    "aliases": [
+      "php laravel"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "symfony": {
+    "name": "Symfony",
+    "aliases": [],
+    "category": "web",
+    "ambiguous": false
+  },
+  "graphql": {
+    "name": "GraphQL",
+    "aliases": [
+      "graphql api",
+      "apollo graphql"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "rest_api": {
+    "name": "REST API",
+    "aliases": [
+      "restful api",
+      "restful web services",
+      "rest apis"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "grpc": {
+    "name": "gRPC",
+    "aliases": [
+      "grpc services",
+      "protocol buffers",
+      "protobuf"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "html5": {
+    "name": "HTML5",
+    "aliases": [
+      "html"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "css3": {
+    "name": "CSS3",
+    "aliases": [
+      "css"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "sass": {
+    "name": "Sass",
+    "aliases": [
+      "scss"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "tailwind_css": {
+    "name": "Tailwind CSS",
+    "aliases": [
+      "tailwindcss",
+      "tailwind"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "bootstrap": {
+    "name": "Bootstrap",
+    "aliases": [
+      "twitter bootstrap"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "material_ui": {
+    "name": "Material-UI",
+    "aliases": [
+      "mui"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "chakra_ui": {
+    "name": "Chakra UI",
+    "aliases": [],
+    "category": "web",
+    "ambiguous": false
+  },
+  "ant_design": {
+    "name": "Ant Design",
+    "aliases": [
+      "antd"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "redux": {
+    "name": "Redux",
+    "aliases": [
+      "redux toolkit",
+      "rtk"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "mobx": {
+    "name": "MobX",
+    "aliases": [],
+    "category": "web",
+    "ambiguous": false
+  },
+  "zustand": {
+    "name": "Zustand",
+    "aliases": [],
+    "category": "web",
+    "ambiguous": false
+  },
+  "rxjs": {
+    "name": "RxJS",
+    "aliases": [],
+    "category": "web",
+    "ambiguous": false
+  },
+  "webpack": {
+    "name": "Webpack",
+    "aliases": [
+      "webpack bundler"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "vite": {
+    "name": "Vite",
+    "aliases": [
+      "vitejs"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "rollup": {
+    "name": "Rollup",
+    "aliases": [],
+    "category": "web",
+    "ambiguous": false
+  },
+  "babel": {
+    "name": "Babel",
+    "aliases": [],
+    "category": "web",
+    "ambiguous": false
+  },
+  "websockets": {
+    "name": "WebSockets",
+    "aliases": [
+      "socket.io",
+      "websocket"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "oauth": {
+    "name": "OAuth",
+    "aliases": [
+      "oauth2",
+      "oauth 2.0",
+      "openid connect"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "json_web_tokens": {
+    "name": "JSON Web Tokens",
+    "aliases": [
+      "jwt"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "microservices": {
+    "name": "Microservices",
+    "aliases": [
+      "microservice architecture"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "monorepo": {
+    "name": "Monorepo",
+    "aliases": [
+      "turborepo",
+      "nx"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "progressive_web_apps": {
+    "name": "Progressive Web Apps",
+    "aliases": [
+      "pwa"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "webassembly": {
+    "name": "WebAssembly",
+    "aliases": [
+      "wasm"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "nestjs": {
+    "name": "NestJS",
+    "aliases": [
+      "nestjs framework"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "fastify": {
+    "name": "Fastify",
+    "aliases": [],
+    "category": "web",
+    "ambiguous": false
+  },
+  "koa": {
+    "name": "Koa",
+    "aliases": [],
+    "category": "web",
+    "ambiguous": false
+  },
+  "gatsby": {
+    "name": "Gatsby",
+    "aliases": [],
+    "category": "web",
+    "ambiguous": false
+  },
+  "remix": {
+    "name": "Remix",
+    "aliases": [
+      "remix run"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "astro": {
+    "name": "Astro",
+    "aliases": [
+      "astro framework"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "jquery": {
+    "name": "jQuery",
+    "aliases": [],
+    "category": "web",
+    "ambiguous": false
+  },
+  "wordpress": {
+    "name": "WordPress",
+    "aliases": [
+      "wp development"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "shopify": {
+    "name": "Shopify",
+    "aliases": [
+      "liquid templating"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "amazon_web_services": {
+    "name": "Amazon Web Services",
+    "aliases": [
+      "aws"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "microsoft_azure": {
+    "name": "Microsoft Azure",
+    "aliases": [
+      "azure"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "google_cloud_platform": {
+    "name": "Google Cloud Platform",
+    "aliases": [
+      "gcp",
+      "google cloud"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "aws_lambda": {
+    "name": "AWS Lambda",
+    "aliases": [
+      "serverless lambda"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "amazon_s3": {
+    "name": "Amazon S3",
+    "aliases": [
+      "aws s3"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "amazon_ec2": {
+    "name": "Amazon EC2",
+    "aliases": [
+      "aws ec2"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "amazon_ecs": {
+    "name": "Amazon ECS",
+    "aliases": [
+      "aws ecs"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "amazon_eks": {
+    "name": "Amazon EKS",
+    "aliases": [
+      "aws eks"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "amazon_rds": {
+    "name": "Amazon RDS",
+    "aliases": [
+      "aws rds"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "amazon_cloudfront": {
+    "name": "Amazon CloudFront",
+    "aliases": [
+      "cloudfront"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "aws_iam": {
+    "name": "AWS IAM",
+    "aliases": [
+      "iam policies"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "azure_functions": {
+    "name": "Azure Functions",
+    "aliases": [
+      "serverless azure"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "azure_blob_storage": {
+    "name": "Azure Blob Storage",
+    "aliases": [],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "azure_app_service": {
+    "name": "Azure App Service",
+    "aliases": [],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "google_cloud_functions": {
+    "name": "Google Cloud Functions",
+    "aliases": [],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "google_cloud_storage": {
+    "name": "Google Cloud Storage",
+    "aliases": [
+      "gcs"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "google_compute_engine": {
+    "name": "Google Compute Engine",
+    "aliases": [
+      "gce"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "google_kubernetes_engine": {
+    "name": "Google Kubernetes Engine",
+    "aliases": [
+      "gke"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "cloud_architecture": {
+    "name": "Cloud Architecture",
+    "aliases": [
+      "cloud native",
+      "well-architected framework"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "cloud_security": {
+    "name": "Cloud Security",
+    "aliases": [
+      "iam",
+      "cloud compliance"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "cloudflare": {
+    "name": "Cloudflare",
+    "aliases": [
+      "cloudflare workers"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "heroku": {
+    "name": "Heroku",
+    "aliases": [],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "vercel": {
+    "name": "Vercel",
+    "aliases": [],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "netlify": {
+    "name": "Netlify",
+    "aliases": [],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "digitalocean": {
+    "name": "DigitalOcean",
+    "aliases": [],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "serverless": {
+    "name": "Serverless",
+    "aliases": [
+      "serverless framework"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "openstack": {
+    "name": "OpenStack",
+    "aliases": [],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "vmware": {
+    "name": "VMware",
+    "aliases": [
+      "vsphere",
+      "esxi"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "content_delivery_network": {
+    "name": "Content Delivery Network",
+    "aliases": [
+      "cdn"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "docker": {
+    "name": "Docker",
+    "aliases": [
+      "docker containers",
+      "dockerfile",
+      "containerization"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "kubernetes": {
+    "name": "Kubernetes",
+    "aliases": [
+      "k8s",
+      "k8s cluster"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "helm": {
+    "name": "Helm",
+    "aliases": [
+      "helm charts"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "ci_cd": {
+    "name": "CI/CD",
+    "aliases": [
+      "continuous integration",
+      "continuous deployment"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "jenkins": {
+    "name": "Jenkins",
+    "aliases": [
+      "jenkins pipeline"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "github_actions": {
+    "name": "GitHub Actions",
+    "aliases": [
+      "gha",
+      "github workflows"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "gitlab_ci": {
+    "name": "GitLab CI",
+    "aliases": [
+      "gitlab pipelines"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "circleci": {
+    "name": "CircleCI",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "travis_ci": {
+    "name": "Travis CI",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "terraform": {
+    "name": "Terraform",
+    "aliases": [
+      "hashicorp terraform",
+      "iac"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "ansible": {
+    "name": "Ansible",
+    "aliases": [
+      "ansible playbooks"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "puppet": {
+    "name": "Puppet",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "chef": {
+    "name": "Chef",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "pulumi": {
+    "name": "Pulumi",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "infrastructure_as_code": {
+    "name": "Infrastructure as Code",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "linux": {
+    "name": "Linux",
+    "aliases": [
+      "linux administration",
+      "unix",
+      "ubuntu",
+      "centos",
+      "debian"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "nginx": {
+    "name": "Nginx",
+    "aliases": [
+      "nginx web server",
+      "reverse proxy"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "apache_http_server": {
+    "name": "Apache HTTP Server",
+    "aliases": [
+      "httpd",
+      "apache web server"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "prometheus": {
+    "name": "Prometheus",
+    "aliases": [
+      "prometheus monitoring"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "grafana": {
+    "name": "Grafana",
+    "aliases": [
+      "grafana dashboards"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "elk_stack": {
+    "name": "ELK Stack",
+    "aliases": [
+      "elasticsearch logstash kibana",
+      "elastic stack"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "datadog": {
+    "name": "Datadog",
+    "aliases": [
+      "datadog monitoring"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "splunk": {
+    "name": "Splunk",
+    "aliases": [
+      "splunk enterprise"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "new_relic": {
+    "name": "New Relic",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "sentry": {
+    "name": "Sentry",
+    "aliases": [
+      "error tracking"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "argocd": {
+    "name": "ArgoCD",
+    "aliases": [
+      "gitops"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "istio": {
+    "name": "Istio",
+    "aliases": [
+      "service mesh"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "site_reliability_engineering": {
+    "name": "Site Reliability Engineering",
+    "aliases": [
+      "sre",
+      "reliability engineering"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "system_administration": {
+    "name": "System Administration",
+    "aliases": [
+      "sysadmin"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "network_security": {
+    "name": "Network Security",
+    "aliases": [
+      "firewalls",
+      "vpn",
+      "tcp/ip"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "cybersecurity": {
+    "name": "Cybersecurity",
+    "aliases": [
+      "information security",
+      "infosec"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "penetration_testing": {
+    "name": "Penetration Testing",
+    "aliases": [
+      "pen testing",
+      "ethical hacking"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "vulnerability_assessment": {
+    "name": "Vulnerability Assessment",
+    "aliases": [
+      "security scanning"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "incident_management": {
+    "name": "Incident Management",
+    "aliases": [
+      "incident response",
+      "post-mortem"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "figma": {
+    "name": "Figma",
+    "aliases": [
+      "figma design"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "adobe_xd": {
+    "name": "Adobe XD",
+    "aliases": [
+      "xd"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "sketch": {
+    "name": "Sketch",
+    "aliases": [
+      "sketch app"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "ui_design": {
+    "name": "UI Design",
+    "aliases": [
+      "user interface design",
+      "ui"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "ux_design": {
+    "name": "UX Design",
+    "aliases": [
+      "user experience design",
+      "ux"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "user_research": {
+    "name": "User Research",
+    "aliases": [
+      "ux research",
+      "usability testing"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "wireframing": {
+    "name": "Wireframing",
+    "aliases": [
+      "wireframes",
+      "low-fidelity mockups"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "prototyping": {
+    "name": "Prototyping",
+    "aliases": [
+      "interactive prototypes",
+      "click-through prototypes"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "design_systems": {
+    "name": "Design Systems",
+    "aliases": [
+      "component library",
+      "style guides"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "information_architecture": {
+    "name": "Information Architecture",
+    "aliases": [
+      "site map",
+      "card sorting"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "interaction_design": {
+    "name": "Interaction Design",
+    "aliases": [
+      "ixd"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "visual_design": {
+    "name": "Visual Design",
+    "aliases": [
+      "graphic design"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "adobe_photoshop": {
+    "name": "Adobe Photoshop",
+    "aliases": [
+      "photoshop",
+      "ps"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "adobe_illustrator": {
+    "name": "Adobe Illustrator",
+    "aliases": [
+      "illustrator",
+      "ai design"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "adobe_indesign": {
+    "name": "Adobe InDesign",
+    "aliases": [
+      "indesign"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "adobe_premiere_pro": {
+    "name": "Adobe Premiere Pro",
+    "aliases": [
+      "premiere",
+      "video editing"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "adobe_after_effects": {
+    "name": "Adobe After Effects",
+    "aliases": [
+      "after effects",
+      "motion graphics"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "canva": {
+    "name": "Canva",
+    "aliases": [],
+    "category": "design",
+    "ambiguous": false
+  },
+  "blender": {
+    "name": "Blender",
+    "aliases": [
+      "3d modeling"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "responsive_design": {
+    "name": "Responsive Design",
+    "aliases": [
+      "mobile-friendly design"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "accessibility": {
+    "name": "Accessibility",
+    "aliases": [
+      "a11y",
+      "wcag"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "design_thinking": {
+    "name": "Design Thinking",
+    "aliases": [
+      "user-centered design"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "agile_methodology": {
+    "name": "Agile Methodology",
+    "aliases": [
+      "agile",
+      "agile development"
+    ],
+    "category": "business",
+    "ambiguous": false
+  },
+  "scrum": {
+    "name": "Scrum",
+    "aliases": [
+      "scrum framework",
+      "sprint planning",
+      "daily standup"
+    ],
+    "category": "business",
+    "ambiguous": false
+  },
+  "kanban": {
+    "name": "Kanban",
+    "aliases": [
+      "kanban boards"
+    ],
+    "category": "business",
+    "ambiguous": false
+  },
+  "product_management": {
+    "name": "Product Management",
+    "aliases": [
+      "product roadmap",
+      "product discovery"
+    ],
+    "category": "business",
+    "ambiguous": false
+  },
+  "project_management": {
+    "name": "Project Management",
+    "aliases": [
+      "pmp",
+      "project delivery"
+    ],
+    "category": "business",
+    "ambiguous": false
+  },
+  "business_analysis": {
+    "name": "Business Analysis",
+    "aliases": [
+      "requirements gathering",
+      "user stories"
+    ],
+    "category": "business",
+    "ambiguous": false
+  },
+  "stakeholder_management": {
+    "name": "Stakeholder Management",
+    "aliases": [
+      "client communication",
+      "partner alignment"
+    ],
+    "category": "business",
+    "ambiguous": false
+  },
+  "strategic_planning": {
+    "name": "Strategic Planning",
+    "aliases": [
+      "business strategy",
+      "corporate strategy"
+    ],
+    "category": "business",
+    "ambiguous": false
+  },
+  "financial_modeling": {
+    "name": "Financial Modeling",
+    "aliases": [],
+    "category": "business",
+    "ambiguous": false
+  },
+  "risk_management": {
+    "name": "Risk Management",
+    "aliases": [
+      "risk assessment",
+      "risk mitigation"
+    ],
+    "category": "business",
+    "ambiguous": false
+  },
+  "change_management": {
+    "name": "Change Management",
+    "aliases": [
+      "organizational change"
+    ],
+    "category": "business",
+    "ambiguous": false
+  },
+  "vendor_management": {
+    "name": "Vendor Management",
+    "aliases": [
+      "procurement",
+      "contract negotiation"
+    ],
+    "category": "business",
+    "ambiguous": false
+  },
+  "process_improvement": {
+    "name": "Process Improvement",
+    "aliases": [
+      "six sigma",
+      "lean manufacturing",
+      "kaizen"
+    ],
+    "category": "business",
+    "ambiguous": false
+  },
+  "competitive_analysis": {
+    "name": "Competitive Analysis",
+    "aliases": [
+      "market research",
+      "benchmarking"
+    ],
+    "category": "business",
+    "ambiguous": false
+  },
+  "product_strategy": {
+    "name": "Product Strategy",
+    "aliases": [
+      "go-to-market",
+      "gtm"
+    ],
+    "category": "business",
+    "ambiguous": false
+  },
+  "kpi_management": {
+    "name": "KPI Management",
+    "aliases": [
+      "kpi",
+      "okr",
+      "metrics tracking"
+    ],
+    "category": "business",
+    "ambiguous": false
+  },
+  "customer_relationship_management": {
+    "name": "Customer Relationship Management",
+    "aliases": [
+      "crm"
+    ],
+    "category": "business",
+    "ambiguous": false
+  },
+  "salesforce": {
+    "name": "Salesforce",
+    "aliases": [
+      "sfdc",
+      "salesforce crm"
+    ],
+    "category": "business",
+    "ambiguous": false
+  },
+  "hubspot": {
+    "name": "HubSpot",
+    "aliases": [
+      "inbound marketing"
+    ],
+    "category": "business",
+    "ambiguous": false
+  },
+  "marketing_strategy": {
+    "name": "Marketing Strategy",
+    "aliases": [
+      "digital marketing",
+      "growth marketing"
+    ],
+    "category": "business",
+    "ambiguous": false
+  },
+  "seo": {
+    "name": "SEO",
+    "aliases": [
+      "search engine optimization"
+    ],
+    "category": "business",
+    "ambiguous": false
+  },
+  "content_strategy": {
+    "name": "Content Strategy",
+    "aliases": [
+      "content marketing"
+    ],
+    "category": "business",
+    "ambiguous": false
+  },
+  "communication": {
+    "name": "Communication",
+    "aliases": [
+      "verbal communication",
+      "written communication",
+      "interpersonal communication"
+    ],
+    "category": "soft skills",
+    "ambiguous": false
+  },
+  "team_leadership": {
+    "name": "Team Leadership",
+    "aliases": [
+      "leadership",
+      "leading teams",
+      "team management"
+    ],
+    "category": "soft skills",
+    "ambiguous": false
+  },
+  "problem_solving": {
+    "name": "Problem Solving",
+    "aliases": [
+      "analytical thinking",
+      "troubleshooting",
+      "creative problem solving"
+    ],
+    "category": "soft skills",
+    "ambiguous": false
+  },
+  "critical_thinking": {
+    "name": "Critical Thinking",
+    "aliases": [
+      "logical reasoning",
+      "decision making"
+    ],
+    "category": "soft skills",
+    "ambiguous": false
+  },
+  "time_management": {
+    "name": "Time Management",
+    "aliases": [
+      "prioritization",
+      "multitasking"
+    ],
+    "category": "soft skills",
+    "ambiguous": false
+  },
+  "collaboration": {
+    "name": "Collaboration",
+    "aliases": [
+      "cross-functional collaboration",
+      "teamwork"
+    ],
+    "category": "soft skills",
+    "ambiguous": false
+  },
+  "mentoring": {
+    "name": "Mentoring",
+    "aliases": [
+      "coaching",
+      "training",
+      "peer mentoring"
+    ],
+    "category": "soft skills",
+    "ambiguous": false
+  },
+  "adaptability": {
+    "name": "Adaptability",
+    "aliases": [
+      "flexibility",
+      "resilience"
+    ],
+    "category": "soft skills",
+    "ambiguous": false
+  },
+  "conflict_resolution": {
+    "name": "Conflict Resolution",
+    "aliases": [
+      "mediation",
+      "dispute resolution"
+    ],
+    "category": "soft skills",
+    "ambiguous": false
+  },
+  "presentation_skills": {
+    "name": "Presentation Skills",
+    "aliases": [
+      "public speaking",
+      "slide decks",
+      "pitching"
+    ],
+    "category": "soft skills",
+    "ambiguous": false
+  },
+  "negotiation": {
+    "name": "Negotiation",
+    "aliases": [
+      "persuasion",
+      "deal closing"
+    ],
+    "category": "soft skills",
+    "ambiguous": false
+  },
+  "active_listening": {
+    "name": "Active Listening",
+    "aliases": [
+      "empathetic listening"
+    ],
+    "category": "soft skills",
+    "ambiguous": false
+  },
+  "emotional_intelligence": {
+    "name": "Emotional Intelligence",
+    "aliases": [
+      "eq",
+      "empathy"
+    ],
+    "category": "soft skills",
+    "ambiguous": false
+  },
+  "organizational_skills": {
+    "name": "Organizational Skills",
+    "aliases": [
+      "attention to detail",
+      "structured planning"
+    ],
+    "category": "soft skills",
+    "ambiguous": false
+  },
+  "customer_service": {
+    "name": "Customer Service",
+    "aliases": [
+      "client relations",
+      "support mindset"
+    ],
+    "category": "soft skills",
+    "ambiguous": false
+  },
+  "git": {
+    "name": "Git",
+    "aliases": [
+      "git vcs",
+      "version control"
+    ],
+    "category": "tools",
+    "ambiguous": true
+  },
+  "github": {
+    "name": "GitHub",
+    "aliases": [
+      "github enterprise"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "gitlab": {
+    "name": "GitLab",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "bitbucket": {
+    "name": "Bitbucket",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "jira": {
+    "name": "Jira",
+    "aliases": [
+      "atlassian jira",
+      "jira software"
+    ],
+    "category": "tools",
+    "ambiguous": true
+  },
+  "confluence": {
+    "name": "Confluence",
+    "aliases": [
+      "atlassian confluence"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "trello": {
+    "name": "Trello",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "asana": {
+    "name": "Asana",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "notion": {
+    "name": "Notion",
+    "aliases": [
+      "notion workspace"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "slack": {
+    "name": "Slack",
+    "aliases": [
+      "slack messaging"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "microsoft_teams": {
+    "name": "Microsoft Teams",
+    "aliases": [
+      "ms teams"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "postman": {
+    "name": "Postman",
+    "aliases": [
+      "postman api client"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "swagger": {
+    "name": "Swagger",
+    "aliases": [
+      "openapi",
+      "swagger ui"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "visual_studio_code": {
+    "name": "Visual Studio Code",
+    "aliases": [
+      "vs code",
+      "vscode"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "intellij_idea": {
+    "name": "IntelliJ IDEA",
+    "aliases": [
+      "intellij"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "pycharm": {
+    "name": "PyCharm",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "eclipse": {
+    "name": "Eclipse",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "vim": {
+    "name": "Vim",
+    "aliases": [
+      "neovim"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "jupyter_notebook": {
+    "name": "Jupyter Notebook",
+    "aliases": [
+      "jupyter",
+      "jupyter lab",
+      "ipython"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "google_colab": {
+    "name": "Google Colab",
+    "aliases": [
+      "colab"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "tableau": {
+    "name": "Tableau",
+    "aliases": [
+      "tableau desktop",
+      "tableau server"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "power_bi": {
+    "name": "Power BI",
+    "aliases": [
+      "microsoft power bi",
+      "powerbi"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "looker": {
+    "name": "Looker",
+    "aliases": [
+      "looker studio",
+      "google data studio"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "metabase": {
+    "name": "Metabase",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "excel": {
+    "name": "Excel",
+    "aliases": [
+      "microsoft excel",
+      "spreadsheets",
+      "advanced excel",
+      "vlookup",
+      "pivot tables"
+    ],
+    "category": "tools",
+    "ambiguous": true
+  },
+  "word": {
+    "name": "Word",
+    "aliases": [
+      "microsoft word"
+    ],
+    "category": "tools",
+    "ambiguous": true
+  },
+  "powerpoint": {
+    "name": "PowerPoint",
+    "aliases": [
+      "microsoft powerpoint",
+      "slide presentations"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "google_docs": {
+    "name": "Google Docs",
+    "aliases": [
+      "google sheets",
+      "google slides",
+      "gsuite",
+      "google workspace"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "google_analytics": {
+    "name": "Google Analytics",
+    "aliases": [
+      "ga4"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "accounting": {
+    "name": "Accounting",
+    "category": "finance",
+    "aliases": [
+      "financial accounting",
+      "accountancy",
+      "bookkeeping"
+    ],
+    "ambiguous": false
+  },
+  "financial_analysis": {
+    "name": "Financial Analysis",
+    "category": "finance",
+    "aliases": [
+      "financial statement analysis",
+      "ratio analysis",
+      "financial metrics"
+    ],
+    "ambiguous": false
+  },
+  "budgeting": {
+    "name": "Budgeting",
+    "category": "finance",
+    "aliases": [
+      "budget management",
+      "budget forecasting",
+      "variance analysis"
+    ],
+    "ambiguous": false
+  },
+  "tax_preparation": {
+    "name": "Tax Preparation",
+    "category": "finance",
+    "aliases": [
+      "tax compliance",
+      "taxation",
+      "tax filings",
+      "corporate tax",
+      "income tax"
+    ],
+    "ambiguous": false
+  },
+  "auditing": {
+    "name": "Auditing",
+    "category": "finance",
+    "aliases": [
+      "internal audit",
+      "financial audit",
+      "audit compliance"
+    ],
+    "ambiguous": false
+  },
+  "financial_reporting": {
+    "name": "Financial Reporting",
+    "category": "finance",
+    "aliases": [
+      "financial statements",
+      "gaap reporting",
+      "monthly financial reports"
+    ],
+    "ambiguous": false
+  },
+  "general_ledger": {
+    "name": "General Ledger",
+    "category": "finance",
+    "aliases": [
+      "general ledger",
+      "journal entries",
+      "chart of accounts"
+    ],
+    "ambiguous": false
+  },
+  "accounts_payable": {
+    "name": "Accounts Payable",
+    "category": "finance",
+    "aliases": [
+      "accounts payable",
+      "vendor invoices",
+      "invoice processing"
+    ],
+    "ambiguous": false
+  },
+  "accounts_receivable": {
+    "name": "Accounts Receivable",
+    "category": "finance",
+    "aliases": [
+      "accounts receivable",
+      "client billing",
+      "collections"
+    ],
+    "ambiguous": false
+  },
+  "quickbooks": {
+    "name": "QuickBooks",
+    "category": "finance",
+    "aliases": [
+      "quickbooks online",
+      "quickbooks pro",
+      "intuit quickbooks"
+    ],
+    "ambiguous": false
+  },
+  "payroll": {
+    "name": "Payroll Processing",
+    "category": "finance",
+    "aliases": [
+      "payroll administration",
+      "payroll",
+      "wage processing"
+    ],
+    "ambiguous": false
+  },
+  "gaap": {
+    "name": "GAAP",
+    "category": "finance",
+    "aliases": [
+      "generally accepted accounting principles",
+      "us gaap",
+      "ifrs"
+    ],
+    "ambiguous": false
+  },
+  "reconciliation": {
+    "name": "Account Reconciliation",
+    "category": "finance",
+    "aliases": [
+      "bank reconciliation",
+      "balance sheet reconciliation"
+    ],
+    "ambiguous": false
+  },
+  "wealth_management": {
+    "name": "Wealth Management",
+    "category": "finance",
+    "aliases": [
+      "portfolio management",
+      "investment management",
+      "asset management"
+    ],
+    "ambiguous": false
+  },
+  "talent_acquisition": {
+    "name": "Talent Acquisition",
+    "category": "business",
+    "aliases": [
+      "recruitment",
+      "recruiting",
+      "sourcing candidates",
+      "full cycle recruiting"
+    ],
+    "ambiguous": false
+  },
+  "onboarding": {
+    "name": "Employee Onboarding",
+    "category": "business",
+    "aliases": [
+      "new hire onboarding",
+      "employee induction",
+      "onboarding program"
+    ],
+    "ambiguous": false
+  },
+  "employee_relations": {
+    "name": "Employee Relations",
+    "category": "business",
+    "aliases": [
+      "workplace relations",
+      "labor relations",
+      "employee engagement"
+    ],
+    "ambiguous": false
+  },
+  "performance_management": {
+    "name": "Performance Management",
+    "category": "business",
+    "aliases": [
+      "performance appraisals",
+      "annual reviews",
+      "performance evaluations"
+    ],
+    "ambiguous": false
+  },
+  "hris": {
+    "name": "HRIS",
+    "category": "business",
+    "aliases": [
+      "human resources information system",
+      "workday",
+      "adp workforce",
+      "bamboohr"
+    ],
+    "ambiguous": false
+  },
+  "benefits_administration": {
+    "name": "Benefits Administration",
+    "category": "business",
+    "aliases": [
+      "employee benefits",
+      "compensation and benefits",
+      "health insurance plans"
+    ],
+    "ambiguous": false
+  },
+  "labor_law": {
+    "name": "Labor Law Compliance",
+    "category": "business",
+    "aliases": [
+      "employment law",
+      "eeoc compliance",
+      "flsa compliance"
+    ],
+    "ambiguous": false
+  },
+  "workforce_planning": {
+    "name": "Workforce Planning",
+    "category": "business",
+    "aliases": [
+      "headcount planning",
+      "staffing strategies",
+      "succession planning"
+    ],
+    "ambiguous": false
+  },
+  "lead_generation": {
+    "name": "Lead Generation",
+    "category": "business",
+    "aliases": [
+      "prospecting",
+      "lead prospecting",
+      "outbound leads"
+    ],
+    "ambiguous": false
+  },
+  "cold_calling": {
+    "name": "Cold Calling",
+    "category": "business",
+    "aliases": [
+      "cold outreach",
+      "phone prospecting",
+      "telemarketing"
+    ],
+    "ambiguous": false
+  },
+  "pipeline_management": {
+    "name": "Pipeline Management",
+    "category": "business",
+    "aliases": [
+      "sales pipeline",
+      "deal pipeline",
+      "sales funnel"
+    ],
+    "ambiguous": false
+  },
+  "b2b_sales": {
+    "name": "B2B Sales",
+    "category": "business",
+    "aliases": [
+      "business to business sales",
+      "enterprise sales",
+      "corporate sales"
+    ],
+    "ambiguous": false
+  },
+  "account_management": {
+    "name": "Account Management",
+    "category": "business",
+    "aliases": [
+      "key account management",
+      "client relationship management",
+      "client retention"
+    ],
+    "ambiguous": false
+  },
+  "social_media_marketing": {
+    "name": "Social Media Marketing",
+    "category": "business",
+    "aliases": [
+      "social media management",
+      "smm",
+      "instagram marketing",
+      "linkedin marketing"
+    ],
+    "ambiguous": false
+  },
+  "email_marketing": {
+    "name": "Email Marketing",
+    "category": "business",
+    "aliases": [
+      "email campaigns",
+      "mailchimp",
+      "newsletter campaigns"
+    ],
+    "ambiguous": false
+  },
+  "copywriting": {
+    "name": "Copywriting",
+    "category": "business",
+    "aliases": [
+      "content writing",
+      "ad copywriting",
+      "creative writing"
+    ],
+    "ambiguous": false
+  },
+  "ppc_advertising": {
+    "name": "PPC Advertising",
+    "category": "business",
+    "aliases": [
+      "google ads",
+      "pay per click",
+      "paid search ads"
+    ],
+    "ambiguous": false
+  },
+  "patient_care": {
+    "name": "Patient Care",
+    "category": "healthcare",
+    "aliases": [
+      "direct patient care",
+      "clinical care",
+      "bedside care"
+    ],
+    "ambiguous": false
+  },
+  "clinical_documentation": {
+    "name": "Clinical Documentation",
+    "category": "healthcare",
+    "aliases": [
+      "medical records",
+      "patient charting",
+      "clinical notes"
+    ],
+    "ambiguous": false
+  },
+  "electronic_health_records": {
+    "name": "Electronic Health Records",
+    "category": "healthcare",
+    "aliases": [
+      "ehr",
+      "emr",
+      "epic systems",
+      "cerner"
+    ],
+    "ambiguous": false
+  },
+  "vital_signs": {
+    "name": "Vital Signs Monitoring",
+    "category": "healthcare",
+    "aliases": [
+      "taking vitals",
+      "blood pressure monitoring",
+      "vital signs"
+    ],
+    "ambiguous": false
+  },
+  "hipaa_compliance": {
+    "name": "HIPAA Compliance",
+    "category": "healthcare",
+    "aliases": [
+      "hipaa regulations",
+      "patient privacy",
+      "hipaa"
+    ],
+    "ambiguous": false
+  },
+  "medical_terminology": {
+    "name": "Medical Terminology",
+    "category": "healthcare",
+    "aliases": [
+      "medical coding terms",
+      "icd-10",
+      "cpt coding"
+    ],
+    "ambiguous": false
+  },
+  "cpr": {
+    "name": "CPR & First Aid",
+    "category": "healthcare",
+    "aliases": [
+      "bls certification",
+      "cardiopulmonary resuscitation",
+      "basic life support"
+    ],
+    "ambiguous": false
+  },
+  "autocad": {
+    "name": "AutoCAD",
+    "category": "tools",
+    "aliases": [
+      "autodesk autocad",
+      "2d cad drafting",
+      "computer-aided drafting"
+    ],
+    "ambiguous": false
+  },
+  "solidworks": {
+    "name": "SolidWorks",
+    "category": "tools",
+    "aliases": [
+      "solidworks 3d",
+      "3d mechanical modeling"
+    ],
+    "ambiguous": false
+  },
+  "quality_control": {
+    "name": "Quality Control",
+    "category": "tools",
+    "aliases": [
+      "qa qc",
+      "quality inspection",
+      "quality management systems"
+    ],
+    "ambiguous": false
+  },
+  "safety_compliance": {
+    "name": "Safety Compliance",
+    "category": "tools",
+    "aliases": [
+      "osha standards",
+      "occupational safety",
+      "workplace safety"
+    ],
+    "ambiguous": false
+  },
+  "curriculum_development": {
+    "name": "Curriculum Development",
+    "category": "business",
+    "aliases": [
+      "curriculum design",
+      "instructional design",
+      "syllabus development"
+    ],
+    "ambiguous": false
+  },
+  "classroom_management": {
+    "name": "Classroom Management",
+    "category": "soft skills",
+    "aliases": [
+      "student behavior management",
+      "classroom instruction"
+    ],
+    "ambiguous": false
+  },
+  "lesson_planning": {
+    "name": "Lesson Planning",
+    "category": "business",
+    "aliases": [
+      "lesson plans",
+      "instructional planning"
+    ],
+    "ambiguous": false
+  },
+  "student_assessment": {
+    "name": "Student Assessment",
+    "category": "business",
+    "aliases": [
+      "grading rubrics",
+      "evaluating student performance",
+      "educational testing"
+    ],
+    "ambiguous": false
+  },
+  "legal_research": {
+    "name": "Legal Research",
+    "category": "business",
+    "aliases": [
+      "case law research",
+      "westlaw",
+      "lexisnexis"
+    ],
+    "ambiguous": false
+  },
+  "contract_drafting": {
+    "name": "Contract Drafting",
+    "category": "business",
+    "aliases": [
+      "contract review",
+      "drafting agreements",
+      "commercial contracts"
+    ],
+    "ambiguous": false
+  },
+  "litigation": {
+    "name": "Litigation Support",
+    "category": "business",
+    "aliases": [
+      "trial preparation",
+      "pleadings drafting",
+      "court filings"
+    ],
+    "ambiguous": false
+  },
+  "regulatory_compliance": {
+    "name": "Regulatory Compliance",
+    "category": "business",
+    "aliases": [
+      "statutory compliance",
+      "regulatory oversight",
+      "compliance audits"
+    ],
+    "ambiguous": false
+  },
+  "personal_training": {
+    "name": "Personal Training",
+    "category": "healthcare",
+    "aliases": [
+      "fitness coaching",
+      "one-on-one training",
+      "exercise training"
+    ],
+    "ambiguous": false
+  },
+  "fitness_assessment": {
+    "name": "Fitness Assessment",
+    "category": "healthcare",
+    "aliases": [
+      "body composition",
+      "physical assessment",
+      "fitness evaluation"
+    ],
+    "ambiguous": false
+  },
+  "nutrition_planning": {
+    "name": "Nutrition Planning",
+    "category": "healthcare",
+    "aliases": [
+      "meal planning",
+      "dietary guidance",
+      "sports nutrition"
+    ],
+    "ambiguous": false
+  },
+  "strength_training": {
+    "name": "Strength & Conditioning",
+    "category": "healthcare",
+    "aliases": [
+      "weight training",
+      "resistance training",
+      "conditioning"
+    ],
+    "ambiguous": false
+  },
+  "injury_prevention": {
+    "name": "Injury Prevention",
+    "category": "healthcare",
+    "aliases": [
+      "rehabilitation",
+      "kinesiology",
+      "corrective exercise"
+    ],
+    "ambiguous": false
+  },
+  "culinary_arts": {
+    "name": "Culinary Arts",
+    "category": "tools",
+    "aliases": [
+      "cooking techniques",
+      "food preparation",
+      "gourmet cooking"
+    ],
+    "ambiguous": false
+  },
+  "food_safety": {
+    "name": "Food Safety & Sanitation",
+    "category": "tools",
+    "aliases": [
+      "haccp",
+      "servsafe",
+      "kitchen sanitation",
+      "food hygiene"
+    ],
+    "ambiguous": false
+  },
+  "menu_planning": {
+    "name": "Menu Planning",
+    "category": "business",
+    "aliases": [
+      "menu development",
+      "recipe development",
+      "food costing"
+    ],
+    "ambiguous": false
+  },
+  "kitchen_management": {
+    "name": "Kitchen Management",
+    "category": "business",
+    "aliases": [
+      "back of house operations",
+      "line cooking",
+      "kitchen supervision"
+    ],
+    "ambiguous": false
+  },
+  "flight_operations": {
+    "name": "Flight Operations",
+    "category": "tools",
+    "aliases": [
+      "air operations",
+      "flight dispatch",
+      "aviation logistics"
+    ],
+    "ambiguous": false
+  },
+  "aviation_safety": {
+    "name": "Aviation Safety Standards",
+    "category": "tools",
+    "aliases": [
+      "faa compliance",
+      "icao standards",
+      "flight safety"
+    ],
+    "ambiguous": false
+  },
+  "aircraft_maintenance": {
+    "name": "Aircraft Maintenance",
+    "category": "tools",
+    "aliases": [
+      "avionics",
+      "aircraft inspection",
+      "airframe maintenance"
+    ],
+    "ambiguous": false
+  },
+  "vehicle_diagnostics": {
+    "name": "Vehicle Diagnostics",
+    "category": "tools",
+    "aliases": [
+      "obd-ii diagnostics",
+      "engine diagnostics",
+      "automotive troubleshooting"
+    ],
+    "ambiguous": false
+  },
+  "automotive_repair": {
+    "name": "Automotive Repair",
+    "category": "tools",
+    "aliases": [
+      "auto repair",
+      "brake service",
+      "transmission repair",
+      "mechanical repairs"
+    ],
+    "ambiguous": false
+  },
+  "engine_maintenance": {
+    "name": "Engine Maintenance",
+    "category": "tools",
+    "aliases": [
+      "powertrain repair",
+      "engine overhaul",
+      "diesel maintenance"
+    ],
+    "ambiguous": false
+  },
+  "apparel_merchandising": {
+    "name": "Apparel Merchandising",
+    "category": "business",
+    "aliases": [
+      "fashion merchandising",
+      "retail merchandising",
+      "garment buying"
+    ],
+    "ambiguous": false
+  },
+  "garment_construction": {
+    "name": "Garment Construction",
+    "category": "design",
+    "aliases": [
+      "pattern making",
+      "sewing",
+      "textile fabrication",
+      "tailoring"
+    ],
+    "ambiguous": false
+  },
+  "trend_forecasting": {
+    "name": "Trend Forecasting",
+    "category": "design",
+    "aliases": [
+      "fashion forecasting",
+      "market trend analysis",
+      "color forecasting"
+    ],
+    "ambiguous": false
+  },
+  "agronomy": {
+    "name": "Agronomy & Crop Management",
+    "category": "tools",
+    "aliases": [
+      "crop production",
+      "soil science",
+      "crop science",
+      "field scouting"
+    ],
+    "ambiguous": false
+  },
+  "farm_management": {
+    "name": "Farm Management",
+    "category": "business",
+    "aliases": [
+      "agricultural operations",
+      "irrigation management",
+      "agribusiness"
+    ],
+    "ambiguous": false
+  },
+  "sustainable_agriculture": {
+    "name": "Sustainable Agriculture",
+    "category": "tools",
+    "aliases": [
+      "precision agriculture",
+      "pest management",
+      "organic farming"
+    ],
+    "ambiguous": false
+  },
+  "construction_management": {
+    "name": "Construction Management",
+    "category": "business",
+    "aliases": [
+      "site management",
+      "construction supervision",
+      "general contracting"
+    ],
+    "ambiguous": false
+  },
+  "blueprint_reading": {
+    "name": "Blueprint Reading",
+    "category": "tools",
+    "aliases": [
+      "architectural blueprints",
+      "schematic interpretation",
+      "plan reading"
+    ],
+    "ambiguous": false
+  },
+  "cost_estimation": {
+    "name": "Construction Cost Estimating",
+    "category": "finance",
+    "aliases": [
+      "cost estimating",
+      "quantity takeoff",
+      "bidding estimation"
+    ],
+    "ambiguous": false
+  },
+  "call_center_operations": {
+    "name": "Call Center Operations",
+    "category": "business",
+    "aliases": [
+      "contact center management",
+      "inbound support",
+      "outbound calling"
+    ],
+    "ambiguous": false
+  },
+  "ticket_management": {
+    "name": "Ticket Management",
+    "category": "tools",
+    "aliases": [
+      "zendesk",
+      "freshdesk",
+      "incident ticketing",
+      "service desk"
+    ],
+    "ambiguous": false
+  },
+  "customer_satisfaction": {
+    "name": "Customer Satisfaction (CSAT)",
+    "category": "business",
+    "aliases": [
+      "csat management",
+      "service level agreements",
+      "customer experience"
+    ],
+    "ambiguous": false
+  },
+  "media_relations": {
+    "name": "Media Relations",
+    "category": "business",
+    "aliases": [
+      "press relations",
+      "media outreach",
+      "journalist communications"
+    ],
+    "ambiguous": false
+  },
+  "press_releases": {
+    "name": "Press Release Writing",
+    "category": "business",
+    "aliases": [
+      "press releases",
+      "media kits",
+      "news releases"
+    ],
+    "ambiguous": false
+  },
+  "crisis_communication": {
+    "name": "Crisis Communication",
+    "category": "business",
+    "aliases": [
+      "reputation management",
+      "crisis management",
+      "pr crisis response"
+    ],
+    "ambiguous": false
+  },
+  "network_administration": {
+    "name": "Network Administration",
+    "category": "tools",
+    "aliases": [
+      "lan wan management",
+      "cisco networking",
+      "network troubleshooting"
+    ],
+    "ambiguous": false
+  },
+  "active_directory": {
+    "name": "Active Directory",
+    "category": "tools",
+    "aliases": [
+      "azure ad",
+      "user account management",
+      "group policy"
+    ],
+    "ambiguous": false
+  },
+  "technical_support": {
+    "name": "IT Help Desk Support",
+    "category": "tools",
+    "aliases": [
+      "desktop support",
+      "it troubleshooting",
+      "end user support"
+    ],
+    "ambiguous": false
+  },
+  "retail_banking": {
+    "name": "Retail & Commercial Banking",
+    "category": "finance",
+    "aliases": [
+      "branch banking",
+      "consumer banking",
+      "teller operations"
+    ],
+    "ambiguous": false
+  },
+  "credit_analysis": {
+    "name": "Credit Analysis & Underwriting",
+    "category": "finance",
+    "aliases": [
+      "loan underwriting",
+      "credit risk assessment",
+      "commercial lending"
+    ],
+    "ambiguous": false
+  },
+  "aml_compliance": {
+    "name": "AML & KYC Compliance",
+    "category": "finance",
+    "aliases": [
+      "anti-money laundering",
+      "know your customer",
+      "bank secrecy act"
+    ],
+    "ambiguous": false
+  },
+  "visual_arts": {
+    "name": "Visual Arts & Illustration",
+    "category": "design",
+    "aliases": [
+      "fine arts",
+      "concept art",
+      "digital illustration",
+      "painting"
+    ],
+    "ambiguous": false
+  },
+  "art_direction": {
+    "name": "Art Direction",
+    "category": "design",
+    "aliases": [
+      "creative direction",
+      "exhibition curation",
+      "visual styling"
+    ],
+    "ambiguous": false
+  }
+}

@@ -1,0 +1,3 @@
+Document Type,Samples,Precision (%),Recall (%),F1 (%),TP,FP,FN
+resume,3,92.31,100.00,96.00,48,4,0
+job_description,2,88.89,96.00,92.31,24,3,1

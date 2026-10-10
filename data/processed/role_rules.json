@@ -1,0 +1,144 @@
+{
+  "Data Analyst": [
+    "data analyst",
+    "business intelligence analyst",
+    "bi analyst",
+    "analytics analyst",
+    "reporting analyst",
+    "quantitative analyst"
+  ],
+  "Data Scientist": [
+    "data scientist",
+    "data science",
+    "applied scientist",
+    "decision scientist",
+    "statistician"
+  ],
+  "ML Engineer": [
+    "machine learning engineer",
+    "ml engineer",
+    "ai engineer",
+    "deep learning engineer",
+    "mle",
+    "computer vision engineer",
+    "nlp engineer",
+    "applied machine learning"
+  ],
+  "Data Engineer": [
+    "data engineer",
+    "big data engineer",
+    "etl developer",
+    "data warehouse engineer",
+    "analytics engineer",
+    "pipeline engineer"
+  ],
+  "Backend Developer": [
+    "backend developer",
+    "back end developer",
+    "backend engineer",
+    "back end engineer",
+    "python developer",
+    "java developer",
+    "golang developer",
+    "c# developer",
+    ".net developer",
+    "server side developer"
+  ],
+  "Frontend Developer": [
+    "frontend developer",
+    "front end developer",
+    "frontend engineer",
+    "front end engineer",
+    "react developer",
+    "angular developer",
+    "vue developer",
+    "web developer",
+    "ui engineer"
+  ],
+  "Full Stack Developer": [
+    "full stack developer",
+    "fullstack developer",
+    "full stack engineer",
+    "fullstack engineer",
+    "software engineer",
+    "software developer"
+  ],
+  "DevOps Engineer": [
+    "devops engineer",
+    "devops",
+    "site reliability engineer",
+    "sre",
+    "platform engineer",
+    "infrastructure engineer",
+    "build and release engineer"
+  ],
+  "Cloud Engineer": [
+    "cloud engineer",
+    "cloud architect",
+    "aws engineer",
+    "azure engineer",
+    "gcp engineer",
+    "cloud solutions architect"
+  ],
+  "QA Engineer": [
+    "qa engineer",
+    "quality assurance engineer",
+    "test engineer",
+    "software test engineer",
+    "sdet",
+    "automation test engineer",
+    "qa analyst"
+  ],
+  "Product Manager": [
+    "product manager",
+    "technical product manager",
+    "product owner",
+    "associate product manager"
+  ],
+  "Project Manager": [
+    "project manager",
+    "technical project manager",
+    "scrum master",
+    "delivery manager",
+    "it project manager",
+    "program manager"
+  ],
+  "UI/UX Designer": [
+    "ui/ux designer",
+    "ux designer",
+    "ui designer",
+    "product designer",
+    "interaction designer",
+    "user experience designer",
+    "visual designer"
+  ],
+  "Business Analyst": [
+    "business analyst",
+    "business systems analyst",
+    "operations analyst",
+    "requirements analyst"
+  ],
+  "Mobile Developer": [
+    "mobile developer",
+    "ios developer",
+    "android developer",
+    "flutter developer",
+    "react native developer",
+    "mobile software engineer"
+  ],
+  "Security Engineer": [
+    "security engineer",
+    "cybersecurity engineer",
+    "information security engineer",
+    "infosec engineer",
+    "security analyst",
+    "penetration tester"
+  ],
+  "Systems Administrator": [
+    "systems administrator",
+    "sysadmin",
+    "system administrator",
+    "linux administrator",
+    "network administrator"
+  ]
+}

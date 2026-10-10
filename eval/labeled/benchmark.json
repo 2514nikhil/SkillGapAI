@@ -1,0 +1,123 @@
+[
+  {
+    "doc_id": "doc_01_backend_resume",
+    "doc_type": "resume",
+    "title": "Senior Python Backend Developer",
+    "text": "TECHNICAL SKILLS\nProgramming: Python, JavaScript, SQL, Bash\nFrameworks: FastAPI, Flask, Django\nDatabases & Caching: PostgreSQL, Redis, MySQL\nDevOps & Tools: Docker, Git, Linux, CI/CD, GitHub Actions\n\nPROFESSIONAL EXPERIENCE\nSenior Software Engineer | CloudTech Solutions (2021 - Present)\n- Architected high-throughput microservices using Python and FastAPI.\n- Optimized complex PostgreSQL database queries and configured Redis caching.\n- Maintained containerized deployments with Docker and automated testing pipelines using GitHub Actions.\n\nEDUCATION\nBS Computer Science, University of Technology",
+    "ground_truth_skills": [
+      "python",
+      "javascript",
+      "sql",
+      "bash",
+      "fastapi",
+      "flask",
+      "django",
+      "postgresql",
+      "redis",
+      "mysql",
+      "docker",
+      "git",
+      "linux",
+      "ci_cd",
+      "github_actions"
+    ]
+  },
+  {
+    "doc_id": "doc_02_mle_jd",
+    "doc_type": "job_description",
+    "title": "Machine Learning Engineer",
+    "text": "Job Title: Machine Learning Engineer\nCompany: AI Innovations Corp\n\nRequirements:\n- 3+ years experience developing deep learning models with PyTorch or TensorFlow.\n- Strong proficiency in Python and statistical data processing with pandas and numpy.\n- Proven track record training models with scikit-learn and deploying inference endpoints using FastAPI.\n- Experience with Natural Language Processing (NLP) or Computer Vision techniques.\n- Hands-on familiarity with Docker containerization and MLOps tooling like MLflow.",
+    "ground_truth_skills": [
+      "machine_learning",
+      "deep_learning",
+      "pytorch",
+      "tensorflow",
+      "python",
+      "pandas",
+      "numpy",
+      "scikit_learn",
+      "fastapi",
+      "natural_language_processing",
+      "computer_vision",
+      "docker",
+      "mlops",
+      "mlflow"
+    ]
+  },
+  {
+    "doc_id": "doc_03_frontend_resume",
+    "doc_type": "resume",
+    "title": "Frontend React Engineer",
+    "text": "SKILLS & TECHNOLOGIES\nLanguages: TypeScript, JavaScript, HTML5, CSS3, Sass\nFrameworks: React, Next.js, Redux, Tailwind CSS\nTools: Git, Webpack, Figma, Jest\n\nEXPERIENCE\nFrontend Developer | WebCraft Studio (2020 - Present)\n- Developed modern responsive single-page web applications using React and TypeScript.\n- Integrated server-side rendering with Next.js to improve SEO and initial page load times.\n- Designed reusable component libraries following Figma mockups and styled with Tailwind CSS.\n- Managed global application state using Redux Toolkit.",
+    "ground_truth_skills": [
+      "typescript",
+      "javascript",
+      "html5",
+      "css3",
+      "sass",
+      "react",
+      "next.js",
+      "redux",
+      "tailwind_css",
+      "git",
+      "webpack",
+      "figma"
+    ]
+  },
+  {
+    "doc_id": "doc_04_data_analyst_jd",
+    "doc_type": "job_description",
+    "title": "Senior Data Analyst",
+    "text": "Position: Senior Data Analyst\nDepartment: Business Analytics\n\nResponsibilities:\n- Write advanced SQL queries and stored procedures to extract insights from large data warehouses like Snowflake and Google BigQuery.\n- Build interactive dashboards in Tableau and Power BI for executive leadership.\n- Perform statistical analysis and A/B testing on user engagement data.\n- Utilize Excel (pivot tables, modeling) and Python for exploratory data analytics.",
+    "ground_truth_skills": [
+      "sql",
+      "data_warehousing",
+      "snowflake",
+      "google_bigquery",
+      "tableau",
+      "power_bi",
+      "statistical_analysis",
+      "a_b_testing",
+      "excel",
+      "python",
+      "data_analytics"
+    ]
+  },
+  {
+    "doc_id": "doc_05_devops_resume",
+    "doc_type": "resume",
+    "title": "Cloud DevOps Engineer",
+    "text": "TECHNICAL EXPERTISE\nCloud: Amazon Web Services (AWS), Microsoft Azure\nContainers & Orchestration: Kubernetes, Docker, Helm\nInfrastructure as Code: Terraform, Ansible\nCI/CD & Monitoring: Jenkins, Prometheus, Grafana, Linux, Bash\n\nWORK EXPERIENCE\nDevOps Engineer | Enterprise Cloud (2019 - Present)\n- Managed production Kubernetes clusters running on AWS EKS.\n- Automated infrastructure provisioning across multi-region environments using Terraform.\n- Established continuous integration pipelines using Jenkins and monitored cluster health with Prometheus and Grafana.",
+    "ground_truth_skills": [
+      "amazon_web_services",
+      "microsoft_azure",
+      "kubernetes",
+      "docker",
+      "helm",
+      "infrastructure_as_code",
+      "terraform",
+      "ansible",
+      "jenkins",
+      "prometheus",
+      "grafana",
+      "linux",
+      "bash",
+      "ci_cd"
+    ]
+  },
+  {
+    "doc_id": "doc_06_ambiguous_context_test",
+    "doc_type": "resume",
+    "title": "Polyglot Software Developer",
+    "text": "TECHNICAL SKILLS\nProgramming Languages: C, Go, Rust, Swift, R\nTools: Microsoft Word, Microsoft Excel\n\nEXPERIENCE\nSystems Programmer | High Performance Systems (2021 - Present)\n- Developed low-latency network drivers written in C and Go.\n- Built distributed streaming microservices in Rust for real-time telemetry processing.\n- Wrote statistical data scripts in R for reporting.",
+    "ground_truth_skills": [
+      "c",
+      "go",
+      "rust",
+      "swift",
+      "r",
+      "word",
+      "excel"
+    ]
+  }
+]

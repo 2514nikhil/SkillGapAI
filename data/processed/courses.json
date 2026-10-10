@@ -1,0 +1,824 @@
+[
+  {
+    "course_id": "course_0",
+    "title": "SQL for Data Science",
+    "description": "Learn SQL basics, relational database querying, filtering, sorting, aggregations, and joins using PostgreSQL and SQLite for data analysis.",
+    "rating": 4.8,
+    "level": "Beginner",
+    "duration": 15.0,
+    "url": "https://coursera.org/learn/sql-for-data-science",
+    "platform": "Coursera",
+    "skills": [
+      "data_analytics",
+      "postgresql",
+      "sql",
+      "sqlite"
+    ]
+  },
+  {
+    "course_id": "course_1",
+    "title": "Advanced SQL & Data Modeling",
+    "description": "Master advanced SQL window functions, common table expressions, query optimization, indexing, and relational schema data modeling.",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "duration": 25.0,
+    "url": "https://coursera.org/learn/advanced-sql-data-modeling",
+    "platform": "Coursera",
+    "skills": [
+      "data_modeling",
+      "sql"
+    ]
+  },
+  {
+    "course_id": "course_2",
+    "title": "Tableau for Business Intelligence & Visual Analytics",
+    "description": "Design beautiful interactive business intelligence dashboards, calculated fields, parameters, and executive reports in Tableau.",
+    "rating": 4.7,
+    "level": "Beginner",
+    "duration": 20.0,
+    "url": "https://udemy.com/course/tableau-bi-analytics",
+    "platform": "Udemy",
+    "skills": [
+      "business_intelligence",
+      "data_analytics",
+      "tableau"
+    ]
+  },
+  {
+    "course_id": "course_3",
+    "title": "Data Visualization & Dashboards with Power BI",
+    "description": "Hands-on data visualization, DAX calculations, power query ETL, and interactive executive reporting with Microsoft Power BI.",
+    "rating": 4.7,
+    "level": "Beginner",
+    "duration": 20.0,
+    "url": "https://coursera.org/learn/power-bi-dashboards",
+    "platform": "Coursera",
+    "skills": [
+      "data_visualization",
+      "etl",
+      "power_bi"
+    ]
+  },
+  {
+    "course_id": "course_4",
+    "title": "Python for Everybody: Complete Specialization",
+    "description": "Comprehensive introduction to Python programming, data structures, scripting, web scraping, and database management.",
+    "rating": 4.8,
+    "level": "Beginner",
+    "duration": 30.0,
+    "url": "https://coursera.org/learn/python-for-everybody",
+    "platform": "Coursera",
+    "skills": [
+      "python",
+      "web_scraping"
+    ]
+  },
+  {
+    "course_id": "course_5",
+    "title": "Applied Data Science with Python & Pandas",
+    "description": "Master data manipulation, analysis, and cleaning using Pandas and NumPy. Covers tabular data analysis and time series processing.",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "duration": 25.0,
+    "url": "https://coursera.org/learn/applied-pandas-python",
+    "platform": "Coursera",
+    "skills": [
+      "data_analytics",
+      "numpy",
+      "pandas",
+      "python"
+    ]
+  },
+  {
+    "course_id": "course_6",
+    "title": "A/B Testing & Controlled Experimentation",
+    "description": "Design, execute, and evaluate randomized controlled experiments, hypothesis testing, sample size calculation, and p-value inference for product growth.",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "duration": 18.0,
+    "url": "https://udacity.com/course/ab-testing",
+    "platform": "Udacity",
+    "skills": [
+      "a_b_testing"
+    ]
+  },
+  {
+    "course_id": "course_7",
+    "title": "Practical Statistical Analysis for Data Science",
+    "description": "Learn probability distributions, statistical significance, confidence intervals, regression analysis, and variance tests using Python and R.",
+    "rating": 4.6,
+    "level": "Beginner",
+    "duration": 22.0,
+    "url": "https://coursera.org/learn/statistical-analysis-data-science",
+    "platform": "Coursera",
+    "skills": [
+      "python",
+      "statistical_analysis",
+      "supervised_learning"
+    ]
+  },
+  {
+    "course_id": "course_8",
+    "title": "Modern Data Warehousing with Snowflake",
+    "description": "Build enterprise cloud data warehousing architectures, pipelines, data lakes, and SQL analytics on the Snowflake data cloud platform.",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "duration": 24.0,
+    "url": "https://udemy.com/course/snowflake-data-warehouse",
+    "platform": "Udemy",
+    "skills": [
+      "data_analytics",
+      "data_warehousing",
+      "snowflake",
+      "sql"
+    ]
+  },
+  {
+    "course_id": "course_9",
+    "title": "Machine Learning Specialization with Python",
+    "description": "Master supervised learning, linear and logistic regression, neural networks, decision trees, and unsupervised learning with scikit-learn.",
+    "rating": 4.9,
+    "level": "Beginner",
+    "duration": 40.0,
+    "url": "https://coursera.org/learn/machine-learning-specialization",
+    "platform": "Coursera",
+    "skills": [
+      "deep_learning",
+      "machine_learning",
+      "python",
+      "scikit_learn",
+      "supervised_learning",
+      "unsupervised_learning"
+    ]
+  },
+  {
+    "course_id": "course_10",
+    "title": "Deep Learning Specialization with PyTorch",
+    "description": "Build and train deep neural networks, convolutional networks (CNNs), recurrent neural networks (RNNs), and transformers using PyTorch.",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "duration": 45.0,
+    "url": "https://coursera.org/learn/deep-learning-pytorch",
+    "platform": "Coursera",
+    "skills": [
+      "deep_learning",
+      "pytorch",
+      "transformers"
+    ]
+  },
+  {
+    "course_id": "course_11",
+    "title": "Production Machine Learning & MLOps",
+    "description": "Learn MLOps engineering, model serving with FastAPI, pipeline automation, monitoring, tracking with MLflow, and CI/CD for machine learning.",
+    "rating": 4.8,
+    "level": "Advanced",
+    "duration": 35.0,
+    "url": "https://coursera.org/learn/production-mlops",
+    "platform": "Coursera",
+    "skills": [
+      "ci_cd",
+      "fastapi",
+      "machine_learning",
+      "mlflow",
+      "mlops",
+      "model_deployment"
+    ]
+  },
+  {
+    "course_id": "course_12",
+    "title": "Docker & Kubernetes: The Practical DevOps Guide",
+    "description": "Containerize microservices with Docker, manage container images, orchestrate clusters with Kubernetes, and configure Helm charts.",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "duration": 30.0,
+    "url": "https://udemy.com/course/docker-kubernetes-devops",
+    "platform": "Udemy",
+    "skills": [
+      "docker",
+      "helm",
+      "kubernetes",
+      "microservices"
+    ]
+  },
+  {
+    "course_id": "course_13",
+    "title": "Building Scalable REST APIs with FastAPI & PostgreSQL",
+    "description": "Architect high-performance async RESTful APIs with Python, FastAPI, Pydantic, SQLAlchemy, and PostgreSQL database migrations.",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "duration": 20.0,
+    "url": "https://udemy.com/course/fastapi-postgresql-apis",
+    "platform": "Udemy",
+    "skills": [
+      "fastapi",
+      "postgresql",
+      "python",
+      "rest_api"
+    ]
+  },
+  {
+    "course_id": "course_14",
+    "title": "Redis: High Performance In-Memory Data Storage",
+    "description": "Implement distributed caching, pub/sub messaging, session management, and rate limiting using Redis in modern backend systems.",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "duration": 12.0,
+    "url": "https://coursera.org/learn/redis-in-memory",
+    "platform": "Coursera",
+    "skills": [
+      "redis"
+    ]
+  },
+  {
+    "course_id": "course_15",
+    "title": "React - The Complete Modern Guide with TypeScript",
+    "description": "Build modern reactive web user interfaces with React, React Hooks, TypeScript, Redux Toolkit, and client-side routing.",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "duration": 35.0,
+    "url": "https://udemy.com/course/react-typescript-complete",
+    "platform": "Udemy",
+    "skills": [
+      "react",
+      "redux",
+      "typescript"
+    ]
+  },
+  {
+    "course_id": "course_16",
+    "title": "Full-Stack Web Development with Next.js & React",
+    "description": "Master full-stack development with Next.js App Router, React Server Components, Tailwind CSS, API routes, and deployment on Vercel.",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "duration": 28.0,
+    "url": "https://udemy.com/course/nextjs-react-fullstack",
+    "platform": "Udemy",
+    "skills": [
+      "next.js",
+      "react",
+      "tailwind_css",
+      "vercel"
+    ]
+  },
+  {
+    "course_id": "course_17",
+    "title": "Modern HTML5 and CSS3 from Scratch",
+    "description": "Learn responsive web design, semantic HTML5, CSS3 Grid, Flexbox, transitions, animations, and mobile-first layouts.",
+    "rating": 4.7,
+    "level": "Beginner",
+    "duration": 15.0,
+    "url": "https://udemy.com/course/modern-html5-css3",
+    "platform": "Udemy",
+    "skills": [
+      "css3",
+      "html5"
+    ]
+  },
+  {
+    "course_id": "course_18",
+    "title": "AWS Certified Solutions Architect & Cloud Engineering",
+    "description": "Design highly available, fault-tolerant, scalable cloud infrastructure on Amazon Web Services (AWS) using EC2, S3, RDS, Lambda, and IAM.",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "duration": 40.0,
+    "url": "https://udemy.com/course/aws-certified-solutions-architect",
+    "platform": "Udemy",
+    "skills": [
+      "amazon_web_services",
+      "cloud_security"
+    ]
+  },
+  {
+    "course_id": "course_19",
+    "title": "HashiCorp Terraform: Infrastructure as Code",
+    "description": "Automate cloud resource provisioning across AWS, GCP, and Azure using HashiCorp Terraform modules, state management, and CI/CD pipelines.",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "duration": 18.0,
+    "url": "https://udemy.com/course/terraform-infrastructure-as-code",
+    "platform": "Udemy",
+    "skills": [
+      "amazon_web_services",
+      "ci_cd",
+      "google_cloud_platform",
+      "infrastructure_as_code",
+      "microsoft_azure",
+      "terraform"
+    ]
+  },
+  {
+    "course_id": "course_20",
+    "title": "CI/CD Pipelines with GitHub Actions & Jenkins",
+    "description": "Implement automated testing, code linting, security scanning, and automated deployment pipelines using GitHub Actions and Jenkins.",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "duration": 16.0,
+    "url": "https://coursera.org/learn/cicd-github-actions-jenkins",
+    "platform": "Coursera",
+    "skills": [
+      "ci_cd",
+      "github_actions",
+      "jenkins",
+      "vulnerability_assessment"
+    ]
+  },
+  {
+    "course_id": "course_21",
+    "title": "Google Analytics 4 (GA4) for Digital Marketers & Analysts",
+    "description": "Master Google Analytics 4, web event tracking, conversion funnels, custom dimensions, and user behavior analytics.",
+    "rating": 4.6,
+    "level": "Beginner",
+    "duration": 14.0,
+    "url": "https://coursera.org/learn/google-analytics-4",
+    "platform": "Coursera",
+    "skills": [
+      "data_analytics",
+      "google_analytics"
+    ]
+  },
+  {
+    "course_id": "course_22",
+    "title": "Microsoft Excel: From Beginner to Advanced Financial Modeling",
+    "description": "Master Microsoft Excel formulas, VLOOKUP, XLOOKUP, INDEX-MATCH, pivot tables, macros, and financial data modeling.",
+    "rating": 4.7,
+    "level": "Beginner",
+    "duration": 16.0,
+    "url": "https://udemy.com/course/microsoft-excel-beginner-advanced",
+    "platform": "Udemy",
+    "skills": [
+      "data_modeling",
+      "financial_modeling"
+    ]
+  },
+  {
+    "course_id": "course_23",
+    "title": "Product Management Fundamentals",
+    "description": "Learn product lifecycle management, user research, customer discovery, product roadmapping, metrics tracking, and sprint planning.",
+    "rating": 4.7,
+    "level": "Beginner",
+    "duration": 20.0,
+    "url": "https://coursera.org/learn/product-management-fundamentals",
+    "platform": "Coursera",
+    "skills": [
+      "kpi_management",
+      "product_management",
+      "scrum",
+      "user_research"
+    ]
+  },
+  {
+    "course_id": "course_24",
+    "title": "Figma UI/UX Design Essentials",
+    "description": "Master collaborative user interface and user experience design, wireframing, prototyping, design systems, and responsive components in Figma.",
+    "rating": 4.8,
+    "level": "Beginner",
+    "duration": 22.0,
+    "url": "https://udemy.com/course/figma-ui-ux-design",
+    "platform": "Udemy",
+    "skills": [
+      "design_systems",
+      "figma",
+      "prototyping",
+      "ui_design",
+      "ux_design",
+      "wireframing"
+    ]
+  },
+  {
+    "course_id": "course_25",
+    "title": "Natural Language Processing with Transformers & PyTorch",
+    "description": "Build modern NLP pipelines, text classification, named entity recognition, and fine-tune transformer models with PyTorch.",
+    "rating": 4.8,
+    "level": "Advanced",
+    "duration": 30.0,
+    "url": "https://coursera.org/learn/nlp-transformers-pytorch",
+    "platform": "Coursera",
+    "skills": [
+      "natural_language_processing",
+      "pytorch",
+      "supervised_learning",
+      "transformers"
+    ]
+  },
+  {
+    "course_id": "c_fin_01",
+    "title": "Financial Accounting Fundamentals & Reporting",
+    "description": "Comprehensive grounding in financial accounting, general ledger entries, GAAP standards, financial reporting, and balance sheet reconciliation.",
+    "platform": "Coursera",
+    "rating": 4.8,
+    "level": "beginner",
+    "duration_hours": 24.0,
+    "url": "https://www.coursera.org/learn/wharton-accounting",
+    "taught_skills": [
+      "accounting",
+      "financial_reporting",
+      "general_ledger",
+      "gaap",
+      "reconciliation"
+    ]
+  },
+  {
+    "course_id": "c_fin_02",
+    "title": "Corporate Financial Modeling & Valuation Masterclass",
+    "description": "Build three-statement financial models, forecast budgeting, perform discounted cash flow valuation, and master corporate financial analysis.",
+    "platform": "Coursera",
+    "rating": 4.9,
+    "level": "intermediate",
+    "duration_hours": 32.0,
+    "url": "https://www.coursera.org/learn/financial-modeling",
+    "taught_skills": [
+      "financial_modeling",
+      "financial_analysis",
+      "budgeting",
+      "wealth_management"
+    ]
+  },
+  {
+    "course_id": "c_fin_03",
+    "title": "QuickBooks Online Bookkeeping & Tax Preparation",
+    "description": "Master QuickBooks Online for small business accounting, invoicing, accounts payable, accounts receivable, payroll processing, and tax preparation.",
+    "platform": "Udemy",
+    "rating": 4.7,
+    "level": "beginner",
+    "duration_hours": 18.0,
+    "url": "https://www.udemy.com/course/quickbooks-online-bookkeeping",
+    "taught_skills": [
+      "quickbooks",
+      "tax_preparation",
+      "accounts_payable",
+      "accounts_receivable",
+      "payroll",
+      "auditing"
+    ]
+  },
+  {
+    "course_id": "c_hr_01",
+    "title": "Human Resources Management: HR for People Managers",
+    "description": "Essential principles of human resources, talent acquisition, recruitment sourcing, employee onboarding, workplace relations, and HRIS systems.",
+    "platform": "Coursera",
+    "rating": 4.8,
+    "level": "beginner",
+    "duration_hours": 20.0,
+    "url": "https://www.coursera.org/specializations/human-resource-management",
+    "taught_skills": [
+      "talent_acquisition",
+      "onboarding",
+      "employee_relations",
+      "hris"
+    ]
+  },
+  {
+    "course_id": "c_hr_02",
+    "title": "Strategic HR Leadership: Performance & Compliance",
+    "description": "Advanced workforce planning, performance management appraisals, employee benefits administration, and labor law statutory compliance.",
+    "platform": "Coursera",
+    "rating": 4.7,
+    "level": "intermediate",
+    "duration_hours": 22.0,
+    "url": "https://www.coursera.org/learn/strategic-hr-leadership",
+    "taught_skills": [
+      "performance_management",
+      "benefits_administration",
+      "labor_law",
+      "workforce_planning"
+    ]
+  },
+  {
+    "course_id": "c_sales_01",
+    "title": "B2B Sales Masterclass & Enterprise Prospecting",
+    "description": "Learn professional B2B enterprise selling, lead generation prospecting, cold calling outreach, sales pipeline management, and contract negotiation.",
+    "platform": "Udemy",
+    "rating": 4.8,
+    "level": "beginner",
+    "duration_hours": 16.0,
+    "url": "https://www.udemy.com/course/b2b-sales-masterclass",
+    "taught_skills": [
+      "b2b_sales",
+      "lead_generation",
+      "cold_calling",
+      "pipeline_management",
+      "negotiation"
+    ]
+  },
+  {
+    "course_id": "c_sales_02",
+    "title": "CRM Strategy with Salesforce & Client Management",
+    "description": "Master Salesforce CRM administration, lead qualification, client relationship management, pipeline reporting, and key account management.",
+    "platform": "Coursera",
+    "rating": 4.9,
+    "level": "intermediate",
+    "duration_hours": 20.0,
+    "url": "https://www.coursera.org/learn/salesforce-crm",
+    "taught_skills": [
+      "salesforce",
+      "customer_relationship_management",
+      "account_management",
+      "pipeline_management"
+    ]
+  },
+  {
+    "course_id": "c_mkt_01",
+    "title": "Digital Marketing Specialization: SEO, Analytics & Content",
+    "description": "Full-funnel digital marketing: search engine optimization (SEO), Google Analytics web metrics, content marketing copywriting, email marketing, and PPC ads.",
+    "platform": "Coursera",
+    "rating": 4.8,
+    "level": "beginner",
+    "duration_hours": 28.0,
+    "url": "https://www.coursera.org/specializations/digital-marketing",
+    "taught_skills": [
+      "seo",
+      "google_analytics",
+      "content_strategy",
+      "social_media_marketing",
+      "email_marketing",
+      "copywriting",
+      "ppc_advertising"
+    ]
+  },
+  {
+    "course_id": "c_des_01",
+    "title": "Graphic Design Specialization: Visual Communication",
+    "description": "Design theory, visual composition, typography, image manipulation in Adobe Photoshop, vector art in Adobe Illustrator, and digital branding.",
+    "platform": "Coursera",
+    "rating": 4.8,
+    "level": "beginner",
+    "duration_hours": 26.0,
+    "url": "https://www.coursera.org/specializations/graphic-design",
+    "taught_skills": [
+      "visual_design",
+      "adobe_photoshop",
+      "adobe_illustrator",
+      "ui_design",
+      "figma"
+    ]
+  },
+  {
+    "course_id": "c_hc_01",
+    "title": "Clinical Healthcare Practice & Patient Administration",
+    "description": "Foundations of direct patient care, medical records documentation, electronic health records (EHR/EMR), HIPAA compliance, vital signs, and CPR standards.",
+    "platform": "Coursera",
+    "rating": 4.8,
+    "level": "beginner",
+    "duration_hours": 25.0,
+    "url": "https://www.coursera.org/learn/clinical-terminology-ehr",
+    "taught_skills": [
+      "patient_care",
+      "clinical_documentation",
+      "electronic_health_records",
+      "vital_signs",
+      "hipaa_compliance",
+      "medical_terminology",
+      "cpr"
+    ]
+  },
+  {
+    "course_id": "c_cons_01",
+    "title": "Management Consulting & Strategic Problem Solving",
+    "description": "Hypothesis-driven problem solving, strategic planning frameworks, business process improvement, stakeholder alignment, and organizational change management.",
+    "platform": "Coursera",
+    "rating": 4.9,
+    "level": "intermediate",
+    "duration_hours": 22.0,
+    "url": "https://www.coursera.org/learn/management-consulting-skills",
+    "taught_skills": [
+      "strategic_planning",
+      "stakeholder_management",
+      "process_improvement",
+      "change_management",
+      "risk_management",
+      "business_analysis"
+    ]
+  },
+  {
+    "course_id": "c_eng_01",
+    "title": "Engineering Design, 3D CAD & Safety Standards",
+    "description": "Computer-aided drafting in AutoCAD, mechanical parts modeling in SolidWorks, technical engineering documentation, quality control, and OSHA safety compliance.",
+    "platform": "Coursera",
+    "rating": 4.7,
+    "level": "beginner",
+    "duration_hours": 30.0,
+    "url": "https://www.coursera.org/learn/engineering-design-cad",
+    "taught_skills": [
+      "autocad",
+      "solidworks",
+      "matlab",
+      "quality_control",
+      "safety_compliance"
+    ]
+  },
+  {
+    "course_id": "c_edu_01",
+    "title": "Foundations of Teaching: Curriculum Design & Instruction",
+    "description": "Pedagogical methodologies, syllabus and curriculum development, active classroom management, lesson planning, and student performance assessment.",
+    "platform": "Coursera",
+    "rating": 4.8,
+    "level": "beginner",
+    "duration_hours": 20.0,
+    "url": "https://www.coursera.org/learn/teaching-character-instruction",
+    "taught_skills": [
+      "curriculum_development",
+      "classroom_management",
+      "lesson_planning",
+      "student_assessment"
+    ]
+  },
+  {
+    "course_id": "c_leg_01",
+    "title": "Legal Practice & Commercial Contract Drafting",
+    "description": "Essential legal research in case law, drafting commercial agreements, litigation filings, due diligence review, and regulatory compliance oversight.",
+    "platform": "Coursera",
+    "rating": 4.8,
+    "level": "intermediate",
+    "duration_hours": 22.0,
+    "url": "https://www.coursera.org/learn/contract-drafting-legal-research",
+    "taught_skills": [
+      "legal_research",
+      "contract_drafting",
+      "litigation",
+      "regulatory_compliance"
+    ]
+  },
+  {
+    "course_id": "c_fit_01",
+    "title": "Personal Fitness Training & Exercise Prescription",
+    "description": "Comprehensive grounding in exercise science, client fitness assessment, strength and conditioning, nutrition planning, and injury prevention.",
+    "platform": "Coursera",
+    "rating": 4.8,
+    "level": "beginner",
+    "duration_hours": 20.0,
+    "url": "https://www.coursera.org/learn/exercise-science",
+    "taught_skills": [
+      "personal_training",
+      "fitness_assessment",
+      "nutrition_planning",
+      "strength_training",
+      "injury_prevention"
+    ]
+  },
+  {
+    "course_id": "c_chef_01",
+    "title": "Culinary Operations, Food Safety & Kitchen Management",
+    "description": "Professional culinary techniques, ServSafe food safety standards, menu planning, recipe costing, and commercial kitchen supervision.",
+    "platform": "Udemy",
+    "rating": 4.8,
+    "level": "beginner",
+    "duration_hours": 18.0,
+    "url": "https://www.udemy.com/course/culinary-management",
+    "taught_skills": [
+      "culinary_arts",
+      "food_safety",
+      "menu_planning",
+      "kitchen_management"
+    ]
+  },
+  {
+    "course_id": "c_av_01",
+    "title": "Aviation Safety & Flight Operations Essentials",
+    "description": "FAA and ICAO aviation safety standards, commercial flight operations, avionics, crew resource management, and aircraft maintenance protocol.",
+    "platform": "Coursera",
+    "rating": 4.7,
+    "level": "intermediate",
+    "duration_hours": 24.0,
+    "url": "https://www.coursera.org/learn/aviation-safety",
+    "taught_skills": [
+      "flight_operations",
+      "aviation_safety",
+      "aircraft_maintenance"
+    ]
+  },
+  {
+    "course_id": "c_auto_01",
+    "title": "Automotive Engineering, OBD-II Diagnostics & Repair",
+    "description": "Electronic vehicle diagnostics, powertrain maintenance, mechanical troubleshooting, electrical brake systems, and shop safety standards.",
+    "platform": "Udemy",
+    "rating": 4.7,
+    "level": "beginner",
+    "duration_hours": 22.0,
+    "url": "https://www.udemy.com/course/automotive-diagnostics",
+    "taught_skills": [
+      "vehicle_diagnostics",
+      "automotive_repair",
+      "engine_maintenance"
+    ]
+  },
+  {
+    "course_id": "c_app_01",
+    "title": "Fashion Merchandising & Apparel Production",
+    "description": "Garment construction, textile science, trend forecasting, pattern making, retail merchandising, and sustainable apparel production.",
+    "platform": "Coursera",
+    "rating": 4.7,
+    "level": "beginner",
+    "duration_hours": 20.0,
+    "url": "https://www.coursera.org/learn/fashion-merchandising",
+    "taught_skills": [
+      "apparel_merchandising",
+      "garment_construction",
+      "trend_forecasting"
+    ]
+  },
+  {
+    "course_id": "c_agri_01",
+    "title": "Agronomy, Precision Agriculture & Farm Management",
+    "description": "Modern crop production, soil fertility management, sustainable agricultural practices, irrigation systems, and farm agribusiness planning.",
+    "platform": "Coursera",
+    "rating": 4.8,
+    "level": "beginner",
+    "duration_hours": 22.0,
+    "url": "https://www.coursera.org/learn/sustainable-agronomy",
+    "taught_skills": [
+      "agronomy",
+      "farm_management",
+      "sustainable_agriculture"
+    ]
+  },
+  {
+    "course_id": "c_const_01",
+    "title": "Construction Management: Scheduling, Blueprints & Estimating",
+    "description": "Blueprint interpretation, construction cost estimating, site safety management, OSHA regulations, and general contracting project planning.",
+    "platform": "Coursera",
+    "rating": 4.8,
+    "level": "beginner",
+    "duration_hours": 25.0,
+    "url": "https://www.coursera.org/specializations/construction-management",
+    "taught_skills": [
+      "construction_management",
+      "blueprint_reading",
+      "cost_estimation"
+    ]
+  },
+  {
+    "course_id": "c_bpo_01",
+    "title": "Customer Service Operations & Call Center Management",
+    "description": "Contact center operations, Zendesk ticket management, CSAT performance metrics, customer conflict resolution, and technical support excellence.",
+    "platform": "Udemy",
+    "rating": 4.7,
+    "level": "beginner",
+    "duration_hours": 16.0,
+    "url": "https://www.udemy.com/course/customer-service-excellence",
+    "taught_skills": [
+      "call_center_operations",
+      "ticket_management",
+      "customer_satisfaction"
+    ]
+  },
+  {
+    "course_id": "c_pr_01",
+    "title": "Public Relations Strategy & Crisis Communication",
+    "description": "Journalist media relations, writing effective press releases, managing corporate reputation, crisis PR communications, and media kit creation.",
+    "platform": "Coursera",
+    "rating": 4.8,
+    "level": "beginner",
+    "duration_hours": 18.0,
+    "url": "https://www.coursera.org/learn/public-relations",
+    "taught_skills": [
+      "media_relations",
+      "press_releases",
+      "crisis_communication"
+    ]
+  },
+  {
+    "course_id": "c_it_01",
+    "title": "Google IT Support Professional Certificate",
+    "description": "Computer networking, systems administration, Active Directory management, desktop troubleshooting, help desk ticketing, and IT security.",
+    "platform": "Coursera",
+    "rating": 4.9,
+    "level": "beginner",
+    "duration_hours": 35.0,
+    "url": "https://www.coursera.org/professional-certificates/google-it-support",
+    "taught_skills": [
+      "technical_support",
+      "system_administration",
+      "network_administration",
+      "active_directory"
+    ]
+  },
+  {
+    "course_id": "c_bank_01",
+    "title": "Commercial Banking, Credit Analysis & Loan Underwriting",
+    "description": "Consumer and commercial banking operations, credit underwriting, cash flow analysis, AML/KYC regulatory compliance, and banking risk management.",
+    "platform": "Coursera",
+    "rating": 4.8,
+    "level": "intermediate",
+    "duration_hours": 24.0,
+    "url": "https://www.coursera.org/learn/commercial-banking",
+    "taught_skills": [
+      "retail_banking",
+      "credit_analysis",
+      "aml_compliance"
+    ]
+  },
+  {
+    "course_id": "c_art_01",
+    "title": "Creative Art Direction & Visual Concept Design",
+    "description": "Visual storytelling, creative art direction, illustration principles, exhibition staging, and commercial studio concept development.",
+    "platform": "Coursera",
+    "rating": 4.8,
+    "level": "beginner",
+    "duration_hours": 20.0,
+    "url": "https://www.coursera.org/learn/creative-art-direction",
+    "taught_skills": [
+      "visual_arts",
+      "art_direction"
+    ]
+  }
+]
