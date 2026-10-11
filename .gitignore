@@ -4,8 +4,8 @@ __pycache__/
 *.pyc
 *.pyo
 .pytest_cache/
-cache/
-*.npy
+cache/*.npy
+!data/processed/*.npy
 *.parquet
 *.log
 .DS_Store

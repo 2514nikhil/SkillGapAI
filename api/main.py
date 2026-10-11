@@ -103,6 +103,7 @@ async def lifespan(app: FastAPI):
         _ = extractor.matcher
         api_state["spacy"] = True
 
+        # SentenceTransformer warm up
         _ = taxonomy.model
         api_state["sentence_transformer"] = True
 
