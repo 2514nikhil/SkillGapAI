@@ -138,10 +138,18 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
-# CORS configuration strictly restricted to configured frontend origin
+# CORS configuration supporting configured frontend origins, localhost, and Vercel domains
+configured_origins = [o.strip() for o in settings.FRONTEND_URL.split(",") if o.strip()]
+allowed_origins = list(dict.fromkeys(configured_origins + [
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+    "https://skill-gap-ai-woad.vercel.app",
+]))
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[settings.FRONTEND_URL, "http://localhost:3000", "http://127.0.0.1:3000"],
+    allow_origins=allowed_origins,
+    allow_origin_regex=r"https://.*\.vercel\.app",
     allow_credentials=True,
     allow_methods=["GET", "POST", "OPTIONS"],
     allow_headers=["*"],
