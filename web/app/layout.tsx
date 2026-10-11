@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import Header from "@/components/Header";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -15,24 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header className="site-header">
-          <div className="site-header-inner">
-            <Link href="/" className="site-brand">
-              <span className="site-brand-title">SkillGap</span>
-              <span className="site-brand-badge">Deterministic Job-Skill Gap Analyzer</span>
-            </Link>
-            <nav className="site-nav">
-              <Link href="/">Analyze Resume</Link>
-              <a
-                href="https://github.com/2514nikhil"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub
-              </a>
-            </nav>
-          </div>
-        </header>
+        <Header />
 
         <main className="container">{children}</main>
 

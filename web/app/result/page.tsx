@@ -11,6 +11,48 @@ import {
   SkillItem,
   WhatIfResponse,
 } from "@/lib/types";
+import Tour from "@/components/Tour";
+import Hint from "@/components/Hint";
+import { TourStep } from "@/lib/tourUtils";
+
+const resultTourSteps: TourStep[] = [
+  {
+    target: '[data-tour="score"]',
+    title: "Score",
+    body: "This is how much of the role's skill demand your resume covers. It is a guide, not a verdict.",
+    placement: "bottom",
+  },
+  {
+    target: '[data-tour="skills-found"]',
+    title: "Skills we found",
+    body: "Check this list. If we missed a skill or found a wrong one, remove it or add your own, then press Recalculate.",
+    placement: "top",
+  },
+  {
+    target: '[data-tour="skills-needed"]',
+    title: "Skills the role needs",
+    body: "The bar shows how many postings for this role ask for the skill. Missing skills with long bars matter most.",
+    placement: "top",
+  },
+  {
+    target: '[data-tour="what-to-learn"]',
+    title: "What to learn first",
+    body: "Courses in a sensible order. The points show how much your score should rise after each one.",
+    placement: "top",
+  },
+  {
+    target: '[data-tour="try-it"]',
+    title: "Try it",
+    body: "Tick a skill you plan to learn to see how your score would change.",
+    placement: "top",
+  },
+  {
+    target: '[data-tour="compare-roles"]',
+    title: "Compare with other roles",
+    body: "See how the same resume scores against other roles.",
+    placement: "top",
+  },
+];
 
 export default function ResultPage() {
   const [result, setResult] = useState<AnalyzeResponse | null>(null);
@@ -294,6 +336,8 @@ export default function ResultPage() {
 
   return (
     <div>
+      <Tour steps={resultTourSteps} storageKey="skillgap_tour_result_v1" />
+
       <div style={{ marginBottom: "16px" }}>
         <Link href="/">Upload another resume</Link>
       </div>
@@ -301,11 +345,16 @@ export default function ResultPage() {
       {apiError && <div className="error-box">{apiError}</div>}
 
       {/* a. Score Heading */}
-      <section>
-        <h1>
-          Match for {targetRole}: {Math.round(result.score.final)}%
-        </h1>
-        <p style={{ fontSize: "14px", color: "var(--muted)", margin: "4px 0 10px 0" }}>
+      <section data-tour="score">
+        <div style={{ display: "flex", alignItems: "baseline", flexWrap: "wrap", gap: "8px" }}>
+          <h1 style={{ margin: 0 }}>
+            Match for {targetRole}: {Math.round(result.score.final)}%
+          </h1>
+          <Hint label="How is this calculated?">
+            Coverage of the role&rsquo;s skills weighted by how common each is in postings, plus a small text-similarity part.
+          </Hint>
+        </div>
+        <p style={{ fontSize: "14px", color: "var(--muted)", margin: "6px 0 10px 0" }}>
           Coverage score: {Math.round(result.score.coverage)}% | Semantic text alignment:{" "}
           {Math.round(result.score.semantic)}%
         </p>
@@ -313,7 +362,7 @@ export default function ResultPage() {
       </section>
 
       {/* b. Skills we found in your resume */}
-      <section>
+      <section data-tour="skills-found">
         <h2>Skills we found in your resume</h2>
         {currentSkills.length === 0 ? (
           <p>No skills detected yet.</p>
@@ -427,7 +476,7 @@ export default function ResultPage() {
       </section>
 
       {/* c. Skills the role needs */}
-      <section>
+      <section data-tour="skills-needed">
         <h2>Skills the role needs</h2>
         <table>
           <thead>
@@ -454,7 +503,18 @@ export default function ResultPage() {
                       <div className="bar-fill" style={{ width: `${pct}%` }} />
                     </div>
                   </td>
-                  <td>{row.haveIt}</td>
+                  <td>
+                    {row.haveIt === "Partly" ? (
+                      <span>
+                        Partly
+                        <Hint label="What's this?">
+                          We count a skill as partly covered when you list a closely related one, such as PyTorch for TensorFlow.
+                        </Hint>
+                      </span>
+                    ) : (
+                      row.haveIt
+                    )}
+                  </td>
                   <td>{row.pointsText}</td>
                 </tr>
               );
@@ -464,7 +524,7 @@ export default function ResultPage() {
       </section>
 
       {/* d. What to learn first */}
-      <section>
+      <section data-tour="what-to-learn">
         <h2>What to learn first</h2>
         {result.learning_path.length === 0 ? (
           <p>No missing skills required for this role.</p>
@@ -482,10 +542,14 @@ export default function ResultPage() {
             ))}
           </ol>
         )}
+        <p style={{ marginTop: "14px", fontSize: "15px" }}>
+          Soon you will be able to{" "}
+          <Link href="/resume-builder">build an updated resume</Link> here.
+        </p>
       </section>
 
       {/* e. Try it (What-if simulation) */}
-      <section>
+      <section data-tour="try-it">
         <h2>Try it</h2>
         <p>Select skills you plan to learn to see your updated score:</p>
         <div style={{ display: "flex", gap: "24px", flexWrap: "wrap", alignItems: "flex-start" }}>
@@ -543,7 +607,7 @@ export default function ResultPage() {
       </section>
 
       {/* f. Compare with other roles */}
-      <section>
+      <section data-tour="compare-roles">
         <h2>Compare with other roles</h2>
         {!compareData ? (
           <div>

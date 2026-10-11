@@ -4,6 +4,36 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { analyzeResume, getRoles } from "@/lib/api";
 import { RoleItem } from "@/lib/types";
+import Tour from "@/components/Tour";
+import Hint from "@/components/Hint";
+import { TourStep } from "@/lib/tourUtils";
+
+const uploadTourSteps: TourStep[] = [
+  {
+    target: '[data-tour="resume-file"]',
+    title: "Resume file",
+    body: "Upload your resume as a PDF or DOCX. Scanned images will not work because we need to read the text.",
+    placement: "bottom",
+  },
+  {
+    target: '[data-tour="target-role"]',
+    title: "Target role",
+    body: "Pick the job you want. The skills needed come from real job postings for that role.",
+    placement: "bottom",
+  },
+  {
+    target: '[data-tour="job-description"]',
+    title: "Job description box",
+    body: "Have a specific job in mind? Paste its description here instead and we will compare against that.",
+    placement: "top",
+  },
+  {
+    target: '[data-tour="analyze-button"]',
+    title: "Analyze button",
+    body: "Press this when you are ready. It usually takes a few seconds. Your resume is not saved.",
+    placement: "top",
+  },
+];
 
 export default function UploadPage() {
   const router = useRouter();
@@ -25,7 +55,7 @@ export default function UploadPage() {
         setRoles(data);
       })
       .catch((err) => {
-        setApiError(`Could not load available roles: ${err.message}. Is the API server running?`);
+        setApiError(err instanceof Error ? err.message : "The server is waking up. Try again in a minute.");
       });
   }, []);
 
@@ -107,6 +137,8 @@ export default function UploadPage() {
 
   return (
     <div>
+      <Tour steps={uploadTourSteps} storageKey="skillgap_tour_upload_v1" />
+
       <h1>SkillGap</h1>
       <p>
         Upload your resume to compare your skills against real job postings, find missing skills, and get a practical learning path.
@@ -119,7 +151,7 @@ export default function UploadPage() {
       )}
 
       <form onSubmit={handleSubmit} style={{ marginTop: "24px" }} noValidate>
-        <div style={{ marginBottom: "20px" }}>
+        <div data-tour="resume-file" style={{ marginBottom: "20px" }}>
           <label htmlFor="resume-file">Resume (PDF or DOCX)</label>
           <input
             id="resume-file"
@@ -135,7 +167,7 @@ export default function UploadPage() {
           )}
         </div>
 
-        <div style={{ marginBottom: "20px" }}>
+        <div data-tour="target-role" style={{ marginBottom: "20px" }}>
           <label htmlFor="target-role">Target role</label>
           <select
             id="target-role"
@@ -155,8 +187,15 @@ export default function UploadPage() {
           </select>
         </div>
 
-        <div style={{ marginBottom: "24px" }}>
-          <label htmlFor="job-description">Or paste a job description</label>
+        <div data-tour="job-description" style={{ marginBottom: "24px" }}>
+          <div style={{ display: "flex", alignItems: "baseline", flexWrap: "wrap", marginBottom: "6px" }}>
+            <label htmlFor="job-description" style={{ marginBottom: 0 }}>
+              Or paste a job description
+            </label>
+            <Hint label="What's this?">
+              If you paste a job description, the role dropdown is ignored.
+            </Hint>
+          </div>
           <textarea
             id="job-description"
             rows={5}
@@ -174,7 +213,7 @@ export default function UploadPage() {
           )}
         </div>
 
-        <div>
+        <div data-tour="analyze-button">
           <button type="submit" disabled={isAnalyzing}>
             {isAnalyzing ? "Analyzing..." : "Analyze"}
           </button>

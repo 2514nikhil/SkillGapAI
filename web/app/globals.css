@@ -316,3 +316,15 @@ li {
   padding-top: 12px;
 }
 
+.help-button:hover {
+  background-color: #f2efe9;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
