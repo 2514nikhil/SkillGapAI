@@ -1,26 +1,34 @@
 # SkillGap Backend Dockerfile
-# Optimized for Hugging Face Spaces, Render, and Linux VPS deployment.
+# Optimized for free cloud hosting (Render 512MB RAM, Hugging Face Spaces, Railway)
 FROM python:3.12-slim
 
-# Prevent Python from writing .pyc files and buffer stdout/stderr
+# Prevent Python bytecode, force unbuffered logs, and constrain thread counts to stay under 512MB RAM
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
     USE_SLM=false \
-    PORT=8000
+    PORT=8000 \
+    OMP_NUM_THREADS=1 \
+    MKL_NUM_THREADS=1 \
+    OPENBLAS_NUM_THREADS=1 \
+    NUMEXPR_NUM_THREADS=1 \
+    TOKENIZERS_PARALLELISM=false
 
 WORKDIR /app
 
-# Install system dependencies needed for compiling native extensions and parsing
+# Install minimal OS dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     curl \
     && rm -rf /var/lib/apt/lists/*
 
-# Copy requirements and install Python dependencies
+# Install lightweight CPU-only PyTorch FIRST so pip does NOT download 3+ GB of CUDA / NVIDIA packages
+RUN pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu
+
+# Copy requirements and install remaining dependencies
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Pre-download and cache NLP models at build time so runtime has zero latency
+# Pre-download and cache NLP models at build time
 RUN python -m spacy download en_core_web_sm
 RUN python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')"
 
@@ -36,5 +44,5 @@ USER appuser
 
 EXPOSE 8000
 
-# Run uvicorn server with dynamic port support (compatible with Render / Hugging Face Spaces)
+# Run uvicorn server with dynamic port support (Render passes $PORT, default 8000)
 CMD ["sh", "-c", "uvicorn api.main:app --host 0.0.0.0 --port ${PORT:-8000} --workers 1"]

@@ -87,6 +87,13 @@ async def lifespan(app: FastAPI):
     t0 = time.perf_counter()
 
     try:
+        # Limit PyTorch CPU thread allocation to prevent memory explosion on 512MB instances
+        try:
+            import torch
+            torch.set_num_threads(1)
+        except Exception:
+            pass
+
         # 1. Load taxonomy and embeddings
         taxonomy.load()
         api_state["taxonomy"] = True
