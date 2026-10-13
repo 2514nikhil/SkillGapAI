@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "node --experimental-strip-types --test tests/tour.test.ts tests/resume_builder.test.ts tests/links.test.ts"
+    "test": "node --experimental-strip-types --test tests/tour.test.ts tests/resume_builder.test.ts tests/links.test.ts tests/resume_builder_components.test.ts"
   },
   "dependencies": {
     "next": "^14.2.15",

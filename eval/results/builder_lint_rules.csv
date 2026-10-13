@@ -1,0 +1,23 @@
+Rule Category,Rule ID / Description,Level,Behavior
+Basics,Missing Name,Error,Ensures resume includes candidate full name
+Basics,Missing Email,Error,Ensures contact email is provided
+Basics,Invalid Email Format,Error,Validates RFC compliant email address
+Basics,Invalid Phone Format,Error,Validates standard numeric phone length
+Dates,End Date Before Start Date,Error,Detects chronologically impossible dates
+Formatting,Bullet Length Exceeds 300 chars,Error,Flags runaway narrative paragraphs
+Experience,Empty Experience Required Fields,Error,"Guarantees title, company, start date are present"
+Education,Empty Education Required Fields,Error,"Guarantees degree, institution, start date are present"
+Projects,Empty Project Name,Error,Guarantees project title exists
+Structure,Estimated Pages Exceeds 2,Warning,Alerts when resume length exceeds 2 standard pages
+Style,Weak Starting Phrase,Warning,"Detects 'responsible for', 'worked on', 'helped with'"
+Style,First-Person Pronouns,Warning,"Flags personal pronouns (I, me, my, we) in bullets"
+Dates,Inconsistent Date Formats,Warning,Flags mixed date formatting patterns
+Experience,Entry with No Bullets,Warning,Highlights roles with no accomplishments listed
+Skills,Duplicate Skill Entry,Warning,Detects duplicate skills across categories
+Structure,Excessive Bullets (> 8 per entry),Warning,Encourages concise role descriptions
+Links,Non-Resume-Friendly Platform,Warning,"Flags entertainment/social links (e.g. TikTok, Discord)"
+Impact,Bullet Without Metric or Outcome,Tip,Recommends adding numbers or measurable results
+Summary,Summary Exceeds 4 Sentences,Tip,Encourages a crisp executive summary
+Skills,Fewer Than 5 Total Skills,Tip,Recommends highlighting additional core competencies
+Relevance,Skills Not Mentioned in Experience,Tip,Flags skills isolated in skills list
+Style,Overused Starting Action Verb,Tip,Flags verbs repeated 3+ times across bullets

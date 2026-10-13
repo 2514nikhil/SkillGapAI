@@ -46,7 +46,7 @@ PLATFORMS_FILE = settings.DATA_DIR / "processed" / "social_platforms.json"
 
 
 class RenderRequest(BaseModel):
-    resume: Resume
+    resume: Dict[str, Any]
     format: Literal["pdf", "html", "docx", "txt", "md", "json"] = "pdf"
     template: Literal["classic", "compact", "technical"] = "classic"
     page_size: Literal["A4", "Letter"] = "A4"
@@ -100,7 +100,7 @@ async def get_social_platforms() -> List[Dict[str, Any]]:
     summary="Stateless ATS resume linting",
     description="Evaluates resume against professional ATS rules and structural guidelines in memory without storing.",
 )
-async def lint_resume(resume: Resume) -> List[Dict[str, str]]:
+async def lint_resume(resume: Dict[str, Any]) -> List[Dict[str, str]]:
     # Stateless backend: never log resume content
     logger.info("Executing stateless resume linting check")
     issues = lint(resume)
@@ -212,3 +212,148 @@ async def import_resume_endpoint(file: UploadFile = File(...)) -> ImportResponse
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail="Failed to parse resume document.",
         )
+
+
+# =========================================================================
+# AI Writing Assistant Endpoints (Phase 12C)
+# =========================================================================
+
+from fastapi import Request
+import time
+from ml.resume_ai import (
+    draft_summary,
+    improve_bullet,
+    polish_project,
+    suggest_skills_from_text,
+    tailor,
+)
+
+# Lightweight in-memory rate limiter per IP: max 60 req/min
+_RATE_LIMIT_STORE: Dict[str, List[float]] = {}
+MAX_AI_REQUESTS_PER_MINUTE = 60
+
+
+def _enforce_rate_limit(request: Request):
+    client_ip = request.client.host if request.client else "127.0.0.1"
+    now = time.time()
+    history = _RATE_LIMIT_STORE.setdefault(client_ip, [])
+    # Prune timestamps older than 60s
+    _RATE_LIMIT_STORE[client_ip] = [t for t in history if now - t < 60.0]
+    if len(_RATE_LIMIT_STORE[client_ip]) >= MAX_AI_REQUESTS_PER_MINUTE:
+        raise HTTPException(
+            status_code=status.HTTP_429_TOO_MANY_REQUESTS,
+            detail="Rate limit exceeded for AI writing assistant (max 60 requests per minute).",
+        )
+    _RATE_LIMIT_STORE[client_ip].append(now)
+
+
+class BulletImproveRequest(BaseModel):
+    text: str = Field(..., min_length=3, max_length=500)
+    context: Optional[Dict[str, Any]] = None
+
+
+class ProjectPolishRequest(BaseModel):
+    name: str = Field(..., min_length=1, max_length=120)
+    tech: List[str] = Field(default_factory=list, max_length=30)
+    notes: str = Field(..., min_length=3, max_length=2000)
+
+
+class TailorRequest(BaseModel):
+    resume: Dict[str, Any]
+    target: str = Field(..., min_length=2, max_length=5000)
+
+
+@router.post(
+    "/ai/bullet",
+    summary="Improve bullet point",
+    description="Rewrites bullet point into strong ATS variants with zero invented facts.",
+)
+async def improve_bullet_endpoint(req: BulletImproveRequest, request: Request):
+    _enforce_rate_limit(request)
+    logger.info("Executing AI bullet improvement")
+    try:
+        result = improve_bullet(req.text, req.context)
+        return result
+    except Exception as exc:
+        logger.error(f"Error in improve_bullet: {exc}")
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Failed to improve bullet: {exc}",
+        )
+
+
+@router.post(
+    "/ai/summary",
+    summary="Draft resume summary",
+    description="Generates executive summary strictly from verified candidate resume data.",
+)
+async def draft_summary_endpoint(resume: Dict[str, Any], request: Request):
+    _enforce_rate_limit(request)
+    logger.info("Executing AI summary drafting")
+    try:
+        result = draft_summary(resume)
+        return result
+    except Exception as exc:
+        logger.error(f"Error in draft_summary: {exc}")
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Failed to draft summary: {exc}",
+        )
+
+
+@router.post(
+    "/ai/project",
+    summary="Polish project notes into bullets",
+    description="Transforms raw project notes into concise bullets without introducing new tools.",
+)
+async def polish_project_endpoint(req: ProjectPolishRequest, request: Request):
+    _enforce_rate_limit(request)
+    logger.info("Executing AI project polish")
+    try:
+        result = polish_project(req.name, req.tech, req.notes)
+        return result
+    except Exception as exc:
+        logger.error(f"Error in polish_project: {exc}")
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Failed to polish project: {exc}",
+        )
+
+
+@router.post(
+    "/ai/suggest-skills",
+    summary="Discover unlisted skills from resume text",
+    description="Deterministically identifies skills present in bullets/descriptions that are not in selected skills.",
+)
+async def suggest_skills_endpoint(resume: Dict[str, Any], request: Request):
+    _enforce_rate_limit(request)
+    logger.info("Executing AI skill suggestions from text")
+    try:
+        suggestions = suggest_skills_from_text(resume)
+        return {"suggestions": suggestions}
+    except Exception as exc:
+        logger.error(f"Error in suggest_skills_from_text: {exc}")
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Failed to suggest skills: {exc}",
+        )
+
+
+@router.post(
+    "/ai/tailor",
+    summary="Tailor resume against target role or job description",
+    description="Evaluates match and gap impact against target role without mutates the candidate's resume.",
+)
+async def tailor_endpoint(req: TailorRequest, request: Request):
+    _enforce_rate_limit(request)
+    logger.info("Executing AI resume tailoring analysis")
+    try:
+        result = tailor(req.resume, req.target)
+        return result
+    except Exception as exc:
+        logger.error(f"Error in tailor: {exc}")
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Failed to tailor resume: {exc}",
+        )
+

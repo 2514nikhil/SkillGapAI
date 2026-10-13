@@ -1,0 +1,7 @@
+Fixture,Template,Sections Tested,Sections Recovered,Recovery (%),Skills Tested,Skills Recovered,Skill Recovery (%)
+Fixture 1 (Backend),Classic,4,4,100.0%,12,12,100.0%
+Fixture 1 (Backend),Compact,4,4,100.0%,12,12,100.0%
+Fixture 1 (Backend),Technical,4,4,100.0%,12,12,100.0%
+Fixture 2 (Data Science),Classic,4,4,100.0%,10,10,100.0%
+Fixture 2 (Data Science),Compact,4,4,100.0%,10,10,100.0%
+Fixture 2 (Data Science),Technical,4,4,100.0%,10,9,90.0%

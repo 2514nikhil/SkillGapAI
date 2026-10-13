@@ -1,0 +1,9 @@
+Component / Endpoint,Type,Avg Latency (ms),SLA Target
+Resume Render (HTML),Deterministic Templating,0.35 ms,< 50 ms
+Resume Render (DOCX),python-docx Export,48.82 ms,< 200 ms
+Resume Render (PDF),WeasyPrint / Headless,2401.24 ms,< 2500 ms
+AI improve_bullet,Action-Verb Grounded Fallback,38.10 ms,< 100 ms
+AI draft_summary,Strict Verifiable Synthesis,0.08 ms,< 100 ms
+AI polish_project,Notes-to-Bullet Generator,0.10 ms,< 100 ms
+AI suggest_skills_from_text,Taxonomy Regex Matching,157.59 ms,< 100 ms
+AI tailor (Gap Analysis),Empirical Profile Matching,52.82 ms,< 250 ms

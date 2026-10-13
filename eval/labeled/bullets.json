@@ -1,0 +1,182 @@
+[
+  {
+    "id": "b01",
+    "text": "I was responsible for developing the user authentication backend with JWT in FastAPI.",
+    "role": "Backend Engineer",
+    "company": "SaaS Platform"
+  },
+  {
+    "id": "b02",
+    "text": "Worked on reducing query latency from 450ms down to 60ms by adding Redis caching.",
+    "role": "Backend Engineer",
+    "company": "Fintech Startup"
+  },
+  {
+    "id": "b03",
+    "text": "Helped with setting up CI/CD workflows on GitHub Actions for our backend services.",
+    "role": "DevOps Engineer",
+    "company": "Cloud Corp"
+  },
+  {
+    "id": "b04",
+    "text": "Duties included managing PostgreSQL database migrations and writing complex SQL scripts.",
+    "role": "Database Administrator",
+    "company": "Data Logistics"
+  },
+  {
+    "id": "b05",
+    "text": "I worked on building responsive user interfaces using React and Tailwind CSS.",
+    "role": "Frontend Developer",
+    "company": "Web Agency"
+  },
+  {
+    "id": "b06",
+    "text": "Responsible for designing RESTful APIs that processed 5 million requests daily.",
+    "role": "Backend Engineer",
+    "company": "Apex Cloud"
+  },
+  {
+    "id": "b07",
+    "text": "Assisted with migrating our microservices from EC2 instances to Docker containers.",
+    "role": "DevOps Engineer",
+    "company": "Cloud Systems"
+  },
+  {
+    "id": "b08",
+    "text": "Handled the implementation of end-to-end automated testing with Pytest achieving 88% test coverage.",
+    "role": "QA Engineer",
+    "company": "NextGen Software"
+  },
+  {
+    "id": "b09",
+    "text": "I was tasked with creating data pipelines with Apache Spark for batch processing.",
+    "role": "Data Engineer",
+    "company": "Analytics Lab"
+  },
+  {
+    "id": "b10",
+    "text": "Responsible for managing a team of 4 junior developers during agile sprint cycles.",
+    "role": "Engineering Lead",
+    "company": "Tech Solutions"
+  },
+  {
+    "id": "b11",
+    "text": "Worked on integrating Stripe payment gateway for subscription billing across 12 countries.",
+    "role": "Fullstack Developer",
+    "company": "Commerce Inc"
+  },
+  {
+    "id": "b12",
+    "text": "I helped with optimizing web assets which improved Google Lighthouse performance score by 25 points.",
+    "role": "Frontend Developer",
+    "company": "Media House"
+  },
+  {
+    "id": "b13",
+    "text": "Duties included monitoring server health and cluster logs using Prometheus and Grafana.",
+    "role": "Site Reliability Engineer",
+    "company": "Cloud Infrastructure"
+  },
+  {
+    "id": "b14",
+    "text": "Worked on training random forest classification models with scikit-learn for churn prediction.",
+    "role": "Machine Learning Engineer",
+    "company": "AI Dynamics"
+  },
+  {
+    "id": "b15",
+    "text": "Responsible for fixing memory leaks in the Go websocket service under heavy load.",
+    "role": "Systems Engineer",
+    "company": "Messaging App"
+  },
+  {
+    "id": "b16",
+    "text": "I built custom dashboard components in Vue.js for enterprise client reporting.",
+    "role": "Frontend Developer",
+    "company": "Enterprise Tech"
+  },
+  {
+    "id": "b17",
+    "text": "Assisted with Kafka event-driven architecture to stream telemetry events in real time.",
+    "role": "Backend Engineer",
+    "company": "Streaming Co"
+  },
+  {
+    "id": "b18",
+    "text": "Responsible for conducting code reviews and mentoring 3 engineering interns.",
+    "role": "Senior Engineer",
+    "company": "Software Lab"
+  },
+  {
+    "id": "b19",
+    "text": "Worked on writing Terraform scripts to automate AWS VPC and subnet infrastructure provisioning.",
+    "role": "Cloud Architect",
+    "company": "Hosting Group"
+  },
+  {
+    "id": "b20",
+    "text": "I helped with customer onboarding by building automated data validation scripts with Python.",
+    "role": "Solutions Engineer",
+    "company": "B2B SaaS"
+  },
+  {
+    "id": "b21",
+    "text": "Duties included architecting GraphQL resolvers and schema federation across 3 services.",
+    "role": "Backend Developer",
+    "company": "Omnichannel Retail"
+  },
+  {
+    "id": "b22",
+    "text": "Responsible for security hardening of Nginx reverse proxy and SSL certificate renewal.",
+    "role": "DevOps Engineer",
+    "company": "SecureNet"
+  },
+  {
+    "id": "b23",
+    "text": "Worked on the mobile app build using Flutter and SQLite for offline task syncing.",
+    "role": "Mobile Developer",
+    "company": "Productivity Apps"
+  },
+  {
+    "id": "b24",
+    "text": "I developed automated ETL scripts using pandas to clean messy CSV files from external vendors.",
+    "role": "Data Analyst",
+    "company": "FinData"
+  },
+  {
+    "id": "b25",
+    "text": "Helped with refactoring legacy monolithic codebase into modular Python packages.",
+    "role": "Software Engineer",
+    "company": "Legacy Corp"
+  },
+  {
+    "id": "b26",
+    "text": "Responsible for tuning PostgreSQL indexes which decreased average report generation time by 40%.",
+    "role": "Database Engineer",
+    "company": "Reports Hub"
+  },
+  {
+    "id": "b27",
+    "text": "I was tasked with implementing single sign-on (SSO) using OAuth2 and Okta for 500+ employees.",
+    "role": "Security Engineer",
+    "company": "Enterprise Global"
+  },
+  {
+    "id": "b28",
+    "text": "Worked on cross-browser CSS bugs in Safari and Firefox for checkout pages.",
+    "role": "Frontend Developer",
+    "company": "Retail Platform"
+  },
+  {
+    "id": "b29",
+    "text": "Assisted with configuring Elasticsearch clusters and tuning query analyzers for document search.",
+    "role": "Search Engineer",
+    "company": "Knowledge Corp"
+  },
+  {
+    "id": "b30",
+    "text": "Duties included writing unit tests with Jest and Cypress for the user profile flow.",
+    "role": "Frontend QA",
+    "company": "Social Network"
+  }
+]

@@ -1,5 +1,5 @@
 Method / Approach,Top-1 Accuracy (%),Recall@3 (%),MRR
-(a) TF-IDF Cosine,100.00,100.00,1.0000
-(b) Dense Embedding Cosine,100.00,100.00,1.0000
+(a) TF-IDF Cosine,95.83,100.00,0.9792
+(b) Dense Embedding Cosine,79.17,95.83,0.8713
 (c) Skill Coverage Only,100.00,100.00,1.0000
 (d) Final Blended Score,100.00,100.00,1.0000

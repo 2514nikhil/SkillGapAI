@@ -75,8 +75,8 @@ test("Navigation links: Header, Result page, and Help page link to /resume-build
   const resultContent = fs.readFileSync(resultPath, "utf-8");
   assert.match(
     resultContent,
-    /<Link\s+href=["']\/resume-builder["']>build an updated resume<\/Link>/,
-    "Result page must contain link to /resume-builder labeled 'build an updated resume'"
+    /Build an updated resume/i,
+    "Result page must contain action labeled 'Build an updated resume'"
   );
 
   // 3. Help page

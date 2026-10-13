@@ -2,6 +2,7 @@ Error Type,Skill ID,Root Cause,Category,Document ID,Context
 FP,microservices,phrasing,-,doc_01_backend_resume,"TECHNICAL SKILLS Programming: Python, JavaScript, SQL, Bash "
 FP,mentoring,phrasing,-,doc_02_mle_jd,Job Title: Machine Learning Engineer Company: AI Innovations
 FP,artificial_intelligence,phrasing,-,doc_02_mle_jd,Job Title: Machine Learning Engineer Company: AI Innovations
+FP,jest,phrasing,-,doc_03_frontend_resume,"TypeScript, JavaScript, HTML5, CSS3, Sass Frameworks: React,"
 FP,seo,ambiguous alias,-,doc_03_frontend_resume,"TypeScript, JavaScript, HTML5, CSS3, Sass Frameworks: React,"
 FP,team_leadership,phrasing,-,doc_04_data_analyst_jd,Position: Senior Data Analyst Department: Business Analytics
 FP,amazon_eks,phrasing,-,doc_05_devops_resume,"Kubernetes, Docker, Helm Infrastructure as Code: Terraform, "

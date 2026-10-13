@@ -9,18 +9,15 @@ export const metadata: Metadata = {
   },
 };
 
+import ResumeBuilder from "@/components/ResumeBuilder";
+
 export default function ResumeBuilderPage() {
   const isBuilderEnabled = process.env.NEXT_PUBLIC_RESUME_BUILDER_ENABLED === "true";
 
   if (isBuilderEnabled) {
     // TODO: When NEXT_PUBLIC_RESUME_BUILDER_ENABLED is true, mount the real
     // Resume Builder workspace component here (e.g. <ResumeBuilderWorkspace />).
-    return (
-      <div>
-        <h1>Make your resume with AI</h1>
-        <p>Real resume builder component is not yet implemented.</p>
-      </div>
-    );
+    return <ResumeBuilder />;
   }
 
   return (

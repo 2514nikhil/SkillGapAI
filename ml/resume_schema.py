@@ -173,7 +173,17 @@ class SkillItem(BaseCleanModel):
     taxonomy_id: Optional[str] = Field(default=None, max_length=100)
     custom: bool = False
     pinned: bool = False
-    level: Optional[Literal["familiar", "comfortable", "strong"]] = None
+    level: Optional[
+        Literal[
+            "familiar",
+            "comfortable",
+            "strong",
+            "beginner",
+            "intermediate",
+            "advanced",
+            "expert",
+        ]
+    ] = None
 
 
 class ExperienceItem(BaseCleanModel):

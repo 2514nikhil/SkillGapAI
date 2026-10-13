@@ -54,6 +54,16 @@ const resultTourSteps: TourStep[] = [
   },
 ];
 
+interface RoleRequirementRow {
+  skill: string;
+  skill_id: string;
+  weight: number;
+  haveIt: "Yes" | "Partly" | "No";
+  pointsText: string;
+  sortPriority: number;
+  sortImpact: number;
+}
+
 export default function ResultPage() {
   const [result, setResult] = useState<AnalyzeResponse | null>(null);
   const [targetRole, setTargetRole] = useState<string>("Target Role");
@@ -256,17 +266,6 @@ export default function ResultPage() {
 
   // Combine role demands into a single list with missing skills sorted first by gain/weight
   const candidateSkillIdSet = new Set(currentSkills.map((s) => s.skill_id));
-
-  // Determine role requirements table rows
-  interface RoleRequirementRow {
-    skill: string;
-    skill_id: string;
-    weight: number;
-    haveIt: "Yes" | "Partly" | "No";
-    pointsText: string;
-    sortPriority: number;
-    sortImpact: number;
-  }
 
   const roleRows: RoleRequirementRow[] = [];
 
@@ -542,10 +541,41 @@ export default function ResultPage() {
             ))}
           </ol>
         )}
-        <p style={{ marginTop: "14px", fontSize: "15px" }}>
-          Soon you will be able to{" "}
-          <Link href="/resume-builder">build an updated resume</Link> here.
-        </p>
+        <div style={{ marginTop: "16px" }}>
+          <button
+            type="button"
+            onClick={() => {
+              if (typeof window !== "undefined") {
+                try {
+                  sessionStorage.setItem("skillgap_target_role", targetRole);
+                  sessionStorage.setItem(
+                    "skillgap_result",
+                    JSON.stringify({
+                      target_role: targetRole,
+                      extracted_skills: currentSkills,
+                      missing: result.missing,
+                    })
+                  );
+                } catch (e) {
+                  console.warn("Could not save analysis result to sessionStorage:", e);
+                }
+                window.location.href = "/resume-builder?from=analysis";
+              }
+            }}
+            style={{
+              border: "1px solid var(--accent)",
+              backgroundColor: "var(--accent)",
+              color: "#ffffff",
+              padding: "8px 16px",
+              borderRadius: "4px",
+              fontSize: "14px",
+              fontWeight: 500,
+              cursor: "pointer",
+            }}
+          >
+            Build an updated resume
+          </button>
+        </div>
       </section>
 
       {/* e. Try it (What-if simulation) */}

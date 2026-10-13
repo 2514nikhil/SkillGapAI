@@ -100,8 +100,9 @@ class OllamaClient:
         system_prompt: Optional[str] = None,
         model: Optional[str] = None,
         format_json: bool = False,
+        cache_on_disk: bool = True,
     ) -> Optional[str]:
-        """Call Ollama /api/generate with deterministic temperature=0 and caching.
+        """Call Ollama /api/generate with deterministic temperature=0 and optional caching.
 
         Returns:
             Generated response string, or None if Ollama is unreachable/disabled.
@@ -110,10 +111,10 @@ class OllamaClient:
             return None
 
         target_model = model or self.cfg.SLM_PRIMARY_MODEL
-        cache_file = self._get_cache_path(target_model, prompt)
+        cache_file = self._get_cache_path(target_model, prompt) if cache_on_disk else None
 
         # Check disk cache
-        if cache_file.is_file():
+        if cache_file and cache_file.is_file():
             try:
                 with open(cache_file, "r", encoding="utf-8") as f:
                     cached_data = json.load(f)
@@ -159,12 +160,13 @@ class OllamaClient:
                         text_resp = res_obj.get("response", "").strip()
 
                         # Cache valid response
-                        try:
-                            self.cache_dir.mkdir(parents=True, exist_ok=True)
-                            with open(cache_file, "w", encoding="utf-8") as f:
-                                json.dump({"model": attempt_model, "prompt": prompt, "response": text_resp}, f)
-                        except Exception as e:
-                            logger.debug("Failed writing SLM cache: %s", e)
+                        if cache_file:
+                            try:
+                                self.cache_dir.mkdir(parents=True, exist_ok=True)
+                                with open(cache_file, "w", encoding="utf-8") as f:
+                                    json.dump({"model": attempt_model, "prompt": prompt, "response": text_resp}, f)
+                            except Exception as e:
+                                logger.debug("Failed writing SLM cache: %s", e)
 
                         return text_resp
             except Exception as e:

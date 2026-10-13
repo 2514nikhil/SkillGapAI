@@ -99,8 +99,43 @@ export default function HelpPage() {
         <section style={{ marginBottom: "24px" }}>
           <h2>Can the site write my resume for me?</h2>
           <p>
-            Not yet. It is planned. See the{" "}
-            <Link href="/resume-builder">Resume builder page</Link>.
+            Yes! Our builder helps you craft a clean, ATS-safe resume grounded strictly in your real skills and experience. The AI assistant polishes your bullet points and projects without inventing facts, dates, tools, or metrics. Visit the{" "}
+            <Link href="/resume-builder">Resume builder page</Link> to start building or editing.
+          </p>
+        </section>
+
+        <section style={{ marginBottom: "24px" }}>
+          <h2>Is my resume saved?</h2>
+          <p>
+            Only in your browser&apos;s local storage. Your resume data is never stored on our servers, never saved to databases, and never logged. You can clear your draft anytime using the &ldquo;Clear everything&rdquo; button.
+          </p>
+        </section>
+
+        <section style={{ marginBottom: "24px" }}>
+          <h2>Why did the AI not change my bullet?</h2>
+          <p>
+            Our AI assistant enforces a strict honesty rule: it is strictly forbidden from adding tools, technologies, metrics, or factual claims you did not provide. If a bullet cannot be safely improved without inventing details, the system preserves your original wording.
+          </p>
+        </section>
+
+        <section style={{ marginBottom: "24px" }}>
+          <h2>Which template should I choose?</h2>
+          <p>
+            All templates are single-column and 100% ATS-safe. Choose <strong>Classic</strong> for traditional serif styling, <strong>Compact</strong> for a tight sans-serif layout ideal for 1-page resumes, or <strong>Technical</strong> to emphasize skills and project portfolios above experience.
+          </p>
+        </section>
+
+        <section style={{ marginBottom: "24px" }}>
+          <h2>Do I need to add social links?</h2>
+          <p>
+            No, all social profiles and links are completely optional. You can include links to GitHub, LinkedIn, or personal portfolios, but none are required to generate or export your resume.
+          </p>
+        </section>
+
+        <section style={{ marginBottom: "24px" }}>
+          <h2>The AI assistant is unavailable.</h2>
+          <p>
+            When running on free cloud hosting or when the local Ollama daemon is stopped, SkillGap automatically falls back to our deterministic rule-based assistant. Editing, ATS lint checks, and local auto-save continue to function uninterrupted.
           </p>
         </section>
       </div>

@@ -31,6 +31,21 @@ body {
   text-align: left;
 }
 
+.container.container-wide,
+.container:has(.resume-builder-root) {
+  max-width: 1400px;
+  padding: 20px 24px 56px 24px;
+}
+
+body:has(.resume-builder-root) .site-header-inner,
+body:has(.resume-builder-root) .site-footer-inner,
+.site-header-inner.header-wide,
+.site-footer-inner.footer-wide {
+  max-width: 1400px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
 h1 {
   font-size: 26px;
   font-weight: 600;
