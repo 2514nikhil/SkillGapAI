@@ -16,10 +16,16 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 
 WORKDIR /app
 
-# Install minimal OS dependencies
+# Install minimal OS dependencies including WeasyPrint system libraries and open fonts
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     curl \
+    libpango-1.0-0 \
+    libpangoft2-1.0-0 \
+    libharfbuzz0b \
+    libffi-dev \
+    fonts-liberation \
+    fonts-dejavu-core \
     && rm -rf /var/lib/apt/lists/*
 
 # Install lightweight CPU-only PyTorch FIRST so pip does NOT download 3+ GB of CUDA / NVIDIA packages

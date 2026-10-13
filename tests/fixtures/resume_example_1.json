@@ -1,0 +1,230 @@
+{
+  "meta": {
+    "template": "modern",
+    "target_role": "Backend Developer"
+  },
+  "basics": {
+    "name": "Nikhil Maghodiya",
+    "email": "nikhil@example.com",
+    "headline": "Backend & Cloud Systems Engineer",
+    "phone": "+91 9876543210",
+    "location": {
+      "city": "Bengaluru",
+      "region_country": "India"
+    },
+    "links": [
+      {
+        "platform_id": "github",
+        "value": "2514nikhil"
+      },
+      {
+        "platform_id": "linkedin",
+        "value": "nikhil-maghodiya"
+      },
+      {
+        "platform_id": "portfolio",
+        "value": "https://nikhil.dev"
+      },
+      {
+        "platform_id": "leetcode",
+        "value": "nikhil_25"
+      }
+    ]
+  },
+  "summary": "Full-stack backend software engineer with 3+ years building high-throughput microservices using Python, FastAPI, Docker, and PostgreSQL. Experienced in distributed caching, deterministic ML pipelines, and edge deployments.",
+  "skills": [
+    {
+      "category_id": "languages",
+      "name": "Python",
+      "taxonomy_id": "python",
+      "custom": false,
+      "pinned": true,
+      "level": "strong"
+    },
+    {
+      "category_id": "languages",
+      "name": "TypeScript",
+      "taxonomy_id": "typescript",
+      "custom": false,
+      "pinned": true,
+      "level": "comfortable"
+    },
+    {
+      "category_id": "languages",
+      "name": "SQL",
+      "taxonomy_id": "sql",
+      "custom": false,
+      "pinned": true,
+      "level": "strong"
+    },
+    {
+      "category_id": "frameworks_libraries",
+      "name": "FastAPI",
+      "taxonomy_id": "fastapi",
+      "custom": false,
+      "pinned": true,
+      "level": "strong"
+    },
+    {
+      "category_id": "frameworks_libraries",
+      "name": "Next.js",
+      "taxonomy_id": "nextjs",
+      "custom": false,
+      "pinned": true,
+      "level": "comfortable"
+    },
+    {
+      "category_id": "databases_orm",
+      "name": "PostgreSQL",
+      "taxonomy_id": "postgresql",
+      "custom": false,
+      "pinned": true,
+      "level": "strong"
+    },
+    {
+      "category_id": "databases_orm",
+      "name": "Redis",
+      "taxonomy_id": "redis",
+      "custom": false,
+      "pinned": false,
+      "level": "comfortable"
+    },
+    {
+      "category_id": "cicd_vcs",
+      "name": "Docker",
+      "taxonomy_id": "docker",
+      "custom": false,
+      "pinned": true,
+      "level": "strong"
+    },
+    {
+      "category_id": "cicd_vcs",
+      "name": "GitHub Actions",
+      "taxonomy_id": "github_actions",
+      "custom": false,
+      "pinned": false,
+      "level": "comfortable"
+    },
+    {
+      "category_id": "hosting_cloud",
+      "name": "AWS",
+      "taxonomy_id": "aws",
+      "custom": false,
+      "pinned": false,
+      "level": "comfortable"
+    },
+    {
+      "category_id": "testing",
+      "name": "Pytest",
+      "taxonomy_id": "pytest",
+      "custom": false,
+      "pinned": false,
+      "level": "strong"
+    },
+    {
+      "category_id": "soft_skills",
+      "name": "Problem Solving",
+      "taxonomy_id": "problem_solving",
+      "custom": false,
+      "pinned": false,
+      "level": "strong"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Apex Cloud Systems",
+      "title": "Backend Software Engineer",
+      "location": "Bengaluru, India",
+      "start": "2023-01",
+      "end": "Present",
+      "current": true,
+      "bullets": [
+        "Architected asynchronous REST microservices processing 12M monthly requests using FastAPI and PostgreSQL.",
+        "Engineered Redis write-through caching layer reducing p99 API latencies from 380ms down to 42ms.",
+        "Designed Dockerized CI/CD deployment pipelines on GitHub Actions reducing release build cycles by 40%."
+      ]
+    },
+    {
+      "company": "NextGen Infotech",
+      "title": "Software Engineering Intern",
+      "location": "Pune, India",
+      "start": "2022-06",
+      "end": "2022-12",
+      "current": false,
+      "bullets": [
+        "Built data ingestion pipelines using Python and Celery workers to parse unstructured CSV and JSON logs.",
+        "Authored 60+ automated integration tests with Pytest achieving 92% service test coverage."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "SkillGap AI",
+      "link": "https://skill-gap-ai-woad.vercel.app",
+      "tech": [
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "Docker",
+        "PostgreSQL"
+      ],
+      "bullets": [
+        "Developed open-source, deterministic career skill gap analyzer with sub-second analysis latency.",
+        "Implemented two-stage NLP extraction combining spaCy phrase matching and dense vector embeddings."
+      ]
+    },
+    {
+      "name": "MicroCache Engine",
+      "link": "https://github.com/2514nikhil/microcache",
+      "tech": [
+        "Python",
+        "Redis",
+        "Cython"
+      ],
+      "bullets": [
+        "Built high-concurrency LRU in-memory store supporting TTL expirations and thread-safe read snapshots."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "National Institute of Technology",
+      "degree": "B.Tech",
+      "field": "Computer Science and Engineering",
+      "start": "2019-08",
+      "end": "2023-05",
+      "score": "8.8 CGPA",
+      "details": [
+        "Coursework: Distributed Systems, Database Management, Algorithms, Computer Networks.",
+        "Lead Organizer of Annual Technical Hackathon 2022."
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Solutions Architect - Associate",
+      "issuer": "Amazon Web Services",
+      "date": "2023-09"
+    }
+  ],
+  "achievements": [
+    "First Prize Winner - Smart India Hackathon 2022 for AI-based document verification.",
+    "Authored open-source library with over 500+ GitHub stars."
+  ],
+  "publications": [
+    {
+      "title": "Deterministic Evaluation of Skill Taxonomies in Candidate Resumes",
+      "venue": "IEEE Conference on Applied NLP",
+      "year": "2024",
+      "link": "https://doi.org/10.1109/example.2024"
+    }
+  ],
+  "custom_sections": [
+    {
+      "title": "Open Source Contributions",
+      "bullets": [
+        "Contributed bug fixes and documentation to FastAPI and Pydantic v2 codebases."
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-"""Script to generate a structured 2-page Project Concept Note PDF for SkillGap."""
+"""Script to generate a structured 2-page Project Concept Note PDF for SkillGap without headers or footers."""
 
 import os
 from reportlab.lib.pagesizes import letter
@@ -10,49 +10,8 @@ from reportlab.platypus import (
     Spacer,
     Table,
     TableStyle,
-    HRFlowable,
     PageBreak,
 )
-from reportlab.pdfgen import canvas
-
-class NumberedCanvas(canvas.Canvas):
-    """Two-pass canvas to dynamically compute and draw total page numbers."""
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        self._saved_page_states = []
-
-    def showPage(self):
-        self._saved_page_states.append(dict(self.__dict__))
-        self._startPage()
-
-    def save(self):
-        num_pages = len(self._saved_page_states)
-        for state in self._saved_page_states:
-            self.__dict__.update(state)
-            self.draw_page_number(num_pages)
-            canvas.Canvas.showPage(self)
-        canvas.Canvas.save(self)
-
-    def draw_page_number(self, page_count):
-        self.saveState()
-        self.setFont("Helvetica", 8)
-        self.setFillColor(colors.HexColor("#64748B"))
-        
-        # Footer text
-        footer_text = f"SkillGap Concept Note | AICTE Internship Project | Page {self._pageNumber} of {page_count}"
-        self.drawRightString(letter[0] - 40, 25, footer_text)
-        self.drawString(40, 25, "Confidential - For Academic Evaluation & Review")
-        
-        # Top header rule on page 2+
-        if self._pageNumber > 1:
-            self.setFont("Helvetica", 7.5)
-            self.drawString(40, letter[1] - 25, "SkillGap: Explainable Job-Skill Gap Analyzer & Upskilling Engine")
-            self.setStrokeColor(colors.HexColor("#CBD5E1"))
-            self.setLineWidth(0.5)
-            self.line(40, letter[1] - 28, letter[0] - 40, letter[1] - 28)
-            
-        self.restoreState()
-
 
 def create_concept_note():
     output_path = r"C:\Users\Nikhil\Desktop\SkillGap_Concept_Note.pdf"
@@ -62,15 +21,14 @@ def create_concept_note():
         rightMargin=40,
         leftMargin=40,
         topMargin=36,
-        bottomMargin=40,
+        bottomMargin=36,
     )
 
     styles = getSampleStyleSheet()
 
-    # Brand Colors
+    # Colors
     primary_color = colors.HexColor("#0F2942")     # Deep Navy
     secondary_color = colors.HexColor("#1E5F74")   # Slate Teal
-    accent_color = colors.HexColor("#2563EB")      # Vibrant Blue
     dark_neutral = colors.HexColor("#1E293B")
     muted_neutral = colors.HexColor("#475569")
     bg_light = colors.HexColor("#F8FAFC")
@@ -83,7 +41,7 @@ def create_concept_note():
         fontSize=18,
         leading=22,
         textColor=primary_color,
-        spaceAfter=2,
+        spaceAfter=3,
     )
 
     subtitle_style = ParagraphStyle(
@@ -93,7 +51,7 @@ def create_concept_note():
         fontSize=10,
         leading=14,
         textColor=secondary_color,
-        spaceAfter=10,
+        spaceAfter=12,
     )
 
     meta_style = ParagraphStyle(
@@ -112,7 +70,7 @@ def create_concept_note():
         fontSize=11,
         leading=15,
         textColor=primary_color,
-        spaceBefore=7,
+        spaceBefore=8,
         spaceAfter=3,
     )
 
@@ -167,19 +125,18 @@ def create_concept_note():
     story = []
 
     # ================= PAGE 1 =================
-    story.append(Paragraph("PROJECT CONCEPT NOTE", ParagraphStyle('Badge', fontName='Helvetica-Bold', fontSize=8, textColor=accent_color, leading=10, spaceAfter=2)))
     story.append(Paragraph("SkillGap: Explainable Job-Skill Gap Analyzer & Upskilling Engine", title_style))
     story.append(Paragraph("A Grounded, Deterministic AI System Aligning Engineering Graduates with Market Realities", subtitle_style))
     
     # Metadata Table
     meta_data = [
         [
-            Paragraph("<b>Author / Intern:</b> Nikhil (AICTE Internship)", meta_style),
+            Paragraph("<b>Author:</b> Nikhil (AICTE Internship Project)", meta_style),
             Paragraph("<b>Domain:</b> Machine Learning & Natural Language Processing", meta_style),
         ],
         [
             Paragraph("<b>Stack:</b> FastAPI, spaCy, Sentence-Transformers, Next.js", meta_style),
-            Paragraph("<b>Live App:</b> https://skill-gap-ai-woad.vercel.app", meta_style),
+            Paragraph("<b>Live URL:</b> https://skill-gap-ai-woad.vercel.app", meta_style),
         ],
     ]
     meta_table = Table(meta_data, colWidths=[270, 262])
@@ -232,7 +189,7 @@ def create_concept_note():
         ('LEFTPADDING', (0, 0), (-1, -1), 8),
         ('RIGHTPADDING', (0, 0), (-1, -1), 8),
     ]))
-    story.append(Spacer(1, 3))
+    story.append(Spacer(1, 4))
     story.append(callout_table)
 
     # ================= PAGE 2 =================
@@ -318,15 +275,8 @@ def create_concept_note():
     story.append(Paragraph("• <b>University Curriculum Alignment:</b> API integration enabling universities to map course syllabi directly to empirical role skill requirements.", bullet_style))
     story.append(Paragraph("• <b>Localized Edge SLM Inference:</b> Offline quantized Small Language Model (Qwen 2.5) for qualitative bullet-point rewrite suggestions.", bullet_style))
 
-    story.append(Spacer(1, 8))
-    story.append(HRFlowable(width="100%", thickness=0.5, color=border_color, spaceAfter=5))
-    story.append(Paragraph(
-        "<b>SkillGap</b> is developed as part of the AICTE Student Project Initiative. Open-source, deterministic, and privacy-preserving.<br/>Live Deployment: <u>https://skill-gap-ai-woad.vercel.app</u> | GitHub: <u>https://github.com/2514nikhil/SkillGapAI</u>",
-        ParagraphStyle('FooterNotice', parent=styles['Normal'], fontName='Helvetica', fontSize=7, textColor=muted_neutral, alignment=1)
-    ))
-
-    doc.build(story, canvasmaker=NumberedCanvas)
-    print(f"Concept Note successfully generated at: {output_path}")
+    doc.build(story)
+    print(f"Clean Concept Note successfully generated at: {output_path}")
 
 if __name__ == "__main__":
     create_concept_note()

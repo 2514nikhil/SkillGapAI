@@ -3,7 +3,8 @@
     "name": "Python",
     "aliases": [
       "python3",
-      "py"
+      "py",
+      "python2"
     ],
     "category": "programming",
     "ambiguous": false
@@ -40,7 +41,8 @@
     "name": "C++",
     "aliases": [
       "cpp",
-      "c plus plus"
+      "c plus plus",
+      "cplusplus"
     ],
     "category": "programming",
     "ambiguous": false
@@ -59,7 +61,8 @@
     "name": "C",
     "aliases": [
       "c language",
-      "ansi c"
+      "ansi c",
+      "clang"
     ],
     "category": "programming",
     "ambiguous": true
@@ -109,7 +112,8 @@
   "kotlin": {
     "name": "Kotlin",
     "aliases": [
-      "kotlinlang"
+      "kotlinlang",
+      "kt"
     ],
     "category": "programming",
     "ambiguous": false
@@ -124,7 +128,8 @@
     "name": "R",
     "aliases": [
       "r programming",
-      "r language"
+      "r language",
+      "rlang"
     ],
     "category": "programming",
     "ambiguous": true
@@ -142,7 +147,9 @@
     "aliases": [
       "bash script",
       "shell scripting",
-      "sh"
+      "sh",
+      "sh script",
+      "bourne again shell"
     ],
     "category": "programming",
     "ambiguous": true
@@ -158,7 +165,9 @@
   },
   "perl": {
     "name": "Perl",
-    "aliases": [],
+    "aliases": [
+      "perl5"
+    ],
     "category": "programming",
     "ambiguous": true
   },
@@ -184,7 +193,9 @@
   },
   "elixir": {
     "name": "Elixir",
-    "aliases": [],
+    "aliases": [
+      "elixirlang"
+    ],
     "category": "programming",
     "ambiguous": false
   },
@@ -225,7 +236,8 @@
   "objective_c": {
     "name": "Objective-C",
     "aliases": [
-      "objc"
+      "objc",
+      "obj-c"
     ],
     "category": "programming",
     "ambiguous": false
@@ -244,7 +256,9 @@
     "aliases": [
       "asm",
       "x86",
-      "arm assembly"
+      "arm assembly",
+      "x86 asm",
+      "arm asm"
     ],
     "category": "programming",
     "ambiguous": false
@@ -277,7 +291,9 @@
   },
   "verilog": {
     "name": "Verilog",
-    "aliases": [],
+    "aliases": [
+      "systemverilog"
+    ],
     "category": "programming",
     "ambiguous": false
   },
@@ -301,7 +317,8 @@
   "pl_sql": {
     "name": "PL/SQL",
     "aliases": [
-      "plsql"
+      "plsql",
+      "oracle plsql"
     ],
     "category": "programming",
     "ambiguous": false
@@ -344,7 +361,8 @@
     "name": "Microsoft SQL Server",
     "aliases": [
       "mssql",
-      "sql server"
+      "sql server",
+      "ms sql"
     ],
     "category": "data",
     "ambiguous": false
@@ -352,7 +370,8 @@
   "oracle_database": {
     "name": "Oracle Database",
     "aliases": [
-      "oracle db"
+      "oracle db",
+      "oracle rdbms"
     ],
     "category": "data",
     "ambiguous": false
@@ -360,7 +379,8 @@
   "mongodb": {
     "name": "MongoDB",
     "aliases": [
-      "mongo"
+      "mongo",
+      "mongodb atlas"
     ],
     "category": "data",
     "ambiguous": false
@@ -391,7 +411,8 @@
     "name": "Elasticsearch",
     "aliases": [
       "elastic search",
-      "es"
+      "es",
+      "es search"
     ],
     "category": "data",
     "ambiguous": false
@@ -430,7 +451,8 @@
     "name": "Snowflake",
     "aliases": [
       "snowflake data cloud",
-      "snowflake dw"
+      "snowflake dw",
+      "snowflake data warehouse"
     ],
     "category": "data",
     "ambiguous": false
@@ -569,7 +591,8 @@
   "polars": {
     "name": "Polars",
     "aliases": [
-      "python polars"
+      "python polars",
+      "polars dataframe"
     ],
     "category": "data",
     "ambiguous": false
@@ -592,7 +615,8 @@
     "name": "Ray",
     "aliases": [
       "ray data",
-      "ray core"
+      "ray core",
+      "ray tune"
     ],
     "category": "data",
     "ambiguous": false
@@ -601,7 +625,8 @@
     "name": "Apache Arrow",
     "aliases": [
       "arrow",
-      "pyarrow"
+      "pyarrow",
+      "apache arrow python"
     ],
     "category": "data",
     "ambiguous": false
@@ -616,7 +641,9 @@
   },
   "trino": {
     "name": "Trino",
-    "aliases": [],
+    "aliases": [
+      "prestosql"
+    ],
     "category": "data",
     "ambiguous": false
   },
@@ -835,7 +862,8 @@
     "name": "TensorFlow",
     "aliases": [
       "tf",
-      "tensorflow2"
+      "tensorflow2",
+      "tf2"
     ],
     "category": "ml",
     "ambiguous": false
@@ -1058,7 +1086,8 @@
   "pinecone": {
     "name": "Pinecone",
     "aliases": [
-      "pinecone db"
+      "pinecone db",
+      "pinecone vector db"
     ],
     "category": "ml",
     "ambiguous": false
@@ -1181,7 +1210,8 @@
     "aliases": [
       "asr",
       "whisper",
-      "speech to text"
+      "speech to text",
+      "openai whisper"
     ],
     "category": "ml",
     "ambiguous": false
@@ -1190,7 +1220,9 @@
     "name": "Object Detection",
     "aliases": [
       "yolo",
-      "faster r-cnn"
+      "faster r-cnn",
+      "yolov8",
+      "yolov5"
     ],
     "category": "ml",
     "ambiguous": false
@@ -1216,7 +1248,8 @@
     "name": "GNN",
     "aliases": [
       "graph neural networks",
-      "pytorch geometric"
+      "pytorch geometric",
+      "pyg"
     ],
     "category": "ml",
     "ambiguous": false
@@ -1243,7 +1276,9 @@
     "name": "Vue.js",
     "aliases": [
       "vue",
-      "vuejs"
+      "vuejs",
+      "vue 3",
+      "vue 2"
     ],
     "category": "web",
     "ambiguous": true
@@ -1251,7 +1286,8 @@
   "next.js": {
     "name": "Next.js",
     "aliases": [
-      "nextjs"
+      "nextjs",
+      "next"
     ],
     "category": "web",
     "ambiguous": false
@@ -1259,7 +1295,8 @@
   "nuxt.js": {
     "name": "Nuxt.js",
     "aliases": [
-      "nuxtjs"
+      "nuxtjs",
+      "nuxt"
     ],
     "category": "web",
     "ambiguous": false
@@ -1267,7 +1304,8 @@
   "svelte": {
     "name": "Svelte",
     "aliases": [
-      "sveltekit"
+      "sveltekit",
+      "sveltejs"
     ],
     "category": "web",
     "ambiguous": false
@@ -1276,7 +1314,8 @@
     "name": "Node.js",
     "aliases": [
       "nodejs",
-      "node"
+      "node",
+      "node js"
     ],
     "category": "web",
     "ambiguous": false
@@ -1285,7 +1324,8 @@
     "name": "Express.js",
     "aliases": [
       "express",
-      "expressjs"
+      "expressjs",
+      "express framework"
     ],
     "category": "web",
     "ambiguous": false
@@ -1301,7 +1341,8 @@
   "flask": {
     "name": "Flask",
     "aliases": [
-      "python flask"
+      "python flask",
+      "flask framework"
     ],
     "category": "web",
     "ambiguous": false
@@ -1329,7 +1370,8 @@
     "name": "ASP.NET Core",
     "aliases": [
       "asp.net",
-      "dotnet core"
+      "dotnet core",
+      ".net core web"
     ],
     "category": "web",
     "ambiguous": false
@@ -1346,7 +1388,8 @@
   "laravel": {
     "name": "Laravel",
     "aliases": [
-      "php laravel"
+      "php laravel",
+      "laravel framework"
     ],
     "category": "web",
     "ambiguous": false
@@ -1361,7 +1404,8 @@
     "name": "GraphQL",
     "aliases": [
       "graphql api",
-      "apollo graphql"
+      "apollo graphql",
+      "graphql schema"
     ],
     "category": "web",
     "ambiguous": false
@@ -1405,7 +1449,8 @@
   "sass": {
     "name": "Sass",
     "aliases": [
-      "scss"
+      "scss",
+      "syntactically awesome stylesheets"
     ],
     "category": "web",
     "ambiguous": false
@@ -1422,7 +1467,9 @@
   "bootstrap": {
     "name": "Bootstrap",
     "aliases": [
-      "twitter bootstrap"
+      "twitter bootstrap",
+      "bootstrap 5",
+      "bootstrap 4"
     ],
     "category": "web",
     "ambiguous": false
@@ -1472,7 +1519,9 @@
   },
   "rxjs": {
     "name": "RxJS",
-    "aliases": [],
+    "aliases": [
+      "reactive extensions for javascript"
+    ],
     "category": "web",
     "ambiguous": false
   },
@@ -1518,7 +1567,8 @@
     "aliases": [
       "oauth2",
       "oauth 2.0",
-      "openid connect"
+      "openid connect",
+      "oidc"
     ],
     "category": "web",
     "ambiguous": false
@@ -1526,7 +1576,8 @@
   "json_web_tokens": {
     "name": "JSON Web Tokens",
     "aliases": [
-      "jwt"
+      "jwt",
+      "jwt token"
     ],
     "category": "web",
     "ambiguous": false
@@ -1567,7 +1618,8 @@
   "nestjs": {
     "name": "NestJS",
     "aliases": [
-      "nestjs framework"
+      "nestjs framework",
+      "nest.js"
     ],
     "category": "web",
     "ambiguous": false
@@ -1580,20 +1632,25 @@
   },
   "koa": {
     "name": "Koa",
-    "aliases": [],
+    "aliases": [
+      "koajs"
+    ],
     "category": "web",
     "ambiguous": false
   },
   "gatsby": {
     "name": "Gatsby",
-    "aliases": [],
+    "aliases": [
+      "gatsbyjs"
+    ],
     "category": "web",
     "ambiguous": false
   },
   "remix": {
     "name": "Remix",
     "aliases": [
-      "remix run"
+      "remix run",
+      "remix.run"
     ],
     "category": "web",
     "ambiguous": false
@@ -1601,7 +1658,8 @@
   "astro": {
     "name": "Astro",
     "aliases": [
-      "astro framework"
+      "astro framework",
+      "astro.build"
     ],
     "category": "web",
     "ambiguous": false
@@ -1631,7 +1689,8 @@
   "amazon_web_services": {
     "name": "Amazon Web Services",
     "aliases": [
-      "aws"
+      "aws",
+      "amazon aws"
     ],
     "category": "cloud",
     "ambiguous": false
@@ -1639,7 +1698,8 @@
   "microsoft_azure": {
     "name": "Microsoft Azure",
     "aliases": [
-      "azure"
+      "azure",
+      "ms azure"
     ],
     "category": "cloud",
     "ambiguous": false
@@ -1648,7 +1708,8 @@
     "name": "Google Cloud Platform",
     "aliases": [
       "gcp",
-      "google cloud"
+      "google cloud",
+      "gcloud"
     ],
     "category": "cloud",
     "ambiguous": false
@@ -1656,7 +1717,8 @@
   "aws_lambda": {
     "name": "AWS Lambda",
     "aliases": [
-      "serverless lambda"
+      "serverless lambda",
+      "lambda serverless"
     ],
     "category": "cloud",
     "ambiguous": false
@@ -1664,7 +1726,9 @@
   "amazon_s3": {
     "name": "Amazon S3",
     "aliases": [
-      "aws s3"
+      "aws s3",
+      "simple storage service",
+      "s3 bucket"
     ],
     "category": "cloud",
     "ambiguous": false
@@ -1672,7 +1736,9 @@
   "amazon_ec2": {
     "name": "Amazon EC2",
     "aliases": [
-      "aws ec2"
+      "aws ec2",
+      "elastic compute cloud",
+      "ec2"
     ],
     "category": "cloud",
     "ambiguous": false
@@ -1680,7 +1746,8 @@
   "amazon_ecs": {
     "name": "Amazon ECS",
     "aliases": [
-      "aws ecs"
+      "aws ecs",
+      "elastic container service"
     ],
     "category": "cloud",
     "ambiguous": false
@@ -1688,7 +1755,8 @@
   "amazon_eks": {
     "name": "Amazon EKS",
     "aliases": [
-      "aws eks"
+      "aws eks",
+      "elastic kubernetes service"
     ],
     "category": "cloud",
     "ambiguous": false
@@ -1696,7 +1764,8 @@
   "amazon_rds": {
     "name": "Amazon RDS",
     "aliases": [
-      "aws rds"
+      "aws rds",
+      "relational database service"
     ],
     "category": "cloud",
     "ambiguous": false
@@ -1712,7 +1781,8 @@
   "aws_iam": {
     "name": "AWS IAM",
     "aliases": [
-      "iam policies"
+      "iam policies",
+      "identity and access management"
     ],
     "category": "cloud",
     "ambiguous": false
@@ -1727,7 +1797,9 @@
   },
   "azure_blob_storage": {
     "name": "Azure Blob Storage",
-    "aliases": [],
+    "aliases": [
+      "azure blob"
+    ],
     "category": "cloud",
     "ambiguous": false
   },
@@ -1739,7 +1811,9 @@
   },
   "google_cloud_functions": {
     "name": "Google Cloud Functions",
-    "aliases": [],
+    "aliases": [
+      "gcf"
+    ],
     "category": "cloud",
     "ambiguous": false
   },
@@ -1780,7 +1854,8 @@
     "name": "Cloud Security",
     "aliases": [
       "iam",
-      "cloud compliance"
+      "cloud compliance",
+      "iam identity"
     ],
     "category": "cloud",
     "ambiguous": false
@@ -1801,7 +1876,9 @@
   },
   "vercel": {
     "name": "Vercel",
-    "aliases": [],
+    "aliases": [
+      "zeit"
+    ],
     "category": "cloud",
     "ambiguous": false
   },
@@ -1813,14 +1890,18 @@
   },
   "digitalocean": {
     "name": "DigitalOcean",
-    "aliases": [],
+    "aliases": [
+      "digital ocean",
+      "do droplets"
+    ],
     "category": "cloud",
     "ambiguous": false
   },
   "serverless": {
     "name": "Serverless",
     "aliases": [
-      "serverless framework"
+      "serverless framework",
+      "sls"
     ],
     "category": "cloud",
     "ambiguous": false
@@ -1853,7 +1934,8 @@
     "aliases": [
       "docker containers",
       "dockerfile",
-      "containerization"
+      "containerization",
+      "docker engine"
     ],
     "category": "devops",
     "ambiguous": false
@@ -1887,7 +1969,8 @@
   "jenkins": {
     "name": "Jenkins",
     "aliases": [
-      "jenkins pipeline"
+      "jenkins pipeline",
+      "jenkins ci"
     ],
     "category": "devops",
     "ambiguous": false
@@ -1925,7 +2008,8 @@
     "name": "Terraform",
     "aliases": [
       "hashicorp terraform",
-      "iac"
+      "iac",
+      "tf infra"
     ],
     "category": "devops",
     "ambiguous": false
@@ -1946,7 +2030,9 @@
   },
   "chef": {
     "name": "Chef",
-    "aliases": [],
+    "aliases": [
+      "chef infra"
+    ],
     "category": "devops",
     "ambiguous": false
   },
@@ -1969,7 +2055,11 @@
       "unix",
       "ubuntu",
       "centos",
-      "debian"
+      "debian",
+      "gnu linux",
+      "ubuntu linux",
+      "debian gnu",
+      "centos stream"
     ],
     "category": "devops",
     "ambiguous": false
@@ -1978,7 +2068,8 @@
     "name": "Nginx",
     "aliases": [
       "nginx web server",
-      "reverse proxy"
+      "reverse proxy",
+      "engine x"
     ],
     "category": "devops",
     "ambiguous": false
@@ -2058,7 +2149,8 @@
   "istio": {
     "name": "Istio",
     "aliases": [
-      "service mesh"
+      "service mesh",
+      "istio service mesh"
     ],
     "category": "devops",
     "ambiguous": false
@@ -2085,7 +2177,8 @@
     "aliases": [
       "firewalls",
       "vpn",
-      "tcp/ip"
+      "tcp/ip",
+      "transmission control protocol"
     ],
     "category": "devops",
     "ambiguous": false
@@ -2111,7 +2204,8 @@
   "vulnerability_assessment": {
     "name": "Vulnerability Assessment",
     "aliases": [
-      "security scanning"
+      "security scanning",
+      "vapt"
     ],
     "category": "devops",
     "ambiguous": false
@@ -2258,7 +2352,8 @@
     "name": "Adobe Premiere Pro",
     "aliases": [
       "premiere",
-      "video editing"
+      "video editing",
+      "premiere pro"
     ],
     "category": "design",
     "ambiguous": false
@@ -2267,7 +2362,8 @@
     "name": "Adobe After Effects",
     "aliases": [
       "after effects",
-      "motion graphics"
+      "motion graphics",
+      "ae"
     ],
     "category": "design",
     "ambiguous": false
@@ -2281,7 +2377,8 @@
   "blender": {
     "name": "Blender",
     "aliases": [
-      "3d modeling"
+      "3d modeling",
+      "blender 3d"
     ],
     "category": "design",
     "ambiguous": false
@@ -2315,7 +2412,8 @@
     "name": "Agile Methodology",
     "aliases": [
       "agile",
-      "agile development"
+      "agile development",
+      "agile delivery"
     ],
     "category": "business",
     "ambiguous": false
@@ -2325,7 +2423,9 @@
     "aliases": [
       "scrum framework",
       "sprint planning",
-      "daily standup"
+      "daily standup",
+      "scrum ceremonies",
+      "backlog grooming"
     ],
     "category": "business",
     "ambiguous": false
@@ -2351,7 +2451,8 @@
     "name": "Project Management",
     "aliases": [
       "pmp",
-      "project delivery"
+      "project delivery",
+      "pmp principles"
     ],
     "category": "business",
     "ambiguous": false
@@ -2369,7 +2470,8 @@
     "name": "Stakeholder Management",
     "aliases": [
       "client communication",
-      "partner alignment"
+      "partner alignment",
+      "client management"
     ],
     "category": "business",
     "ambiguous": false
@@ -2528,7 +2630,8 @@
     "aliases": [
       "analytical thinking",
       "troubleshooting",
-      "creative problem solving"
+      "creative problem solving",
+      "troubleshooting mindset"
     ],
     "category": "soft skills",
     "ambiguous": false
@@ -2546,7 +2649,9 @@
     "name": "Time Management",
     "aliases": [
       "prioritization",
-      "multitasking"
+      "multitasking",
+      "deadline management",
+      "task prioritization"
     ],
     "category": "soft skills",
     "ambiguous": false
@@ -2555,7 +2660,9 @@
     "name": "Collaboration",
     "aliases": [
       "cross-functional collaboration",
-      "teamwork"
+      "teamwork",
+      "team player",
+      "cross-team collaboration"
     ],
     "category": "soft skills",
     "ambiguous": false
@@ -2565,7 +2672,8 @@
     "aliases": [
       "coaching",
       "training",
-      "peer mentoring"
+      "peer mentoring",
+      "mentoring junior developers"
     ],
     "category": "soft skills",
     "ambiguous": false
@@ -2574,7 +2682,8 @@
     "name": "Adaptability",
     "aliases": [
       "flexibility",
-      "resilience"
+      "resilience",
+      "grit"
     ],
     "category": "soft skills",
     "ambiguous": false
@@ -2593,7 +2702,8 @@
     "aliases": [
       "public speaking",
       "slide decks",
-      "pitching"
+      "pitching",
+      "demo presentation"
     ],
     "category": "soft skills",
     "ambiguous": false
@@ -2619,7 +2729,8 @@
     "name": "Emotional Intelligence",
     "aliases": [
       "eq",
-      "empathy"
+      "empathy",
+      "compassion"
     ],
     "category": "soft skills",
     "ambiguous": false
@@ -2628,7 +2739,8 @@
     "name": "Organizational Skills",
     "aliases": [
       "attention to detail",
-      "structured planning"
+      "structured planning",
+      "thoroughness"
     ],
     "category": "soft skills",
     "ambiguous": false
@@ -2727,7 +2839,8 @@
   "postman": {
     "name": "Postman",
     "aliases": [
-      "postman api client"
+      "postman api client",
+      "postman api testing"
     ],
     "category": "tools",
     "ambiguous": false
@@ -2736,7 +2849,8 @@
     "name": "Swagger",
     "aliases": [
       "openapi",
-      "swagger ui"
+      "swagger ui",
+      "openapi 3"
     ],
     "category": "tools",
     "ambiguous": false
@@ -2773,7 +2887,9 @@
   "vim": {
     "name": "Vim",
     "aliases": [
-      "neovim"
+      "neovim",
+      "vi editor",
+      "nvim"
     ],
     "category": "tools",
     "ambiguous": false
@@ -2809,7 +2925,8 @@
     "name": "Power BI",
     "aliases": [
       "microsoft power bi",
-      "powerbi"
+      "powerbi",
+      "ms power bi"
     ],
     "category": "tools",
     "ambiguous": false
@@ -2818,7 +2935,8 @@
     "name": "Looker",
     "aliases": [
       "looker studio",
-      "google data studio"
+      "google data studio",
+      "lookml"
     ],
     "category": "tools",
     "ambiguous": false
@@ -2864,7 +2982,8 @@
       "google sheets",
       "google slides",
       "gsuite",
-      "google workspace"
+      "google workspace",
+      "g suite"
     ],
     "category": "tools",
     "ambiguous": false
@@ -3763,6 +3882,3559 @@
       "exhibition curation",
       "visual styling"
     ],
+    "ambiguous": false
+  },
+  "ocaml": {
+    "name": "OCaml",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "sas": {
+    "name": "SAS",
+    "aliases": [
+      "sas programming"
+    ],
+    "category": "programming",
+    "ambiguous": true
+  },
+  "racket": {
+    "name": "Racket",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "scheme": {
+    "name": "Scheme",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "common_lisp": {
+    "name": "Common Lisp",
+    "aliases": [
+      "lisp"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "elm": {
+    "name": "Elm",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "purescript": {
+    "name": "PureScript",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "coffeescript": {
+    "name": "CoffeeScript",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "crystal": {
+    "name": "Crystal",
+    "aliases": [
+      "crystallang"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "d_lang": {
+    "name": "D",
+    "aliases": [
+      "dlang"
+    ],
+    "category": "programming",
+    "ambiguous": true
+  },
+  "actionscript": {
+    "name": "ActionScript",
+    "aliases": [
+      "as3"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "hack": {
+    "name": "Hack",
+    "aliases": [
+      "hhvm hack"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "abap": {
+    "name": "ABAP",
+    "aliases": [
+      "sap abap"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "ada": {
+    "name": "Ada",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "pascal": {
+    "name": "Pascal",
+    "aliases": [
+      "delphi pascal"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "delphi": {
+    "name": "Delphi",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "scratch": {
+    "name": "Scratch",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "zig": {
+    "name": "Zig",
+    "aliases": [
+      "ziglang"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "nim": {
+    "name": "Nim",
+    "aliases": [
+      "nimlang"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "v_lang": {
+    "name": "V",
+    "aliases": [
+      "vlang"
+    ],
+    "category": "programming",
+    "ambiguous": true
+  },
+  "vyper": {
+    "name": "Vyper",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "hcl": {
+    "name": "HCL",
+    "aliases": [
+      "hashicorp configuration language"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "render": {
+    "name": "Render",
+    "aliases": [
+      "render.com"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "linode": {
+    "name": "Linode",
+    "aliases": [
+      "akamai linode"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "fly_io": {
+    "name": "Fly.io",
+    "aliases": [
+      "flyio"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "railway": {
+    "name": "Railway",
+    "aliases": [
+      "railway.app"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "firebase": {
+    "name": "Firebase",
+    "aliases": [
+      "google firebase"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "oracle_cloud": {
+    "name": "Oracle Cloud Infrastructure",
+    "aliases": [
+      "oci"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "ibm_cloud": {
+    "name": "IBM Cloud",
+    "aliases": [],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "alibaba_cloud": {
+    "name": "Alibaba Cloud",
+    "aliases": [
+      "aliyun"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "hetzner": {
+    "name": "Hetzner",
+    "aliases": [
+      "hetzner cloud"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "ovhcloud": {
+    "name": "OVHcloud",
+    "aliases": [
+      "ovh"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "scaleway": {
+    "name": "Scaleway",
+    "aliases": [],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "aws_cloudfront": {
+    "name": "AWS CloudFront",
+    "aliases": [
+      "cloudfront cdn"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "aws_dynamodb": {
+    "name": "AWS DynamoDB",
+    "aliases": [
+      "dynamodb service"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "aws_cloudwatch": {
+    "name": "AWS CloudWatch",
+    "aliases": [
+      "cloudwatch logs"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "aws_sns": {
+    "name": "AWS SNS",
+    "aliases": [
+      "simple notification service"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "aws_sqs": {
+    "name": "AWS SQS",
+    "aliases": [
+      "simple queue service"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "aws_route53": {
+    "name": "AWS Route 53",
+    "aliases": [
+      "route53 dns"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "azure_devops": {
+    "name": "Azure DevOps",
+    "aliases": [
+      "vsts",
+      "azure pipelines"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "azure_vms": {
+    "name": "Azure Virtual Machines",
+    "aliases": [
+      "azure vm"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "gcp_cloud_run": {
+    "name": "Google Cloud Run",
+    "aliases": [
+      "cloud run"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "gcp_bigquery": {
+    "name": "Google BigQuery Cloud",
+    "aliases": [],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "cloudflare_pages": {
+    "name": "Cloudflare Pages",
+    "aliases": [],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "backblaze_b2": {
+    "name": "Backblaze B2",
+    "aliases": [
+      "b2 cloud storage"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "wasabi": {
+    "name": "Wasabi Hot Cloud Storage",
+    "aliases": [],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "upcloud": {
+    "name": "UpCloud",
+    "aliases": [],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "pythonanywhere": {
+    "name": "PythonAnywhere",
+    "aliases": [],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "glitch": {
+    "name": "Glitch",
+    "aliases": [
+      "glitch.com"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "replit": {
+    "name": "Replit",
+    "aliases": [
+      "repl.it"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "planetscale": {
+    "name": "PlanetScale",
+    "aliases": [],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "neon_db": {
+    "name": "Neon Serverless Postgres",
+    "aliases": [
+      "neon.tech"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "faunadb": {
+    "name": "FaunaDB",
+    "aliases": [
+      "fauna"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "datadog_cloud": {
+    "name": "Datadog Cloud Monitoring",
+    "aliases": [],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "fastly": {
+    "name": "Fastly",
+    "aliases": [
+      "fastly cdn"
+    ],
+    "category": "cloud",
+    "ambiguous": false
+  },
+  "solidjs": {
+    "name": "SolidJS",
+    "aliases": [
+      "solid.js"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "alpinejs": {
+    "name": "Alpine.js",
+    "aliases": [],
+    "category": "web",
+    "ambiguous": false
+  },
+  "lit": {
+    "name": "Lit",
+    "aliases": [
+      "lit-html",
+      "lit-element"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "ember": {
+    "name": "Ember.js",
+    "aliases": [
+      "emberjs"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "gin": {
+    "name": "Gin",
+    "aliases": [
+      "gin-gonic"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "echo": {
+    "name": "Echo",
+    "aliases": [
+      "echo web framework"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "fiber": {
+    "name": "Fiber",
+    "aliases": [
+      "go fiber"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "actix_web": {
+    "name": "Actix Web",
+    "aliases": [
+      "actix"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "axum": {
+    "name": "Axum",
+    "aliases": [
+      "rust axum"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "rocket": {
+    "name": "Rocket",
+    "aliases": [
+      "rocket.rs"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "tornado": {
+    "name": "Tornado",
+    "aliases": [
+      "tornado web"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "sanic": {
+    "name": "Sanic",
+    "aliases": [],
+    "category": "web",
+    "ambiguous": false
+  },
+  "bottle": {
+    "name": "Bottle",
+    "aliases": [
+      "bottle.py"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "phoenix": {
+    "name": "Phoenix",
+    "aliases": [
+      "elixir phoenix"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "sinatra": {
+    "name": "Sinatra",
+    "aliases": [
+      "ruby sinatra"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "hono": {
+    "name": "Hono",
+    "aliases": [
+      "honojs"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "hapi": {
+    "name": "Hapi",
+    "aliases": [
+      "hapijs"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "quasar": {
+    "name": "Quasar Framework",
+    "aliases": [],
+    "category": "web",
+    "ambiguous": false
+  },
+  "preact": {
+    "name": "Preact",
+    "aliases": [],
+    "category": "web",
+    "ambiguous": false
+  },
+  "recoil": {
+    "name": "Recoil",
+    "aliases": [],
+    "category": "web",
+    "ambiguous": false
+  },
+  "jotai": {
+    "name": "Jotai",
+    "aliases": [],
+    "category": "web",
+    "ambiguous": false
+  },
+  "tanstack_query": {
+    "name": "TanStack Query",
+    "aliases": [
+      "react query"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "swr": {
+    "name": "SWR",
+    "aliases": [
+      "vercel swr"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "radix_ui": {
+    "name": "Radix UI",
+    "aliases": [
+      "radix primitives"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "shadcn_ui": {
+    "name": "shadcn/ui",
+    "aliases": [
+      "shadcn"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "styled_components": {
+    "name": "styled-components",
+    "aliases": [
+      "styled components"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "emotion": {
+    "name": "Emotion",
+    "aliases": [
+      "emotion css"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "less": {
+    "name": "Less",
+    "aliases": [
+      "less css"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "postcss": {
+    "name": "PostCSS",
+    "aliases": [],
+    "category": "web",
+    "ambiguous": false
+  },
+  "lodash": {
+    "name": "Lodash",
+    "aliases": [],
+    "category": "web",
+    "ambiguous": false
+  },
+  "threejs": {
+    "name": "Three.js",
+    "aliases": [
+      "three.js"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "d3js": {
+    "name": "D3.js",
+    "aliases": [
+      "d3",
+      "data-driven documents"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "chartjs": {
+    "name": "Chart.js",
+    "aliases": [],
+    "category": "web",
+    "ambiguous": false
+  },
+  "gsap": {
+    "name": "GSAP",
+    "aliases": [
+      "greensock"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "htmx": {
+    "name": "HTMX",
+    "aliases": [],
+    "category": "web",
+    "ambiguous": false
+  },
+  "electron": {
+    "name": "Electron",
+    "aliases": [
+      "electronjs"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "tauri": {
+    "name": "Tauri",
+    "aliases": [
+      "tauriapp"
+    ],
+    "category": "web",
+    "ambiguous": false
+  },
+  "deno": {
+    "name": "Deno",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "bun": {
+    "name": "Bun",
+    "aliases": [
+      "bun runtime"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "caddy": {
+    "name": "Caddy",
+    "aliases": [
+      "caddy server"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "haproxy": {
+    "name": "HAProxy",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "envoy": {
+    "name": "Envoy Proxy",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "traefik": {
+    "name": "Traefik",
+    "aliases": [
+      "traefik proxy"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "uvicorn": {
+    "name": "Uvicorn",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "gunicorn": {
+    "name": "Gunicorn",
+    "aliases": [
+      "green unicorn"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "tomcat": {
+    "name": "Apache Tomcat",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "jetty": {
+    "name": "Eclipse Jetty",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "netty": {
+    "name": "Netty",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "wildfly": {
+    "name": "WildFly",
+    "aliases": [
+      "jboss as"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "kestrel": {
+    "name": "Kestrel",
+    "aliases": [
+      "kestrel web server"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "iis": {
+    "name": "Microsoft IIS",
+    "aliases": [
+      "internet information services"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "asgi": {
+    "name": "ASGI",
+    "aliases": [
+      "asynchronous server gateway interface"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "wsgi": {
+    "name": "WSGI",
+    "aliases": [
+      "web server gateway interface"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "puma": {
+    "name": "Puma",
+    "aliases": [
+      "puma web server"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "unicorn_server": {
+    "name": "Unicorn",
+    "aliases": [
+      "unicorn rack server"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "thin": {
+    "name": "Thin",
+    "aliases": [
+      "thin ruby server"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "phusion_passenger": {
+    "name": "Phusion Passenger",
+    "aliases": [
+      "mod_passenger"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "openresty": {
+    "name": "OpenResty",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "lighttpd": {
+    "name": "Lighttpd",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "hypercorn": {
+    "name": "Hypercorn",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "gevent": {
+    "name": "Gevent",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "eventlet": {
+    "name": "Eventlet",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "tokio": {
+    "name": "Tokio",
+    "aliases": [
+      "tokio runtime"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "libuv": {
+    "name": "libuv",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "pm2": {
+    "name": "PM2",
+    "aliases": [
+      "process manager 2"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "forever": {
+    "name": "Forever",
+    "aliases": [
+      "forever npm"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "supervisord": {
+    "name": "Supervisord",
+    "aliases": [
+      "supervisor process manager"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "systemd": {
+    "name": "Systemd",
+    "aliases": [
+      "systemctl"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "openssl": {
+    "name": "OpenSSL",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "kong_gateway": {
+    "name": "Kong Gateway",
+    "aliases": [
+      "kong api gateway"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "apache_apisix": {
+    "name": "Apache APISIX",
+    "aliases": [
+      "apisix"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "krakend": {
+    "name": "KrakenD",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "linkerd": {
+    "name": "Linkerd",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "consul": {
+    "name": "HashiCorp Consul",
+    "aliases": [
+      "consul service mesh"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "envoy_gateway": {
+    "name": "Envoy Gateway",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "caddy_ingress": {
+    "name": "Caddy Ingress Controller",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "nginx_ingress": {
+    "name": "NGINX Ingress Controller",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "coredns": {
+    "name": "CoreDNS",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "mariadb": {
+    "name": "MariaDB",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "couchdb": {
+    "name": "Apache CouchDB",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "cockroachdb": {
+    "name": "CockroachDB",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "scylladb": {
+    "name": "ScyllaDB",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "tidb": {
+    "name": "TiDB",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "influxdb": {
+    "name": "InfluxDB",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "timescaledb": {
+    "name": "TimescaleDB",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "memcached": {
+    "name": "Memcached",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "arangodb": {
+    "name": "ArangoDB",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "realm": {
+    "name": "Realm Database",
+    "aliases": [
+      "realm db"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "rocksdb": {
+    "name": "RocksDB",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "leveldb": {
+    "name": "LevelDB",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "rethinkdb": {
+    "name": "RethinkDB",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "ravendb": {
+    "name": "RavenDB",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "dgraph": {
+    "name": "Dgraph",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "orientdb": {
+    "name": "OrientDB",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "sqlalchemy": {
+    "name": "SQLAlchemy",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "prisma": {
+    "name": "Prisma",
+    "aliases": [
+      "prisma orm"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "hibernate": {
+    "name": "Hibernate",
+    "aliases": [
+      "hibernate orm"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "entity_framework": {
+    "name": "Entity Framework Core",
+    "aliases": [
+      "ef core",
+      "entity framework"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "mongoose": {
+    "name": "Mongoose",
+    "aliases": [
+      "mongoose odm"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "typeorm": {
+    "name": "TypeORM",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "drizzle_orm": {
+    "name": "Drizzle ORM",
+    "aliases": [
+      "drizzle"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "sequelize": {
+    "name": "Sequelize",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "peewee": {
+    "name": "Peewee",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "tortoise_orm": {
+    "name": "Tortoise ORM",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "gorm": {
+    "name": "GORM",
+    "aliases": [
+      "go gorm"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "diesel": {
+    "name": "Diesel",
+    "aliases": [
+      "diesel orm"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "seaorm": {
+    "name": "SeaORM",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "active_record": {
+    "name": "Active Record",
+    "aliases": [
+      "rails active record"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "django_orm": {
+    "name": "Django ORM",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "knex": {
+    "name": "Knex.js",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "objection_js": {
+    "name": "Objection.js",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "waterline": {
+    "name": "Waterline",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "mikro_orm": {
+    "name": "MikroORM",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "exposed_orm": {
+    "name": "Exposed ORM",
+    "aliases": [
+      "kotlin exposed"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "jooq": {
+    "name": "jOOQ",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "mybatis": {
+    "name": "MyBatis",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "flyway": {
+    "name": "Flyway",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "liquibase": {
+    "name": "Liquibase",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "invision": {
+    "name": "InVision",
+    "aliases": [],
+    "category": "design",
+    "ambiguous": false
+  },
+  "zeplin": {
+    "name": "Zeplin",
+    "aliases": [],
+    "category": "design",
+    "ambiguous": false
+  },
+  "framer": {
+    "name": "Framer",
+    "aliases": [
+      "framer motion tool"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "protopie": {
+    "name": "ProtoPie",
+    "aliases": [],
+    "category": "design",
+    "ambiguous": false
+  },
+  "axure_rp": {
+    "name": "Axure RP",
+    "aliases": [
+      "axure"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "balsamiq": {
+    "name": "Balsamiq",
+    "aliases": [
+      "balsamiq mockups"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "marvel_app": {
+    "name": "Marvel App",
+    "aliases": [],
+    "category": "design",
+    "ambiguous": false
+  },
+  "coreldraw": {
+    "name": "CorelDRAW",
+    "aliases": [],
+    "category": "design",
+    "ambiguous": false
+  },
+  "affinity_designer": {
+    "name": "Affinity Designer",
+    "aliases": [],
+    "category": "design",
+    "ambiguous": false
+  },
+  "affinity_photo": {
+    "name": "Affinity Photo",
+    "aliases": [],
+    "category": "design",
+    "ambiguous": false
+  },
+  "cinema_4d": {
+    "name": "Cinema 4D",
+    "aliases": [
+      "c4d"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "maya": {
+    "name": "Autodesk Maya",
+    "aliases": [
+      "maya 3d"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "3ds_max": {
+    "name": "Autodesk 3ds Max",
+    "aliases": [
+      "3ds max"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "zbrush": {
+    "name": "ZBrush",
+    "aliases": [],
+    "category": "design",
+    "ambiguous": false
+  },
+  "procreate": {
+    "name": "Procreate",
+    "aliases": [],
+    "category": "design",
+    "ambiguous": false
+  },
+  "penpot": {
+    "name": "Penpot",
+    "aliases": [],
+    "category": "design",
+    "ambiguous": false
+  },
+  "lunacy": {
+    "name": "Lunacy",
+    "aliases": [
+      "icons8 lunacy"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "gravit_designer": {
+    "name": "Gravit Designer",
+    "aliases": [],
+    "category": "design",
+    "ambiguous": false
+  },
+  "principle": {
+    "name": "Principle",
+    "aliases": [
+      "principle for mac"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "whimsical": {
+    "name": "Whimsical",
+    "aliases": [],
+    "category": "design",
+    "ambiguous": false
+  },
+  "miro": {
+    "name": "Miro",
+    "aliases": [
+      "realtimeboard"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "mural": {
+    "name": "Mural",
+    "aliases": [],
+    "category": "design",
+    "ambiguous": false
+  },
+  "figjam": {
+    "name": "FigJam",
+    "aliases": [],
+    "category": "design",
+    "ambiguous": false
+  },
+  "lucidchart": {
+    "name": "Lucidchart",
+    "aliases": [],
+    "category": "design",
+    "ambiguous": false
+  },
+  "draw_io": {
+    "name": "Draw.io",
+    "aliases": [
+      "diagrams.net"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "vectornator": {
+    "name": "Vectornator",
+    "aliases": [
+      "linearity curve"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "tinkercad": {
+    "name": "Tinkercad",
+    "aliases": [],
+    "category": "design",
+    "ambiguous": false
+  },
+  "spline": {
+    "name": "Spline 3D",
+    "aliases": [
+      "spline design"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "midjourney": {
+    "name": "Midjourney",
+    "aliases": [],
+    "category": "design",
+    "ambiguous": false
+  },
+  "dall_e": {
+    "name": "DALL-E",
+    "aliases": [
+      "dalle 3"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "stable_diffusion_webui": {
+    "name": "Stable Diffusion WebUI",
+    "aliases": [
+      "automatic1111"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "davinci_resolve": {
+    "name": "DaVinci Resolve",
+    "aliases": [],
+    "category": "design",
+    "ambiguous": false
+  },
+  "lightroom": {
+    "name": "Adobe Lightroom",
+    "aliases": [
+      "lightroom cc"
+    ],
+    "category": "design",
+    "ambiguous": false
+  },
+  "scipy": {
+    "name": "SciPy",
+    "aliases": [],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "fastai": {
+    "name": "fastai",
+    "aliases": [],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "jax": {
+    "name": "JAX",
+    "aliases": [
+      "google jax"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "mxnet": {
+    "name": "Apache MXNet",
+    "aliases": [],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "pytorch_lightning": {
+    "name": "PyTorch Lightning",
+    "aliases": [
+      "lightning"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "tensorrt": {
+    "name": "TensorRT",
+    "aliases": [
+      "nvidia tensorrt"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "vllm": {
+    "name": "vLLM",
+    "aliases": [],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "ollama": {
+    "name": "Ollama",
+    "aliases": [],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "deepspeed": {
+    "name": "DeepSpeed",
+    "aliases": [
+      "microsoft deepspeed"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "ludwig": {
+    "name": "Ludwig AI",
+    "aliases": [],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "clearml": {
+    "name": "ClearML",
+    "aliases": [],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "neptune_ai": {
+    "name": "Neptune.ai",
+    "aliases": [],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "comet_ml": {
+    "name": "Comet ML",
+    "aliases": [],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "kubeflow": {
+    "name": "Kubeflow",
+    "aliases": [
+      "kubeflow pipelines"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "albumentations": {
+    "name": "Albumentations",
+    "aliases": [],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "torchvision": {
+    "name": "Torchvision",
+    "aliases": [],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "torchaudio": {
+    "name": "Torchaudio",
+    "aliases": [],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "stable_diffusion": {
+    "name": "Stable Diffusion",
+    "aliases": [
+      "sdxl"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "medpy": {
+    "name": "MedPy",
+    "aliases": [],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "gensim": {
+    "name": "Gensim",
+    "aliases": [],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "pattern_nlp": {
+    "name": "Pattern NLP",
+    "aliases": [],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "stanza": {
+    "name": "Stanza",
+    "aliases": [
+      "stanford stanza"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "allennlp": {
+    "name": "AllenNLP",
+    "aliases": [],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "textblob": {
+    "name": "TextBlob",
+    "aliases": [],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "vaex": {
+    "name": "Vaex",
+    "aliases": [],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "modin": {
+    "name": "Modin",
+    "aliases": [],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "openvino": {
+    "name": "OpenVINO",
+    "aliases": [
+      "intel openvino"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "mediapipe": {
+    "name": "MediaPipe",
+    "aliases": [
+      "google mediapipe"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "tesseract": {
+    "name": "Tesseract OCR",
+    "aliases": [
+      "pytesseract"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "networkx": {
+    "name": "NetworkX",
+    "aliases": [],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "autogluon": {
+    "name": "AutoGluon",
+    "aliases": [],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "flaml": {
+    "name": "FLAML",
+    "aliases": [],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "tpot": {
+    "name": "TPOT",
+    "aliases": [],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "sentence_transformers": {
+    "name": "Sentence-Transformers",
+    "aliases": [
+      "sbert"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "peft": {
+    "name": "PEFT",
+    "aliases": [
+      "parameter efficient fine tuning",
+      "lora"
+    ],
+    "category": "ml",
+    "ambiguous": false
+  },
+  "teamcity": {
+    "name": "TeamCity",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "bamboo": {
+    "name": "Bamboo",
+    "aliases": [
+      "atlassian bamboo"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "flux_cd": {
+    "name": "Flux CD",
+    "aliases": [
+      "flux v2"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "tekton": {
+    "name": "Tekton",
+    "aliases": [
+      "tekton pipelines"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "spinnaker": {
+    "name": "Spinnaker",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "drone_ci": {
+    "name": "Drone CI",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "woodpecker_ci": {
+    "name": "Woodpecker CI",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "buildkite": {
+    "name": "Buildkite",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "octopus_deploy": {
+    "name": "Octopus Deploy",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "docker_compose": {
+    "name": "Docker Compose",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "podman": {
+    "name": "Podman",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "buildah": {
+    "name": "Buildah",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "kaniko": {
+    "name": "Kaniko",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "containerd": {
+    "name": "containerd",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "kustomize": {
+    "name": "Kustomize",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "terragrunt": {
+    "name": "Terragrunt",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "saltstack": {
+    "name": "SaltStack",
+    "aliases": [
+      "salt"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "vagrant": {
+    "name": "Vagrant",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "packer": {
+    "name": "Packer",
+    "aliases": [
+      "hashicorp packer"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "cloudformation": {
+    "name": "AWS CloudFormation",
+    "aliases": [
+      "cfn"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "aws_cdk": {
+    "name": "AWS CDK",
+    "aliases": [
+      "cloud development kit"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "skaffold": {
+    "name": "Skaffold",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "tilt": {
+    "name": "Tilt",
+    "aliases": [
+      "tilt dev"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "minikube": {
+    "name": "Minikube",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "kind_k8s": {
+    "name": "Kind",
+    "aliases": [
+      "kubernetes in docker"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "harbor": {
+    "name": "Harbor Registry",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "pytest": {
+    "name": "Pytest",
+    "aliases": [
+      "py.test"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "unittest": {
+    "name": "Unittest",
+    "aliases": [
+      "python unittest"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "jest": {
+    "name": "Jest",
+    "aliases": [
+      "jest js"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "mocha": {
+    "name": "Mocha",
+    "aliases": [
+      "mochajs"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "chai": {
+    "name": "Chai",
+    "aliases": [
+      "chai assertion library"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "jasmine": {
+    "name": "Jasmine",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "vitest": {
+    "name": "Vitest",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "cypress": {
+    "name": "Cypress",
+    "aliases": [
+      "cypress.io"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "playwright": {
+    "name": "Playwright",
+    "aliases": [
+      "microsoft playwright"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "selenium": {
+    "name": "Selenium",
+    "aliases": [
+      "selenium webdriver"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "puppeteer": {
+    "name": "Puppeteer",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "junit": {
+    "name": "JUnit",
+    "aliases": [
+      "junit 5",
+      "junit 4"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "testng": {
+    "name": "TestNG",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "nunit": {
+    "name": "NUnit",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "xunit": {
+    "name": "xUnit.net",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "mstest": {
+    "name": "MSTest",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "rspec": {
+    "name": "RSpec",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "capybara": {
+    "name": "Capybara",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "phpunit": {
+    "name": "PHPUnit",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "mockito": {
+    "name": "Mockito",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "pytest_mock": {
+    "name": "pytest-mock",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "unittest_mock": {
+    "name": "unittest.mock",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "sinon": {
+    "name": "Sinon.js",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "karma": {
+    "name": "Karma",
+    "aliases": [
+      "karma test runner"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "storybook": {
+    "name": "Storybook",
+    "aliases": [
+      "storybook.js"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "newman": {
+    "name": "Newman",
+    "aliases": [
+      "postman newman"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "insomnia": {
+    "name": "Insomnia",
+    "aliases": [
+      "insomnia rest client"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "jmeter": {
+    "name": "Apache JMeter",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "k6": {
+    "name": "k6",
+    "aliases": [
+      "grafana k6"
+    ],
+    "category": "tools",
+    "ambiguous": true
+  },
+  "gatling": {
+    "name": "Gatling",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "locust": {
+    "name": "Locust",
+    "aliases": [
+      "locust.io"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "artillery": {
+    "name": "Artillery",
+    "aliases": [
+      "artillery.io"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "robot_framework": {
+    "name": "Robot Framework",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "cucumber": {
+    "name": "Cucumber",
+    "aliases": [
+      "cucumber bdd"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "behave": {
+    "name": "Behave",
+    "aliases": [
+      "behave bdd"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "specflow": {
+    "name": "SpecFlow",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "detox": {
+    "name": "Detox",
+    "aliases": [
+      "wix detox"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "appium": {
+    "name": "Appium",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "espresso_test": {
+    "name": "Espresso",
+    "aliases": [
+      "android espresso"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "xcuitest": {
+    "name": "XCUITest",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "sonarqube": {
+    "name": "SonarQube",
+    "aliases": [
+      "sonar"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "coverage_py": {
+    "name": "Coverage.py",
+    "aliases": [
+      "pytest coverage"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "istanbul_nyc": {
+    "name": "Istanbul / nyc",
+    "aliases": [
+      "nyc coverage"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "pact": {
+    "name": "Pact",
+    "aliases": [
+      "consumer driven contract testing"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "qlik_sense": {
+    "name": "Qlik Sense",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "qlikview": {
+    "name": "QlikView",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "apache_superset": {
+    "name": "Apache Superset",
+    "aliases": [
+      "superset"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "redash": {
+    "name": "Redash",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "kibana": {
+    "name": "Kibana",
+    "aliases": [
+      "elk kibana"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "apache_pulsar": {
+    "name": "Apache Pulsar",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "rabbitmq": {
+    "name": "RabbitMQ",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "celery": {
+    "name": "Celery",
+    "aliases": [
+      "celery task queue"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "luigi": {
+    "name": "Luigi",
+    "aliases": [
+      "spotify luigi"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "apache_nifi": {
+    "name": "Apache NiFi",
+    "aliases": [
+      "nifi"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "apache_beam": {
+    "name": "Apache Beam",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "great_expectations": {
+    "name": "Great Expectations",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "azure_synapse": {
+    "name": "Azure Synapse Analytics",
+    "aliases": [
+      "synapse"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "apache_druid": {
+    "name": "Apache Druid",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "talend": {
+    "name": "Talend",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "informatica": {
+    "name": "Informatica",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "stitch_data": {
+    "name": "Stitch Data",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "fivetran": {
+    "name": "Fivetran",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "mixpanel": {
+    "name": "Mixpanel",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "amplitude": {
+    "name": "Amplitude",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "segment": {
+    "name": "Segment",
+    "aliases": [
+      "twilio segment"
+    ],
+    "category": "data",
+    "ambiguous": false
+  },
+  "heap": {
+    "name": "Heap Analytics",
+    "aliases": [],
+    "category": "data",
+    "ambiguous": false
+  },
+  "react_native": {
+    "name": "React Native",
+    "aliases": [
+      "rn"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "flutter": {
+    "name": "Flutter",
+    "aliases": [
+      "flutter sdk"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "swiftui": {
+    "name": "SwiftUI",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "jetpack_compose": {
+    "name": "Jetpack Compose",
+    "aliases": [
+      "compose android"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "android_sdk": {
+    "name": "Android SDK",
+    "aliases": [
+      "android development"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "ios_sdk": {
+    "name": "iOS SDK",
+    "aliases": [
+      "ios development"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "xcode": {
+    "name": "Xcode",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "android_studio": {
+    "name": "Android Studio",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "expo": {
+    "name": "Expo",
+    "aliases": [
+      "expo cli"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "capacitor": {
+    "name": "Capacitor",
+    "aliases": [
+      "ionic capacitor"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "cordova": {
+    "name": "Apache Cordova",
+    "aliases": [
+      "phonegap"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "ionic": {
+    "name": "Ionic",
+    "aliases": [
+      "ionic framework"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "xamarin": {
+    "name": "Xamarin",
+    "aliases": [
+      "xamarin forms"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "dotnet_maui": {
+    "name": ".NET MAUI",
+    "aliases": [
+      "maui"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "nativescript": {
+    "name": "NativeScript",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "fastlane": {
+    "name": "Fastlane",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "cocoapods": {
+    "name": "CocoaPods",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "gradle_android": {
+    "name": "Gradle for Android",
+    "aliases": [
+      "android gradle"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "carthage": {
+    "name": "Carthage",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "swift_package_manager": {
+    "name": "Swift Package Manager",
+    "aliases": [
+      "spm"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "retrofit": {
+    "name": "Retrofit",
+    "aliases": [
+      "square retrofit"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "okhttp": {
+    "name": "OkHttp",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "room_db": {
+    "name": "Room Database",
+    "aliases": [
+      "android room"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "core_data": {
+    "name": "Core Data",
+    "aliases": [
+      "apple core data"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "alamofire": {
+    "name": "Alamofire",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "combine_framework": {
+    "name": "Combine",
+    "aliases": [
+      "apple combine"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "rxswift": {
+    "name": "RxSwift",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "rxjava": {
+    "name": "RxJava",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "koin": {
+    "name": "Koin",
+    "aliases": [
+      "koin di"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "dagger_hilt": {
+    "name": "Dagger Hilt",
+    "aliases": [
+      "hilt di"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "kotlin_coroutines": {
+    "name": "Kotlin Coroutines",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "viewbinding": {
+    "name": "ViewBinding",
+    "aliases": [
+      "android data binding"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "apns": {
+    "name": "Apple Push Notification service",
+    "aliases": [
+      "apns push"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "fcm": {
+    "name": "Firebase Cloud Messaging",
+    "aliases": [
+      "fcm push"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "flutter_bloc": {
+    "name": "Flutter BLoC",
+    "aliases": [
+      "bloc pattern"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "provider_flutter": {
+    "name": "Provider for Flutter",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "riverpod": {
+    "name": "Riverpod",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "lottie_mobile": {
+    "name": "Lottie",
+    "aliases": [
+      "airbnb lottie"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "flutter_getx": {
+    "name": "GetX",
+    "aliases": [],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "arkit": {
+    "name": "ARKit",
+    "aliases": [
+      "apple arkit"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "arcore": {
+    "name": "ARCore",
+    "aliases": [
+      "google arcore"
+    ],
+    "category": "programming",
+    "ambiguous": false
+  },
+  "saml": {
+    "name": "SAML",
+    "aliases": [
+      "saml 2.0"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "keycloak": {
+    "name": "Keycloak",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "auth0": {
+    "name": "Auth0",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "okta": {
+    "name": "Okta",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "firebase_auth": {
+    "name": "Firebase Authentication",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "hashicorp_vault": {
+    "name": "HashiCorp Vault",
+    "aliases": [
+      "vault"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "cyberark": {
+    "name": "CyberArk",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "nmap": {
+    "name": "Nmap",
+    "aliases": [
+      "network mapper"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "wireshark": {
+    "name": "Wireshark",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "metasploit": {
+    "name": "Metasploit",
+    "aliases": [
+      "metasploit framework"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "burp_suite": {
+    "name": "Burp Suite",
+    "aliases": [
+      "burp"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "owasp_zap": {
+    "name": "OWASP ZAP",
+    "aliases": [
+      "zed attack proxy"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "nessus": {
+    "name": "Nessus",
+    "aliases": [
+      "tenable nessus"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "snort": {
+    "name": "Snort",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "suricata": {
+    "name": "Suricata",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "kali_linux": {
+    "name": "Kali Linux",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "tor": {
+    "name": "Tor Network",
+    "aliases": [
+      "the onion router"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "openvpn": {
+    "name": "OpenVPN",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "wireguard": {
+    "name": "WireGuard",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "ipsec": {
+    "name": "IPsec",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "ssh": {
+    "name": "SSH",
+    "aliases": [
+      "secure shell",
+      "openssh"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "ssl_tls": {
+    "name": "SSL / TLS",
+    "aliases": [
+      "tls",
+      "https certificates"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "https": {
+    "name": "HTTPS",
+    "aliases": [
+      "http secure"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "dns": {
+    "name": "DNS",
+    "aliases": [
+      "domain name system"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "dhcp": {
+    "name": "DHCP",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "bgp": {
+    "name": "BGP",
+    "aliases": [
+      "border gateway protocol"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "ospf": {
+    "name": "OSPF",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "vlan": {
+    "name": "VLAN",
+    "aliases": [
+      "virtual local area network"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "subnetting": {
+    "name": "Subnetting / CIDR",
+    "aliases": [
+      "cidr"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "forward_proxy": {
+    "name": "Forward Proxy",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "waf": {
+    "name": "Web Application Firewall",
+    "aliases": [
+      "waf security"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "cloudflare_waf": {
+    "name": "Cloudflare WAF",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "aws_waf": {
+    "name": "AWS WAF",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "modsecurity": {
+    "name": "ModSecurity",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "siem": {
+    "name": "SIEM",
+    "aliases": [
+      "security information and event management"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "elastic_security": {
+    "name": "Elastic Security",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "crowdstrike": {
+    "name": "CrowdStrike Falcon",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "ossec": {
+    "name": "OSSEC",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "wazuh": {
+    "name": "Wazuh",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "rbac": {
+    "name": "Role-Based Access Control",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "abac": {
+    "name": "Attribute-Based Access Control",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "zero_trust": {
+    "name": "Zero Trust Architecture",
+    "aliases": [
+      "zero trust"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "cryptography": {
+    "name": "Cryptography",
+    "aliases": [
+      "encryption"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "aes": {
+    "name": "AES Encryption",
+    "aliases": [
+      "advanced encryption standard"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "rsa": {
+    "name": "RSA Algorithm",
+    "aliases": [
+      "rsa encryption"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "sha256": {
+    "name": "SHA-256",
+    "aliases": [
+      "sha2 hashing"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "pgp_gpg": {
+    "name": "PGP / GPG",
+    "aliases": [
+      "pretty good privacy",
+      "gnupg"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "rhel": {
+    "name": "Red Hat Enterprise Linux",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "fedora": {
+    "name": "Fedora",
+    "aliases": [
+      "fedora linux"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "arch_linux": {
+    "name": "Arch Linux",
+    "aliases": [
+      "arch"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "alpine_linux": {
+    "name": "Alpine Linux",
+    "aliases": [
+      "alpine"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "rocky_linux": {
+    "name": "Rocky Linux",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "almalinux": {
+    "name": "AlmaLinux",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "suse": {
+    "name": "SUSE Linux",
+    "aliases": [
+      "opensuse"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "macos": {
+    "name": "macOS",
+    "aliases": [
+      "os x",
+      "apple macos"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "windows_os": {
+    "name": "Windows",
+    "aliases": [
+      "windows 11",
+      "windows 10"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "windows_server": {
+    "name": "Windows Server",
+    "aliases": [
+      "winserver"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "freebsd": {
+    "name": "FreeBSD",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "openbsd": {
+    "name": "OpenBSD",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "netbsd": {
+    "name": "NetBSD",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "android_os": {
+    "name": "Android OS",
+    "aliases": [
+      "android platform"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "ios_os": {
+    "name": "iOS",
+    "aliases": [
+      "apple ios"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "posix": {
+    "name": "POSIX Standards",
+    "aliases": [
+      "posix compliance"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "zsh": {
+    "name": "Zsh",
+    "aliases": [
+      "z shell",
+      "oh-my-zsh"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "fish_shell": {
+    "name": "Fish Shell",
+    "aliases": [
+      "fish shell scripting"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "linux_kernel": {
+    "name": "Linux Kernel",
+    "aliases": [
+      "kernel modules"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "ebpf": {
+    "name": "eBPF",
+    "aliases": [
+      "extended bpf"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "cron": {
+    "name": "Cron",
+    "aliases": [
+      "crontab"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "syslog": {
+    "name": "Syslog",
+    "aliases": [
+      "rsyslog"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "virtualbox": {
+    "name": "VirtualBox",
+    "aliases": [
+      "oracle virtualbox"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "vmware_workstation": {
+    "name": "VMware Workstation",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "kvm": {
+    "name": "KVM",
+    "aliases": [
+      "kernel-based virtual machine"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "qemu": {
+    "name": "QEMU",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "hyper_v": {
+    "name": "Hyper-V",
+    "aliases": [
+      "microsoft hyper-v"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "wsl": {
+    "name": "WSL",
+    "aliases": [
+      "windows subsystem for linux",
+      "wsl2"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "grub": {
+    "name": "GRUB Bootloader",
+    "aliases": [
+      "grub2"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "chroot": {
+    "name": "Chroot",
+    "aliases": [],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "cgroups": {
+    "name": "cgroups",
+    "aliases": [
+      "control groups linux"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "ipc": {
+    "name": "Inter-Process Communication",
+    "aliases": [
+      "ipc shared memory"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "socket_programming": {
+    "name": "Socket Programming",
+    "aliases": [
+      "unix domain sockets"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "multithreading": {
+    "name": "Multithreading",
+    "aliases": [
+      "concurrency",
+      "thread synchronization"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "memory_management": {
+    "name": "Memory Management",
+    "aliases": [
+      "virtual memory",
+      "mmap"
+    ],
+    "category": "devops",
+    "ambiguous": false
+  },
+  "webstorm": {
+    "name": "WebStorm",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "netbeans": {
+    "name": "NetBeans",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "sublime_text": {
+    "name": "Sublime Text",
+    "aliases": [
+      "sublime"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "emacs": {
+    "name": "Emacs",
+    "aliases": [
+      "gnu emacs"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "nano": {
+    "name": "GNU nano",
+    "aliases": [
+      "nano editor"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "monday_com": {
+    "name": "Monday.com",
+    "aliases": [
+      "monday"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "linear": {
+    "name": "Linear",
+    "aliases": [
+      "linear.app"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "obsidian": {
+    "name": "Obsidian",
+    "aliases": [
+      "obsidian md"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "zoom": {
+    "name": "Zoom",
+    "aliases": [
+      "zoom meetings"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "loom": {
+    "name": "Loom",
+    "aliases": [
+      "loom video"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "basecamp": {
+    "name": "Basecamp",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "clickup": {
+    "name": "ClickUp",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "airtable": {
+    "name": "Airtable",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "microsoft_365": {
+    "name": "Microsoft 365",
+    "aliases": [
+      "office 365"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "dbeaver": {
+    "name": "DBeaver",
+    "aliases": [
+      "dbeaver universal"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "pgadmin": {
+    "name": "pgAdmin",
+    "aliases": [
+      "pgadmin 4"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "mysql_workbench": {
+    "name": "MySQL Workbench",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "mongodb_compass": {
+    "name": "MongoDB Compass",
+    "aliases": [
+      "compass gui"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "tableplus": {
+    "name": "TablePlus",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "charles_proxy": {
+    "name": "Charles Proxy",
+    "aliases": [],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "fiddler": {
+    "name": "Fiddler",
+    "aliases": [
+      "telerik fiddler"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "regex": {
+    "name": "Regular Expressions",
+    "aliases": [
+      "regexp"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "markdown": {
+    "name": "Markdown",
+    "aliases": [
+      "commonmark",
+      "gfm"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "latex": {
+    "name": "LaTeX",
+    "aliases": [
+      "tex formatting"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "json": {
+    "name": "JSON",
+    "aliases": [
+      "json format"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "xml": {
+    "name": "XML",
+    "aliases": [
+      "xml parsing"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "yaml": {
+    "name": "YAML",
+    "aliases": [
+      "yaml configuration"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "toml": {
+    "name": "TOML",
+    "aliases": [
+      "toml format"
+    ],
+    "category": "tools",
+    "ambiguous": false
+  },
+  "ownership": {
+    "name": "Ownership & Accountability",
+    "aliases": [
+      "extreme ownership"
+    ],
+    "category": "soft skills",
+    "ambiguous": false
+  },
+  "work_ethic": {
+    "name": "Strong Work Ethic",
+    "aliases": [
+      "dedication"
+    ],
+    "category": "soft skills",
+    "ambiguous": false
+  },
+  "root_cause_analysis": {
+    "name": "Root Cause Analysis",
+    "aliases": [
+      "5 whys",
+      "rca"
+    ],
+    "category": "soft skills",
+    "ambiguous": false
+  },
+  "customer_focus": {
+    "name": "Customer Focus",
+    "aliases": [
+      "customer centricity"
+    ],
+    "category": "soft skills",
+    "ambiguous": false
+  },
+  "strategic_thinking": {
+    "name": "Strategic Thinking",
+    "aliases": [],
+    "category": "soft skills",
+    "ambiguous": false
+  },
+  "continuous_learning": {
+    "name": "Continuous Learning",
+    "aliases": [
+      "growth mindset"
+    ],
+    "category": "soft skills",
+    "ambiguous": false
+  },
+  "creativity": {
+    "name": "Creativity",
+    "aliases": [
+      "innovative thinking"
+    ],
+    "category": "soft skills",
+    "ambiguous": false
+  },
+  "stress_management": {
+    "name": "Stress Management",
+    "aliases": [
+      "working under pressure"
+    ],
+    "category": "soft skills",
+    "ambiguous": false
+  },
+  "interpersonal_skills": {
+    "name": "Interpersonal Skills",
+    "aliases": [],
+    "category": "soft skills",
+    "ambiguous": false
+  },
+  "feedback_reception": {
+    "name": "Receptive to Feedback",
+    "aliases": [
+      "constructive criticism"
+    ],
+    "category": "soft skills",
+    "ambiguous": false
+  },
+  "remote_collaboration": {
+    "name": "Remote Work & Collaboration",
+    "aliases": [
+      "async communication"
+    ],
+    "category": "soft skills",
+    "ambiguous": false
+  },
+  "technical_writing": {
+    "name": "Technical Writing",
+    "aliases": [
+      "documentation skills"
+    ],
+    "category": "soft skills",
+    "ambiguous": false
+  },
+  "code_review_culture": {
+    "name": "Code Review & Quality Mindset",
+    "aliases": [
+      "peer review"
+    ],
+    "category": "soft skills",
+    "ambiguous": false
+  },
+  "pair_programming": {
+    "name": "Pair Programming",
+    "aliases": [],
+    "category": "soft skills",
+    "ambiguous": false
+  },
+  "facilitation": {
+    "name": "Meeting Facilitation",
+    "aliases": [],
+    "category": "soft skills",
+    "ambiguous": false
+  },
+  "delegation": {
+    "name": "Delegation",
+    "aliases": [
+      "effective delegation"
+    ],
+    "category": "soft skills",
     "ambiguous": false
   }
 }

@@ -28,6 +28,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
 from api.cache import analysis_cache
+from api.resume import router as resume_router
 from api.schemas import (
     AnalyzeResponse,
     CategoryCoverageItem,
@@ -671,3 +672,7 @@ async def compare_candidate_roles(request: Request) -> CompareResponse:
         best_fit_score=comp["best_fit_score"],
         ranked_roles=ranked_items,
     )
+
+
+# Mount Resume Builder router
+app.include_router(resume_router)

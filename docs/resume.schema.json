@@ -1,0 +1,630 @@
+{
+  "$defs": {
+    "Basics": {
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "description": "Full name of candidate",
+          "maxLength": 120,
+          "minLength": 1,
+          "title": "Name",
+          "type": "string"
+        },
+        "email": {
+          "description": "Contact email address",
+          "title": "Email",
+          "type": "string"
+        },
+        "headline": {
+          "anyOf": [
+            {
+              "maxLength": 150,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Headline"
+        },
+        "phone": {
+          "anyOf": [
+            {
+              "maxLength": 50,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Phone"
+        },
+        "location": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Location"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "links": {
+          "items": {
+            "$ref": "#/$defs/SocialLink"
+          },
+          "maxItems": 15,
+          "title": "Links",
+          "type": "array"
+        }
+      },
+      "required": [
+        "name",
+        "email"
+      ],
+      "title": "Basics",
+      "type": "object"
+    },
+    "CertificationItem": {
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "maxLength": 150,
+          "minLength": 1,
+          "title": "Name",
+          "type": "string"
+        },
+        "issuer": {
+          "anyOf": [
+            {
+              "maxLength": 120,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Issuer"
+        },
+        "date": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Date"
+        }
+      },
+      "required": [
+        "name"
+      ],
+      "title": "CertificationItem",
+      "type": "object"
+    },
+    "CustomSectionItem": {
+      "additionalProperties": false,
+      "properties": {
+        "title": {
+          "maxLength": 100,
+          "minLength": 1,
+          "title": "Title",
+          "type": "string"
+        },
+        "bullets": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 8,
+          "title": "Bullets",
+          "type": "array"
+        }
+      },
+      "required": [
+        "title"
+      ],
+      "title": "CustomSectionItem",
+      "type": "object"
+    },
+    "EducationItem": {
+      "additionalProperties": false,
+      "properties": {
+        "school": {
+          "maxLength": 150,
+          "minLength": 1,
+          "title": "School",
+          "type": "string"
+        },
+        "degree": {
+          "anyOf": [
+            {
+              "maxLength": 100,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Degree"
+        },
+        "field": {
+          "anyOf": [
+            {
+              "maxLength": 100,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Field"
+        },
+        "start": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Start"
+        },
+        "end": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "End"
+        },
+        "score": {
+          "anyOf": [
+            {
+              "maxLength": 50,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Score"
+        },
+        "details": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 8,
+          "title": "Details",
+          "type": "array"
+        }
+      },
+      "required": [
+        "school"
+      ],
+      "title": "EducationItem",
+      "type": "object"
+    },
+    "ExperienceItem": {
+      "additionalProperties": false,
+      "properties": {
+        "company": {
+          "maxLength": 120,
+          "minLength": 1,
+          "title": "Company",
+          "type": "string"
+        },
+        "title": {
+          "maxLength": 120,
+          "minLength": 1,
+          "title": "Title",
+          "type": "string"
+        },
+        "location": {
+          "anyOf": [
+            {
+              "maxLength": 100,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Location"
+        },
+        "start": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Start"
+        },
+        "end": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "End"
+        },
+        "current": {
+          "default": false,
+          "title": "Current",
+          "type": "boolean"
+        },
+        "bullets": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 8,
+          "title": "Bullets",
+          "type": "array"
+        }
+      },
+      "required": [
+        "company",
+        "title"
+      ],
+      "title": "ExperienceItem",
+      "type": "object"
+    },
+    "Location": {
+      "additionalProperties": false,
+      "properties": {
+        "city": {
+          "anyOf": [
+            {
+              "maxLength": 100,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "City"
+        },
+        "region_country": {
+          "anyOf": [
+            {
+              "maxLength": 100,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Region Country"
+        }
+      },
+      "title": "Location",
+      "type": "object"
+    },
+    "Meta": {
+      "additionalProperties": false,
+      "properties": {
+        "template": {
+          "default": "modern",
+          "maxLength": 50,
+          "title": "Template",
+          "type": "string"
+        },
+        "target_role": {
+          "anyOf": [
+            {
+              "maxLength": 100,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Target Role"
+        }
+      },
+      "title": "Meta",
+      "type": "object"
+    },
+    "ProjectItem": {
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "maxLength": 120,
+          "minLength": 1,
+          "title": "Name",
+          "type": "string"
+        },
+        "link": {
+          "anyOf": [
+            {
+              "maxLength": 250,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Link"
+        },
+        "tech": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 30,
+          "title": "Tech",
+          "type": "array"
+        },
+        "bullets": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 8,
+          "title": "Bullets",
+          "type": "array"
+        }
+      },
+      "required": [
+        "name"
+      ],
+      "title": "ProjectItem",
+      "type": "object"
+    },
+    "PublicationItem": {
+      "additionalProperties": false,
+      "properties": {
+        "title": {
+          "maxLength": 250,
+          "minLength": 1,
+          "title": "Title",
+          "type": "string"
+        },
+        "venue": {
+          "anyOf": [
+            {
+              "maxLength": 150,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Venue"
+        },
+        "year": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Year"
+        },
+        "link": {
+          "anyOf": [
+            {
+              "maxLength": 250,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Link"
+        }
+      },
+      "required": [
+        "title"
+      ],
+      "title": "PublicationItem",
+      "type": "object"
+    },
+    "SkillItem": {
+      "additionalProperties": false,
+      "properties": {
+        "category_id": {
+          "maxLength": 50,
+          "title": "Category Id",
+          "type": "string"
+        },
+        "name": {
+          "maxLength": 100,
+          "minLength": 1,
+          "title": "Name",
+          "type": "string"
+        },
+        "taxonomy_id": {
+          "anyOf": [
+            {
+              "maxLength": 100,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Taxonomy Id"
+        },
+        "custom": {
+          "default": false,
+          "title": "Custom",
+          "type": "boolean"
+        },
+        "pinned": {
+          "default": false,
+          "title": "Pinned",
+          "type": "boolean"
+        },
+        "level": {
+          "anyOf": [
+            {
+              "enum": [
+                "familiar",
+                "comfortable",
+                "strong"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Level"
+        }
+      },
+      "required": [
+        "category_id",
+        "name"
+      ],
+      "title": "SkillItem",
+      "type": "object"
+    },
+    "SocialLink": {
+      "additionalProperties": false,
+      "properties": {
+        "platform_id": {
+          "maxLength": 50,
+          "title": "Platform Id",
+          "type": "string"
+        },
+        "value": {
+          "maxLength": 200,
+          "title": "Value",
+          "type": "string"
+        }
+      },
+      "required": [
+        "platform_id",
+        "value"
+      ],
+      "title": "SocialLink",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "description": "Complete Resume representation.",
+  "properties": {
+    "meta": {
+      "$ref": "#/$defs/Meta"
+    },
+    "basics": {
+      "$ref": "#/$defs/Basics"
+    },
+    "summary": {
+      "anyOf": [
+        {
+          "maxLength": 2000,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Summary"
+    },
+    "skills": {
+      "items": {
+        "$ref": "#/$defs/SkillItem"
+      },
+      "maxItems": 150,
+      "title": "Skills",
+      "type": "array"
+    },
+    "experience": {
+      "items": {
+        "$ref": "#/$defs/ExperienceItem"
+      },
+      "maxItems": 15,
+      "title": "Experience",
+      "type": "array"
+    },
+    "projects": {
+      "items": {
+        "$ref": "#/$defs/ProjectItem"
+      },
+      "maxItems": 15,
+      "title": "Projects",
+      "type": "array"
+    },
+    "education": {
+      "items": {
+        "$ref": "#/$defs/EducationItem"
+      },
+      "maxItems": 15,
+      "title": "Education",
+      "type": "array"
+    },
+    "certifications": {
+      "items": {
+        "$ref": "#/$defs/CertificationItem"
+      },
+      "maxItems": 15,
+      "title": "Certifications",
+      "type": "array"
+    },
+    "achievements": {
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 15,
+      "title": "Achievements",
+      "type": "array"
+    },
+    "publications": {
+      "items": {
+        "$ref": "#/$defs/PublicationItem"
+      },
+      "maxItems": 15,
+      "title": "Publications",
+      "type": "array"
+    },
+    "custom_sections": {
+      "items": {
+        "$ref": "#/$defs/CustomSectionItem"
+      },
+      "maxItems": 15,
+      "title": "Custom Sections",
+      "type": "array"
+    }
+  },
+  "required": [
+    "basics"
+  ],
+  "title": "Resume",
+  "type": "object"
+}

@@ -1,0 +1,5686 @@
+{
+  "categories": [
+    {
+      "id": "languages",
+      "name": "Languages",
+      "skills": [
+        {
+          "id": "python",
+          "name": "Python",
+          "aliases": [
+            "py",
+            "python3",
+            "python2"
+          ],
+          "taxonomy_id": "python"
+        },
+        {
+          "id": "javascript",
+          "name": "JavaScript",
+          "aliases": [
+            "js",
+            "ecmascript"
+          ],
+          "taxonomy_id": "javascript"
+        },
+        {
+          "id": "typescript",
+          "name": "TypeScript",
+          "aliases": [
+            "ts"
+          ],
+          "taxonomy_id": "typescript"
+        },
+        {
+          "id": "java",
+          "name": "Java",
+          "aliases": [
+            "java17",
+            "java21",
+            "java8",
+            "java11"
+          ],
+          "taxonomy_id": "java"
+        },
+        {
+          "id": "c++",
+          "name": "C++",
+          "aliases": [
+            "cpp",
+            "cplusplus"
+          ],
+          "taxonomy_id": "c++"
+        },
+        {
+          "id": "c",
+          "name": "C",
+          "aliases": [
+            "clang",
+            "ansi c"
+          ],
+          "taxonomy_id": "c"
+        },
+        {
+          "id": "c#",
+          "name": "C#",
+          "aliases": [
+            "csharp",
+            "dotnet c#"
+          ],
+          "taxonomy_id": "c#"
+        },
+        {
+          "id": "rust",
+          "name": "Rust",
+          "aliases": [
+            "rustlang"
+          ],
+          "taxonomy_id": "rust"
+        },
+        {
+          "id": "go",
+          "name": "Go",
+          "aliases": [
+            "golang"
+          ],
+          "taxonomy_id": "go"
+        },
+        {
+          "id": "kotlin",
+          "name": "Kotlin",
+          "aliases": [
+            "kt"
+          ],
+          "taxonomy_id": "kotlin"
+        },
+        {
+          "id": "swift",
+          "name": "Swift",
+          "aliases": [
+            "swiftlang"
+          ],
+          "taxonomy_id": "swift"
+        },
+        {
+          "id": "ruby",
+          "name": "Ruby",
+          "aliases": [
+            "ruby on rails language"
+          ],
+          "taxonomy_id": "ruby"
+        },
+        {
+          "id": "php",
+          "name": "PHP",
+          "aliases": [
+            "php8",
+            "php7"
+          ],
+          "taxonomy_id": "php"
+        },
+        {
+          "id": "sql",
+          "name": "SQL",
+          "aliases": [
+            "structured query language",
+            "ansi sql"
+          ],
+          "taxonomy_id": "sql"
+        },
+        {
+          "id": "html",
+          "name": "HTML",
+          "aliases": [
+            "html5"
+          ],
+          "taxonomy_id": "html5"
+        },
+        {
+          "id": "css",
+          "name": "CSS",
+          "aliases": [
+            "css3"
+          ],
+          "taxonomy_id": "css3"
+        },
+        {
+          "id": "r",
+          "name": "R",
+          "aliases": [
+            "rlang"
+          ],
+          "taxonomy_id": "r"
+        },
+        {
+          "id": "scala",
+          "name": "Scala",
+          "aliases": [],
+          "taxonomy_id": "scala"
+        },
+        {
+          "id": "dart",
+          "name": "Dart",
+          "aliases": [
+            "dartlang"
+          ],
+          "taxonomy_id": "dart"
+        },
+        {
+          "id": "shell",
+          "name": "Shell Scripting",
+          "aliases": [
+            "bash script",
+            "sh script"
+          ],
+          "taxonomy_id": "bash"
+        },
+        {
+          "id": "bash",
+          "name": "Bash",
+          "aliases": [
+            "bourne again shell"
+          ],
+          "taxonomy_id": "bash"
+        },
+        {
+          "id": "powershell",
+          "name": "PowerShell",
+          "aliases": [
+            "pwsh",
+            "posh"
+          ],
+          "taxonomy_id": "powershell"
+        },
+        {
+          "id": "perl",
+          "name": "Perl",
+          "aliases": [
+            "perl5"
+          ],
+          "taxonomy_id": "perl"
+        },
+        {
+          "id": "haskell",
+          "name": "Haskell",
+          "aliases": [],
+          "taxonomy_id": "haskell"
+        },
+        {
+          "id": "elixir",
+          "name": "Elixir",
+          "aliases": [
+            "elixirlang"
+          ],
+          "taxonomy_id": "elixir"
+        },
+        {
+          "id": "erlang",
+          "name": "Erlang",
+          "aliases": [],
+          "taxonomy_id": "erlang"
+        },
+        {
+          "id": "clojure",
+          "name": "Clojure",
+          "aliases": [],
+          "taxonomy_id": "clojure"
+        },
+        {
+          "id": "lua",
+          "name": "Lua",
+          "aliases": [],
+          "taxonomy_id": "lua"
+        },
+        {
+          "id": "julia",
+          "name": "Julia",
+          "aliases": [
+            "julialang"
+          ],
+          "taxonomy_id": "julia"
+        },
+        {
+          "id": "groovy",
+          "name": "Groovy",
+          "aliases": [],
+          "taxonomy_id": "groovy"
+        },
+        {
+          "id": "f#",
+          "name": "F#",
+          "aliases": [
+            "fsharp"
+          ],
+          "taxonomy_id": "f#"
+        },
+        {
+          "id": "ocaml",
+          "name": "OCaml",
+          "aliases": [],
+          "taxonomy_id": "ocaml"
+        },
+        {
+          "id": "matlab",
+          "name": "MATLAB",
+          "aliases": [],
+          "taxonomy_id": "matlab"
+        },
+        {
+          "id": "solidity",
+          "name": "Solidity",
+          "aliases": [],
+          "taxonomy_id": "solidity"
+        },
+        {
+          "id": "assembly",
+          "name": "Assembly",
+          "aliases": [
+            "asm",
+            "x86 asm",
+            "arm asm"
+          ],
+          "taxonomy_id": "assembly"
+        },
+        {
+          "id": "fortran",
+          "name": "Fortran",
+          "aliases": [],
+          "taxonomy_id": "fortran"
+        },
+        {
+          "id": "cobol",
+          "name": "COBOL",
+          "aliases": [],
+          "taxonomy_id": "cobol"
+        },
+        {
+          "id": "visual_basic",
+          "name": "Visual Basic .NET",
+          "aliases": [
+            "vb.net",
+            "vba"
+          ],
+          "taxonomy_id": "visual_basic"
+        },
+        {
+          "id": "apex",
+          "name": "Apex",
+          "aliases": [
+            "salesforce apex"
+          ],
+          "taxonomy_id": "apex"
+        },
+        {
+          "id": "objective_c",
+          "name": "Objective-C",
+          "aliases": [
+            "obj-c",
+            "objc"
+          ],
+          "taxonomy_id": "objective_c"
+        },
+        {
+          "id": "plsql",
+          "name": "PL/SQL",
+          "aliases": [
+            "oracle plsql"
+          ],
+          "taxonomy_id": "pl_sql"
+        },
+        {
+          "id": "tsql",
+          "name": "T-SQL",
+          "aliases": [
+            "transact-sql"
+          ],
+          "taxonomy_id": "t_sql"
+        },
+        {
+          "id": "sas",
+          "name": "SAS",
+          "aliases": [
+            "sas programming"
+          ],
+          "taxonomy_id": "sas"
+        },
+        {
+          "id": "racket",
+          "name": "Racket",
+          "aliases": [],
+          "taxonomy_id": "racket"
+        },
+        {
+          "id": "scheme",
+          "name": "Scheme",
+          "aliases": [],
+          "taxonomy_id": "scheme"
+        },
+        {
+          "id": "common_lisp",
+          "name": "Common Lisp",
+          "aliases": [
+            "lisp"
+          ],
+          "taxonomy_id": "common_lisp"
+        },
+        {
+          "id": "elm",
+          "name": "Elm",
+          "aliases": [],
+          "taxonomy_id": "elm"
+        },
+        {
+          "id": "purescript",
+          "name": "PureScript",
+          "aliases": [],
+          "taxonomy_id": "purescript"
+        },
+        {
+          "id": "coffeescript",
+          "name": "CoffeeScript",
+          "aliases": [],
+          "taxonomy_id": "coffeescript"
+        },
+        {
+          "id": "crystal",
+          "name": "Crystal",
+          "aliases": [
+            "crystallang"
+          ],
+          "taxonomy_id": "crystal"
+        },
+        {
+          "id": "d_lang",
+          "name": "D",
+          "aliases": [
+            "dlang"
+          ],
+          "taxonomy_id": "d_lang"
+        },
+        {
+          "id": "actionscript",
+          "name": "ActionScript",
+          "aliases": [
+            "as3"
+          ],
+          "taxonomy_id": "actionscript"
+        },
+        {
+          "id": "hack",
+          "name": "Hack",
+          "aliases": [
+            "hhvm hack"
+          ],
+          "taxonomy_id": "hack"
+        },
+        {
+          "id": "abap",
+          "name": "ABAP",
+          "aliases": [
+            "sap abap"
+          ],
+          "taxonomy_id": "abap"
+        },
+        {
+          "id": "ada",
+          "name": "Ada",
+          "aliases": [],
+          "taxonomy_id": "ada"
+        },
+        {
+          "id": "pascal",
+          "name": "Pascal",
+          "aliases": [
+            "delphi pascal"
+          ],
+          "taxonomy_id": "pascal"
+        },
+        {
+          "id": "delphi",
+          "name": "Delphi",
+          "aliases": [],
+          "taxonomy_id": "delphi"
+        },
+        {
+          "id": "scratch",
+          "name": "Scratch",
+          "aliases": [],
+          "taxonomy_id": "scratch"
+        },
+        {
+          "id": "vhdl",
+          "name": "VHDL",
+          "aliases": [],
+          "taxonomy_id": "vhdl"
+        },
+        {
+          "id": "verilog",
+          "name": "Verilog",
+          "aliases": [
+            "systemverilog"
+          ],
+          "taxonomy_id": "verilog"
+        },
+        {
+          "id": "zig",
+          "name": "Zig",
+          "aliases": [
+            "ziglang"
+          ],
+          "taxonomy_id": "zig"
+        },
+        {
+          "id": "nim",
+          "name": "Nim",
+          "aliases": [
+            "nimlang"
+          ],
+          "taxonomy_id": "nim"
+        },
+        {
+          "id": "v_lang",
+          "name": "V",
+          "aliases": [
+            "vlang"
+          ],
+          "taxonomy_id": "v_lang"
+        },
+        {
+          "id": "vyper",
+          "name": "Vyper",
+          "aliases": [],
+          "taxonomy_id": "vyper"
+        },
+        {
+          "id": "hcl",
+          "name": "HCL",
+          "aliases": [
+            "hashicorp configuration language"
+          ],
+          "taxonomy_id": "hcl"
+        }
+      ]
+    },
+    {
+      "id": "hosting_cloud",
+      "name": "Hosting, SaaS & Cloud",
+      "skills": [
+        {
+          "id": "aws",
+          "name": "Amazon Web Services",
+          "aliases": [
+            "amazon aws"
+          ],
+          "taxonomy_id": "amazon_web_services"
+        },
+        {
+          "id": "azure",
+          "name": "Microsoft Azure",
+          "aliases": [
+            "ms azure"
+          ],
+          "taxonomy_id": "microsoft_azure"
+        },
+        {
+          "id": "gcp",
+          "name": "Google Cloud Platform",
+          "aliases": [
+            "google cloud",
+            "gcloud"
+          ],
+          "taxonomy_id": "google_cloud_platform"
+        },
+        {
+          "id": "vercel",
+          "name": "Vercel",
+          "aliases": [
+            "zeit"
+          ],
+          "taxonomy_id": "vercel"
+        },
+        {
+          "id": "netlify",
+          "name": "Netlify",
+          "aliases": [],
+          "taxonomy_id": "netlify"
+        },
+        {
+          "id": "render",
+          "name": "Render",
+          "aliases": [
+            "render.com"
+          ],
+          "taxonomy_id": "render"
+        },
+        {
+          "id": "heroku",
+          "name": "Heroku",
+          "aliases": [],
+          "taxonomy_id": "heroku"
+        },
+        {
+          "id": "digitalocean",
+          "name": "DigitalOcean",
+          "aliases": [
+            "digital ocean",
+            "do droplets"
+          ],
+          "taxonomy_id": "digitalocean"
+        },
+        {
+          "id": "cloudflare",
+          "name": "Cloudflare",
+          "aliases": [],
+          "taxonomy_id": "cloudflare"
+        },
+        {
+          "id": "linode",
+          "name": "Linode",
+          "aliases": [
+            "akamai linode"
+          ],
+          "taxonomy_id": "linode"
+        },
+        {
+          "id": "fly_io",
+          "name": "Fly.io",
+          "aliases": [
+            "flyio"
+          ],
+          "taxonomy_id": "fly_io"
+        },
+        {
+          "id": "railway",
+          "name": "Railway",
+          "aliases": [
+            "railway.app"
+          ],
+          "taxonomy_id": "railway"
+        },
+        {
+          "id": "supabase",
+          "name": "Supabase",
+          "aliases": [],
+          "taxonomy_id": "supabase"
+        },
+        {
+          "id": "firebase",
+          "name": "Firebase",
+          "aliases": [
+            "google firebase"
+          ],
+          "taxonomy_id": "firebase"
+        },
+        {
+          "id": "oracle_cloud",
+          "name": "Oracle Cloud Infrastructure",
+          "aliases": [
+            "oci"
+          ],
+          "taxonomy_id": "oracle_cloud"
+        },
+        {
+          "id": "ibm_cloud",
+          "name": "IBM Cloud",
+          "aliases": [],
+          "taxonomy_id": "ibm_cloud"
+        },
+        {
+          "id": "alibaba_cloud",
+          "name": "Alibaba Cloud",
+          "aliases": [
+            "aliyun"
+          ],
+          "taxonomy_id": "alibaba_cloud"
+        },
+        {
+          "id": "hetzner",
+          "name": "Hetzner",
+          "aliases": [
+            "hetzner cloud"
+          ],
+          "taxonomy_id": "hetzner"
+        },
+        {
+          "id": "ovhcloud",
+          "name": "OVHcloud",
+          "aliases": [
+            "ovh"
+          ],
+          "taxonomy_id": "ovhcloud"
+        },
+        {
+          "id": "scaleway",
+          "name": "Scaleway",
+          "aliases": [],
+          "taxonomy_id": "scaleway"
+        },
+        {
+          "id": "aws_ec2",
+          "name": "AWS EC2",
+          "aliases": [
+            "elastic compute cloud",
+            "ec2"
+          ],
+          "taxonomy_id": "amazon_ec2"
+        },
+        {
+          "id": "aws_s3",
+          "name": "AWS S3",
+          "aliases": [
+            "simple storage service",
+            "s3 bucket"
+          ],
+          "taxonomy_id": "amazon_s3"
+        },
+        {
+          "id": "aws_lambda",
+          "name": "AWS Lambda",
+          "aliases": [
+            "lambda serverless"
+          ],
+          "taxonomy_id": "aws_lambda"
+        },
+        {
+          "id": "aws_ecs",
+          "name": "AWS ECS",
+          "aliases": [
+            "elastic container service"
+          ],
+          "taxonomy_id": "amazon_ecs"
+        },
+        {
+          "id": "aws_eks",
+          "name": "AWS EKS",
+          "aliases": [
+            "elastic kubernetes service"
+          ],
+          "taxonomy_id": "amazon_eks"
+        },
+        {
+          "id": "aws_cloudfront",
+          "name": "AWS CloudFront",
+          "aliases": [
+            "cloudfront cdn"
+          ],
+          "taxonomy_id": "aws_cloudfront"
+        },
+        {
+          "id": "aws_rds",
+          "name": "AWS RDS",
+          "aliases": [
+            "relational database service"
+          ],
+          "taxonomy_id": "amazon_rds"
+        },
+        {
+          "id": "aws_dynamodb",
+          "name": "AWS DynamoDB",
+          "aliases": [
+            "dynamodb service"
+          ],
+          "taxonomy_id": "aws_dynamodb"
+        },
+        {
+          "id": "aws_iam",
+          "name": "AWS IAM",
+          "aliases": [
+            "identity and access management"
+          ],
+          "taxonomy_id": "aws_iam"
+        },
+        {
+          "id": "aws_cloudwatch",
+          "name": "AWS CloudWatch",
+          "aliases": [
+            "cloudwatch logs"
+          ],
+          "taxonomy_id": "aws_cloudwatch"
+        },
+        {
+          "id": "aws_sns",
+          "name": "AWS SNS",
+          "aliases": [
+            "simple notification service"
+          ],
+          "taxonomy_id": "aws_sns"
+        },
+        {
+          "id": "aws_sqs",
+          "name": "AWS SQS",
+          "aliases": [
+            "simple queue service"
+          ],
+          "taxonomy_id": "aws_sqs"
+        },
+        {
+          "id": "aws_route53",
+          "name": "AWS Route 53",
+          "aliases": [
+            "route53 dns"
+          ],
+          "taxonomy_id": "aws_route53"
+        },
+        {
+          "id": "azure_app_service",
+          "name": "Azure App Service",
+          "aliases": [],
+          "taxonomy_id": "azure_app_service"
+        },
+        {
+          "id": "azure_functions",
+          "name": "Azure Functions",
+          "aliases": [],
+          "taxonomy_id": "azure_functions"
+        },
+        {
+          "id": "azure_blob_storage",
+          "name": "Azure Blob Storage",
+          "aliases": [
+            "azure blob"
+          ],
+          "taxonomy_id": "azure_blob_storage"
+        },
+        {
+          "id": "azure_devops",
+          "name": "Azure DevOps",
+          "aliases": [
+            "vsts",
+            "azure pipelines"
+          ],
+          "taxonomy_id": "azure_devops"
+        },
+        {
+          "id": "azure_vms",
+          "name": "Azure Virtual Machines",
+          "aliases": [
+            "azure vm"
+          ],
+          "taxonomy_id": "azure_vms"
+        },
+        {
+          "id": "gcp_compute_engine",
+          "name": "Google Compute Engine",
+          "aliases": [
+            "gce"
+          ],
+          "taxonomy_id": "google_compute_engine"
+        },
+        {
+          "id": "gcp_cloud_run",
+          "name": "Google Cloud Run",
+          "aliases": [
+            "cloud run"
+          ],
+          "taxonomy_id": "gcp_cloud_run"
+        },
+        {
+          "id": "gcp_cloud_functions",
+          "name": "Google Cloud Functions",
+          "aliases": [
+            "gcf"
+          ],
+          "taxonomy_id": "google_cloud_functions"
+        },
+        {
+          "id": "gcp_gke",
+          "name": "Google Kubernetes Engine",
+          "aliases": [
+            "gke"
+          ],
+          "taxonomy_id": "google_kubernetes_engine"
+        },
+        {
+          "id": "gcp_bigquery",
+          "name": "Google BigQuery Cloud",
+          "aliases": [],
+          "taxonomy_id": "gcp_bigquery"
+        },
+        {
+          "id": "cloudflare_workers",
+          "name": "Cloudflare Workers",
+          "aliases": [],
+          "taxonomy_id": "cloudflare"
+        },
+        {
+          "id": "cloudflare_pages",
+          "name": "Cloudflare Pages",
+          "aliases": [],
+          "taxonomy_id": "cloudflare_pages"
+        },
+        {
+          "id": "backblaze_b2",
+          "name": "Backblaze B2",
+          "aliases": [
+            "b2 cloud storage"
+          ],
+          "taxonomy_id": "backblaze_b2"
+        },
+        {
+          "id": "wasabi",
+          "name": "Wasabi Hot Cloud Storage",
+          "aliases": [],
+          "taxonomy_id": "wasabi"
+        },
+        {
+          "id": "upcloud",
+          "name": "UpCloud",
+          "aliases": [],
+          "taxonomy_id": "upcloud"
+        },
+        {
+          "id": "pythonanywhere",
+          "name": "PythonAnywhere",
+          "aliases": [],
+          "taxonomy_id": "pythonanywhere"
+        },
+        {
+          "id": "glitch",
+          "name": "Glitch",
+          "aliases": [
+            "glitch.com"
+          ],
+          "taxonomy_id": "glitch"
+        },
+        {
+          "id": "replit",
+          "name": "Replit",
+          "aliases": [
+            "repl.it"
+          ],
+          "taxonomy_id": "replit"
+        },
+        {
+          "id": "planetscale",
+          "name": "PlanetScale",
+          "aliases": [],
+          "taxonomy_id": "planetscale"
+        },
+        {
+          "id": "neon_db",
+          "name": "Neon Serverless Postgres",
+          "aliases": [
+            "neon.tech"
+          ],
+          "taxonomy_id": "neon_db"
+        },
+        {
+          "id": "faunadb",
+          "name": "FaunaDB",
+          "aliases": [
+            "fauna"
+          ],
+          "taxonomy_id": "faunadb"
+        },
+        {
+          "id": "datadog_cloud",
+          "name": "Datadog Cloud Monitoring",
+          "aliases": [],
+          "taxonomy_id": "datadog_cloud"
+        },
+        {
+          "id": "new_relic",
+          "name": "New Relic",
+          "aliases": [],
+          "taxonomy_id": "new_relic"
+        },
+        {
+          "id": "fastly",
+          "name": "Fastly",
+          "aliases": [
+            "fastly cdn"
+          ],
+          "taxonomy_id": "fastly"
+        }
+      ]
+    },
+    {
+      "id": "frameworks_libraries",
+      "name": "Frameworks, Platforms & Libraries",
+      "skills": [
+        {
+          "id": "react",
+          "name": "React",
+          "aliases": [
+            "reactjs",
+            "react.js"
+          ],
+          "taxonomy_id": "react"
+        },
+        {
+          "id": "nextjs",
+          "name": "Next.js",
+          "aliases": [
+            "next.js",
+            "next"
+          ],
+          "taxonomy_id": "next.js"
+        },
+        {
+          "id": "vue",
+          "name": "Vue.js",
+          "aliases": [
+            "vuejs",
+            "vue 3",
+            "vue 2"
+          ],
+          "taxonomy_id": "vue.js"
+        },
+        {
+          "id": "nuxtjs",
+          "name": "Nuxt.js",
+          "aliases": [
+            "nuxt",
+            "nuxt.js"
+          ],
+          "taxonomy_id": "nuxt.js"
+        },
+        {
+          "id": "angular",
+          "name": "Angular",
+          "aliases": [
+            "angularjs",
+            "angular 2+"
+          ],
+          "taxonomy_id": "angular"
+        },
+        {
+          "id": "svelte",
+          "name": "Svelte",
+          "aliases": [
+            "sveltejs"
+          ],
+          "taxonomy_id": "svelte"
+        },
+        {
+          "id": "sveltekit",
+          "name": "SvelteKit",
+          "aliases": [],
+          "taxonomy_id": "svelte"
+        },
+        {
+          "id": "django",
+          "name": "Django",
+          "aliases": [
+            "django framework"
+          ],
+          "taxonomy_id": "django"
+        },
+        {
+          "id": "fastapi",
+          "name": "FastAPI",
+          "aliases": [
+            "fastapi framework"
+          ],
+          "taxonomy_id": "fastapi"
+        },
+        {
+          "id": "flask",
+          "name": "Flask",
+          "aliases": [
+            "flask framework"
+          ],
+          "taxonomy_id": "flask"
+        },
+        {
+          "id": "spring_boot",
+          "name": "Spring Boot",
+          "aliases": [
+            "springboot",
+            "spring framework"
+          ],
+          "taxonomy_id": "spring_boot"
+        },
+        {
+          "id": "aspnet_core",
+          "name": "ASP.NET Core",
+          "aliases": [
+            "asp.net core",
+            ".net core web"
+          ],
+          "taxonomy_id": "asp.net_core"
+        },
+        {
+          "id": "express",
+          "name": "Express.js",
+          "aliases": [
+            "expressjs",
+            "express framework"
+          ],
+          "taxonomy_id": "express.js"
+        },
+        {
+          "id": "nestjs",
+          "name": "NestJS",
+          "aliases": [
+            "nest.js"
+          ],
+          "taxonomy_id": "nestjs"
+        },
+        {
+          "id": "remix",
+          "name": "Remix",
+          "aliases": [
+            "remix.run"
+          ],
+          "taxonomy_id": "remix"
+        },
+        {
+          "id": "astro",
+          "name": "Astro",
+          "aliases": [
+            "astro.build"
+          ],
+          "taxonomy_id": "astro"
+        },
+        {
+          "id": "gatsby",
+          "name": "Gatsby",
+          "aliases": [
+            "gatsbyjs"
+          ],
+          "taxonomy_id": "gatsby"
+        },
+        {
+          "id": "solidjs",
+          "name": "SolidJS",
+          "aliases": [
+            "solid.js"
+          ],
+          "taxonomy_id": "solidjs"
+        },
+        {
+          "id": "alpinejs",
+          "name": "Alpine.js",
+          "aliases": [],
+          "taxonomy_id": "alpinejs"
+        },
+        {
+          "id": "lit",
+          "name": "Lit",
+          "aliases": [
+            "lit-html",
+            "lit-element"
+          ],
+          "taxonomy_id": "lit"
+        },
+        {
+          "id": "ember",
+          "name": "Ember.js",
+          "aliases": [
+            "emberjs"
+          ],
+          "taxonomy_id": "ember"
+        },
+        {
+          "id": "ruby_on_rails",
+          "name": "Ruby on Rails",
+          "aliases": [
+            "rails",
+            "ror"
+          ],
+          "taxonomy_id": "ruby_on_rails"
+        },
+        {
+          "id": "laravel",
+          "name": "Laravel",
+          "aliases": [
+            "laravel framework"
+          ],
+          "taxonomy_id": "laravel"
+        },
+        {
+          "id": "symfony",
+          "name": "Symfony",
+          "aliases": [],
+          "taxonomy_id": "symfony"
+        },
+        {
+          "id": "gin",
+          "name": "Gin",
+          "aliases": [
+            "gin-gonic"
+          ],
+          "taxonomy_id": "gin"
+        },
+        {
+          "id": "echo",
+          "name": "Echo",
+          "aliases": [
+            "echo web framework"
+          ],
+          "taxonomy_id": "echo"
+        },
+        {
+          "id": "fiber",
+          "name": "Fiber",
+          "aliases": [
+            "go fiber"
+          ],
+          "taxonomy_id": "fiber"
+        },
+        {
+          "id": "actix_web",
+          "name": "Actix Web",
+          "aliases": [
+            "actix"
+          ],
+          "taxonomy_id": "actix_web"
+        },
+        {
+          "id": "axum",
+          "name": "Axum",
+          "aliases": [
+            "rust axum"
+          ],
+          "taxonomy_id": "axum"
+        },
+        {
+          "id": "rocket",
+          "name": "Rocket",
+          "aliases": [
+            "rocket.rs"
+          ],
+          "taxonomy_id": "rocket"
+        },
+        {
+          "id": "tornado",
+          "name": "Tornado",
+          "aliases": [
+            "tornado web"
+          ],
+          "taxonomy_id": "tornado"
+        },
+        {
+          "id": "sanic",
+          "name": "Sanic",
+          "aliases": [],
+          "taxonomy_id": "sanic"
+        },
+        {
+          "id": "bottle",
+          "name": "Bottle",
+          "aliases": [
+            "bottle.py"
+          ],
+          "taxonomy_id": "bottle"
+        },
+        {
+          "id": "phoenix",
+          "name": "Phoenix",
+          "aliases": [
+            "elixir phoenix"
+          ],
+          "taxonomy_id": "phoenix"
+        },
+        {
+          "id": "sinatra",
+          "name": "Sinatra",
+          "aliases": [
+            "ruby sinatra"
+          ],
+          "taxonomy_id": "sinatra"
+        },
+        {
+          "id": "koa",
+          "name": "Koa",
+          "aliases": [
+            "koajs"
+          ],
+          "taxonomy_id": "koa"
+        },
+        {
+          "id": "fastify",
+          "name": "Fastify",
+          "aliases": [],
+          "taxonomy_id": "fastify"
+        },
+        {
+          "id": "hono",
+          "name": "Hono",
+          "aliases": [
+            "honojs"
+          ],
+          "taxonomy_id": "hono"
+        },
+        {
+          "id": "hapi",
+          "name": "Hapi",
+          "aliases": [
+            "hapijs"
+          ],
+          "taxonomy_id": "hapi"
+        },
+        {
+          "id": "quasar",
+          "name": "Quasar Framework",
+          "aliases": [],
+          "taxonomy_id": "quasar"
+        },
+        {
+          "id": "preact",
+          "name": "Preact",
+          "aliases": [],
+          "taxonomy_id": "preact"
+        },
+        {
+          "id": "redux",
+          "name": "Redux",
+          "aliases": [],
+          "taxonomy_id": "redux"
+        },
+        {
+          "id": "redux_toolkit",
+          "name": "Redux Toolkit",
+          "aliases": [
+            "rtk"
+          ],
+          "taxonomy_id": "redux"
+        },
+        {
+          "id": "mobx",
+          "name": "MobX",
+          "aliases": [],
+          "taxonomy_id": "mobx"
+        },
+        {
+          "id": "zustand",
+          "name": "Zustand",
+          "aliases": [],
+          "taxonomy_id": "zustand"
+        },
+        {
+          "id": "recoil",
+          "name": "Recoil",
+          "aliases": [],
+          "taxonomy_id": "recoil"
+        },
+        {
+          "id": "jotai",
+          "name": "Jotai",
+          "aliases": [],
+          "taxonomy_id": "jotai"
+        },
+        {
+          "id": "tanstack_query",
+          "name": "TanStack Query",
+          "aliases": [
+            "react query"
+          ],
+          "taxonomy_id": "tanstack_query"
+        },
+        {
+          "id": "swr",
+          "name": "SWR",
+          "aliases": [
+            "vercel swr"
+          ],
+          "taxonomy_id": "swr"
+        },
+        {
+          "id": "tailwind_css",
+          "name": "Tailwind CSS",
+          "aliases": [
+            "tailwindcss",
+            "tailwind"
+          ],
+          "taxonomy_id": "tailwind_css"
+        },
+        {
+          "id": "bootstrap",
+          "name": "Bootstrap",
+          "aliases": [
+            "bootstrap 5",
+            "bootstrap 4"
+          ],
+          "taxonomy_id": "bootstrap"
+        },
+        {
+          "id": "material_ui",
+          "name": "Material-UI",
+          "aliases": [
+            "mui"
+          ],
+          "taxonomy_id": "material_ui"
+        },
+        {
+          "id": "ant_design",
+          "name": "Ant Design",
+          "aliases": [
+            "antd"
+          ],
+          "taxonomy_id": "ant_design"
+        },
+        {
+          "id": "chakra_ui",
+          "name": "Chakra UI",
+          "aliases": [],
+          "taxonomy_id": "chakra_ui"
+        },
+        {
+          "id": "radix_ui",
+          "name": "Radix UI",
+          "aliases": [
+            "radix primitives"
+          ],
+          "taxonomy_id": "radix_ui"
+        },
+        {
+          "id": "shadcn_ui",
+          "name": "shadcn/ui",
+          "aliases": [
+            "shadcn"
+          ],
+          "taxonomy_id": "shadcn_ui"
+        },
+        {
+          "id": "styled_components",
+          "name": "styled-components",
+          "aliases": [
+            "styled components"
+          ],
+          "taxonomy_id": "styled_components"
+        },
+        {
+          "id": "emotion",
+          "name": "Emotion",
+          "aliases": [
+            "emotion css"
+          ],
+          "taxonomy_id": "emotion"
+        },
+        {
+          "id": "sass",
+          "name": "Sass",
+          "aliases": [
+            "scss",
+            "syntactically awesome stylesheets"
+          ],
+          "taxonomy_id": "sass"
+        },
+        {
+          "id": "less",
+          "name": "Less",
+          "aliases": [
+            "less css"
+          ],
+          "taxonomy_id": "less"
+        },
+        {
+          "id": "postcss",
+          "name": "PostCSS",
+          "aliases": [],
+          "taxonomy_id": "postcss"
+        },
+        {
+          "id": "jquery",
+          "name": "jQuery",
+          "aliases": [],
+          "taxonomy_id": "jquery"
+        },
+        {
+          "id": "lodash",
+          "name": "Lodash",
+          "aliases": [],
+          "taxonomy_id": "lodash"
+        },
+        {
+          "id": "rxjs",
+          "name": "RxJS",
+          "aliases": [
+            "reactive extensions for javascript"
+          ],
+          "taxonomy_id": "rxjs"
+        },
+        {
+          "id": "threejs",
+          "name": "Three.js",
+          "aliases": [
+            "three.js"
+          ],
+          "taxonomy_id": "threejs"
+        },
+        {
+          "id": "d3js",
+          "name": "D3.js",
+          "aliases": [
+            "d3",
+            "data-driven documents"
+          ],
+          "taxonomy_id": "d3js"
+        },
+        {
+          "id": "chartjs",
+          "name": "Chart.js",
+          "aliases": [],
+          "taxonomy_id": "chartjs"
+        },
+        {
+          "id": "gsap",
+          "name": "GSAP",
+          "aliases": [
+            "greensock"
+          ],
+          "taxonomy_id": "gsap"
+        },
+        {
+          "id": "htmx",
+          "name": "HTMX",
+          "aliases": [],
+          "taxonomy_id": "htmx"
+        },
+        {
+          "id": "electron",
+          "name": "Electron",
+          "aliases": [
+            "electronjs"
+          ],
+          "taxonomy_id": "electron"
+        },
+        {
+          "id": "tauri",
+          "name": "Tauri",
+          "aliases": [
+            "tauriapp"
+          ],
+          "taxonomy_id": "tauri"
+        }
+      ]
+    },
+    {
+      "id": "servers_runtime",
+      "name": "Servers & Runtime",
+      "skills": [
+        {
+          "id": "nodejs",
+          "name": "Node.js",
+          "aliases": [
+            "node",
+            "node js"
+          ],
+          "taxonomy_id": "node.js"
+        },
+        {
+          "id": "deno",
+          "name": "Deno",
+          "aliases": [],
+          "taxonomy_id": "deno"
+        },
+        {
+          "id": "bun",
+          "name": "Bun",
+          "aliases": [
+            "bun runtime"
+          ],
+          "taxonomy_id": "bun"
+        },
+        {
+          "id": "nginx",
+          "name": "Nginx",
+          "aliases": [
+            "engine x"
+          ],
+          "taxonomy_id": "nginx"
+        },
+        {
+          "id": "apache_http",
+          "name": "Apache HTTP Server",
+          "aliases": [
+            "httpd",
+            "apache web server"
+          ],
+          "taxonomy_id": "apache_http_server"
+        },
+        {
+          "id": "caddy",
+          "name": "Caddy",
+          "aliases": [
+            "caddy server"
+          ],
+          "taxonomy_id": "caddy"
+        },
+        {
+          "id": "haproxy",
+          "name": "HAProxy",
+          "aliases": [],
+          "taxonomy_id": "haproxy"
+        },
+        {
+          "id": "envoy",
+          "name": "Envoy Proxy",
+          "aliases": [],
+          "taxonomy_id": "envoy"
+        },
+        {
+          "id": "traefik",
+          "name": "Traefik",
+          "aliases": [
+            "traefik proxy"
+          ],
+          "taxonomy_id": "traefik"
+        },
+        {
+          "id": "uvicorn",
+          "name": "Uvicorn",
+          "aliases": [],
+          "taxonomy_id": "uvicorn"
+        },
+        {
+          "id": "gunicorn",
+          "name": "Gunicorn",
+          "aliases": [
+            "green unicorn"
+          ],
+          "taxonomy_id": "gunicorn"
+        },
+        {
+          "id": "tomcat",
+          "name": "Apache Tomcat",
+          "aliases": [],
+          "taxonomy_id": "tomcat"
+        },
+        {
+          "id": "jetty",
+          "name": "Eclipse Jetty",
+          "aliases": [],
+          "taxonomy_id": "jetty"
+        },
+        {
+          "id": "netty",
+          "name": "Netty",
+          "aliases": [],
+          "taxonomy_id": "netty"
+        },
+        {
+          "id": "wildfly",
+          "name": "WildFly",
+          "aliases": [
+            "jboss as"
+          ],
+          "taxonomy_id": "wildfly"
+        },
+        {
+          "id": "kestrel",
+          "name": "Kestrel",
+          "aliases": [
+            "kestrel web server"
+          ],
+          "taxonomy_id": "kestrel"
+        },
+        {
+          "id": "iis",
+          "name": "Microsoft IIS",
+          "aliases": [
+            "internet information services"
+          ],
+          "taxonomy_id": "iis"
+        },
+        {
+          "id": "asgi",
+          "name": "ASGI",
+          "aliases": [
+            "asynchronous server gateway interface"
+          ],
+          "taxonomy_id": "asgi"
+        },
+        {
+          "id": "wsgi",
+          "name": "WSGI",
+          "aliases": [
+            "web server gateway interface"
+          ],
+          "taxonomy_id": "wsgi"
+        },
+        {
+          "id": "puma",
+          "name": "Puma",
+          "aliases": [
+            "puma web server"
+          ],
+          "taxonomy_id": "puma"
+        },
+        {
+          "id": "unicorn_server",
+          "name": "Unicorn",
+          "aliases": [
+            "unicorn rack server"
+          ],
+          "taxonomy_id": "unicorn_server"
+        },
+        {
+          "id": "thin",
+          "name": "Thin",
+          "aliases": [
+            "thin ruby server"
+          ],
+          "taxonomy_id": "thin"
+        },
+        {
+          "id": "phusion_passenger",
+          "name": "Phusion Passenger",
+          "aliases": [
+            "mod_passenger"
+          ],
+          "taxonomy_id": "phusion_passenger"
+        },
+        {
+          "id": "openresty",
+          "name": "OpenResty",
+          "aliases": [],
+          "taxonomy_id": "openresty"
+        },
+        {
+          "id": "lighttpd",
+          "name": "Lighttpd",
+          "aliases": [],
+          "taxonomy_id": "lighttpd"
+        },
+        {
+          "id": "hypercorn",
+          "name": "Hypercorn",
+          "aliases": [],
+          "taxonomy_id": "hypercorn"
+        },
+        {
+          "id": "gevent",
+          "name": "Gevent",
+          "aliases": [],
+          "taxonomy_id": "gevent"
+        },
+        {
+          "id": "eventlet",
+          "name": "Eventlet",
+          "aliases": [],
+          "taxonomy_id": "eventlet"
+        },
+        {
+          "id": "tokio",
+          "name": "Tokio",
+          "aliases": [
+            "tokio runtime"
+          ],
+          "taxonomy_id": "tokio"
+        },
+        {
+          "id": "libuv",
+          "name": "libuv",
+          "aliases": [],
+          "taxonomy_id": "libuv"
+        },
+        {
+          "id": "pm2",
+          "name": "PM2",
+          "aliases": [
+            "process manager 2"
+          ],
+          "taxonomy_id": "pm2"
+        },
+        {
+          "id": "forever",
+          "name": "Forever",
+          "aliases": [
+            "forever npm"
+          ],
+          "taxonomy_id": "forever"
+        },
+        {
+          "id": "supervisord",
+          "name": "Supervisord",
+          "aliases": [
+            "supervisor process manager"
+          ],
+          "taxonomy_id": "supervisord"
+        },
+        {
+          "id": "systemd",
+          "name": "Systemd",
+          "aliases": [
+            "systemctl"
+          ],
+          "taxonomy_id": "systemd"
+        },
+        {
+          "id": "openssl",
+          "name": "OpenSSL",
+          "aliases": [],
+          "taxonomy_id": "openssl"
+        },
+        {
+          "id": "kong_gateway",
+          "name": "Kong Gateway",
+          "aliases": [
+            "kong api gateway"
+          ],
+          "taxonomy_id": "kong_gateway"
+        },
+        {
+          "id": "apache_apisix",
+          "name": "Apache APISIX",
+          "aliases": [
+            "apisix"
+          ],
+          "taxonomy_id": "apache_apisix"
+        },
+        {
+          "id": "krakend",
+          "name": "KrakenD",
+          "aliases": [],
+          "taxonomy_id": "krakend"
+        },
+        {
+          "id": "istio",
+          "name": "Istio",
+          "aliases": [
+            "istio service mesh"
+          ],
+          "taxonomy_id": "istio"
+        },
+        {
+          "id": "linkerd",
+          "name": "Linkerd",
+          "aliases": [],
+          "taxonomy_id": "linkerd"
+        },
+        {
+          "id": "consul",
+          "name": "HashiCorp Consul",
+          "aliases": [
+            "consul service mesh"
+          ],
+          "taxonomy_id": "consul"
+        },
+        {
+          "id": "envoy_gateway",
+          "name": "Envoy Gateway",
+          "aliases": [],
+          "taxonomy_id": "envoy_gateway"
+        },
+        {
+          "id": "caddy_ingress",
+          "name": "Caddy Ingress Controller",
+          "aliases": [],
+          "taxonomy_id": "caddy_ingress"
+        },
+        {
+          "id": "nginx_ingress",
+          "name": "NGINX Ingress Controller",
+          "aliases": [],
+          "taxonomy_id": "nginx_ingress"
+        },
+        {
+          "id": "coredns",
+          "name": "CoreDNS",
+          "aliases": [],
+          "taxonomy_id": "coredns"
+        }
+      ]
+    },
+    {
+      "id": "databases_orm",
+      "name": "Databases & ORM",
+      "skills": [
+        {
+          "id": "postgresql",
+          "name": "PostgreSQL",
+          "aliases": [
+            "postgres",
+            "pgsql"
+          ],
+          "taxonomy_id": "postgresql"
+        },
+        {
+          "id": "mysql",
+          "name": "MySQL",
+          "aliases": [],
+          "taxonomy_id": "mysql"
+        },
+        {
+          "id": "mariadb",
+          "name": "MariaDB",
+          "aliases": [],
+          "taxonomy_id": "mariadb"
+        },
+        {
+          "id": "sqlite",
+          "name": "SQLite",
+          "aliases": [
+            "sqlite3"
+          ],
+          "taxonomy_id": "sqlite"
+        },
+        {
+          "id": "mssql",
+          "name": "Microsoft SQL Server",
+          "aliases": [
+            "sql server",
+            "ms sql"
+          ],
+          "taxonomy_id": "microsoft_sql_server"
+        },
+        {
+          "id": "oracle_db",
+          "name": "Oracle Database",
+          "aliases": [
+            "oracle rdbms"
+          ],
+          "taxonomy_id": "oracle_database"
+        },
+        {
+          "id": "mongodb",
+          "name": "MongoDB",
+          "aliases": [
+            "mongo",
+            "mongodb atlas"
+          ],
+          "taxonomy_id": "mongodb"
+        },
+        {
+          "id": "redis",
+          "name": "Redis",
+          "aliases": [
+            "redis cache"
+          ],
+          "taxonomy_id": "redis"
+        },
+        {
+          "id": "cassandra",
+          "name": "Apache Cassandra",
+          "aliases": [],
+          "taxonomy_id": "cassandra"
+        },
+        {
+          "id": "dynamodb",
+          "name": "DynamoDB",
+          "aliases": [
+            "amazon dynamodb"
+          ],
+          "taxonomy_id": "dynamodb"
+        },
+        {
+          "id": "elasticsearch",
+          "name": "Elasticsearch",
+          "aliases": [
+            "es search"
+          ],
+          "taxonomy_id": "elasticsearch"
+        },
+        {
+          "id": "neo4j",
+          "name": "Neo4j",
+          "aliases": [
+            "neo4j graph"
+          ],
+          "taxonomy_id": "neo4j"
+        },
+        {
+          "id": "couchdb",
+          "name": "Apache CouchDB",
+          "aliases": [],
+          "taxonomy_id": "couchdb"
+        },
+        {
+          "id": "couchbase",
+          "name": "Couchbase",
+          "aliases": [],
+          "taxonomy_id": "couchbase"
+        },
+        {
+          "id": "cockroachdb",
+          "name": "CockroachDB",
+          "aliases": [],
+          "taxonomy_id": "cockroachdb"
+        },
+        {
+          "id": "clickhouse",
+          "name": "ClickHouse",
+          "aliases": [],
+          "taxonomy_id": "clickhouse"
+        },
+        {
+          "id": "scylladb",
+          "name": "ScyllaDB",
+          "aliases": [],
+          "taxonomy_id": "scylladb"
+        },
+        {
+          "id": "tidb",
+          "name": "TiDB",
+          "aliases": [],
+          "taxonomy_id": "tidb"
+        },
+        {
+          "id": "influxdb",
+          "name": "InfluxDB",
+          "aliases": [],
+          "taxonomy_id": "influxdb"
+        },
+        {
+          "id": "timescaledb",
+          "name": "TimescaleDB",
+          "aliases": [],
+          "taxonomy_id": "timescaledb"
+        },
+        {
+          "id": "duckdb",
+          "name": "DuckDB",
+          "aliases": [],
+          "taxonomy_id": "duckdb"
+        },
+        {
+          "id": "chroma_db",
+          "name": "Chroma DB",
+          "aliases": [
+            "chromadb"
+          ],
+          "taxonomy_id": "chromadb"
+        },
+        {
+          "id": "pinecone",
+          "name": "Pinecone",
+          "aliases": [
+            "pinecone vector db"
+          ],
+          "taxonomy_id": "pinecone"
+        },
+        {
+          "id": "weaviate",
+          "name": "Weaviate",
+          "aliases": [],
+          "taxonomy_id": "weaviate"
+        },
+        {
+          "id": "milvus",
+          "name": "Milvus",
+          "aliases": [],
+          "taxonomy_id": "milvus"
+        },
+        {
+          "id": "qdrant",
+          "name": "Qdrant",
+          "aliases": [],
+          "taxonomy_id": "qdrant"
+        },
+        {
+          "id": "memcached",
+          "name": "Memcached",
+          "aliases": [],
+          "taxonomy_id": "memcached"
+        },
+        {
+          "id": "arangodb",
+          "name": "ArangoDB",
+          "aliases": [],
+          "taxonomy_id": "arangodb"
+        },
+        {
+          "id": "realm",
+          "name": "Realm Database",
+          "aliases": [
+            "realm db"
+          ],
+          "taxonomy_id": "realm"
+        },
+        {
+          "id": "firestore",
+          "name": "Google Cloud Firestore",
+          "aliases": [
+            "cloud firestore"
+          ],
+          "taxonomy_id": "firestore"
+        },
+        {
+          "id": "rocksdb",
+          "name": "RocksDB",
+          "aliases": [],
+          "taxonomy_id": "rocksdb"
+        },
+        {
+          "id": "leveldb",
+          "name": "LevelDB",
+          "aliases": [],
+          "taxonomy_id": "leveldb"
+        },
+        {
+          "id": "rethinkdb",
+          "name": "RethinkDB",
+          "aliases": [],
+          "taxonomy_id": "rethinkdb"
+        },
+        {
+          "id": "ravendb",
+          "name": "RavenDB",
+          "aliases": [],
+          "taxonomy_id": "ravendb"
+        },
+        {
+          "id": "dgraph",
+          "name": "Dgraph",
+          "aliases": [],
+          "taxonomy_id": "dgraph"
+        },
+        {
+          "id": "orientdb",
+          "name": "OrientDB",
+          "aliases": [],
+          "taxonomy_id": "orientdb"
+        },
+        {
+          "id": "sqlalchemy",
+          "name": "SQLAlchemy",
+          "aliases": [],
+          "taxonomy_id": "sqlalchemy"
+        },
+        {
+          "id": "prisma",
+          "name": "Prisma",
+          "aliases": [
+            "prisma orm"
+          ],
+          "taxonomy_id": "prisma"
+        },
+        {
+          "id": "hibernate",
+          "name": "Hibernate",
+          "aliases": [
+            "hibernate orm"
+          ],
+          "taxonomy_id": "hibernate"
+        },
+        {
+          "id": "entity_framework",
+          "name": "Entity Framework Core",
+          "aliases": [
+            "ef core",
+            "entity framework"
+          ],
+          "taxonomy_id": "entity_framework"
+        },
+        {
+          "id": "mongoose",
+          "name": "Mongoose",
+          "aliases": [
+            "mongoose odm"
+          ],
+          "taxonomy_id": "mongoose"
+        },
+        {
+          "id": "typeorm",
+          "name": "TypeORM",
+          "aliases": [],
+          "taxonomy_id": "typeorm"
+        },
+        {
+          "id": "drizzle_orm",
+          "name": "Drizzle ORM",
+          "aliases": [
+            "drizzle"
+          ],
+          "taxonomy_id": "drizzle_orm"
+        },
+        {
+          "id": "sequelize",
+          "name": "Sequelize",
+          "aliases": [],
+          "taxonomy_id": "sequelize"
+        },
+        {
+          "id": "peewee",
+          "name": "Peewee",
+          "aliases": [],
+          "taxonomy_id": "peewee"
+        },
+        {
+          "id": "tortoise_orm",
+          "name": "Tortoise ORM",
+          "aliases": [],
+          "taxonomy_id": "tortoise_orm"
+        },
+        {
+          "id": "gorm",
+          "name": "GORM",
+          "aliases": [
+            "go gorm"
+          ],
+          "taxonomy_id": "gorm"
+        },
+        {
+          "id": "diesel",
+          "name": "Diesel",
+          "aliases": [
+            "diesel orm"
+          ],
+          "taxonomy_id": "diesel"
+        },
+        {
+          "id": "seaorm",
+          "name": "SeaORM",
+          "aliases": [],
+          "taxonomy_id": "seaorm"
+        },
+        {
+          "id": "active_record",
+          "name": "Active Record",
+          "aliases": [
+            "rails active record"
+          ],
+          "taxonomy_id": "active_record"
+        },
+        {
+          "id": "django_orm",
+          "name": "Django ORM",
+          "aliases": [],
+          "taxonomy_id": "django_orm"
+        },
+        {
+          "id": "knex",
+          "name": "Knex.js",
+          "aliases": [],
+          "taxonomy_id": "knex"
+        },
+        {
+          "id": "objection_js",
+          "name": "Objection.js",
+          "aliases": [],
+          "taxonomy_id": "objection_js"
+        },
+        {
+          "id": "waterline",
+          "name": "Waterline",
+          "aliases": [],
+          "taxonomy_id": "waterline"
+        },
+        {
+          "id": "mikro_orm",
+          "name": "MikroORM",
+          "aliases": [],
+          "taxonomy_id": "mikro_orm"
+        },
+        {
+          "id": "exposed_orm",
+          "name": "Exposed ORM",
+          "aliases": [
+            "kotlin exposed"
+          ],
+          "taxonomy_id": "exposed_orm"
+        },
+        {
+          "id": "jooq",
+          "name": "jOOQ",
+          "aliases": [],
+          "taxonomy_id": "jooq"
+        },
+        {
+          "id": "mybatis",
+          "name": "MyBatis",
+          "aliases": [],
+          "taxonomy_id": "mybatis"
+        },
+        {
+          "id": "flyway",
+          "name": "Flyway",
+          "aliases": [],
+          "taxonomy_id": "flyway"
+        },
+        {
+          "id": "liquibase",
+          "name": "Liquibase",
+          "aliases": [],
+          "taxonomy_id": "liquibase"
+        }
+      ]
+    },
+    {
+      "id": "design_tools",
+      "name": "Design Tools",
+      "skills": [
+        {
+          "id": "figma",
+          "name": "Figma",
+          "aliases": [],
+          "taxonomy_id": "figma"
+        },
+        {
+          "id": "sketch",
+          "name": "Sketch",
+          "aliases": [
+            "sketch app"
+          ],
+          "taxonomy_id": "sketch"
+        },
+        {
+          "id": "adobe_xd",
+          "name": "Adobe XD",
+          "aliases": [
+            "xd"
+          ],
+          "taxonomy_id": "adobe_xd"
+        },
+        {
+          "id": "photoshop",
+          "name": "Adobe Photoshop",
+          "aliases": [
+            "ps"
+          ],
+          "taxonomy_id": "adobe_photoshop"
+        },
+        {
+          "id": "illustrator",
+          "name": "Adobe Illustrator",
+          "aliases": [
+            "ai design"
+          ],
+          "taxonomy_id": "adobe_illustrator"
+        },
+        {
+          "id": "indesign",
+          "name": "Adobe InDesign",
+          "aliases": [],
+          "taxonomy_id": "adobe_indesign"
+        },
+        {
+          "id": "after_effects",
+          "name": "Adobe After Effects",
+          "aliases": [
+            "after effects",
+            "ae"
+          ],
+          "taxonomy_id": "adobe_after_effects"
+        },
+        {
+          "id": "premiere_pro",
+          "name": "Adobe Premiere Pro",
+          "aliases": [
+            "premiere pro",
+            "premiere"
+          ],
+          "taxonomy_id": "adobe_premiere_pro"
+        },
+        {
+          "id": "canva",
+          "name": "Canva",
+          "aliases": [],
+          "taxonomy_id": "canva"
+        },
+        {
+          "id": "blender",
+          "name": "Blender",
+          "aliases": [
+            "blender 3d"
+          ],
+          "taxonomy_id": "blender"
+        },
+        {
+          "id": "invision",
+          "name": "InVision",
+          "aliases": [],
+          "taxonomy_id": "invision"
+        },
+        {
+          "id": "zeplin",
+          "name": "Zeplin",
+          "aliases": [],
+          "taxonomy_id": "zeplin"
+        },
+        {
+          "id": "framer",
+          "name": "Framer",
+          "aliases": [
+            "framer motion tool"
+          ],
+          "taxonomy_id": "framer"
+        },
+        {
+          "id": "protopie",
+          "name": "ProtoPie",
+          "aliases": [],
+          "taxonomy_id": "protopie"
+        },
+        {
+          "id": "axure_rp",
+          "name": "Axure RP",
+          "aliases": [
+            "axure"
+          ],
+          "taxonomy_id": "axure_rp"
+        },
+        {
+          "id": "balsamiq",
+          "name": "Balsamiq",
+          "aliases": [
+            "balsamiq mockups"
+          ],
+          "taxonomy_id": "balsamiq"
+        },
+        {
+          "id": "marvel_app",
+          "name": "Marvel App",
+          "aliases": [],
+          "taxonomy_id": "marvel_app"
+        },
+        {
+          "id": "coreldraw",
+          "name": "CorelDRAW",
+          "aliases": [],
+          "taxonomy_id": "coreldraw"
+        },
+        {
+          "id": "affinity_designer",
+          "name": "Affinity Designer",
+          "aliases": [],
+          "taxonomy_id": "affinity_designer"
+        },
+        {
+          "id": "affinity_photo",
+          "name": "Affinity Photo",
+          "aliases": [],
+          "taxonomy_id": "affinity_photo"
+        },
+        {
+          "id": "cinema_4d",
+          "name": "Cinema 4D",
+          "aliases": [
+            "c4d"
+          ],
+          "taxonomy_id": "cinema_4d"
+        },
+        {
+          "id": "maya",
+          "name": "Autodesk Maya",
+          "aliases": [
+            "maya 3d"
+          ],
+          "taxonomy_id": "maya"
+        },
+        {
+          "id": "3ds_max",
+          "name": "Autodesk 3ds Max",
+          "aliases": [
+            "3ds max"
+          ],
+          "taxonomy_id": "3ds_max"
+        },
+        {
+          "id": "zbrush",
+          "name": "ZBrush",
+          "aliases": [],
+          "taxonomy_id": "zbrush"
+        },
+        {
+          "id": "procreate",
+          "name": "Procreate",
+          "aliases": [],
+          "taxonomy_id": "procreate"
+        },
+        {
+          "id": "penpot",
+          "name": "Penpot",
+          "aliases": [],
+          "taxonomy_id": "penpot"
+        },
+        {
+          "id": "lunacy",
+          "name": "Lunacy",
+          "aliases": [
+            "icons8 lunacy"
+          ],
+          "taxonomy_id": "lunacy"
+        },
+        {
+          "id": "gravit_designer",
+          "name": "Gravit Designer",
+          "aliases": [],
+          "taxonomy_id": "gravit_designer"
+        },
+        {
+          "id": "principle",
+          "name": "Principle",
+          "aliases": [
+            "principle for mac"
+          ],
+          "taxonomy_id": "principle"
+        },
+        {
+          "id": "whimsical",
+          "name": "Whimsical",
+          "aliases": [],
+          "taxonomy_id": "whimsical"
+        },
+        {
+          "id": "miro",
+          "name": "Miro",
+          "aliases": [
+            "realtimeboard"
+          ],
+          "taxonomy_id": "miro"
+        },
+        {
+          "id": "mural",
+          "name": "Mural",
+          "aliases": [],
+          "taxonomy_id": "mural"
+        },
+        {
+          "id": "figjam",
+          "name": "FigJam",
+          "aliases": [],
+          "taxonomy_id": "figjam"
+        },
+        {
+          "id": "lucidchart",
+          "name": "Lucidchart",
+          "aliases": [],
+          "taxonomy_id": "lucidchart"
+        },
+        {
+          "id": "draw_io",
+          "name": "Draw.io",
+          "aliases": [
+            "diagrams.net"
+          ],
+          "taxonomy_id": "draw_io"
+        },
+        {
+          "id": "vectornator",
+          "name": "Vectornator",
+          "aliases": [
+            "linearity curve"
+          ],
+          "taxonomy_id": "vectornator"
+        },
+        {
+          "id": "tinkercad",
+          "name": "Tinkercad",
+          "aliases": [],
+          "taxonomy_id": "tinkercad"
+        },
+        {
+          "id": "autocad",
+          "name": "AutoCAD",
+          "aliases": [],
+          "taxonomy_id": "autocad"
+        },
+        {
+          "id": "solidworks",
+          "name": "SolidWorks",
+          "aliases": [],
+          "taxonomy_id": "solidworks"
+        },
+        {
+          "id": "spline",
+          "name": "Spline 3D",
+          "aliases": [
+            "spline design"
+          ],
+          "taxonomy_id": "spline"
+        },
+        {
+          "id": "midjourney",
+          "name": "Midjourney",
+          "aliases": [],
+          "taxonomy_id": "midjourney"
+        },
+        {
+          "id": "dall_e",
+          "name": "DALL-E",
+          "aliases": [
+            "dalle 3"
+          ],
+          "taxonomy_id": "dall_e"
+        },
+        {
+          "id": "stable_diffusion_webui",
+          "name": "Stable Diffusion WebUI",
+          "aliases": [
+            "automatic1111"
+          ],
+          "taxonomy_id": "stable_diffusion_webui"
+        },
+        {
+          "id": "davinci_resolve",
+          "name": "DaVinci Resolve",
+          "aliases": [],
+          "taxonomy_id": "davinci_resolve"
+        },
+        {
+          "id": "lightroom",
+          "name": "Adobe Lightroom",
+          "aliases": [
+            "lightroom cc"
+          ],
+          "taxonomy_id": "lightroom"
+        }
+      ]
+    },
+    {
+      "id": "ml_dl_data",
+      "name": "Machine Learning, Deep Learning & Data",
+      "skills": [
+        {
+          "id": "pytorch",
+          "name": "PyTorch",
+          "aliases": [
+            "torch"
+          ],
+          "taxonomy_id": "pytorch"
+        },
+        {
+          "id": "tensorflow",
+          "name": "TensorFlow",
+          "aliases": [
+            "tf",
+            "tf2"
+          ],
+          "taxonomy_id": "tensorflow"
+        },
+        {
+          "id": "keras",
+          "name": "Keras",
+          "aliases": [],
+          "taxonomy_id": "keras"
+        },
+        {
+          "id": "scikit_learn",
+          "name": "scikit-learn",
+          "aliases": [
+            "sklearn"
+          ],
+          "taxonomy_id": "scikit_learn"
+        },
+        {
+          "id": "xgboost",
+          "name": "XGBoost",
+          "aliases": [],
+          "taxonomy_id": "xgboost"
+        },
+        {
+          "id": "lightgbm",
+          "name": "LightGBM",
+          "aliases": [],
+          "taxonomy_id": "lightgbm"
+        },
+        {
+          "id": "catboost",
+          "name": "CatBoost",
+          "aliases": [],
+          "taxonomy_id": "catboost"
+        },
+        {
+          "id": "pandas",
+          "name": "pandas",
+          "aliases": [],
+          "taxonomy_id": "pandas"
+        },
+        {
+          "id": "numpy",
+          "name": "NumPy",
+          "aliases": [],
+          "taxonomy_id": "numpy"
+        },
+        {
+          "id": "scipy",
+          "name": "SciPy",
+          "aliases": [],
+          "taxonomy_id": "scipy"
+        },
+        {
+          "id": "huggingface_transformers",
+          "name": "Hugging Face Transformers",
+          "aliases": [
+            "transformers library"
+          ],
+          "taxonomy_id": "hugging_face"
+        },
+        {
+          "id": "langchain",
+          "name": "LangChain",
+          "aliases": [],
+          "taxonomy_id": "langchain"
+        },
+        {
+          "id": "llamaindex",
+          "name": "LlamaIndex",
+          "aliases": [
+            "gpt index"
+          ],
+          "taxonomy_id": "llamaindex"
+        },
+        {
+          "id": "spacy",
+          "name": "spaCy",
+          "aliases": [],
+          "taxonomy_id": "spacy"
+        },
+        {
+          "id": "nltk",
+          "name": "NLTK",
+          "aliases": [
+            "natural language toolkit"
+          ],
+          "taxonomy_id": "nltk"
+        },
+        {
+          "id": "opencv",
+          "name": "OpenCV",
+          "aliases": [
+            "cv2"
+          ],
+          "taxonomy_id": "opencv"
+        },
+        {
+          "id": "fastai",
+          "name": "fastai",
+          "aliases": [],
+          "taxonomy_id": "fastai"
+        },
+        {
+          "id": "jax",
+          "name": "JAX",
+          "aliases": [
+            "google jax"
+          ],
+          "taxonomy_id": "jax"
+        },
+        {
+          "id": "mxnet",
+          "name": "Apache MXNet",
+          "aliases": [],
+          "taxonomy_id": "mxnet"
+        },
+        {
+          "id": "pytorch_lightning",
+          "name": "PyTorch Lightning",
+          "aliases": [
+            "lightning"
+          ],
+          "taxonomy_id": "pytorch_lightning"
+        },
+        {
+          "id": "onnx",
+          "name": "ONNX",
+          "aliases": [
+            "open neural network exchange"
+          ],
+          "taxonomy_id": "onnx"
+        },
+        {
+          "id": "tensorrt",
+          "name": "TensorRT",
+          "aliases": [
+            "nvidia tensorrt"
+          ],
+          "taxonomy_id": "tensorrt"
+        },
+        {
+          "id": "triton_server",
+          "name": "Triton Inference Server",
+          "aliases": [],
+          "taxonomy_id": "triton_inference_server"
+        },
+        {
+          "id": "vllm",
+          "name": "vLLM",
+          "aliases": [],
+          "taxonomy_id": "vllm"
+        },
+        {
+          "id": "ollama",
+          "name": "Ollama",
+          "aliases": [],
+          "taxonomy_id": "ollama"
+        },
+        {
+          "id": "deepspeed",
+          "name": "DeepSpeed",
+          "aliases": [
+            "microsoft deepspeed"
+          ],
+          "taxonomy_id": "deepspeed"
+        },
+        {
+          "id": "ray",
+          "name": "Ray",
+          "aliases": [
+            "ray core",
+            "ray tune"
+          ],
+          "taxonomy_id": "ray"
+        },
+        {
+          "id": "ludwig",
+          "name": "Ludwig AI",
+          "aliases": [],
+          "taxonomy_id": "ludwig"
+        },
+        {
+          "id": "mlflow",
+          "name": "MLflow",
+          "aliases": [],
+          "taxonomy_id": "mlflow"
+        },
+        {
+          "id": "wandb",
+          "name": "Weights & Biases",
+          "aliases": [],
+          "taxonomy_id": "weights_biases"
+        },
+        {
+          "id": "dvc",
+          "name": "DVC",
+          "aliases": [
+            "data version control"
+          ],
+          "taxonomy_id": "dvc"
+        },
+        {
+          "id": "clearml",
+          "name": "ClearML",
+          "aliases": [],
+          "taxonomy_id": "clearml"
+        },
+        {
+          "id": "neptune_ai",
+          "name": "Neptune.ai",
+          "aliases": [],
+          "taxonomy_id": "neptune_ai"
+        },
+        {
+          "id": "comet_ml",
+          "name": "Comet ML",
+          "aliases": [],
+          "taxonomy_id": "comet_ml"
+        },
+        {
+          "id": "kubeflow",
+          "name": "Kubeflow",
+          "aliases": [
+            "kubeflow pipelines"
+          ],
+          "taxonomy_id": "kubeflow"
+        },
+        {
+          "id": "optuna",
+          "name": "Optuna",
+          "aliases": [],
+          "taxonomy_id": "hyperparameter_tuning"
+        },
+        {
+          "id": "hyperopt",
+          "name": "Hyperopt",
+          "aliases": [],
+          "taxonomy_id": "hyperparameter_tuning"
+        },
+        {
+          "id": "albumentations",
+          "name": "Albumentations",
+          "aliases": [],
+          "taxonomy_id": "albumentations"
+        },
+        {
+          "id": "torchvision",
+          "name": "Torchvision",
+          "aliases": [],
+          "taxonomy_id": "torchvision"
+        },
+        {
+          "id": "torchaudio",
+          "name": "Torchaudio",
+          "aliases": [],
+          "taxonomy_id": "torchaudio"
+        },
+        {
+          "id": "whisper_ai",
+          "name": "Whisper",
+          "aliases": [
+            "openai whisper"
+          ],
+          "taxonomy_id": "speech_recognition"
+        },
+        {
+          "id": "stable_diffusion",
+          "name": "Stable Diffusion",
+          "aliases": [
+            "sdxl"
+          ],
+          "taxonomy_id": "stable_diffusion"
+        },
+        {
+          "id": "yolo",
+          "name": "YOLO",
+          "aliases": [
+            "yolov8",
+            "yolov5"
+          ],
+          "taxonomy_id": "object_detection"
+        },
+        {
+          "id": "medpy",
+          "name": "MedPy",
+          "aliases": [],
+          "taxonomy_id": "medpy"
+        },
+        {
+          "id": "gensim",
+          "name": "Gensim",
+          "aliases": [],
+          "taxonomy_id": "gensim"
+        },
+        {
+          "id": "pattern_nlp",
+          "name": "Pattern NLP",
+          "aliases": [],
+          "taxonomy_id": "pattern_nlp"
+        },
+        {
+          "id": "stanza",
+          "name": "Stanza",
+          "aliases": [
+            "stanford stanza"
+          ],
+          "taxonomy_id": "stanza"
+        },
+        {
+          "id": "allennlp",
+          "name": "AllenNLP",
+          "aliases": [],
+          "taxonomy_id": "allennlp"
+        },
+        {
+          "id": "textblob",
+          "name": "TextBlob",
+          "aliases": [],
+          "taxonomy_id": "textblob"
+        },
+        {
+          "id": "polars",
+          "name": "Polars",
+          "aliases": [
+            "polars dataframe"
+          ],
+          "taxonomy_id": "polars"
+        },
+        {
+          "id": "dask",
+          "name": "Dask",
+          "aliases": [],
+          "taxonomy_id": "dask"
+        },
+        {
+          "id": "vaex",
+          "name": "Vaex",
+          "aliases": [],
+          "taxonomy_id": "vaex"
+        },
+        {
+          "id": "modin",
+          "name": "Modin",
+          "aliases": [],
+          "taxonomy_id": "modin"
+        },
+        {
+          "id": "pyarrow",
+          "name": "PyArrow",
+          "aliases": [
+            "apache arrow python"
+          ],
+          "taxonomy_id": "apache_arrow"
+        },
+        {
+          "id": "openvino",
+          "name": "OpenVINO",
+          "aliases": [
+            "intel openvino"
+          ],
+          "taxonomy_id": "openvino"
+        },
+        {
+          "id": "mediapipe",
+          "name": "MediaPipe",
+          "aliases": [
+            "google mediapipe"
+          ],
+          "taxonomy_id": "mediapipe"
+        },
+        {
+          "id": "tesseract",
+          "name": "Tesseract OCR",
+          "aliases": [
+            "pytesseract"
+          ],
+          "taxonomy_id": "tesseract"
+        },
+        {
+          "id": "pytorch_geometric",
+          "name": "PyTorch Geometric",
+          "aliases": [
+            "pyg"
+          ],
+          "taxonomy_id": "gnn"
+        },
+        {
+          "id": "networkx",
+          "name": "NetworkX",
+          "aliases": [],
+          "taxonomy_id": "networkx"
+        },
+        {
+          "id": "autogluon",
+          "name": "AutoGluon",
+          "aliases": [],
+          "taxonomy_id": "autogluon"
+        },
+        {
+          "id": "flaml",
+          "name": "FLAML",
+          "aliases": [],
+          "taxonomy_id": "flaml"
+        },
+        {
+          "id": "tpot",
+          "name": "TPOT",
+          "aliases": [],
+          "taxonomy_id": "tpot"
+        },
+        {
+          "id": "sentence_transformers",
+          "name": "Sentence-Transformers",
+          "aliases": [
+            "sbert"
+          ],
+          "taxonomy_id": "sentence_transformers"
+        },
+        {
+          "id": "peft",
+          "name": "PEFT",
+          "aliases": [
+            "parameter efficient fine tuning",
+            "lora"
+          ],
+          "taxonomy_id": "peft"
+        }
+      ]
+    },
+    {
+      "id": "cicd_vcs",
+      "name": "CI/CD & Version Control",
+      "skills": [
+        {
+          "id": "git",
+          "name": "Git",
+          "aliases": [],
+          "taxonomy_id": "git"
+        },
+        {
+          "id": "github",
+          "name": "GitHub",
+          "aliases": [],
+          "taxonomy_id": "github"
+        },
+        {
+          "id": "gitlab",
+          "name": "GitLab",
+          "aliases": [],
+          "taxonomy_id": "gitlab"
+        },
+        {
+          "id": "bitbucket",
+          "name": "Bitbucket",
+          "aliases": [],
+          "taxonomy_id": "bitbucket"
+        },
+        {
+          "id": "github_actions",
+          "name": "GitHub Actions",
+          "aliases": [
+            "gha"
+          ],
+          "taxonomy_id": "github_actions"
+        },
+        {
+          "id": "gitlab_ci",
+          "name": "GitLab CI/CD",
+          "aliases": [
+            "gitlab ci"
+          ],
+          "taxonomy_id": "gitlab_ci"
+        },
+        {
+          "id": "jenkins",
+          "name": "Jenkins",
+          "aliases": [
+            "jenkins ci"
+          ],
+          "taxonomy_id": "jenkins"
+        },
+        {
+          "id": "travis_ci",
+          "name": "Travis CI",
+          "aliases": [],
+          "taxonomy_id": "travis_ci"
+        },
+        {
+          "id": "circleci",
+          "name": "CircleCI",
+          "aliases": [],
+          "taxonomy_id": "circleci"
+        },
+        {
+          "id": "teamcity",
+          "name": "TeamCity",
+          "aliases": [],
+          "taxonomy_id": "teamcity"
+        },
+        {
+          "id": "bamboo",
+          "name": "Bamboo",
+          "aliases": [
+            "atlassian bamboo"
+          ],
+          "taxonomy_id": "bamboo"
+        },
+        {
+          "id": "argo_cd",
+          "name": "Argo CD",
+          "aliases": [
+            "argocd"
+          ],
+          "taxonomy_id": "argocd"
+        },
+        {
+          "id": "flux_cd",
+          "name": "Flux CD",
+          "aliases": [
+            "flux v2"
+          ],
+          "taxonomy_id": "flux_cd"
+        },
+        {
+          "id": "tekton",
+          "name": "Tekton",
+          "aliases": [
+            "tekton pipelines"
+          ],
+          "taxonomy_id": "tekton"
+        },
+        {
+          "id": "spinnaker",
+          "name": "Spinnaker",
+          "aliases": [],
+          "taxonomy_id": "spinnaker"
+        },
+        {
+          "id": "drone_ci",
+          "name": "Drone CI",
+          "aliases": [],
+          "taxonomy_id": "drone_ci"
+        },
+        {
+          "id": "woodpecker_ci",
+          "name": "Woodpecker CI",
+          "aliases": [],
+          "taxonomy_id": "woodpecker_ci"
+        },
+        {
+          "id": "buildkite",
+          "name": "Buildkite",
+          "aliases": [],
+          "taxonomy_id": "buildkite"
+        },
+        {
+          "id": "octopus_deploy",
+          "name": "Octopus Deploy",
+          "aliases": [],
+          "taxonomy_id": "octopus_deploy"
+        },
+        {
+          "id": "docker",
+          "name": "Docker",
+          "aliases": [
+            "docker engine"
+          ],
+          "taxonomy_id": "docker"
+        },
+        {
+          "id": "docker_compose",
+          "name": "Docker Compose",
+          "aliases": [],
+          "taxonomy_id": "docker_compose"
+        },
+        {
+          "id": "podman",
+          "name": "Podman",
+          "aliases": [],
+          "taxonomy_id": "podman"
+        },
+        {
+          "id": "buildah",
+          "name": "Buildah",
+          "aliases": [],
+          "taxonomy_id": "buildah"
+        },
+        {
+          "id": "kaniko",
+          "name": "Kaniko",
+          "aliases": [],
+          "taxonomy_id": "kaniko"
+        },
+        {
+          "id": "containerd",
+          "name": "containerd",
+          "aliases": [],
+          "taxonomy_id": "containerd"
+        },
+        {
+          "id": "kubernetes",
+          "name": "Kubernetes",
+          "aliases": [
+            "k8s"
+          ],
+          "taxonomy_id": "kubernetes"
+        },
+        {
+          "id": "helm",
+          "name": "Helm",
+          "aliases": [
+            "helm charts"
+          ],
+          "taxonomy_id": "helm"
+        },
+        {
+          "id": "kustomize",
+          "name": "Kustomize",
+          "aliases": [],
+          "taxonomy_id": "kustomize"
+        },
+        {
+          "id": "terraform",
+          "name": "Terraform",
+          "aliases": [
+            "tf infra"
+          ],
+          "taxonomy_id": "terraform"
+        },
+        {
+          "id": "terragrunt",
+          "name": "Terragrunt",
+          "aliases": [],
+          "taxonomy_id": "terragrunt"
+        },
+        {
+          "id": "pulumi",
+          "name": "Pulumi",
+          "aliases": [],
+          "taxonomy_id": "pulumi"
+        },
+        {
+          "id": "ansible",
+          "name": "Ansible",
+          "aliases": [
+            "ansible playbooks"
+          ],
+          "taxonomy_id": "ansible"
+        },
+        {
+          "id": "puppet",
+          "name": "Puppet",
+          "aliases": [],
+          "taxonomy_id": "puppet"
+        },
+        {
+          "id": "chef",
+          "name": "Chef",
+          "aliases": [
+            "chef infra"
+          ],
+          "taxonomy_id": "chef"
+        },
+        {
+          "id": "saltstack",
+          "name": "SaltStack",
+          "aliases": [
+            "salt"
+          ],
+          "taxonomy_id": "saltstack"
+        },
+        {
+          "id": "vagrant",
+          "name": "Vagrant",
+          "aliases": [],
+          "taxonomy_id": "vagrant"
+        },
+        {
+          "id": "packer",
+          "name": "Packer",
+          "aliases": [
+            "hashicorp packer"
+          ],
+          "taxonomy_id": "packer"
+        },
+        {
+          "id": "cloudformation",
+          "name": "AWS CloudFormation",
+          "aliases": [
+            "cfn"
+          ],
+          "taxonomy_id": "cloudformation"
+        },
+        {
+          "id": "aws_cdk",
+          "name": "AWS CDK",
+          "aliases": [
+            "cloud development kit"
+          ],
+          "taxonomy_id": "aws_cdk"
+        },
+        {
+          "id": "serverless_framework",
+          "name": "Serverless Framework",
+          "aliases": [
+            "sls"
+          ],
+          "taxonomy_id": "serverless"
+        },
+        {
+          "id": "skaffold",
+          "name": "Skaffold",
+          "aliases": [],
+          "taxonomy_id": "skaffold"
+        },
+        {
+          "id": "tilt",
+          "name": "Tilt",
+          "aliases": [
+            "tilt dev"
+          ],
+          "taxonomy_id": "tilt"
+        },
+        {
+          "id": "minikube",
+          "name": "Minikube",
+          "aliases": [],
+          "taxonomy_id": "minikube"
+        },
+        {
+          "id": "kind_k8s",
+          "name": "Kind",
+          "aliases": [
+            "kubernetes in docker"
+          ],
+          "taxonomy_id": "kind_k8s"
+        },
+        {
+          "id": "harbor",
+          "name": "Harbor Registry",
+          "aliases": [],
+          "taxonomy_id": "harbor"
+        }
+      ]
+    },
+    {
+      "id": "testing",
+      "name": "Testing & QA",
+      "skills": [
+        {
+          "id": "pytest",
+          "name": "Pytest",
+          "aliases": [
+            "py.test"
+          ],
+          "taxonomy_id": "pytest"
+        },
+        {
+          "id": "unittest",
+          "name": "Unittest",
+          "aliases": [
+            "python unittest"
+          ],
+          "taxonomy_id": "unittest"
+        },
+        {
+          "id": "jest",
+          "name": "Jest",
+          "aliases": [
+            "jest js"
+          ],
+          "taxonomy_id": "jest"
+        },
+        {
+          "id": "mocha",
+          "name": "Mocha",
+          "aliases": [
+            "mochajs"
+          ],
+          "taxonomy_id": "mocha"
+        },
+        {
+          "id": "chai",
+          "name": "Chai",
+          "aliases": [
+            "chai assertion library"
+          ],
+          "taxonomy_id": "chai"
+        },
+        {
+          "id": "jasmine",
+          "name": "Jasmine",
+          "aliases": [],
+          "taxonomy_id": "jasmine"
+        },
+        {
+          "id": "vitest",
+          "name": "Vitest",
+          "aliases": [],
+          "taxonomy_id": "vitest"
+        },
+        {
+          "id": "cypress",
+          "name": "Cypress",
+          "aliases": [
+            "cypress.io"
+          ],
+          "taxonomy_id": "cypress"
+        },
+        {
+          "id": "playwright",
+          "name": "Playwright",
+          "aliases": [
+            "microsoft playwright"
+          ],
+          "taxonomy_id": "playwright"
+        },
+        {
+          "id": "selenium",
+          "name": "Selenium",
+          "aliases": [
+            "selenium webdriver"
+          ],
+          "taxonomy_id": "selenium"
+        },
+        {
+          "id": "puppeteer",
+          "name": "Puppeteer",
+          "aliases": [],
+          "taxonomy_id": "puppeteer"
+        },
+        {
+          "id": "junit",
+          "name": "JUnit",
+          "aliases": [
+            "junit 5",
+            "junit 4"
+          ],
+          "taxonomy_id": "junit"
+        },
+        {
+          "id": "testng",
+          "name": "TestNG",
+          "aliases": [],
+          "taxonomy_id": "testng"
+        },
+        {
+          "id": "nunit",
+          "name": "NUnit",
+          "aliases": [],
+          "taxonomy_id": "nunit"
+        },
+        {
+          "id": "xunit",
+          "name": "xUnit.net",
+          "aliases": [],
+          "taxonomy_id": "xunit"
+        },
+        {
+          "id": "mstest",
+          "name": "MSTest",
+          "aliases": [],
+          "taxonomy_id": "mstest"
+        },
+        {
+          "id": "rspec",
+          "name": "RSpec",
+          "aliases": [],
+          "taxonomy_id": "rspec"
+        },
+        {
+          "id": "capybara",
+          "name": "Capybara",
+          "aliases": [],
+          "taxonomy_id": "capybara"
+        },
+        {
+          "id": "phpunit",
+          "name": "PHPUnit",
+          "aliases": [],
+          "taxonomy_id": "phpunit"
+        },
+        {
+          "id": "mockito",
+          "name": "Mockito",
+          "aliases": [],
+          "taxonomy_id": "mockito"
+        },
+        {
+          "id": "pytest_mock",
+          "name": "pytest-mock",
+          "aliases": [],
+          "taxonomy_id": "pytest_mock"
+        },
+        {
+          "id": "unittest_mock",
+          "name": "unittest.mock",
+          "aliases": [],
+          "taxonomy_id": "unittest_mock"
+        },
+        {
+          "id": "sinon",
+          "name": "Sinon.js",
+          "aliases": [],
+          "taxonomy_id": "sinon"
+        },
+        {
+          "id": "karma",
+          "name": "Karma",
+          "aliases": [
+            "karma test runner"
+          ],
+          "taxonomy_id": "karma"
+        },
+        {
+          "id": "storybook",
+          "name": "Storybook",
+          "aliases": [
+            "storybook.js"
+          ],
+          "taxonomy_id": "storybook"
+        },
+        {
+          "id": "postman",
+          "name": "Postman",
+          "aliases": [
+            "postman api testing"
+          ],
+          "taxonomy_id": "postman"
+        },
+        {
+          "id": "newman",
+          "name": "Newman",
+          "aliases": [
+            "postman newman"
+          ],
+          "taxonomy_id": "newman"
+        },
+        {
+          "id": "insomnia",
+          "name": "Insomnia",
+          "aliases": [
+            "insomnia rest client"
+          ],
+          "taxonomy_id": "insomnia"
+        },
+        {
+          "id": "jmeter",
+          "name": "Apache JMeter",
+          "aliases": [],
+          "taxonomy_id": "jmeter"
+        },
+        {
+          "id": "k6",
+          "name": "k6",
+          "aliases": [
+            "grafana k6"
+          ],
+          "taxonomy_id": "k6"
+        },
+        {
+          "id": "gatling",
+          "name": "Gatling",
+          "aliases": [],
+          "taxonomy_id": "gatling"
+        },
+        {
+          "id": "locust",
+          "name": "Locust",
+          "aliases": [
+            "locust.io"
+          ],
+          "taxonomy_id": "locust"
+        },
+        {
+          "id": "artillery",
+          "name": "Artillery",
+          "aliases": [
+            "artillery.io"
+          ],
+          "taxonomy_id": "artillery"
+        },
+        {
+          "id": "robot_framework",
+          "name": "Robot Framework",
+          "aliases": [],
+          "taxonomy_id": "robot_framework"
+        },
+        {
+          "id": "cucumber",
+          "name": "Cucumber",
+          "aliases": [
+            "cucumber bdd"
+          ],
+          "taxonomy_id": "cucumber"
+        },
+        {
+          "id": "behave",
+          "name": "Behave",
+          "aliases": [
+            "behave bdd"
+          ],
+          "taxonomy_id": "behave"
+        },
+        {
+          "id": "specflow",
+          "name": "SpecFlow",
+          "aliases": [],
+          "taxonomy_id": "specflow"
+        },
+        {
+          "id": "detox",
+          "name": "Detox",
+          "aliases": [
+            "wix detox"
+          ],
+          "taxonomy_id": "detox"
+        },
+        {
+          "id": "appium",
+          "name": "Appium",
+          "aliases": [],
+          "taxonomy_id": "appium"
+        },
+        {
+          "id": "espresso_test",
+          "name": "Espresso",
+          "aliases": [
+            "android espresso"
+          ],
+          "taxonomy_id": "espresso_test"
+        },
+        {
+          "id": "xcuitest",
+          "name": "XCUITest",
+          "aliases": [],
+          "taxonomy_id": "xcuitest"
+        },
+        {
+          "id": "sonarqube",
+          "name": "SonarQube",
+          "aliases": [
+            "sonar"
+          ],
+          "taxonomy_id": "sonarqube"
+        },
+        {
+          "id": "coverage_py",
+          "name": "Coverage.py",
+          "aliases": [
+            "pytest coverage"
+          ],
+          "taxonomy_id": "coverage_py"
+        },
+        {
+          "id": "istanbul_nyc",
+          "name": "Istanbul / nyc",
+          "aliases": [
+            "nyc coverage"
+          ],
+          "taxonomy_id": "istanbul_nyc"
+        },
+        {
+          "id": "pact",
+          "name": "Pact",
+          "aliases": [
+            "consumer driven contract testing"
+          ],
+          "taxonomy_id": "pact"
+        }
+      ]
+    },
+    {
+      "id": "data_bi_analytics",
+      "name": "Data, BI & Analytics",
+      "skills": [
+        {
+          "id": "power_bi",
+          "name": "Power BI",
+          "aliases": [
+            "powerbi",
+            "ms power bi"
+          ],
+          "taxonomy_id": "power_bi"
+        },
+        {
+          "id": "tableau",
+          "name": "Tableau",
+          "aliases": [
+            "tableau desktop"
+          ],
+          "taxonomy_id": "tableau"
+        },
+        {
+          "id": "looker",
+          "name": "Looker",
+          "aliases": [
+            "lookml"
+          ],
+          "taxonomy_id": "looker"
+        },
+        {
+          "id": "looker_studio",
+          "name": "Looker Studio",
+          "aliases": [
+            "google data studio"
+          ],
+          "taxonomy_id": "looker"
+        },
+        {
+          "id": "qlik_sense",
+          "name": "Qlik Sense",
+          "aliases": [],
+          "taxonomy_id": "qlik_sense"
+        },
+        {
+          "id": "qlikview",
+          "name": "QlikView",
+          "aliases": [],
+          "taxonomy_id": "qlikview"
+        },
+        {
+          "id": "apache_superset",
+          "name": "Apache Superset",
+          "aliases": [
+            "superset"
+          ],
+          "taxonomy_id": "apache_superset"
+        },
+        {
+          "id": "metabase",
+          "name": "Metabase",
+          "aliases": [],
+          "taxonomy_id": "metabase"
+        },
+        {
+          "id": "redash",
+          "name": "Redash",
+          "aliases": [],
+          "taxonomy_id": "redash"
+        },
+        {
+          "id": "grafana",
+          "name": "Grafana",
+          "aliases": [],
+          "taxonomy_id": "grafana"
+        },
+        {
+          "id": "kibana",
+          "name": "Kibana",
+          "aliases": [
+            "elk kibana"
+          ],
+          "taxonomy_id": "kibana"
+        },
+        {
+          "id": "databricks",
+          "name": "Databricks",
+          "aliases": [
+            "databricks lakehouse"
+          ],
+          "taxonomy_id": "databricks"
+        },
+        {
+          "id": "apache_spark",
+          "name": "Apache Spark",
+          "aliases": [
+            "spark"
+          ],
+          "taxonomy_id": "apache_spark"
+        },
+        {
+          "id": "pyspark",
+          "name": "PySpark",
+          "aliases": [],
+          "taxonomy_id": "pyspark"
+        },
+        {
+          "id": "apache_flink",
+          "name": "Apache Flink",
+          "aliases": [
+            "flink"
+          ],
+          "taxonomy_id": "apache_flink"
+        },
+        {
+          "id": "apache_kafka",
+          "name": "Apache Kafka",
+          "aliases": [
+            "kafka"
+          ],
+          "taxonomy_id": "apache_kafka"
+        },
+        {
+          "id": "apache_pulsar",
+          "name": "Apache Pulsar",
+          "aliases": [],
+          "taxonomy_id": "apache_pulsar"
+        },
+        {
+          "id": "rabbitmq",
+          "name": "RabbitMQ",
+          "aliases": [],
+          "taxonomy_id": "rabbitmq"
+        },
+        {
+          "id": "celery",
+          "name": "Celery",
+          "aliases": [
+            "celery task queue"
+          ],
+          "taxonomy_id": "celery"
+        },
+        {
+          "id": "apache_airflow",
+          "name": "Apache Airflow",
+          "aliases": [
+            "airflow"
+          ],
+          "taxonomy_id": "apache_airflow"
+        },
+        {
+          "id": "prefect",
+          "name": "Prefect",
+          "aliases": [],
+          "taxonomy_id": "prefect"
+        },
+        {
+          "id": "dagster",
+          "name": "Dagster",
+          "aliases": [],
+          "taxonomy_id": "dagster"
+        },
+        {
+          "id": "luigi",
+          "name": "Luigi",
+          "aliases": [
+            "spotify luigi"
+          ],
+          "taxonomy_id": "luigi"
+        },
+        {
+          "id": "apache_nifi",
+          "name": "Apache NiFi",
+          "aliases": [
+            "nifi"
+          ],
+          "taxonomy_id": "apache_nifi"
+        },
+        {
+          "id": "apache_beam",
+          "name": "Apache Beam",
+          "aliases": [],
+          "taxonomy_id": "apache_beam"
+        },
+        {
+          "id": "dbt",
+          "name": "dbt",
+          "aliases": [
+            "data build tool"
+          ],
+          "taxonomy_id": "dbt"
+        },
+        {
+          "id": "great_expectations",
+          "name": "Great Expectations",
+          "aliases": [],
+          "taxonomy_id": "great_expectations"
+        },
+        {
+          "id": "snowflake",
+          "name": "Snowflake",
+          "aliases": [
+            "snowflake data warehouse"
+          ],
+          "taxonomy_id": "snowflake"
+        },
+        {
+          "id": "google_bigquery",
+          "name": "Google BigQuery",
+          "aliases": [
+            "bigquery"
+          ],
+          "taxonomy_id": "google_bigquery"
+        },
+        {
+          "id": "amazon_redshift",
+          "name": "Amazon Redshift",
+          "aliases": [
+            "redshift"
+          ],
+          "taxonomy_id": "amazon_redshift"
+        },
+        {
+          "id": "azure_synapse",
+          "name": "Azure Synapse Analytics",
+          "aliases": [
+            "synapse"
+          ],
+          "taxonomy_id": "azure_synapse"
+        },
+        {
+          "id": "presto",
+          "name": "Presto",
+          "aliases": [
+            "prestodb"
+          ],
+          "taxonomy_id": "presto"
+        },
+        {
+          "id": "trino",
+          "name": "Trino",
+          "aliases": [
+            "prestosql"
+          ],
+          "taxonomy_id": "trino"
+        },
+        {
+          "id": "apache_hive",
+          "name": "Apache Hive",
+          "aliases": [
+            "hive"
+          ],
+          "taxonomy_id": "apache_hive"
+        },
+        {
+          "id": "apache_hadoop",
+          "name": "Apache Hadoop",
+          "aliases": [
+            "hadoop",
+            "hdfs"
+          ],
+          "taxonomy_id": "apache_hadoop"
+        },
+        {
+          "id": "apache_druid",
+          "name": "Apache Druid",
+          "aliases": [],
+          "taxonomy_id": "apache_druid"
+        },
+        {
+          "id": "talend",
+          "name": "Talend",
+          "aliases": [],
+          "taxonomy_id": "talend"
+        },
+        {
+          "id": "informatica",
+          "name": "Informatica",
+          "aliases": [],
+          "taxonomy_id": "informatica"
+        },
+        {
+          "id": "stitch_data",
+          "name": "Stitch Data",
+          "aliases": [],
+          "taxonomy_id": "stitch_data"
+        },
+        {
+          "id": "fivetran",
+          "name": "Fivetran",
+          "aliases": [],
+          "taxonomy_id": "fivetran"
+        },
+        {
+          "id": "google_analytics",
+          "name": "Google Analytics",
+          "aliases": [
+            "ga4"
+          ],
+          "taxonomy_id": "google_analytics"
+        },
+        {
+          "id": "mixpanel",
+          "name": "Mixpanel",
+          "aliases": [],
+          "taxonomy_id": "mixpanel"
+        },
+        {
+          "id": "amplitude",
+          "name": "Amplitude",
+          "aliases": [],
+          "taxonomy_id": "amplitude"
+        },
+        {
+          "id": "segment",
+          "name": "Segment",
+          "aliases": [
+            "twilio segment"
+          ],
+          "taxonomy_id": "segment"
+        },
+        {
+          "id": "heap",
+          "name": "Heap Analytics",
+          "aliases": [],
+          "taxonomy_id": "heap"
+        }
+      ]
+    },
+    {
+      "id": "mobile",
+      "name": "Mobile Development",
+      "skills": [
+        {
+          "id": "react_native",
+          "name": "React Native",
+          "aliases": [
+            "rn"
+          ],
+          "taxonomy_id": "react_native"
+        },
+        {
+          "id": "flutter",
+          "name": "Flutter",
+          "aliases": [
+            "flutter sdk"
+          ],
+          "taxonomy_id": "flutter"
+        },
+        {
+          "id": "swiftui",
+          "name": "SwiftUI",
+          "aliases": [],
+          "taxonomy_id": "swiftui"
+        },
+        {
+          "id": "jetpack_compose",
+          "name": "Jetpack Compose",
+          "aliases": [
+            "compose android"
+          ],
+          "taxonomy_id": "jetpack_compose"
+        },
+        {
+          "id": "android_sdk",
+          "name": "Android SDK",
+          "aliases": [
+            "android development"
+          ],
+          "taxonomy_id": "android_sdk"
+        },
+        {
+          "id": "ios_sdk",
+          "name": "iOS SDK",
+          "aliases": [
+            "ios development"
+          ],
+          "taxonomy_id": "ios_sdk"
+        },
+        {
+          "id": "xcode",
+          "name": "Xcode",
+          "aliases": [],
+          "taxonomy_id": "xcode"
+        },
+        {
+          "id": "android_studio",
+          "name": "Android Studio",
+          "aliases": [],
+          "taxonomy_id": "android_studio"
+        },
+        {
+          "id": "expo",
+          "name": "Expo",
+          "aliases": [
+            "expo cli"
+          ],
+          "taxonomy_id": "expo"
+        },
+        {
+          "id": "capacitor",
+          "name": "Capacitor",
+          "aliases": [
+            "ionic capacitor"
+          ],
+          "taxonomy_id": "capacitor"
+        },
+        {
+          "id": "cordova",
+          "name": "Apache Cordova",
+          "aliases": [
+            "phonegap"
+          ],
+          "taxonomy_id": "cordova"
+        },
+        {
+          "id": "ionic",
+          "name": "Ionic",
+          "aliases": [
+            "ionic framework"
+          ],
+          "taxonomy_id": "ionic"
+        },
+        {
+          "id": "xamarin",
+          "name": "Xamarin",
+          "aliases": [
+            "xamarin forms"
+          ],
+          "taxonomy_id": "xamarin"
+        },
+        {
+          "id": "dotnet_maui",
+          "name": ".NET MAUI",
+          "aliases": [
+            "maui"
+          ],
+          "taxonomy_id": "dotnet_maui"
+        },
+        {
+          "id": "nativescript",
+          "name": "NativeScript",
+          "aliases": [],
+          "taxonomy_id": "nativescript"
+        },
+        {
+          "id": "fastlane",
+          "name": "Fastlane",
+          "aliases": [],
+          "taxonomy_id": "fastlane"
+        },
+        {
+          "id": "cocoapods",
+          "name": "CocoaPods",
+          "aliases": [],
+          "taxonomy_id": "cocoapods"
+        },
+        {
+          "id": "gradle_android",
+          "name": "Gradle for Android",
+          "aliases": [
+            "android gradle"
+          ],
+          "taxonomy_id": "gradle_android"
+        },
+        {
+          "id": "carthage",
+          "name": "Carthage",
+          "aliases": [],
+          "taxonomy_id": "carthage"
+        },
+        {
+          "id": "swift_package_manager",
+          "name": "Swift Package Manager",
+          "aliases": [
+            "spm"
+          ],
+          "taxonomy_id": "swift_package_manager"
+        },
+        {
+          "id": "retrofit",
+          "name": "Retrofit",
+          "aliases": [
+            "square retrofit"
+          ],
+          "taxonomy_id": "retrofit"
+        },
+        {
+          "id": "okhttp",
+          "name": "OkHttp",
+          "aliases": [],
+          "taxonomy_id": "okhttp"
+        },
+        {
+          "id": "room_db",
+          "name": "Room Database",
+          "aliases": [
+            "android room"
+          ],
+          "taxonomy_id": "room_db"
+        },
+        {
+          "id": "core_data",
+          "name": "Core Data",
+          "aliases": [
+            "apple core data"
+          ],
+          "taxonomy_id": "core_data"
+        },
+        {
+          "id": "alamofire",
+          "name": "Alamofire",
+          "aliases": [],
+          "taxonomy_id": "alamofire"
+        },
+        {
+          "id": "combine_framework",
+          "name": "Combine",
+          "aliases": [
+            "apple combine"
+          ],
+          "taxonomy_id": "combine_framework"
+        },
+        {
+          "id": "rxswift",
+          "name": "RxSwift",
+          "aliases": [],
+          "taxonomy_id": "rxswift"
+        },
+        {
+          "id": "rxjava",
+          "name": "RxJava",
+          "aliases": [],
+          "taxonomy_id": "rxjava"
+        },
+        {
+          "id": "koin",
+          "name": "Koin",
+          "aliases": [
+            "koin di"
+          ],
+          "taxonomy_id": "koin"
+        },
+        {
+          "id": "dagger_hilt",
+          "name": "Dagger Hilt",
+          "aliases": [
+            "hilt di"
+          ],
+          "taxonomy_id": "dagger_hilt"
+        },
+        {
+          "id": "kotlin_coroutines",
+          "name": "Kotlin Coroutines",
+          "aliases": [],
+          "taxonomy_id": "kotlin_coroutines"
+        },
+        {
+          "id": "viewbinding",
+          "name": "ViewBinding",
+          "aliases": [
+            "android data binding"
+          ],
+          "taxonomy_id": "viewbinding"
+        },
+        {
+          "id": "apns",
+          "name": "Apple Push Notification service",
+          "aliases": [
+            "apns push"
+          ],
+          "taxonomy_id": "apns"
+        },
+        {
+          "id": "fcm",
+          "name": "Firebase Cloud Messaging",
+          "aliases": [
+            "fcm push"
+          ],
+          "taxonomy_id": "fcm"
+        },
+        {
+          "id": "flutter_bloc",
+          "name": "Flutter BLoC",
+          "aliases": [
+            "bloc pattern"
+          ],
+          "taxonomy_id": "flutter_bloc"
+        },
+        {
+          "id": "provider_flutter",
+          "name": "Provider for Flutter",
+          "aliases": [],
+          "taxonomy_id": "provider_flutter"
+        },
+        {
+          "id": "riverpod",
+          "name": "Riverpod",
+          "aliases": [],
+          "taxonomy_id": "riverpod"
+        },
+        {
+          "id": "lottie_mobile",
+          "name": "Lottie",
+          "aliases": [
+            "airbnb lottie"
+          ],
+          "taxonomy_id": "lottie_mobile"
+        },
+        {
+          "id": "flutter_getx",
+          "name": "GetX",
+          "aliases": [],
+          "taxonomy_id": "flutter_getx"
+        },
+        {
+          "id": "arkit",
+          "name": "ARKit",
+          "aliases": [
+            "apple arkit"
+          ],
+          "taxonomy_id": "arkit"
+        },
+        {
+          "id": "arcore",
+          "name": "ARCore",
+          "aliases": [
+            "google arcore"
+          ],
+          "taxonomy_id": "arcore"
+        }
+      ]
+    },
+    {
+      "id": "security_networking",
+      "name": "Security & Networking",
+      "skills": [
+        {
+          "id": "oauth2",
+          "name": "OAuth 2.0",
+          "aliases": [
+            "oauth"
+          ],
+          "taxonomy_id": "oauth"
+        },
+        {
+          "id": "openid_connect",
+          "name": "OpenID Connect",
+          "aliases": [
+            "oidc"
+          ],
+          "taxonomy_id": "oauth"
+        },
+        {
+          "id": "jwt",
+          "name": "JSON Web Tokens",
+          "aliases": [
+            "jwt token"
+          ],
+          "taxonomy_id": "json_web_tokens"
+        },
+        {
+          "id": "saml",
+          "name": "SAML",
+          "aliases": [
+            "saml 2.0"
+          ],
+          "taxonomy_id": "saml"
+        },
+        {
+          "id": "keycloak",
+          "name": "Keycloak",
+          "aliases": [],
+          "taxonomy_id": "keycloak"
+        },
+        {
+          "id": "auth0",
+          "name": "Auth0",
+          "aliases": [],
+          "taxonomy_id": "auth0"
+        },
+        {
+          "id": "okta",
+          "name": "Okta",
+          "aliases": [],
+          "taxonomy_id": "okta"
+        },
+        {
+          "id": "firebase_auth",
+          "name": "Firebase Authentication",
+          "aliases": [],
+          "taxonomy_id": "firebase_auth"
+        },
+        {
+          "id": "hashicorp_vault",
+          "name": "HashiCorp Vault",
+          "aliases": [
+            "vault"
+          ],
+          "taxonomy_id": "hashicorp_vault"
+        },
+        {
+          "id": "cyberark",
+          "name": "CyberArk",
+          "aliases": [],
+          "taxonomy_id": "cyberark"
+        },
+        {
+          "id": "nmap",
+          "name": "Nmap",
+          "aliases": [
+            "network mapper"
+          ],
+          "taxonomy_id": "nmap"
+        },
+        {
+          "id": "wireshark",
+          "name": "Wireshark",
+          "aliases": [],
+          "taxonomy_id": "wireshark"
+        },
+        {
+          "id": "metasploit",
+          "name": "Metasploit",
+          "aliases": [
+            "metasploit framework"
+          ],
+          "taxonomy_id": "metasploit"
+        },
+        {
+          "id": "burp_suite",
+          "name": "Burp Suite",
+          "aliases": [
+            "burp"
+          ],
+          "taxonomy_id": "burp_suite"
+        },
+        {
+          "id": "owasp_zap",
+          "name": "OWASP ZAP",
+          "aliases": [
+            "zed attack proxy"
+          ],
+          "taxonomy_id": "owasp_zap"
+        },
+        {
+          "id": "nessus",
+          "name": "Nessus",
+          "aliases": [
+            "tenable nessus"
+          ],
+          "taxonomy_id": "nessus"
+        },
+        {
+          "id": "snort",
+          "name": "Snort",
+          "aliases": [],
+          "taxonomy_id": "snort"
+        },
+        {
+          "id": "suricata",
+          "name": "Suricata",
+          "aliases": [],
+          "taxonomy_id": "suricata"
+        },
+        {
+          "id": "kali_linux",
+          "name": "Kali Linux",
+          "aliases": [],
+          "taxonomy_id": "kali_linux"
+        },
+        {
+          "id": "tor",
+          "name": "Tor Network",
+          "aliases": [
+            "the onion router"
+          ],
+          "taxonomy_id": "tor"
+        },
+        {
+          "id": "openvpn",
+          "name": "OpenVPN",
+          "aliases": [],
+          "taxonomy_id": "openvpn"
+        },
+        {
+          "id": "wireguard",
+          "name": "WireGuard",
+          "aliases": [],
+          "taxonomy_id": "wireguard"
+        },
+        {
+          "id": "ipsec",
+          "name": "IPsec",
+          "aliases": [],
+          "taxonomy_id": "ipsec"
+        },
+        {
+          "id": "ssh",
+          "name": "SSH",
+          "aliases": [
+            "secure shell",
+            "openssh"
+          ],
+          "taxonomy_id": "ssh"
+        },
+        {
+          "id": "ssl_tls",
+          "name": "SSL / TLS",
+          "aliases": [
+            "tls",
+            "https certificates"
+          ],
+          "taxonomy_id": "ssl_tls"
+        },
+        {
+          "id": "https",
+          "name": "HTTPS",
+          "aliases": [
+            "http secure"
+          ],
+          "taxonomy_id": "https"
+        },
+        {
+          "id": "dns",
+          "name": "DNS",
+          "aliases": [
+            "domain name system"
+          ],
+          "taxonomy_id": "dns"
+        },
+        {
+          "id": "dhcp",
+          "name": "DHCP",
+          "aliases": [],
+          "taxonomy_id": "dhcp"
+        },
+        {
+          "id": "tcp_ip",
+          "name": "TCP/IP",
+          "aliases": [
+            "transmission control protocol"
+          ],
+          "taxonomy_id": "network_security"
+        },
+        {
+          "id": "bgp",
+          "name": "BGP",
+          "aliases": [
+            "border gateway protocol"
+          ],
+          "taxonomy_id": "bgp"
+        },
+        {
+          "id": "ospf",
+          "name": "OSPF",
+          "aliases": [],
+          "taxonomy_id": "ospf"
+        },
+        {
+          "id": "vlan",
+          "name": "VLAN",
+          "aliases": [
+            "virtual local area network"
+          ],
+          "taxonomy_id": "vlan"
+        },
+        {
+          "id": "subnetting",
+          "name": "Subnetting / CIDR",
+          "aliases": [
+            "cidr"
+          ],
+          "taxonomy_id": "subnetting"
+        },
+        {
+          "id": "reverse_proxy",
+          "name": "Reverse Proxy",
+          "aliases": [],
+          "taxonomy_id": "nginx"
+        },
+        {
+          "id": "forward_proxy",
+          "name": "Forward Proxy",
+          "aliases": [],
+          "taxonomy_id": "forward_proxy"
+        },
+        {
+          "id": "waf",
+          "name": "Web Application Firewall",
+          "aliases": [
+            "waf security"
+          ],
+          "taxonomy_id": "waf"
+        },
+        {
+          "id": "cloudflare_waf",
+          "name": "Cloudflare WAF",
+          "aliases": [],
+          "taxonomy_id": "cloudflare_waf"
+        },
+        {
+          "id": "aws_waf",
+          "name": "AWS WAF",
+          "aliases": [],
+          "taxonomy_id": "aws_waf"
+        },
+        {
+          "id": "modsecurity",
+          "name": "ModSecurity",
+          "aliases": [],
+          "taxonomy_id": "modsecurity"
+        },
+        {
+          "id": "siem",
+          "name": "SIEM",
+          "aliases": [
+            "security information and event management"
+          ],
+          "taxonomy_id": "siem"
+        },
+        {
+          "id": "splunk",
+          "name": "Splunk",
+          "aliases": [
+            "splunk enterprise"
+          ],
+          "taxonomy_id": "splunk"
+        },
+        {
+          "id": "elastic_security",
+          "name": "Elastic Security",
+          "aliases": [],
+          "taxonomy_id": "elastic_security"
+        },
+        {
+          "id": "crowdstrike",
+          "name": "CrowdStrike Falcon",
+          "aliases": [],
+          "taxonomy_id": "crowdstrike"
+        },
+        {
+          "id": "ossec",
+          "name": "OSSEC",
+          "aliases": [],
+          "taxonomy_id": "ossec"
+        },
+        {
+          "id": "wazuh",
+          "name": "Wazuh",
+          "aliases": [],
+          "taxonomy_id": "wazuh"
+        },
+        {
+          "id": "iam",
+          "name": "Identity & Access Management",
+          "aliases": [
+            "iam identity"
+          ],
+          "taxonomy_id": "cloud_security"
+        },
+        {
+          "id": "rbac",
+          "name": "Role-Based Access Control",
+          "aliases": [],
+          "taxonomy_id": "rbac"
+        },
+        {
+          "id": "abac",
+          "name": "Attribute-Based Access Control",
+          "aliases": [],
+          "taxonomy_id": "abac"
+        },
+        {
+          "id": "zero_trust",
+          "name": "Zero Trust Architecture",
+          "aliases": [
+            "zero trust"
+          ],
+          "taxonomy_id": "zero_trust"
+        },
+        {
+          "id": "cryptography",
+          "name": "Cryptography",
+          "aliases": [
+            "encryption"
+          ],
+          "taxonomy_id": "cryptography"
+        },
+        {
+          "id": "aes",
+          "name": "AES Encryption",
+          "aliases": [
+            "advanced encryption standard"
+          ],
+          "taxonomy_id": "aes"
+        },
+        {
+          "id": "rsa",
+          "name": "RSA Algorithm",
+          "aliases": [
+            "rsa encryption"
+          ],
+          "taxonomy_id": "rsa"
+        },
+        {
+          "id": "sha256",
+          "name": "SHA-256",
+          "aliases": [
+            "sha2 hashing"
+          ],
+          "taxonomy_id": "sha256"
+        },
+        {
+          "id": "pgp_gpg",
+          "name": "PGP / GPG",
+          "aliases": [
+            "pretty good privacy",
+            "gnupg"
+          ],
+          "taxonomy_id": "pgp_gpg"
+        },
+        {
+          "id": "penetration_testing",
+          "name": "Penetration Testing",
+          "aliases": [
+            "pen testing",
+            "ethical hacking"
+          ],
+          "taxonomy_id": "penetration_testing"
+        },
+        {
+          "id": "vulnerability_assessment",
+          "name": "Vulnerability Assessment",
+          "aliases": [
+            "vapt"
+          ],
+          "taxonomy_id": "vulnerability_assessment"
+        }
+      ]
+    },
+    {
+      "id": "os_systems",
+      "name": "Operating Systems & Systems",
+      "skills": [
+        {
+          "id": "linux",
+          "name": "Linux",
+          "aliases": [
+            "gnu linux"
+          ],
+          "taxonomy_id": "linux"
+        },
+        {
+          "id": "ubuntu",
+          "name": "Ubuntu",
+          "aliases": [
+            "ubuntu linux"
+          ],
+          "taxonomy_id": "linux"
+        },
+        {
+          "id": "debian",
+          "name": "Debian",
+          "aliases": [
+            "debian gnu"
+          ],
+          "taxonomy_id": "linux"
+        },
+        {
+          "id": "centos",
+          "name": "CentOS",
+          "aliases": [
+            "centos stream"
+          ],
+          "taxonomy_id": "linux"
+        },
+        {
+          "id": "rhel",
+          "name": "Red Hat Enterprise Linux",
+          "aliases": [],
+          "taxonomy_id": "rhel"
+        },
+        {
+          "id": "fedora",
+          "name": "Fedora",
+          "aliases": [
+            "fedora linux"
+          ],
+          "taxonomy_id": "fedora"
+        },
+        {
+          "id": "arch_linux",
+          "name": "Arch Linux",
+          "aliases": [
+            "arch"
+          ],
+          "taxonomy_id": "arch_linux"
+        },
+        {
+          "id": "alpine_linux",
+          "name": "Alpine Linux",
+          "aliases": [
+            "alpine"
+          ],
+          "taxonomy_id": "alpine_linux"
+        },
+        {
+          "id": "rocky_linux",
+          "name": "Rocky Linux",
+          "aliases": [],
+          "taxonomy_id": "rocky_linux"
+        },
+        {
+          "id": "almalinux",
+          "name": "AlmaLinux",
+          "aliases": [],
+          "taxonomy_id": "almalinux"
+        },
+        {
+          "id": "suse",
+          "name": "SUSE Linux",
+          "aliases": [
+            "opensuse"
+          ],
+          "taxonomy_id": "suse"
+        },
+        {
+          "id": "macos",
+          "name": "macOS",
+          "aliases": [
+            "os x",
+            "apple macos"
+          ],
+          "taxonomy_id": "macos"
+        },
+        {
+          "id": "windows_os",
+          "name": "Windows",
+          "aliases": [
+            "windows 11",
+            "windows 10"
+          ],
+          "taxonomy_id": "windows_os"
+        },
+        {
+          "id": "windows_server",
+          "name": "Windows Server",
+          "aliases": [
+            "winserver"
+          ],
+          "taxonomy_id": "windows_server"
+        },
+        {
+          "id": "freebsd",
+          "name": "FreeBSD",
+          "aliases": [],
+          "taxonomy_id": "freebsd"
+        },
+        {
+          "id": "openbsd",
+          "name": "OpenBSD",
+          "aliases": [],
+          "taxonomy_id": "openbsd"
+        },
+        {
+          "id": "netbsd",
+          "name": "NetBSD",
+          "aliases": [],
+          "taxonomy_id": "netbsd"
+        },
+        {
+          "id": "android_os",
+          "name": "Android OS",
+          "aliases": [
+            "android platform"
+          ],
+          "taxonomy_id": "android_os"
+        },
+        {
+          "id": "ios_os",
+          "name": "iOS",
+          "aliases": [
+            "apple ios"
+          ],
+          "taxonomy_id": "ios_os"
+        },
+        {
+          "id": "posix",
+          "name": "POSIX Standards",
+          "aliases": [
+            "posix compliance"
+          ],
+          "taxonomy_id": "posix"
+        },
+        {
+          "id": "zsh",
+          "name": "Zsh",
+          "aliases": [
+            "z shell",
+            "oh-my-zsh"
+          ],
+          "taxonomy_id": "zsh"
+        },
+        {
+          "id": "fish_shell",
+          "name": "Fish Shell",
+          "aliases": [
+            "fish shell scripting"
+          ],
+          "taxonomy_id": "fish_shell"
+        },
+        {
+          "id": "linux_kernel",
+          "name": "Linux Kernel",
+          "aliases": [
+            "kernel modules"
+          ],
+          "taxonomy_id": "linux_kernel"
+        },
+        {
+          "id": "ebpf",
+          "name": "eBPF",
+          "aliases": [
+            "extended bpf"
+          ],
+          "taxonomy_id": "ebpf"
+        },
+        {
+          "id": "cron",
+          "name": "Cron",
+          "aliases": [
+            "crontab"
+          ],
+          "taxonomy_id": "cron"
+        },
+        {
+          "id": "syslog",
+          "name": "Syslog",
+          "aliases": [
+            "rsyslog"
+          ],
+          "taxonomy_id": "syslog"
+        },
+        {
+          "id": "virtualbox",
+          "name": "VirtualBox",
+          "aliases": [
+            "oracle virtualbox"
+          ],
+          "taxonomy_id": "virtualbox"
+        },
+        {
+          "id": "vmware_esxi",
+          "name": "VMware ESXi",
+          "aliases": [
+            "vsphere"
+          ],
+          "taxonomy_id": "vmware"
+        },
+        {
+          "id": "vmware_workstation",
+          "name": "VMware Workstation",
+          "aliases": [],
+          "taxonomy_id": "vmware_workstation"
+        },
+        {
+          "id": "kvm",
+          "name": "KVM",
+          "aliases": [
+            "kernel-based virtual machine"
+          ],
+          "taxonomy_id": "kvm"
+        },
+        {
+          "id": "qemu",
+          "name": "QEMU",
+          "aliases": [],
+          "taxonomy_id": "qemu"
+        },
+        {
+          "id": "hyper_v",
+          "name": "Hyper-V",
+          "aliases": [
+            "microsoft hyper-v"
+          ],
+          "taxonomy_id": "hyper_v"
+        },
+        {
+          "id": "wsl",
+          "name": "WSL",
+          "aliases": [
+            "windows subsystem for linux",
+            "wsl2"
+          ],
+          "taxonomy_id": "wsl"
+        },
+        {
+          "id": "grub",
+          "name": "GRUB Bootloader",
+          "aliases": [
+            "grub2"
+          ],
+          "taxonomy_id": "grub"
+        },
+        {
+          "id": "chroot",
+          "name": "Chroot",
+          "aliases": [],
+          "taxonomy_id": "chroot"
+        },
+        {
+          "id": "cgroups",
+          "name": "cgroups",
+          "aliases": [
+            "control groups linux"
+          ],
+          "taxonomy_id": "cgroups"
+        },
+        {
+          "id": "ipc",
+          "name": "Inter-Process Communication",
+          "aliases": [
+            "ipc shared memory"
+          ],
+          "taxonomy_id": "ipc"
+        },
+        {
+          "id": "socket_programming",
+          "name": "Socket Programming",
+          "aliases": [
+            "unix domain sockets"
+          ],
+          "taxonomy_id": "socket_programming"
+        },
+        {
+          "id": "multithreading",
+          "name": "Multithreading",
+          "aliases": [
+            "concurrency",
+            "thread synchronization"
+          ],
+          "taxonomy_id": "multithreading"
+        },
+        {
+          "id": "memory_management",
+          "name": "Memory Management",
+          "aliases": [
+            "virtual memory",
+            "mmap"
+          ],
+          "taxonomy_id": "memory_management"
+        }
+      ]
+    },
+    {
+      "id": "other_tools",
+      "name": "Other Tools & Utilities",
+      "skills": [
+        {
+          "id": "vscode",
+          "name": "Visual Studio Code",
+          "aliases": [
+            "vs code"
+          ],
+          "taxonomy_id": "visual_studio_code"
+        },
+        {
+          "id": "intellij_idea",
+          "name": "IntelliJ IDEA",
+          "aliases": [
+            "intellij"
+          ],
+          "taxonomy_id": "intellij_idea"
+        },
+        {
+          "id": "pycharm",
+          "name": "PyCharm",
+          "aliases": [],
+          "taxonomy_id": "pycharm"
+        },
+        {
+          "id": "webstorm",
+          "name": "WebStorm",
+          "aliases": [],
+          "taxonomy_id": "webstorm"
+        },
+        {
+          "id": "eclipse_ide",
+          "name": "Eclipse IDE",
+          "aliases": [
+            "eclipse"
+          ],
+          "taxonomy_id": "eclipse"
+        },
+        {
+          "id": "netbeans",
+          "name": "NetBeans",
+          "aliases": [],
+          "taxonomy_id": "netbeans"
+        },
+        {
+          "id": "sublime_text",
+          "name": "Sublime Text",
+          "aliases": [
+            "sublime"
+          ],
+          "taxonomy_id": "sublime_text"
+        },
+        {
+          "id": "vim",
+          "name": "Vim",
+          "aliases": [
+            "vi editor"
+          ],
+          "taxonomy_id": "vim"
+        },
+        {
+          "id": "neovim",
+          "name": "Neovim",
+          "aliases": [
+            "nvim"
+          ],
+          "taxonomy_id": "vim"
+        },
+        {
+          "id": "emacs",
+          "name": "Emacs",
+          "aliases": [
+            "gnu emacs"
+          ],
+          "taxonomy_id": "emacs"
+        },
+        {
+          "id": "nano",
+          "name": "GNU nano",
+          "aliases": [
+            "nano editor"
+          ],
+          "taxonomy_id": "nano"
+        },
+        {
+          "id": "jira",
+          "name": "Jira",
+          "aliases": [
+            "atlassian jira"
+          ],
+          "taxonomy_id": "jira"
+        },
+        {
+          "id": "confluence",
+          "name": "Confluence",
+          "aliases": [
+            "atlassian confluence"
+          ],
+          "taxonomy_id": "confluence"
+        },
+        {
+          "id": "trello",
+          "name": "Trello",
+          "aliases": [],
+          "taxonomy_id": "trello"
+        },
+        {
+          "id": "asana",
+          "name": "Asana",
+          "aliases": [],
+          "taxonomy_id": "asana"
+        },
+        {
+          "id": "monday_com",
+          "name": "Monday.com",
+          "aliases": [
+            "monday"
+          ],
+          "taxonomy_id": "monday_com"
+        },
+        {
+          "id": "linear",
+          "name": "Linear",
+          "aliases": [
+            "linear.app"
+          ],
+          "taxonomy_id": "linear"
+        },
+        {
+          "id": "notion",
+          "name": "Notion",
+          "aliases": [],
+          "taxonomy_id": "notion"
+        },
+        {
+          "id": "obsidian",
+          "name": "Obsidian",
+          "aliases": [
+            "obsidian md"
+          ],
+          "taxonomy_id": "obsidian"
+        },
+        {
+          "id": "slack",
+          "name": "Slack",
+          "aliases": [],
+          "taxonomy_id": "slack"
+        },
+        {
+          "id": "microsoft_teams",
+          "name": "Microsoft Teams",
+          "aliases": [
+            "ms teams"
+          ],
+          "taxonomy_id": "microsoft_teams"
+        },
+        {
+          "id": "zoom",
+          "name": "Zoom",
+          "aliases": [
+            "zoom meetings"
+          ],
+          "taxonomy_id": "zoom"
+        },
+        {
+          "id": "loom",
+          "name": "Loom",
+          "aliases": [
+            "loom video"
+          ],
+          "taxonomy_id": "loom"
+        },
+        {
+          "id": "basecamp",
+          "name": "Basecamp",
+          "aliases": [],
+          "taxonomy_id": "basecamp"
+        },
+        {
+          "id": "clickup",
+          "name": "ClickUp",
+          "aliases": [],
+          "taxonomy_id": "clickup"
+        },
+        {
+          "id": "airtable",
+          "name": "Airtable",
+          "aliases": [],
+          "taxonomy_id": "airtable"
+        },
+        {
+          "id": "google_workspace",
+          "name": "Google Workspace",
+          "aliases": [
+            "g suite"
+          ],
+          "taxonomy_id": "google_docs"
+        },
+        {
+          "id": "microsoft_365",
+          "name": "Microsoft 365",
+          "aliases": [
+            "office 365"
+          ],
+          "taxonomy_id": "microsoft_365"
+        },
+        {
+          "id": "dbeaver",
+          "name": "DBeaver",
+          "aliases": [
+            "dbeaver universal"
+          ],
+          "taxonomy_id": "dbeaver"
+        },
+        {
+          "id": "pgadmin",
+          "name": "pgAdmin",
+          "aliases": [
+            "pgadmin 4"
+          ],
+          "taxonomy_id": "pgadmin"
+        },
+        {
+          "id": "mysql_workbench",
+          "name": "MySQL Workbench",
+          "aliases": [],
+          "taxonomy_id": "mysql_workbench"
+        },
+        {
+          "id": "mongodb_compass",
+          "name": "MongoDB Compass",
+          "aliases": [
+            "compass gui"
+          ],
+          "taxonomy_id": "mongodb_compass"
+        },
+        {
+          "id": "tableplus",
+          "name": "TablePlus",
+          "aliases": [],
+          "taxonomy_id": "tableplus"
+        },
+        {
+          "id": "charles_proxy",
+          "name": "Charles Proxy",
+          "aliases": [],
+          "taxonomy_id": "charles_proxy"
+        },
+        {
+          "id": "fiddler",
+          "name": "Fiddler",
+          "aliases": [
+            "telerik fiddler"
+          ],
+          "taxonomy_id": "fiddler"
+        },
+        {
+          "id": "regex",
+          "name": "Regular Expressions",
+          "aliases": [
+            "regexp"
+          ],
+          "taxonomy_id": "regex"
+        },
+        {
+          "id": "markdown",
+          "name": "Markdown",
+          "aliases": [
+            "commonmark",
+            "gfm"
+          ],
+          "taxonomy_id": "markdown"
+        },
+        {
+          "id": "latex",
+          "name": "LaTeX",
+          "aliases": [
+            "tex formatting"
+          ],
+          "taxonomy_id": "latex"
+        },
+        {
+          "id": "swagger",
+          "name": "Swagger / OpenAPI",
+          "aliases": [
+            "openapi 3",
+            "swagger ui"
+          ],
+          "taxonomy_id": "swagger"
+        },
+        {
+          "id": "graphql",
+          "name": "GraphQL",
+          "aliases": [
+            "graphql schema"
+          ],
+          "taxonomy_id": "graphql"
+        },
+        {
+          "id": "grpc",
+          "name": "gRPC",
+          "aliases": [
+            "protocol buffers",
+            "protobuf"
+          ],
+          "taxonomy_id": "grpc"
+        },
+        {
+          "id": "json",
+          "name": "JSON",
+          "aliases": [
+            "json format"
+          ],
+          "taxonomy_id": "json"
+        },
+        {
+          "id": "xml",
+          "name": "XML",
+          "aliases": [
+            "xml parsing"
+          ],
+          "taxonomy_id": "xml"
+        },
+        {
+          "id": "yaml",
+          "name": "YAML",
+          "aliases": [
+            "yaml configuration"
+          ],
+          "taxonomy_id": "yaml"
+        },
+        {
+          "id": "toml",
+          "name": "TOML",
+          "aliases": [
+            "toml format"
+          ],
+          "taxonomy_id": "toml"
+        }
+      ]
+    },
+    {
+      "id": "soft_skills",
+      "name": "Soft Skills & Professional Practices",
+      "skills": [
+        {
+          "id": "communication",
+          "name": "Communication",
+          "aliases": [
+            "verbal communication",
+            "written communication"
+          ],
+          "taxonomy_id": "communication"
+        },
+        {
+          "id": "problem_solving",
+          "name": "Problem Solving",
+          "aliases": [
+            "troubleshooting mindset"
+          ],
+          "taxonomy_id": "problem_solving"
+        },
+        {
+          "id": "critical_thinking",
+          "name": "Critical Thinking",
+          "aliases": [],
+          "taxonomy_id": "critical_thinking"
+        },
+        {
+          "id": "teamwork",
+          "name": "Teamwork",
+          "aliases": [
+            "team player"
+          ],
+          "taxonomy_id": "collaboration"
+        },
+        {
+          "id": "collaboration",
+          "name": "Collaboration",
+          "aliases": [
+            "cross-team collaboration"
+          ],
+          "taxonomy_id": "collaboration"
+        },
+        {
+          "id": "leadership",
+          "name": "Leadership",
+          "aliases": [
+            "team leadership"
+          ],
+          "taxonomy_id": "team_leadership"
+        },
+        {
+          "id": "adaptability",
+          "name": "Adaptability",
+          "aliases": [
+            "flexibility"
+          ],
+          "taxonomy_id": "adaptability"
+        },
+        {
+          "id": "time_management",
+          "name": "Time Management",
+          "aliases": [
+            "deadline management"
+          ],
+          "taxonomy_id": "time_management"
+        },
+        {
+          "id": "conflict_resolution",
+          "name": "Conflict Resolution",
+          "aliases": [],
+          "taxonomy_id": "conflict_resolution"
+        },
+        {
+          "id": "empathy",
+          "name": "Empathy",
+          "aliases": [
+            "compassion"
+          ],
+          "taxonomy_id": "emotional_intelligence"
+        },
+        {
+          "id": "active_listening",
+          "name": "Active Listening",
+          "aliases": [],
+          "taxonomy_id": "active_listening"
+        },
+        {
+          "id": "emotional_intelligence",
+          "name": "Emotional Intelligence",
+          "aliases": [
+            "eq"
+          ],
+          "taxonomy_id": "emotional_intelligence"
+        },
+        {
+          "id": "mentorship",
+          "name": "Mentorship",
+          "aliases": [
+            "coaching",
+            "mentoring junior developers"
+          ],
+          "taxonomy_id": "mentoring"
+        },
+        {
+          "id": "negotiation",
+          "name": "Negotiation",
+          "aliases": [],
+          "taxonomy_id": "negotiation"
+        },
+        {
+          "id": "presentation_skills",
+          "name": "Presentation Skills",
+          "aliases": [
+            "demo presentation"
+          ],
+          "taxonomy_id": "presentation_skills"
+        },
+        {
+          "id": "public_speaking",
+          "name": "Public Speaking",
+          "aliases": [],
+          "taxonomy_id": "presentation_skills"
+        },
+        {
+          "id": "analytical_thinking",
+          "name": "Analytical Thinking",
+          "aliases": [],
+          "taxonomy_id": "problem_solving"
+        },
+        {
+          "id": "decision_making",
+          "name": "Decision Making",
+          "aliases": [],
+          "taxonomy_id": "critical_thinking"
+        },
+        {
+          "id": "ownership",
+          "name": "Ownership & Accountability",
+          "aliases": [
+            "extreme ownership"
+          ],
+          "taxonomy_id": "ownership"
+        },
+        {
+          "id": "attention_to_detail",
+          "name": "Attention to Detail",
+          "aliases": [
+            "thoroughness"
+          ],
+          "taxonomy_id": "organizational_skills"
+        },
+        {
+          "id": "work_ethic",
+          "name": "Strong Work Ethic",
+          "aliases": [
+            "dedication"
+          ],
+          "taxonomy_id": "work_ethic"
+        },
+        {
+          "id": "prioritization",
+          "name": "Prioritization",
+          "aliases": [
+            "task prioritization"
+          ],
+          "taxonomy_id": "time_management"
+        },
+        {
+          "id": "project_management",
+          "name": "Project Management",
+          "aliases": [
+            "pmp principles"
+          ],
+          "taxonomy_id": "project_management"
+        },
+        {
+          "id": "agile",
+          "name": "Agile Methodologies",
+          "aliases": [
+            "agile delivery"
+          ],
+          "taxonomy_id": "agile_methodology"
+        },
+        {
+          "id": "scrum",
+          "name": "Scrum",
+          "aliases": [
+            "scrum ceremonies"
+          ],
+          "taxonomy_id": "scrum"
+        },
+        {
+          "id": "kanban",
+          "name": "Kanban",
+          "aliases": [
+            "kanban boards"
+          ],
+          "taxonomy_id": "kanban"
+        },
+        {
+          "id": "sprint_planning",
+          "name": "Sprint Planning",
+          "aliases": [
+            "backlog grooming"
+          ],
+          "taxonomy_id": "scrum"
+        },
+        {
+          "id": "root_cause_analysis",
+          "name": "Root Cause Analysis",
+          "aliases": [
+            "5 whys",
+            "rca"
+          ],
+          "taxonomy_id": "root_cause_analysis"
+        },
+        {
+          "id": "stakeholder_management",
+          "name": "Stakeholder Management",
+          "aliases": [
+            "client management"
+          ],
+          "taxonomy_id": "stakeholder_management"
+        },
+        {
+          "id": "customer_focus",
+          "name": "Customer Focus",
+          "aliases": [
+            "customer centricity"
+          ],
+          "taxonomy_id": "customer_focus"
+        },
+        {
+          "id": "strategic_thinking",
+          "name": "Strategic Thinking",
+          "aliases": [],
+          "taxonomy_id": "strategic_thinking"
+        },
+        {
+          "id": "continuous_learning",
+          "name": "Continuous Learning",
+          "aliases": [
+            "growth mindset"
+          ],
+          "taxonomy_id": "continuous_learning"
+        },
+        {
+          "id": "creativity",
+          "name": "Creativity",
+          "aliases": [
+            "innovative thinking"
+          ],
+          "taxonomy_id": "creativity"
+        },
+        {
+          "id": "stress_management",
+          "name": "Stress Management",
+          "aliases": [
+            "working under pressure"
+          ],
+          "taxonomy_id": "stress_management"
+        },
+        {
+          "id": "interpersonal_skills",
+          "name": "Interpersonal Skills",
+          "aliases": [],
+          "taxonomy_id": "interpersonal_skills"
+        },
+        {
+          "id": "feedback_reception",
+          "name": "Receptive to Feedback",
+          "aliases": [
+            "constructive criticism"
+          ],
+          "taxonomy_id": "feedback_reception"
+        },
+        {
+          "id": "cross_functional",
+          "name": "Cross-Functional Collaboration",
+          "aliases": [],
+          "taxonomy_id": "collaboration"
+        },
+        {
+          "id": "remote_collaboration",
+          "name": "Remote Work & Collaboration",
+          "aliases": [
+            "async communication"
+          ],
+          "taxonomy_id": "remote_collaboration"
+        },
+        {
+          "id": "technical_writing",
+          "name": "Technical Writing",
+          "aliases": [
+            "documentation skills"
+          ],
+          "taxonomy_id": "technical_writing"
+        },
+        {
+          "id": "code_review_culture",
+          "name": "Code Review & Quality Mindset",
+          "aliases": [
+            "peer review"
+          ],
+          "taxonomy_id": "code_review_culture"
+        },
+        {
+          "id": "pair_programming",
+          "name": "Pair Programming",
+          "aliases": [],
+          "taxonomy_id": "pair_programming"
+        },
+        {
+          "id": "facilitation",
+          "name": "Meeting Facilitation",
+          "aliases": [],
+          "taxonomy_id": "facilitation"
+        },
+        {
+          "id": "delegation",
+          "name": "Delegation",
+          "aliases": [
+            "effective delegation"
+          ],
+          "taxonomy_id": "delegation"
+        },
+        {
+          "id": "resilience",
+          "name": "Resilience",
+          "aliases": [
+            "grit"
+          ],
+          "taxonomy_id": "adaptability"
+        },
+        {
+          "id": "change_management",
+          "name": "Change Management",
+          "aliases": [],
+          "taxonomy_id": "change_management"
+        }
+      ]
+    }
+  ]
+}

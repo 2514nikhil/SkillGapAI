@@ -1,0 +1,178 @@
+{
+  "meta": {
+    "template": "classic",
+    "target_role": "Data Scientist"
+  },
+  "basics": {
+    "name": "Jane Doe",
+    "email": "jane.doe@example.com",
+    "headline": "Machine Learning Engineer & Data Scientist",
+    "phone": "+1 415 555 0199",
+    "location": {
+      "city": "San Francisco",
+      "region_country": "United States"
+    },
+    "links": [
+      {
+        "platform_id": "github",
+        "value": "janedoe-ai"
+      },
+      {
+        "platform_id": "linkedin",
+        "value": "jane-doe-ml"
+      },
+      {
+        "platform_id": "kaggle",
+        "value": "janedoe"
+      },
+      {
+        "platform_id": "huggingface",
+        "value": "janedoe"
+      }
+    ]
+  },
+  "summary": "Machine Learning Engineer specializing in computer vision and natural language processing. Experienced in training PyTorch models from scratch, fine-tuning large vision-language models, and deploying low-latency ONNX models to production.",
+  "skills": [
+    {
+      "category_id": "languages",
+      "name": "Python",
+      "taxonomy_id": "python",
+      "custom": false,
+      "pinned": true,
+      "level": "strong"
+    },
+    {
+      "category_id": "languages",
+      "name": "R",
+      "taxonomy_id": "r",
+      "custom": false,
+      "pinned": false,
+      "level": "comfortable"
+    },
+    {
+      "category_id": "ml_dl_data",
+      "name": "PyTorch",
+      "taxonomy_id": "pytorch",
+      "custom": false,
+      "pinned": true,
+      "level": "strong"
+    },
+    {
+      "category_id": "ml_dl_data",
+      "name": "TensorFlow",
+      "taxonomy_id": "tensorflow",
+      "custom": false,
+      "pinned": false,
+      "level": "comfortable"
+    },
+    {
+      "category_id": "ml_dl_data",
+      "name": "scikit-learn",
+      "taxonomy_id": "scikit_learn",
+      "custom": false,
+      "pinned": true,
+      "level": "strong"
+    },
+    {
+      "category_id": "ml_dl_data",
+      "name": "pandas",
+      "taxonomy_id": "pandas",
+      "custom": false,
+      "pinned": true,
+      "level": "strong"
+    },
+    {
+      "category_id": "ml_dl_data",
+      "name": "NumPy",
+      "taxonomy_id": "numpy",
+      "custom": false,
+      "pinned": true,
+      "level": "strong"
+    },
+    {
+      "category_id": "ml_dl_data",
+      "name": "Hugging Face Transformers",
+      "taxonomy_id": "huggingface_transformers",
+      "custom": false,
+      "pinned": true,
+      "level": "strong"
+    },
+    {
+      "category_id": "data_bi_analytics",
+      "name": "Apache Spark",
+      "taxonomy_id": "apache_spark",
+      "custom": false,
+      "pinned": false,
+      "level": "comfortable"
+    },
+    {
+      "category_id": "cicd_vcs",
+      "name": "Docker",
+      "taxonomy_id": "docker",
+      "custom": false,
+      "pinned": false,
+      "level": "comfortable"
+    }
+  ],
+  "experience": [
+    {
+      "company": "NeuralMetrics AI",
+      "title": "Senior Data Scientist",
+      "location": "San Francisco, CA",
+      "start": "2021-03",
+      "end": "Present",
+      "current": true,
+      "bullets": [
+        "Spearheaded multimodal classification pipeline improving document fraud detection accuracy by 14.2%.",
+        "Optimized PyTorch inference latency by 3.5x through quantization and ONNX runtime integration.",
+        "Mentored a cohort of 4 junior data analysts in statistical inference and PySpark pipelines."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "VisionOCR Toolkit",
+      "link": "https://github.com/janedoe-ai/visionocr",
+      "tech": [
+        "PyTorch",
+        "OpenCV",
+        "ONNX"
+      ],
+      "bullets": [
+        "Built lightweight end-to-end receipt OCR engine processing 40 frames/sec on CPU hardware."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of California, Berkeley",
+      "degree": "M.S.",
+      "field": "Electrical Engineering & Computer Sciences",
+      "start": "2018",
+      "end": "2020",
+      "score": "3.92 GPA",
+      "details": [
+        "Thesis: Sparse Transformers in Dense Object Detection."
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "TensorFlow Developer Certificate",
+      "issuer": "Google Developers",
+      "date": "2020-11"
+    }
+  ],
+  "achievements": [
+    "Kaggle Competitions Grandmaster (Top 0.1% worldwide)."
+  ],
+  "publications": [
+    {
+      "title": "Efficient Quantization of Vision Transformers on Edge Hardware",
+      "venue": "NeurIPS Workshop on Efficient Deep Learning",
+      "year": "2022",
+      "link": "https://arxiv.org/abs/2201.00000"
+    }
+  ],
+  "custom_sections": []
+}
